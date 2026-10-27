@@ -1,0 +1,37 @@
+{
+  "compressed_files_decompressed": 5,
+  "counts_by_kind": {},
+  "existing_public_history_finding": "Initial public commit author/committer Gmail metadata; intentionality pending user review; raw address omitted; no history rewrite",
+  "files_scanned": 201,
+  "findings": [],
+  "initial_scan": {
+    "category": "Public repository owner handle matched a private identity needle",
+    "exit_code": 1,
+    "findings": 6,
+    "resolution": "Reviewed exact user-supplied public GitHub URL occurrences; exclude only the public owner handle from external private-identity list; scanner implementation unchanged"
+  },
+  "intended_changed_files": [
+    "AGENTS.md",
+    "README.md",
+    "docs/AI-DISCLOSURE.md",
+    "docs/PERSONAL-VERIFICATION.md",
+    "docs/ai-history/chatgpt/README.md",
+    "docs/ai-history/chatgpt/prompt-register.json",
+    "docs/ai-history/chatgpt/records/README.md",
+    "docs/phase01/journal.md",
+    "docs/pre-submission/cleanup-request.md",
+    "docs/pre-submission/execution-evidence.json",
+    "docs/pre-submission/intended-files-privacy-review.json",
+    "docs/pre-submission/preservation-and-public-review.json",
+    "docs/publication-preparation/PUBLICATION-CONTEXT.md",
+    "docs/publication-preparation/SAFE-PUBLISHING-NEXT-STEPS.md",
+    "reports/pre-submission-readiness.md"
+  ],
+  "limits": "Pattern/known-identity scans cannot guarantee all privacy/security/ownership. Synthetic identity SQL checks and personal final content review are separate. No matched private metadata is serialized.",
+  "passed": true,
+  "policy": "Every file in publication tree; no Git required or invoked; gzip decompressed. Reports only relative location/category, never matched values. Official employer email domains and literal synthetic negative-test email are allowlisted.",
+  "private_metadata_identities_checked": 1,
+  "scan_output_self_reference": "This summary and the completed report were included in a final passing rescan; byte counters are omitted to avoid self-reference. Final raw scan output remains outside the Git set.",
+  "scope": "All tracked plus nonignored new intended files; external Git-free preview, no actual staging",
+  "staging_performed": false
+}

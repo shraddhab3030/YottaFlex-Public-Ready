@@ -1,0 +1,18 @@
+{
+  "public_record": "docs/final-submission/request.md",
+  "reason": "Do not republish private machine paths from an otherwise preserved Codex user prompt. Original attachment remains outside public files.",
+  "redactions": [
+    {
+      "kind": "personal_filesystem_path",
+      "occurrences": 1,
+      "replacement": "[REDACTED local public checkout directory]"
+    },
+    {
+      "kind": "personal_filesystem_path",
+      "occurrences": 1,
+      "replacement": "[REDACTED local development directory]"
+    }
+  ],
+  "source_bytes": 15241,
+  "source_sha256": "84223395b02ab69313ddba284542d2e6ae95aa6a9c91ca382e63abf014ec3e88"
+}

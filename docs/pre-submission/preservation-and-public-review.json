@@ -1,0 +1,42 @@
+{
+  "all_68_artifacts_byte_identical": true,
+  "all_prior_codex_prompt_files_unchanged": true,
+  "data_dictionary_unchanged": true,
+  "git_index_unchanged": true,
+  "license_choice_supplied": false,
+  "license_status_document_unchanged": true,
+  "manifest_entries_sha_size_matched": 67,
+  "new_chatgpt_original_prompt_files": 0,
+  "original_journal_preserved_as_prefix": true,
+  "private_original_files_and_git_unchanged": true,
+  "private_original_snapshot_entries": 3238,
+  "prospective_tree_files": 201,
+  "protected_original_files_unchanged": 142,
+  "public_commit_metadata_review": {
+    "author_email": {
+      "email_domain": "gmail.com",
+      "equals_current_local_username": false,
+      "github_noreply": false
+    },
+    "author_name": {
+      "email_domain": null,
+      "equals_current_local_username": false,
+      "github_noreply": null
+    },
+    "committer_email": {
+      "email_domain": "gmail.com",
+      "equals_current_local_username": false,
+      "github_noreply": false
+    },
+    "committer_name": {
+      "email_domain": null,
+      "equals_current_local_username": false,
+      "github_noreply": null
+    }
+  },
+  "public_git_metadata_unchanged": true,
+  "published_base_revision": "c839bcd49ed59a00e19019fa7ed5a050ca44064d",
+  "published_tree_matched_local_before_edits": true,
+  "reproducibility_evidence_unchanged": true,
+  "staging_performed": false
+}

@@ -1,15 +1,19 @@
-# Current publication-copy task scope
+# Current pre-submission cleanup scope
 
-The latest human instruction authorizes this separate local candidate, privacy
-redactions of copied historical reports, isolated verification and a handoff only.
-Do not change the original development repository. Do not initialize Git, create
-remotes, push/publish/merge/submit/contact anyone without separate authorization.
-Private recruitment sources/history/env/scratch must stay excluded. Existing
-source-dependent foundation/source-smoke requirements below are historical
-maintainer guidance, not grounds to import private files for runtime review.
-Use docs/PERSONAL-VERIFICATION.md and the Git-free candidate filesystem scanner.
-Preserve runtime/test/schema/artifact bytes; do not fabricate ChatGPT prompts,
-license grants or human testing. Latest report: reports/publication-preparation-handoff.md.
+The repository is already public at
+https://github.com/shraddhab3030/YottaFlex-Public-Ready; its current local main
+and origin exist. Prior candidate/no-Git/no-remote instructions below are historical.
+The latest human request authorizes minimal confirmed documentation corrections,
+original-ChatGPT-prompt insertion preparation, technical verification, intended
+staging-set privacy review and a short readiness report. Do not commit, stage,
+push, change remotes/history, submit or contact anyone without separate approval.
+Keep the original private development project untouched. Preserve implementation,
+211 tests,24-table schema,68 artifacts,all five anomalies and replay evidence.
+Never invent transcripts, a license grant or human technical verification.
+Latest definitive report: reports/FINAL-SUBMISSION-READINESS.md. Current user request
+is preserved with two logged private-path redactions in docs/final-submission/request.md.
+Complete automatable final checks, then stop. No new development phase or feature.
+Known prompts and all earlier reports remain historical evidence.
 
 The original working agreement follows as historical project context:
 

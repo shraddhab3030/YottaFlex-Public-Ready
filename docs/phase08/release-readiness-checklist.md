@@ -1,3 +1,8 @@
+> Historical Phase08 snapshot of the original private development tree.
+> Public publication and later cleanup occurred afterward. Preserve the dated
+> evidence below; use [the final handoff](../../reports/FINAL-SUBMISSION-READINESS.md)
+> and [current requirements matrix](../final-submission/requirements-matrix.md) for current status.
+
 # Release readiness — NO-GO; publication not authorized
 
 Technical audit evidence is AI-run. Every human/public checkbox remains unchecked

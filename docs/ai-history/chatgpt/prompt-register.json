@@ -1,0 +1,17 @@
+{
+  "blocker": "No original ChatGPT user messages supplied locally; current final-audit attachment is a Codex input, not ChatGPT input history.",
+  "history_completeness": "Not verified; no reconstructed transcript substituted",
+  "original_prompt_files_received": 0,
+  "policy": "Only add an entry after user supplies an original and source/privacy verification. Instructions/readmes are not prompt records. Unknown source metadata stays unknown.",
+  "records": [],
+  "required_entry_fields_after_receipt": [
+    "relative_file",
+    "sha256",
+    "source_conversation_if_known",
+    "original_sequence_if_known",
+    "actual_date_if_known",
+    "normalization_or_redaction_limits",
+    "source_comparison_status"
+  ],
+  "status": "BLOCKED_BY_USER_SOURCE_MATERIAL"
+}

@@ -1,28 +1,35 @@
 # YottaFlex recruiting workflow and reproducible synthetic data
 
-This is **YottaFlex-Public-Ready**, a separate local publication candidate. The
-private development repository/history is preserved unchanged. No Git repository
-or remote has been initialized here. Seven copied historical reports have logged
-privacy redactions; every source/test/schema/artifact byte is preserved.
+This project is published at
+[shraddhab3030/YottaFlex-Public-Ready](https://github.com/shraddhab3030/YottaFlex-Public-Ready).
+The public `main` revision reviewed on October27,2026 is
+`c839bcd49ed59a00e19019fa7ed5a050ca44064d`. The private development repository
+and its history were preserved separately; this public repository has its own
+Git history and `origin` remote.
 
 Start with [personal CLI testing](docs/PERSONAL-VERIFICATION.md),
 [AI disclosure](docs/AI-DISCLOSURE.md), [license status](docs/LICENSE-STATUS.md)
-and the [current preparation handoff](reports/publication-preparation-handoff.md).
-Original ChatGPT user prompts and personal review remain pending. This copy is
-not authorized for publication, and historical Phase08 findings refer to the
-original private tree/history; current candidate findings are reported separately.
+and the [current readiness report](reports/FINAL-SUBMISSION-READINESS.md).
+Earlier candidate/Phase08 reports describe historical snapshots. Their statements
+about no Git/remote, unpublished status and publication NO-GO are not descriptions
+of the repository's current visibility. Their technical results, limitations and
+privacy redaction records remain available as evidence.
 
 Individual72-hour Associate AI Forward Deployed Engineer challenge. User-supplied
-deadline: **October29,2026,13:52:35 IST**. Work stays local. Overall public release is **NO-GO** pending original ChatGPT
-prompt inclusion, personal technical/content review, license decision and explicit
-publication authorization. This preparation scans the separate candidate; prior
-Phase08 history findings describe the original private development repository.
+deadline: **October29,2026,13:52:35 IST**. Public availability is confirmed;
+final submission readiness is still incomplete: original ChatGPT user prompts,
+personal technical verification and official submission-process checks remain pending.
+No open-source license is granted; see the current license status below.
+No claim of YottaFlex submission or recruiter acceptance is made.
 
 The application tracks approved roles, candidates, interviews, structured reviews
 and independently approved offers. It generates a valid synthetic baseline,
 retains audit history, then evaluates five deliberately invalid observations
 against isolated ground truth. A reviewer can restore every relational record
 from CSV, JSON or SQL and reproduce the findings/metrics without an online service.
+
+[Five-minute demonstration](docs/final-submission/FIVE-MINUTE-DEMO.md) ·
+[Final requirements matrix](docs/final-submission/requirements-matrix.md)
 
 ## Quick start — review the included artifacts offline
 
@@ -183,19 +190,22 @@ not execute the application or inspect the complete repository. Codex generated
 code/tests/docs and executed the recorded technical checks. The candidate supplied
 requirements/documents, directed phases and read reported progress. Personal
 tests, every-line understanding and final security/privacy review are unconfirmed.
-ChatGPT original user prompts are not yet included: follow docs/ai-history/chatgpt/README.md.
+ChatGPT original user prompts are **BLOCKED BY USER SOURCE MATERIAL**: follow docs/ai-history/chatgpt/README.md.
 Known Codex prompts and honest export limitations are preserved in the journal.
 Other-tool absence is not attested. See docs/phase08/ai-history-audit.md.
 
 Privacy scans reduce accidental disclosure; they cannot guarantee privacy.
-Generated artifacts are synthetic and scanned separately. In this candidate, copied historical report paths have explicit redaction markers
-and a complete occurrence log; no original Git history/author metadata is present.
-Original historical findings/reports remain as disclosed evidence, not a claim
-that those private values remain in this candidate. Personal content review and
-all-tools prompt completeness still precede publication. Original invitation
-send time/round naming and portal-versus-email channel questions remain release
-items. Nothing is pushed or submitted. Stop after this local publication-copy preparation
-for review. No Git initialization or public history/publication was performed.
+The public tree uses synthetic data and retains explicit redaction markers/logs
+in seven copied historical reports. The original private Git history was not
+imported. This public repository has its own commit metadata, which must be
+reviewed separately from file-content scans. Original invitation send time,
+round naming and portal-versus-email questions remain documented limitations.
+No open-source LICENSE has been added. The current no-license position reserves
+applicable rights, subject to law and GitHub platform terms; it does not establish
+ownership or grant unrestricted reuse. See [license/redistribution status](docs/LICENSE-STATUS.md).
+
+Publication has occurred; no final submission or personal-validation completion
+is inferred from it. This cleanup remains local and uncommitted until approved.
 
 - [Current export/import design](docs/phase07/export-and-reproducibility-design.md)
 - [Actual two-full-run evidence](docs/phase07/reproducibility-evidence.json)

@@ -1,0 +1,86 @@
+{
+  "command": [
+    "$FINAL_WORK/venv/bin/python3",
+    "scripts/audit_publication_candidate.py",
+    "--private-identities",
+    "$FINAL_WORK/private-identities.json",
+    "--output",
+    "$FINAL_WORK/privacy-initial.json"
+  ],
+  "compressed_files_decompressed": 5,
+  "elapsed_seconds": 11.110719,
+  "files_scanned": 213,
+  "future_email_scope": "Local public checkout only; Git name and global configuration unchanged.",
+  "limitations": "Pattern/known-identity scans cannot guarantee all privacy/security/ownership. Synthetic identity SQL checks and personal final content review are separate. No matched private metadata is serialized.",
+  "published_history": {
+    "commit_metadata_findings": [
+      {
+        "commit": "c839bcd49ed59a00e19019fa7ed5a050ca44064d",
+        "field": "author_name",
+        "kind": "non_generic_person_name",
+        "line": 1
+      },
+      {
+        "commit": "c839bcd49ed59a00e19019fa7ed5a050ca44064d",
+        "field": "author_email",
+        "kind": "non_allowlisted_email",
+        "line": 2
+      },
+      {
+        "commit": "c839bcd49ed59a00e19019fa7ed5a050ca44064d",
+        "field": "committer_name",
+        "kind": "non_generic_person_name",
+        "line": 3
+      },
+      {
+        "commit": "c839bcd49ed59a00e19019fa7ed5a050ca44064d",
+        "field": "committer_email",
+        "kind": "non_allowlisted_email",
+        "line": 4
+      }
+    ],
+    "current_counts_by_kind": {
+      "non_allowlisted_email": 1
+    },
+    "current_files_scanned": 194,
+    "current_findings": [
+      {
+        "file": "docs/phase01/journal.md",
+        "kind": "non_allowlisted_email",
+        "line": 855
+      }
+    ],
+    "current_revision": "c839bcd49ed59a00e19019fa7ed5a050ca44064d",
+    "historical_counts_by_kind": {},
+    "historical_findings": [],
+    "limitations": "Pattern/current-user-host checks cannot prove absence of all sensitive content. No account-wide/dangling-object export or human security audit; Git objects and history not changed.",
+    "policy": "All reachable refs/commits, unique blob contents (gzip decompressed), paths and author/committer/messages. Reports only relative file/line/blob/commit/kind, never matched private values. Official employer public email and clearly synthetic test examples allowlisted.",
+    "publication_safe": false,
+    "reachable_commits_scanned": 1,
+    "unique_file_blobs_scanned": 192
+  },
+  "raw_findings": [
+    {
+      "file": "docs/phase01/journal.md",
+      "kind": "non_allowlisted_email",
+      "line": 855
+    }
+  ],
+  "raw_log_sha256": "1ee3dcb9060fb7e689bae0c2db7712e435bcd24b420e05b3d7f67aa48caa9379",
+  "raw_scanner_exit_code": 1,
+  "raw_scanner_passed": false,
+  "reviewed_dispositions": [
+    {
+      "disposition": "Reviewed intentional exact GitHub noreply address supplied by user in P017, preserved as original Codex input. Not a Gmail address; no scanner implementation/secret checks changed.",
+      "file": "docs/phase01/journal.md",
+      "kind": "non_allowlisted_email",
+      "line": 855
+    }
+  ],
+  "reviewed_file_content_passed": true,
+  "scan_self_reference": "Result/evidence is copied back, then the entire final intended set including this summary and final report is rescanned. Recursive byte counters intentionally omitted; final raw output retained outside Git set.",
+  "staging_performed": false,
+  "unresolved_file_content_findings": [],
+  "user_history_decision": "P016: keep existing history; P017: approved exact GitHub noreply for future commits. Existing Gmail remains in initial commit. No force-push/rewrite.",
+  "working_directory": "External Git-free preview of complete tracked plus nonignored untracked intended files; no actual staging"
+}

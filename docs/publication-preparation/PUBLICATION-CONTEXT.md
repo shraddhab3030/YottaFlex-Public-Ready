@@ -1,4 +1,11 @@
-# Local publication candidate context
+# Historical local publication preparation context
+
+Current context (October27,2026): the repository is now public at
+https://github.com/shraddhab3030/YottaFlex-Public-Ready, reviewed at main
+c839bcd49ed59a00e19019fa7ed5a050ca44064d. The preparation account below is a
+historical record from before that separate Git initialization/publication.
+Its no-Git/no-remote statements describe that earlier copy, not today's checkout.
+Current limitations and actual cleanup results: ../../reports/pre-submission-readiness.md.
 
 Source snapshot: ca37787e1947c559d36ca12d4f79b6f5c60899ad of the private local
 YottaFlex development project. Only its177 tracked files were copied. No .git,

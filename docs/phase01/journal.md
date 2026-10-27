@@ -798,3 +798,71 @@ scan and inventory/results are recorded in publication-preparation handoff.
 | H043 | User P013 authorizes separate local candidate and audit only | No Git initialization/publication authority |
 | H044 | Codex copied/redacted/tested/audited the candidate | Human personal checks remain unconfirmed |
 | H045 | Original preserved; technical preparation passed | Original ChatGPT inputs, personal review,license/process decisions and later explicit approval |
+
+## P014 — current public-repository pre-submission cleanup
+
+Complete latest user instruction: [cleanup-request.md](../pre-submission/cleanup-request.md).
+User identifies the now-public GitHub repository and authorizes minimal confirmed
+documentation cleanup, pending ChatGPT prompt insertion setup and actual technical/
+privacy verification. No commit/push/remote/history/submission/contact action is
+authorized. Original private development project stays untouched. Source and all
+artifacts/replay evidence must be preserved. No license choice or missing original
+ChatGPT user prompt is supplied by this request.
+
+Public main and local clean checkout both identify c839bcd49ed59a00e19019fa7ed5a050ca44064d.
+Every original local tracked byte matched that published commit tree before edits.
+Prior no-Git/unpublished candidate records remain historical. Current guides/README
+now distinguish existing public visibility from incomplete final submission readiness.
+Known P001–P013 text/files remain preserved; only this P014 activity is appended.
+Original ChatGPT inputs remain PENDING; an empty register is not recovered history.
+Personal technical verification remains unconfirmed. License status is unchanged.
+The public initial commit uses a personal-domain author/committer email; privacy
+intent is unconfirmed. No address is copied into this journal and no history is
+rewritten. Final actual checks/results appear in reports/pre-submission-readiness.md.
+
+| Review | Observable status | Remaining gate |
+| --- | --- | --- |
+| H046 | P014 authorizes local minimal cleanup of already public repository | No commit/push/submission authority |
+| H047 | Existing publication verified, no personal test/line-review confirmation supplied | Human ownership/original ChatGPT prompts/license decision pending |
+| H048 | Published Git metadata privacy decision unconfirmed | User review, no automatic history/metadata modification |
+
+
+## P015 — final pre-submission completion and release audit
+
+User wrapper: `based on attached prompt do the needfull`. Complete available
+attachment wording is preserved in docs/final-submission/request.md with exactly
+two personal directory values replaced and original-byte identity recorded in
+request-redactions.json. This is a disclosed privacy-redacted Codex input, not a
+ChatGPT transcript or raw account export. The request authorizes final local
+documentation, checks, evidence and report only; no commit/push/submission/contact.
+Preserve private development files/history and public implementation/artifacts.
+
+Q003 asked which policy to use for the already published author/committer Gmail
+identity and the same resolved future identity. P016 user answer: `Keep existing
+history; approve a GitHub noreply identity for future commits after I provide it`.
+Q004 requests the exact GitHub Settings → Emails noreply address; do not guess it.
+Until that address is supplied, leave configuration unchanged. Existing history
+will stay unchanged regardless; changing future identity cannot remove old metadata.
+
+Human review: final content, independent personal commands/code understanding,
+all-tools prompt inventory and official submission details remain unconfirmed.
+Missing ChatGPT user inputs are BLOCKED BY USER SOURCE MATERIAL. No human checklist
+is signed by Codex. Actual final execution evidence and verdict are in
+reports/FINAL-SUBMISSION-READINESS.md; earlier evidence remains dated history.
+
+P017 — answer to Q004 (exact provided noreply identity):
+
+`320645441+shraddhab3030@users.noreply.github.com`
+
+The user explicitly authorized the public checkout's local future email change
+after providing this address. Codex applied only local user.email and verified
+author and committer resolution; Git name, global configuration, original
+private checkout and all existing commits remain unchanged. The old published
+Gmail address remains visible; future noreply does not erase it. This supplied
+GitHub privacy address is intentionally preserved as a Codex input, distinct
+from a personal Gmail address. No commit or push was made.
+
+Available-history supplement: the visible human follow-up `is it done ?` occurred
+after the publication-copy request and before P014. It is preserved here as exact
+available text, not assigned an invented date or represented as an account export.
+Known-record completeness remains distinct from exhaustive account/chat history.

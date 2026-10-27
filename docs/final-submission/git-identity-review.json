@@ -1,0 +1,12 @@
+{
+  "authorization": "P016 keep existing history/use provided future noreply; P017 exact address supplied",
+  "effective_author_and_committer_email_verified": true,
+  "effective_email_domain": "users.noreply.github.com",
+  "existing_gmail_history_unchanged": true,
+  "git_name_unchanged": true,
+  "global_configuration_modified": false,
+  "personal_gmail_omitted_from_public_evidence": true,
+  "public_config_sha256": "9f02da7dc8ef9a5b048053aedf78855c5603a159d3bb100b6c0f585b860a4d41",
+  "remaining_choice": "User must accept existing published personal-email exposure or explicitly authorize a separate plan; no rewrite performed.",
+  "scope": "Only public checkout local user.email"
+}

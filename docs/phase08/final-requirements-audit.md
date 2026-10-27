@@ -1,3 +1,8 @@
+> Historical Phase08 snapshot of the original private development tree.
+> Public publication and later cleanup occurred afterward. Preserve the dated
+> evidence below; use [the final handoff](../../reports/FINAL-SUBMISSION-READINESS.md)
+> and [current requirements matrix](../final-submission/requirements-matrix.md) for current status.
+
 # Final audit of all75 original requirements
 
 Status vocabulary: PASS, PARTIAL, FAIL, NOT_APPLICABLE. Exact source requirement

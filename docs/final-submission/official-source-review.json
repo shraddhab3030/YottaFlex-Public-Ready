@@ -1,0 +1,47 @@
+{
+  "copyright_sources_excluded": true,
+  "deadline": {
+    "local_transcription_confirms_recorded_value": true,
+    "original_invitation_timestamp_independently_confirmed": false,
+    "pdf_rule": "Exactly 72 hours from original send timestamp and timezone; artifact timestamps used to verify window.",
+    "recorded": "2026-10-29T13:52:35+05:30",
+    "user_action": "Confirm original invitation send timestamp/timezone and deadline in authenticated instructions."
+  },
+  "source_authority": "Candidate-supplied local transcription plus two supplied official PDFs; no authenticated portal or original invitation email accessed. Sources were read-only, not copied to public tree.",
+  "sources": [
+    {
+      "bytes": 7735,
+      "full_text_read_this_audit": true,
+      "id": "P",
+      "name": "problem-statement.md",
+      "pages": null,
+      "sha256": "8faefed019161bb66ce6ea274accd7fdf6500622ea2fb71fc6f3d756de133ace",
+      "source_identity_matches": true
+    },
+    {
+      "bytes": 14827,
+      "full_text_read_this_audit": true,
+      "id": "F",
+      "name": "YottaFlex AI Candidate Project-FAQ.pdf",
+      "pages": 1,
+      "sha256": "b3486be5674d00a911e2998f1d89d79904629f8a1fac99bc58b62e37d2a21c7a",
+      "source_identity_matches": true
+    },
+    {
+      "bytes": 14753,
+      "full_text_read_this_audit": true,
+      "id": "G",
+      "name": "YottaFlex AI Candidate Project Submission Guidelines.pdf",
+      "pages": 1,
+      "sha256": "e26107381e39c901af6a92a0a89a7178604851291eaaf2f3016e146da6532e73",
+      "source_identity_matches": true
+    }
+  ],
+  "submission": {
+    "channel_conflict_resolved": false,
+    "faq_Q3": "Send link from same recruitment email and follow provided instructions.",
+    "portal_transcription": "Submit public repository link once before deadline; final once sent.",
+    "round_labels_conflict": "Portal heading versus invitation copy use different round labels.",
+    "user_action": "Confirm authenticated final channel/round and one-time rules before personally submitting; no portal/email/contact action performed."
+  }
+}
