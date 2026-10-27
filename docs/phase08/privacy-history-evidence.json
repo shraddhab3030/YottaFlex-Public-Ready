@@ -1,0 +1,541 @@
+{
+  "commit_metadata_findings": [
+    {
+      "commit": "c215e4db4f2d8552f9d1eaf368fe283f816175f4",
+      "field": "author_name",
+      "kind": "non_generic_person_name",
+      "line": 1
+    },
+    {
+      "commit": "c215e4db4f2d8552f9d1eaf368fe283f816175f4",
+      "field": "author_email",
+      "kind": "non_allowlisted_email",
+      "line": 2
+    },
+    {
+      "commit": "c215e4db4f2d8552f9d1eaf368fe283f816175f4",
+      "field": "committer_name",
+      "kind": "non_generic_person_name",
+      "line": 3
+    },
+    {
+      "commit": "c215e4db4f2d8552f9d1eaf368fe283f816175f4",
+      "field": "committer_email",
+      "kind": "non_allowlisted_email",
+      "line": 4
+    },
+    {
+      "commit": "4c567e7eae9302d170b85f0b2ae239a67ee35fd4",
+      "field": "author_name",
+      "kind": "non_generic_person_name",
+      "line": 1
+    },
+    {
+      "commit": "4c567e7eae9302d170b85f0b2ae239a67ee35fd4",
+      "field": "author_email",
+      "kind": "non_allowlisted_email",
+      "line": 2
+    },
+    {
+      "commit": "4c567e7eae9302d170b85f0b2ae239a67ee35fd4",
+      "field": "committer_name",
+      "kind": "non_generic_person_name",
+      "line": 3
+    },
+    {
+      "commit": "4c567e7eae9302d170b85f0b2ae239a67ee35fd4",
+      "field": "committer_email",
+      "kind": "non_allowlisted_email",
+      "line": 4
+    }
+  ],
+  "current_counts_by_kind": {
+    "private_path": 7,
+    "user_identifier": 7
+  },
+  "current_files_scanned": 158,
+  "current_findings": [
+    {
+      "file": "reports/phase01-handoff.md",
+      "kind": "private_path",
+      "line": 15
+    },
+    {
+      "file": "reports/phase01-handoff.md",
+      "kind": "user_identifier",
+      "line": 15
+    },
+    {
+      "file": "reports/phase01-resumed-handoff.md",
+      "kind": "private_path",
+      "line": 12
+    },
+    {
+      "file": "reports/phase01-resumed-handoff.md",
+      "kind": "user_identifier",
+      "line": 12
+    },
+    {
+      "file": "reports/phase02-schema-handoff.md",
+      "kind": "private_path",
+      "line": 11
+    },
+    {
+      "file": "reports/phase02-schema-handoff.md",
+      "kind": "user_identifier",
+      "line": 11
+    },
+    {
+      "file": "reports/phase03-data-generation-handoff.md",
+      "kind": "private_path",
+      "line": 10
+    },
+    {
+      "file": "reports/phase03-data-generation-handoff.md",
+      "kind": "user_identifier",
+      "line": 10
+    },
+    {
+      "file": "reports/phase04-interview-workflow-handoff.md",
+      "kind": "private_path",
+      "line": 5
+    },
+    {
+      "file": "reports/phase04-interview-workflow-handoff.md",
+      "kind": "user_identifier",
+      "line": 5
+    },
+    {
+      "file": "reports/phase05-evaluation-offer-handoff.md",
+      "kind": "private_path",
+      "line": 4
+    },
+    {
+      "file": "reports/phase05-evaluation-offer-handoff.md",
+      "kind": "user_identifier",
+      "line": 4
+    },
+    {
+      "file": "reports/phase06-anomaly-ground-truth-handoff.md",
+      "kind": "private_path",
+      "line": 5
+    },
+    {
+      "file": "reports/phase06-anomaly-ground-truth-handoff.md",
+      "kind": "user_identifier",
+      "line": 5
+    }
+  ],
+  "current_revision": "f5f1a66d74b4fdc6b0336209b042abe15b782d32",
+  "historical_counts_by_kind": {
+    "private_path": 14,
+    "user_identifier": 14
+  },
+  "historical_findings": [
+    {
+      "blob": "fbd112df8dfa41bf986c336721e5ca0f126fdb32",
+      "commits": [
+        "baafb5521e963945fbc4c75e2ac7ebeb502caf8c"
+      ],
+      "file": "AGENTS.md",
+      "kind": "private_path",
+      "line": 29
+    },
+    {
+      "blob": "fbd112df8dfa41bf986c336721e5ca0f126fdb32",
+      "commits": [
+        "baafb5521e963945fbc4c75e2ac7ebeb502caf8c"
+      ],
+      "file": "AGENTS.md",
+      "kind": "user_identifier",
+      "line": 29
+    },
+    {
+      "blob": "d15f2253a9487f5190a8cc836dd493aaf96147d6",
+      "commits": [
+        "baafb5521e963945fbc4c75e2ac7ebeb502caf8c",
+        "7e5a77bef23a59d38877cdd6b6c660c1c0954d5d",
+        "2a180d57d3ac639ab9f0b4fbd7d29b7ab2840e34",
+        "fd8cb4ed0f3c09b9704140d2ad6538e45cd590f5",
+        "fc1423ae35cd40984bfa67b94adeb279a7f517c6",
+        "0d64cdeafd029c09d954dc8d7cce47d22a174e6a",
+        "c215e4db4f2d8552f9d1eaf368fe283f816175f4",
+        "4c567e7eae9302d170b85f0b2ae239a67ee35fd4",
+        "c96974c20ac547e6e2f50c411f0b61fbfb55e8d0",
+        "d00e2eb9cc1c49e5de74854796c9d843f07c2ce0",
+        "1f53d85ae976bfb59c4e19dcec51c90ca38c33c6",
+        "685c69ad9b33103d296793b669510aa3c069914d",
+        "50bbcfe8821d4a688b1a3725eba70a4bc29e1025",
+        "ea74a975a43ca7967c864dde02a3e2d136443c28",
+        "d497c20d97551cb215eae1579f8a5fdb0d6934af",
+        "f5f1a66d74b4fdc6b0336209b042abe15b782d32"
+      ],
+      "file": "reports/phase01-handoff.md",
+      "kind": "private_path",
+      "line": 15
+    },
+    {
+      "blob": "d15f2253a9487f5190a8cc836dd493aaf96147d6",
+      "commits": [
+        "baafb5521e963945fbc4c75e2ac7ebeb502caf8c",
+        "7e5a77bef23a59d38877cdd6b6c660c1c0954d5d",
+        "2a180d57d3ac639ab9f0b4fbd7d29b7ab2840e34",
+        "fd8cb4ed0f3c09b9704140d2ad6538e45cd590f5",
+        "fc1423ae35cd40984bfa67b94adeb279a7f517c6",
+        "0d64cdeafd029c09d954dc8d7cce47d22a174e6a",
+        "c215e4db4f2d8552f9d1eaf368fe283f816175f4",
+        "4c567e7eae9302d170b85f0b2ae239a67ee35fd4",
+        "c96974c20ac547e6e2f50c411f0b61fbfb55e8d0",
+        "d00e2eb9cc1c49e5de74854796c9d843f07c2ce0",
+        "1f53d85ae976bfb59c4e19dcec51c90ca38c33c6",
+        "685c69ad9b33103d296793b669510aa3c069914d",
+        "50bbcfe8821d4a688b1a3725eba70a4bc29e1025",
+        "ea74a975a43ca7967c864dde02a3e2d136443c28",
+        "d497c20d97551cb215eae1579f8a5fdb0d6934af",
+        "f5f1a66d74b4fdc6b0336209b042abe15b782d32"
+      ],
+      "file": "reports/phase01-handoff.md",
+      "kind": "user_identifier",
+      "line": 15
+    },
+    {
+      "blob": "d74e3f7eadd3ea0d9df88398453c2ad0cb3545f0",
+      "commits": [
+        "7e5a77bef23a59d38877cdd6b6c660c1c0954d5d"
+      ],
+      "file": "AGENTS.md",
+      "kind": "private_path",
+      "line": 31
+    },
+    {
+      "blob": "d74e3f7eadd3ea0d9df88398453c2ad0cb3545f0",
+      "commits": [
+        "7e5a77bef23a59d38877cdd6b6c660c1c0954d5d"
+      ],
+      "file": "AGENTS.md",
+      "kind": "user_identifier",
+      "line": 31
+    },
+    {
+      "blob": "82e970ee52c9cedf6fb6d30c1530bf8c9f2b97f7",
+      "commits": [
+        "7e5a77bef23a59d38877cdd6b6c660c1c0954d5d",
+        "2a180d57d3ac639ab9f0b4fbd7d29b7ab2840e34",
+        "fd8cb4ed0f3c09b9704140d2ad6538e45cd590f5",
+        "fc1423ae35cd40984bfa67b94adeb279a7f517c6",
+        "0d64cdeafd029c09d954dc8d7cce47d22a174e6a",
+        "c215e4db4f2d8552f9d1eaf368fe283f816175f4",
+        "4c567e7eae9302d170b85f0b2ae239a67ee35fd4",
+        "c96974c20ac547e6e2f50c411f0b61fbfb55e8d0",
+        "d00e2eb9cc1c49e5de74854796c9d843f07c2ce0",
+        "1f53d85ae976bfb59c4e19dcec51c90ca38c33c6",
+        "685c69ad9b33103d296793b669510aa3c069914d",
+        "50bbcfe8821d4a688b1a3725eba70a4bc29e1025",
+        "ea74a975a43ca7967c864dde02a3e2d136443c28",
+        "d497c20d97551cb215eae1579f8a5fdb0d6934af",
+        "f5f1a66d74b4fdc6b0336209b042abe15b782d32"
+      ],
+      "file": "reports/phase01-resumed-handoff.md",
+      "kind": "private_path",
+      "line": 12
+    },
+    {
+      "blob": "82e970ee52c9cedf6fb6d30c1530bf8c9f2b97f7",
+      "commits": [
+        "7e5a77bef23a59d38877cdd6b6c660c1c0954d5d",
+        "2a180d57d3ac639ab9f0b4fbd7d29b7ab2840e34",
+        "fd8cb4ed0f3c09b9704140d2ad6538e45cd590f5",
+        "fc1423ae35cd40984bfa67b94adeb279a7f517c6",
+        "0d64cdeafd029c09d954dc8d7cce47d22a174e6a",
+        "c215e4db4f2d8552f9d1eaf368fe283f816175f4",
+        "4c567e7eae9302d170b85f0b2ae239a67ee35fd4",
+        "c96974c20ac547e6e2f50c411f0b61fbfb55e8d0",
+        "d00e2eb9cc1c49e5de74854796c9d843f07c2ce0",
+        "1f53d85ae976bfb59c4e19dcec51c90ca38c33c6",
+        "685c69ad9b33103d296793b669510aa3c069914d",
+        "50bbcfe8821d4a688b1a3725eba70a4bc29e1025",
+        "ea74a975a43ca7967c864dde02a3e2d136443c28",
+        "d497c20d97551cb215eae1579f8a5fdb0d6934af",
+        "f5f1a66d74b4fdc6b0336209b042abe15b782d32"
+      ],
+      "file": "reports/phase01-resumed-handoff.md",
+      "kind": "user_identifier",
+      "line": 12
+    },
+    {
+      "blob": "0f1252ce9687a604632e9cd5bf5f6a2ed2665b73",
+      "commits": [
+        "2a180d57d3ac639ab9f0b4fbd7d29b7ab2840e34",
+        "fd8cb4ed0f3c09b9704140d2ad6538e45cd590f5"
+      ],
+      "file": "AGENTS.md",
+      "kind": "private_path",
+      "line": 32
+    },
+    {
+      "blob": "0f1252ce9687a604632e9cd5bf5f6a2ed2665b73",
+      "commits": [
+        "2a180d57d3ac639ab9f0b4fbd7d29b7ab2840e34",
+        "fd8cb4ed0f3c09b9704140d2ad6538e45cd590f5"
+      ],
+      "file": "AGENTS.md",
+      "kind": "user_identifier",
+      "line": 32
+    },
+    {
+      "blob": "4bde5b53c49765b35b2915b527fdc8247feb3037",
+      "commits": [
+        "fd8cb4ed0f3c09b9704140d2ad6538e45cd590f5",
+        "fc1423ae35cd40984bfa67b94adeb279a7f517c6",
+        "0d64cdeafd029c09d954dc8d7cce47d22a174e6a",
+        "c215e4db4f2d8552f9d1eaf368fe283f816175f4",
+        "4c567e7eae9302d170b85f0b2ae239a67ee35fd4",
+        "c96974c20ac547e6e2f50c411f0b61fbfb55e8d0",
+        "d00e2eb9cc1c49e5de74854796c9d843f07c2ce0",
+        "1f53d85ae976bfb59c4e19dcec51c90ca38c33c6",
+        "685c69ad9b33103d296793b669510aa3c069914d",
+        "50bbcfe8821d4a688b1a3725eba70a4bc29e1025",
+        "ea74a975a43ca7967c864dde02a3e2d136443c28",
+        "d497c20d97551cb215eae1579f8a5fdb0d6934af",
+        "f5f1a66d74b4fdc6b0336209b042abe15b782d32"
+      ],
+      "file": "reports/phase02-schema-handoff.md",
+      "kind": "private_path",
+      "line": 11
+    },
+    {
+      "blob": "4bde5b53c49765b35b2915b527fdc8247feb3037",
+      "commits": [
+        "fd8cb4ed0f3c09b9704140d2ad6538e45cd590f5",
+        "fc1423ae35cd40984bfa67b94adeb279a7f517c6",
+        "0d64cdeafd029c09d954dc8d7cce47d22a174e6a",
+        "c215e4db4f2d8552f9d1eaf368fe283f816175f4",
+        "4c567e7eae9302d170b85f0b2ae239a67ee35fd4",
+        "c96974c20ac547e6e2f50c411f0b61fbfb55e8d0",
+        "d00e2eb9cc1c49e5de74854796c9d843f07c2ce0",
+        "1f53d85ae976bfb59c4e19dcec51c90ca38c33c6",
+        "685c69ad9b33103d296793b669510aa3c069914d",
+        "50bbcfe8821d4a688b1a3725eba70a4bc29e1025",
+        "ea74a975a43ca7967c864dde02a3e2d136443c28",
+        "d497c20d97551cb215eae1579f8a5fdb0d6934af",
+        "f5f1a66d74b4fdc6b0336209b042abe15b782d32"
+      ],
+      "file": "reports/phase02-schema-handoff.md",
+      "kind": "user_identifier",
+      "line": 11
+    },
+    {
+      "blob": "6bbe681338d71f021fe26c7e58ea57467727b434",
+      "commits": [
+        "fc1423ae35cd40984bfa67b94adeb279a7f517c6",
+        "0d64cdeafd029c09d954dc8d7cce47d22a174e6a"
+      ],
+      "file": "AGENTS.md",
+      "kind": "private_path",
+      "line": 33
+    },
+    {
+      "blob": "6bbe681338d71f021fe26c7e58ea57467727b434",
+      "commits": [
+        "fc1423ae35cd40984bfa67b94adeb279a7f517c6",
+        "0d64cdeafd029c09d954dc8d7cce47d22a174e6a"
+      ],
+      "file": "AGENTS.md",
+      "kind": "user_identifier",
+      "line": 33
+    },
+    {
+      "blob": "79be01f05343b696440bc99eea9293046ea4bbd5",
+      "commits": [
+        "0d64cdeafd029c09d954dc8d7cce47d22a174e6a",
+        "c215e4db4f2d8552f9d1eaf368fe283f816175f4",
+        "4c567e7eae9302d170b85f0b2ae239a67ee35fd4",
+        "c96974c20ac547e6e2f50c411f0b61fbfb55e8d0",
+        "d00e2eb9cc1c49e5de74854796c9d843f07c2ce0",
+        "1f53d85ae976bfb59c4e19dcec51c90ca38c33c6",
+        "685c69ad9b33103d296793b669510aa3c069914d",
+        "50bbcfe8821d4a688b1a3725eba70a4bc29e1025",
+        "ea74a975a43ca7967c864dde02a3e2d136443c28",
+        "d497c20d97551cb215eae1579f8a5fdb0d6934af",
+        "f5f1a66d74b4fdc6b0336209b042abe15b782d32"
+      ],
+      "file": "reports/phase03-data-generation-handoff.md",
+      "kind": "private_path",
+      "line": 10
+    },
+    {
+      "blob": "79be01f05343b696440bc99eea9293046ea4bbd5",
+      "commits": [
+        "0d64cdeafd029c09d954dc8d7cce47d22a174e6a",
+        "c215e4db4f2d8552f9d1eaf368fe283f816175f4",
+        "4c567e7eae9302d170b85f0b2ae239a67ee35fd4",
+        "c96974c20ac547e6e2f50c411f0b61fbfb55e8d0",
+        "d00e2eb9cc1c49e5de74854796c9d843f07c2ce0",
+        "1f53d85ae976bfb59c4e19dcec51c90ca38c33c6",
+        "685c69ad9b33103d296793b669510aa3c069914d",
+        "50bbcfe8821d4a688b1a3725eba70a4bc29e1025",
+        "ea74a975a43ca7967c864dde02a3e2d136443c28",
+        "d497c20d97551cb215eae1579f8a5fdb0d6934af",
+        "f5f1a66d74b4fdc6b0336209b042abe15b782d32"
+      ],
+      "file": "reports/phase03-data-generation-handoff.md",
+      "kind": "user_identifier",
+      "line": 10
+    },
+    {
+      "blob": "55c6fe0900d8bb3a802934215d0fc9f7822d7a19",
+      "commits": [
+        "c215e4db4f2d8552f9d1eaf368fe283f816175f4",
+        "4c567e7eae9302d170b85f0b2ae239a67ee35fd4"
+      ],
+      "file": "AGENTS.md",
+      "kind": "private_path",
+      "line": 33
+    },
+    {
+      "blob": "55c6fe0900d8bb3a802934215d0fc9f7822d7a19",
+      "commits": [
+        "c215e4db4f2d8552f9d1eaf368fe283f816175f4",
+        "4c567e7eae9302d170b85f0b2ae239a67ee35fd4"
+      ],
+      "file": "AGENTS.md",
+      "kind": "user_identifier",
+      "line": 33
+    },
+    {
+      "blob": "f3e117ad17fce33ed5d319af456dce24e7d1e7f5",
+      "commits": [
+        "4c567e7eae9302d170b85f0b2ae239a67ee35fd4",
+        "c96974c20ac547e6e2f50c411f0b61fbfb55e8d0",
+        "d00e2eb9cc1c49e5de74854796c9d843f07c2ce0",
+        "1f53d85ae976bfb59c4e19dcec51c90ca38c33c6",
+        "685c69ad9b33103d296793b669510aa3c069914d",
+        "50bbcfe8821d4a688b1a3725eba70a4bc29e1025",
+        "ea74a975a43ca7967c864dde02a3e2d136443c28",
+        "d497c20d97551cb215eae1579f8a5fdb0d6934af",
+        "f5f1a66d74b4fdc6b0336209b042abe15b782d32"
+      ],
+      "file": "reports/phase04-interview-workflow-handoff.md",
+      "kind": "private_path",
+      "line": 5
+    },
+    {
+      "blob": "f3e117ad17fce33ed5d319af456dce24e7d1e7f5",
+      "commits": [
+        "4c567e7eae9302d170b85f0b2ae239a67ee35fd4",
+        "c96974c20ac547e6e2f50c411f0b61fbfb55e8d0",
+        "d00e2eb9cc1c49e5de74854796c9d843f07c2ce0",
+        "1f53d85ae976bfb59c4e19dcec51c90ca38c33c6",
+        "685c69ad9b33103d296793b669510aa3c069914d",
+        "50bbcfe8821d4a688b1a3725eba70a4bc29e1025",
+        "ea74a975a43ca7967c864dde02a3e2d136443c28",
+        "d497c20d97551cb215eae1579f8a5fdb0d6934af",
+        "f5f1a66d74b4fdc6b0336209b042abe15b782d32"
+      ],
+      "file": "reports/phase04-interview-workflow-handoff.md",
+      "kind": "user_identifier",
+      "line": 5
+    },
+    {
+      "blob": "8cef66ec457b98cc0101a134916719440c9d8b76",
+      "commits": [
+        "c96974c20ac547e6e2f50c411f0b61fbfb55e8d0",
+        "d00e2eb9cc1c49e5de74854796c9d843f07c2ce0"
+      ],
+      "file": "AGENTS.md",
+      "kind": "private_path",
+      "line": 33
+    },
+    {
+      "blob": "8cef66ec457b98cc0101a134916719440c9d8b76",
+      "commits": [
+        "c96974c20ac547e6e2f50c411f0b61fbfb55e8d0",
+        "d00e2eb9cc1c49e5de74854796c9d843f07c2ce0"
+      ],
+      "file": "AGENTS.md",
+      "kind": "user_identifier",
+      "line": 33
+    },
+    {
+      "blob": "4ca5afedafe44263f51716d389e75a7fc73a6fbf",
+      "commits": [
+        "d00e2eb9cc1c49e5de74854796c9d843f07c2ce0",
+        "1f53d85ae976bfb59c4e19dcec51c90ca38c33c6",
+        "685c69ad9b33103d296793b669510aa3c069914d",
+        "50bbcfe8821d4a688b1a3725eba70a4bc29e1025",
+        "ea74a975a43ca7967c864dde02a3e2d136443c28",
+        "d497c20d97551cb215eae1579f8a5fdb0d6934af",
+        "f5f1a66d74b4fdc6b0336209b042abe15b782d32"
+      ],
+      "file": "reports/phase05-evaluation-offer-handoff.md",
+      "kind": "private_path",
+      "line": 4
+    },
+    {
+      "blob": "4ca5afedafe44263f51716d389e75a7fc73a6fbf",
+      "commits": [
+        "d00e2eb9cc1c49e5de74854796c9d843f07c2ce0",
+        "1f53d85ae976bfb59c4e19dcec51c90ca38c33c6",
+        "685c69ad9b33103d296793b669510aa3c069914d",
+        "50bbcfe8821d4a688b1a3725eba70a4bc29e1025",
+        "ea74a975a43ca7967c864dde02a3e2d136443c28",
+        "d497c20d97551cb215eae1579f8a5fdb0d6934af",
+        "f5f1a66d74b4fdc6b0336209b042abe15b782d32"
+      ],
+      "file": "reports/phase05-evaluation-offer-handoff.md",
+      "kind": "user_identifier",
+      "line": 4
+    },
+    {
+      "blob": "cf15542356fd5b105f0ffc68e6a17a62f9a7e4b4",
+      "commits": [
+        "1f53d85ae976bfb59c4e19dcec51c90ca38c33c6",
+        "685c69ad9b33103d296793b669510aa3c069914d"
+      ],
+      "file": "AGENTS.md",
+      "kind": "private_path",
+      "line": 33
+    },
+    {
+      "blob": "cf15542356fd5b105f0ffc68e6a17a62f9a7e4b4",
+      "commits": [
+        "1f53d85ae976bfb59c4e19dcec51c90ca38c33c6",
+        "685c69ad9b33103d296793b669510aa3c069914d"
+      ],
+      "file": "AGENTS.md",
+      "kind": "user_identifier",
+      "line": 33
+    },
+    {
+      "blob": "9d68c11745fbba9294d060e2a46edbf4a44c1a02",
+      "commits": [
+        "685c69ad9b33103d296793b669510aa3c069914d",
+        "50bbcfe8821d4a688b1a3725eba70a4bc29e1025",
+        "ea74a975a43ca7967c864dde02a3e2d136443c28",
+        "d497c20d97551cb215eae1579f8a5fdb0d6934af",
+        "f5f1a66d74b4fdc6b0336209b042abe15b782d32"
+      ],
+      "file": "reports/phase06-anomaly-ground-truth-handoff.md",
+      "kind": "private_path",
+      "line": 5
+    },
+    {
+      "blob": "9d68c11745fbba9294d060e2a46edbf4a44c1a02",
+      "commits": [
+        "685c69ad9b33103d296793b669510aa3c069914d",
+        "50bbcfe8821d4a688b1a3725eba70a4bc29e1025",
+        "ea74a975a43ca7967c864dde02a3e2d136443c28",
+        "d497c20d97551cb215eae1579f8a5fdb0d6934af",
+        "f5f1a66d74b4fdc6b0336209b042abe15b782d32"
+      ],
+      "file": "reports/phase06-anomaly-ground-truth-handoff.md",
+      "kind": "user_identifier",
+      "line": 5
+    }
+  ],
+  "limitations": "Pattern/current-user-host checks cannot prove absence of all sensitive content. No account-wide/dangling-object export or human security audit; Git objects and history not changed.",
+  "policy": "All reachable refs/commits, unique blob contents (gzip decompressed), paths and author/committer/messages. Reports only relative file/line/blob/commit/kind, never matched private values. Official employer public email and clearly synthetic test examples allowlisted.",
+  "publication_safe": false,
+  "reachable_commits_scanned": 16,
+  "unique_file_blobs_scanned": 227
+}

@@ -1,0 +1,13 @@
+{
+  "AI_disclosure": "Codex-generated implementation and AI-run verification; independent human review/ownership still pending.",
+  "external_datasets": [],
+  "runtime_provenance": "Uses the locally supplied CPython standard library and its SQLite module; no third-party project code or dataset is bundled.",
+  "source_requirements_reference": "docs/phase01/sources.json (identity/provenance only; private assignment files excluded)",
+  "synthetic_only": {
+    "email_domain": "example.invalid",
+    "identity_violations": [],
+    "passed": true,
+    "provenance": "All candidate identities and recruitment records are synthetic; no scraped profiles, resumes, confidential records or external personal datasets."
+  },
+  "vendored_dependencies": []
+}

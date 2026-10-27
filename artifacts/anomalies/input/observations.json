@@ -1,0 +1,920 @@
+{
+  "as_of": 1784160000,
+  "format_version": 1,
+  "observations": [
+    {
+      "after": {
+        "application_id": "APP-CAND-000075-REQ-2026-000087",
+        "applied_at": 1773895295,
+        "candidate_id": "CAND-000075",
+        "requisition_id": "REQ-2026-000087",
+        "status": "reviewed",
+        "updated_at": 1784160000
+      },
+      "before": {
+        "application_id": "APP-CAND-000075-REQ-2026-000087",
+        "applied_at": 1773895295,
+        "candidate_id": "CAND-000075",
+        "requisition_id": "REQ-2026-000087",
+        "status": "interviewing",
+        "updated_at": 1781788620
+      },
+      "entity_id": "APP-CAND-000075-REQ-2026-000087",
+      "entity_type": "Application",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-000728-REQ-2026-000112",
+        "applied_at": 1776486829,
+        "candidate_id": "CAND-000728",
+        "requisition_id": "REQ-2026-000112",
+        "status": "withdrawn",
+        "updated_at": 1784105732
+      },
+      "before": {
+        "application_id": "APP-CAND-000728-REQ-2026-000112",
+        "applied_at": 1776486829,
+        "candidate_id": "CAND-000728",
+        "requisition_id": "REQ-2026-000112",
+        "status": "interviewing",
+        "updated_at": 1780273024
+      },
+      "entity_id": "APP-CAND-000728-REQ-2026-000112",
+      "entity_type": "Application",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-000780-REQ-2026-000056",
+        "applied_at": 1773461781,
+        "candidate_id": "CAND-000780",
+        "requisition_id": "REQ-2026-000056",
+        "status": "reviewed",
+        "updated_at": 1784160000
+      },
+      "before": {
+        "application_id": "APP-CAND-000780-REQ-2026-000056",
+        "applied_at": 1773461781,
+        "candidate_id": "CAND-000780",
+        "requisition_id": "REQ-2026-000056",
+        "status": "interviewing",
+        "updated_at": 1781866920
+      },
+      "entity_id": "APP-CAND-000780-REQ-2026-000056",
+      "entity_type": "Application",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-000897-REQ-2026-000165",
+        "applied_at": 1772959747,
+        "candidate_id": "CAND-000897",
+        "requisition_id": "REQ-2026-000165",
+        "status": "reviewed",
+        "updated_at": 1784160000
+      },
+      "before": {
+        "application_id": "APP-CAND-000897-REQ-2026-000165",
+        "applied_at": 1772959747,
+        "candidate_id": "CAND-000897",
+        "requisition_id": "REQ-2026-000165",
+        "status": "interviewing",
+        "updated_at": 1782746160
+      },
+      "entity_id": "APP-CAND-000897-REQ-2026-000165",
+      "entity_type": "Application",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-001590-REQ-2026-000126",
+        "applied_at": 1775262007,
+        "candidate_id": "CAND-001590",
+        "requisition_id": "REQ-2026-000126",
+        "status": "reviewed",
+        "updated_at": 1784160000
+      },
+      "before": {
+        "application_id": "APP-CAND-001590-REQ-2026-000126",
+        "applied_at": 1775262007,
+        "candidate_id": "CAND-001590",
+        "requisition_id": "REQ-2026-000126",
+        "status": "interviewing",
+        "updated_at": 1782820920
+      },
+      "entity_id": "APP-CAND-001590-REQ-2026-000126",
+      "entity_type": "Application",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-001772-REQ-2026-000176",
+        "applied_at": 1777669958,
+        "candidate_id": "CAND-001772",
+        "requisition_id": "REQ-2026-000176",
+        "status": "withdrawn",
+        "updated_at": 1784159940
+      },
+      "before": {
+        "application_id": "APP-CAND-001772-REQ-2026-000176",
+        "applied_at": 1777669958,
+        "candidate_id": "CAND-001772",
+        "requisition_id": "REQ-2026-000176",
+        "status": "interviewing",
+        "updated_at": 1781885820
+      },
+      "entity_id": "APP-CAND-001772-REQ-2026-000176",
+      "entity_type": "Application",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-002304-REQ-2026-000016",
+        "applied_at": 1774544811,
+        "candidate_id": "CAND-002304",
+        "requisition_id": "REQ-2026-000016",
+        "status": "reviewed",
+        "updated_at": 1784160000
+      },
+      "before": {
+        "application_id": "APP-CAND-002304-REQ-2026-000016",
+        "applied_at": 1774544811,
+        "candidate_id": "CAND-002304",
+        "requisition_id": "REQ-2026-000016",
+        "status": "interviewing",
+        "updated_at": 1782298920
+      },
+      "entity_id": "APP-CAND-002304-REQ-2026-000016",
+      "entity_type": "Application",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-002460-REQ-2026-000052",
+        "applied_at": 1774211416,
+        "candidate_id": "CAND-002460",
+        "requisition_id": "REQ-2026-000052",
+        "status": "withdrawn",
+        "updated_at": 1784088726
+      },
+      "before": {
+        "application_id": "APP-CAND-002460-REQ-2026-000052",
+        "applied_at": 1774211416,
+        "candidate_id": "CAND-002460",
+        "requisition_id": "REQ-2026-000052",
+        "status": "interviewing",
+        "updated_at": 1780274104
+      },
+      "entity_id": "APP-CAND-002460-REQ-2026-000052",
+      "entity_type": "Application",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-002552-REQ-2026-000148",
+        "applied_at": 1771685874,
+        "candidate_id": "CAND-002552",
+        "requisition_id": "REQ-2026-000148",
+        "status": "withdrawn",
+        "updated_at": 1784138175
+      },
+      "before": {
+        "application_id": "APP-CAND-002552-REQ-2026-000148",
+        "applied_at": 1771685874,
+        "candidate_id": "CAND-002552",
+        "requisition_id": "REQ-2026-000148",
+        "status": "interviewing",
+        "updated_at": 1780274696
+      },
+      "entity_id": "APP-CAND-002552-REQ-2026-000148",
+      "entity_type": "Application",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "candidate_id": "CAND-002480",
+        "contact_email": "candidate002480@example.invalid",
+        "created_at": 1771749000,
+        "display_name": "Synthetic Candidate 002480",
+        "experience_years": 5,
+        "status": "withdrawn",
+        "withdrawn_at": 1784142555
+      },
+      "before": {
+        "candidate_id": "CAND-002480",
+        "contact_email": "candidate002480@example.invalid",
+        "created_at": 1771749000,
+        "display_name": "Synthetic Candidate 002480",
+        "experience_years": 5,
+        "status": "active",
+        "withdrawn_at": null
+      },
+      "entity_id": "CAND-002480",
+      "entity_type": "Candidate",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "candidate_id": "CAND-003039",
+        "contact_email": "candidate003039@example.invalid",
+        "created_at": 1771654304,
+        "display_name": "Synthetic Candidate 003039",
+        "experience_years": 15,
+        "status": "withdrawn",
+        "withdrawn_at": 1784115753
+      },
+      "before": {
+        "candidate_id": "CAND-003039",
+        "contact_email": "candidate003039@example.invalid",
+        "created_at": 1771654304,
+        "display_name": "Synthetic Candidate 003039",
+        "experience_years": 15,
+        "status": "active",
+        "withdrawn_at": null
+      },
+      "entity_id": "CAND-003039",
+      "entity_type": "Candidate",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-000165-REQ-2026-000001",
+        "end_at": 1781192700,
+        "interview_id": "INT-2026-000001",
+        "panel_id": "PANEL-000001",
+        "requisition_id": "REQ-2026-000001",
+        "start_at": 1781190900,
+        "status": "cancelled"
+      },
+      "before": {
+        "application_id": "APP-CAND-000165-REQ-2026-000001",
+        "end_at": 1781188200,
+        "interview_id": "INT-2026-000001",
+        "panel_id": "PANEL-000001",
+        "requisition_id": "REQ-2026-000001",
+        "start_at": 1781186400,
+        "status": "cancelled"
+      },
+      "entity_id": "INT-2026-000001",
+      "entity_type": "Interview",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-000186-REQ-2026-000114",
+        "end_at": 1782739800,
+        "interview_id": "INT-2026-000114",
+        "panel_id": "PANEL-000114",
+        "requisition_id": "REQ-2026-000114",
+        "start_at": 1782737100,
+        "status": "scheduled"
+      },
+      "before": {
+        "application_id": "APP-CAND-000186-REQ-2026-000114",
+        "end_at": 1782739800,
+        "interview_id": "INT-2026-000114",
+        "panel_id": "PANEL-000114",
+        "requisition_id": "REQ-2026-000114",
+        "start_at": 1782737100,
+        "status": "scheduled"
+      },
+      "entity_id": "INT-2026-000114",
+      "entity_type": "Interview",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-000185-REQ-2026-000001",
+        "end_at": 1781192700,
+        "interview_id": "INT-2026-000201",
+        "panel_id": "PANEL-000001",
+        "requisition_id": "REQ-2026-000001",
+        "start_at": 1781190900,
+        "status": "scheduled"
+      },
+      "before": {
+        "application_id": "APP-CAND-000185-REQ-2026-000001",
+        "end_at": 1781192700,
+        "interview_id": "INT-2026-000201",
+        "panel_id": "PANEL-000001",
+        "requisition_id": "REQ-2026-000001",
+        "start_at": 1781190900,
+        "status": "scheduled"
+      },
+      "entity_id": "INT-2026-000201",
+      "entity_type": "Interview",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-000261-REQ-2026-000181",
+        "end_at": 1781194500,
+        "interview_id": "INT-2026-000381",
+        "panel_id": "PANEL-000181",
+        "requisition_id": "REQ-2026-000181",
+        "start_at": 1781192700,
+        "status": "scheduled"
+      },
+      "before": {
+        "application_id": "APP-CAND-000261-REQ-2026-000181",
+        "end_at": 1781194500,
+        "interview_id": "INT-2026-000381",
+        "panel_id": "PANEL-000181",
+        "requisition_id": "REQ-2026-000181",
+        "start_at": 1781192700,
+        "status": "scheduled"
+      },
+      "entity_id": "INT-2026-000381",
+      "entity_type": "Interview",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-000194-REQ-2026-000194",
+        "end_at": 1782987300,
+        "interview_id": "INT-2026-000394",
+        "panel_id": "PANEL-000194",
+        "requisition_id": "REQ-2026-000194",
+        "start_at": 1782985500,
+        "status": "scheduled"
+      },
+      "before": {
+        "application_id": "APP-CAND-000194-REQ-2026-000194",
+        "end_at": 1782987300,
+        "interview_id": "INT-2026-000394",
+        "panel_id": "PANEL-000194",
+        "requisition_id": "REQ-2026-000194",
+        "start_at": 1782985500,
+        "status": "scheduled"
+      },
+      "entity_id": "INT-2026-000394",
+      "entity_type": "Interview",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-000513-REQ-2026-000001",
+        "end_at": 1781194500,
+        "interview_id": "INT-2026-000401",
+        "panel_id": "PANEL-000001",
+        "requisition_id": "REQ-2026-000001",
+        "start_at": 1781192700,
+        "status": "scheduled"
+      },
+      "before": {
+        "application_id": "APP-CAND-000513-REQ-2026-000001",
+        "end_at": 1781194500,
+        "interview_id": "INT-2026-000401",
+        "panel_id": "PANEL-000001",
+        "requisition_id": "REQ-2026-000001",
+        "start_at": 1781192700,
+        "status": "scheduled"
+      },
+      "entity_id": "INT-2026-000401",
+      "entity_type": "Interview",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-000732-REQ-2026-000038",
+        "end_at": 1781531100,
+        "interview_id": "INT-2026-000438",
+        "panel_id": "PANEL-000038",
+        "requisition_id": "REQ-2026-000038",
+        "start_at": 1781529300,
+        "status": "scheduled"
+      },
+      "before": {
+        "application_id": "APP-CAND-000732-REQ-2026-000038",
+        "end_at": 1781531100,
+        "interview_id": "INT-2026-000438",
+        "panel_id": "PANEL-000038",
+        "requisition_id": "REQ-2026-000038",
+        "start_at": 1781529300,
+        "status": "scheduled"
+      },
+      "entity_id": "INT-2026-000438",
+      "entity_type": "Interview",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-000728-REQ-2026-000112",
+        "end_at": 1783097100,
+        "interview_id": "INT-2026-000512",
+        "panel_id": "PANEL-000112",
+        "requisition_id": "REQ-2026-000112",
+        "start_at": 1783095300,
+        "status": "scheduled"
+      },
+      "before": {
+        "application_id": "APP-CAND-000728-REQ-2026-000112",
+        "end_at": 1783097100,
+        "interview_id": "INT-2026-000512",
+        "panel_id": "PANEL-000112",
+        "requisition_id": "REQ-2026-000112",
+        "start_at": 1783095300,
+        "status": "scheduled"
+      },
+      "entity_id": "INT-2026-000512",
+      "entity_type": "Interview",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-000606-REQ-2026-000114",
+        "end_at": 1782739800,
+        "interview_id": "INT-2026-000514",
+        "panel_id": "PANEL-000114",
+        "requisition_id": "REQ-2026-000114",
+        "start_at": 1782737100,
+        "status": "scheduled"
+      },
+      "before": {
+        "application_id": "APP-CAND-000606-REQ-2026-000114",
+        "end_at": 1783419300,
+        "interview_id": "INT-2026-000514",
+        "panel_id": "PANEL-000114",
+        "requisition_id": "REQ-2026-000114",
+        "start_at": 1783416600,
+        "status": "scheduled"
+      },
+      "entity_id": "INT-2026-000514",
+      "entity_type": "Interview",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-000357-REQ-2026-000141",
+        "end_at": 1781533800,
+        "interview_id": "INT-2026-000541",
+        "panel_id": "PANEL-000141",
+        "requisition_id": "REQ-2026-000141",
+        "start_at": 1781530200,
+        "status": "scheduled"
+      },
+      "before": {
+        "application_id": "APP-CAND-000357-REQ-2026-000141",
+        "end_at": 1781533800,
+        "interview_id": "INT-2026-000541",
+        "panel_id": "PANEL-000141",
+        "requisition_id": "REQ-2026-000141",
+        "start_at": 1781530200,
+        "status": "scheduled"
+      },
+      "entity_id": "INT-2026-000541",
+      "entity_type": "Interview",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-000734-REQ-2026-000194",
+        "end_at": 1782987300,
+        "interview_id": "INT-2026-000794",
+        "panel_id": "PANEL-000194",
+        "requisition_id": "REQ-2026-000194",
+        "start_at": 1782985500,
+        "status": "scheduled"
+      },
+      "before": {
+        "application_id": "APP-CAND-000734-REQ-2026-000194",
+        "end_at": 1781271900,
+        "interview_id": "INT-2026-000794",
+        "panel_id": "PANEL-000194",
+        "requisition_id": "REQ-2026-000194",
+        "start_at": 1781270100,
+        "status": "scheduled"
+      },
+      "entity_id": "INT-2026-000794",
+      "entity_type": "Interview",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-000842-REQ-2026-000038",
+        "end_at": 1781531100,
+        "interview_id": "INT-2026-000838",
+        "panel_id": "PANEL-000038",
+        "requisition_id": "REQ-2026-000038",
+        "start_at": 1781529300,
+        "status": "scheduled"
+      },
+      "before": {
+        "application_id": "APP-CAND-000842-REQ-2026-000038",
+        "end_at": 1782208800,
+        "interview_id": "INT-2026-000838",
+        "panel_id": "PANEL-000038",
+        "requisition_id": "REQ-2026-000038",
+        "start_at": 1782207000,
+        "status": "scheduled"
+      },
+      "entity_id": "INT-2026-000838",
+      "entity_type": "Interview",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-002480-REQ-2026-000040",
+        "end_at": 1782383400,
+        "interview_id": "INT-2026-000840",
+        "panel_id": "PANEL-000040",
+        "requisition_id": "REQ-2026-000040",
+        "start_at": 1782381600,
+        "status": "scheduled"
+      },
+      "before": {
+        "application_id": "APP-CAND-002480-REQ-2026-000040",
+        "end_at": 1782383400,
+        "interview_id": "INT-2026-000840",
+        "panel_id": "PANEL-000040",
+        "requisition_id": "REQ-2026-000040",
+        "start_at": 1782381600,
+        "status": "scheduled"
+      },
+      "entity_id": "INT-2026-000840",
+      "entity_type": "Interview",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-002460-REQ-2026-000052",
+        "end_at": 1781784000,
+        "interview_id": "INT-2026-001052",
+        "panel_id": "PANEL-000052",
+        "requisition_id": "REQ-2026-000052",
+        "start_at": 1781782200,
+        "status": "scheduled"
+      },
+      "before": {
+        "application_id": "APP-CAND-002460-REQ-2026-000052",
+        "end_at": 1781784000,
+        "interview_id": "INT-2026-001052",
+        "panel_id": "PANEL-000052",
+        "requisition_id": "REQ-2026-000052",
+        "start_at": 1781782200,
+        "status": "scheduled"
+      },
+      "entity_id": "INT-2026-001052",
+      "entity_type": "Interview",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-002552-REQ-2026-000148",
+        "end_at": 1781692200,
+        "interview_id": "INT-2026-001348",
+        "panel_id": "PANEL-000148",
+        "requisition_id": "REQ-2026-000148",
+        "start_at": 1781690400,
+        "status": "scheduled"
+      },
+      "before": {
+        "application_id": "APP-CAND-002552-REQ-2026-000148",
+        "end_at": 1781692200,
+        "interview_id": "INT-2026-001348",
+        "panel_id": "PANEL-000148",
+        "requisition_id": "REQ-2026-000148",
+        "start_at": 1781690400,
+        "status": "scheduled"
+      },
+      "entity_id": "INT-2026-001348",
+      "entity_type": "Interview",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-002037-REQ-2026-000141",
+        "end_at": 1781533800,
+        "interview_id": "INT-2026-001741",
+        "panel_id": "PANEL-000141",
+        "requisition_id": "REQ-2026-000141",
+        "start_at": 1781530200,
+        "status": "scheduled"
+      },
+      "before": {
+        "application_id": "APP-CAND-002037-REQ-2026-000141",
+        "end_at": 1781620200,
+        "interview_id": "INT-2026-001741",
+        "panel_id": "PANEL-000141",
+        "requisition_id": "REQ-2026-000141",
+        "start_at": 1781616600,
+        "status": "scheduled"
+      },
+      "entity_id": "INT-2026-001741",
+      "entity_type": "Interview",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-002741-REQ-2026-000181",
+        "end_at": 1781194500,
+        "interview_id": "INT-2026-001981",
+        "panel_id": "PANEL-000181",
+        "requisition_id": "REQ-2026-000181",
+        "start_at": 1781192700,
+        "status": "scheduled"
+      },
+      "before": {
+        "application_id": "APP-CAND-002741-REQ-2026-000181",
+        "end_at": 1781260200,
+        "interview_id": "INT-2026-001981",
+        "panel_id": "PANEL-000181",
+        "requisition_id": "REQ-2026-000181",
+        "start_at": 1781258400,
+        "status": "scheduled"
+      },
+      "entity_id": "INT-2026-001981",
+      "entity_type": "Interview",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "application_id": "APP-CAND-003039-REQ-2026-000199",
+        "end_at": 1781691300,
+        "interview_id": "INT-2026-001999",
+        "panel_id": "PANEL-000199",
+        "requisition_id": "REQ-2026-000199",
+        "start_at": 1781688600,
+        "status": "scheduled"
+      },
+      "before": {
+        "application_id": "APP-CAND-003039-REQ-2026-000199",
+        "end_at": 1781691300,
+        "interview_id": "INT-2026-001999",
+        "panel_id": "PANEL-000199",
+        "requisition_id": "REQ-2026-000199",
+        "start_at": 1781688600,
+        "status": "scheduled"
+      },
+      "entity_id": "INT-2026-001999",
+      "entity_type": "Interview",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "amount_minor": 130983159,
+        "application_id": "APP-CAND-000024-REQ-2026-000076",
+        "approved_requisition_event_id": "REQEV-000303",
+        "currency": "INR",
+        "is_final": 1,
+        "offer_id": "OFF-2026-000002",
+        "requisition_id": "REQ-2026-000076",
+        "status": "rejected",
+        "valid_from": 1783475393,
+        "valid_to": null
+      },
+      "before": {
+        "amount_minor": 126293450,
+        "application_id": "APP-CAND-000024-REQ-2026-000076",
+        "approved_requisition_event_id": "REQEV-000303",
+        "currency": "INR",
+        "is_final": 1,
+        "offer_id": "OFF-2026-000002",
+        "requisition_id": "REQ-2026-000076",
+        "status": "rejected",
+        "valid_from": 1783475393,
+        "valid_to": null
+      },
+      "entity_id": "OFF-2026-000002",
+      "entity_type": "Offer",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "amount_minor": 269942615,
+        "application_id": "APP-CAND-000444-REQ-2026-000116",
+        "approved_requisition_event_id": "REQEV-000463",
+        "currency": "INR",
+        "is_final": 1,
+        "offer_id": "OFF-2026-000029",
+        "requisition_id": "REQ-2026-000116",
+        "status": "accepted",
+        "valid_from": 1783475504,
+        "valid_to": null
+      },
+      "before": {
+        "amount_minor": 228701950,
+        "application_id": "APP-CAND-000444-REQ-2026-000116",
+        "approved_requisition_event_id": "REQEV-000463",
+        "currency": "INR",
+        "is_final": 1,
+        "offer_id": "OFF-2026-000029",
+        "requisition_id": "REQ-2026-000116",
+        "status": "accepted",
+        "valid_from": 1783475504,
+        "valid_to": null
+      },
+      "entity_id": "OFF-2026-000029",
+      "entity_type": "Offer",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "amount_minor": 227153971,
+        "application_id": "APP-CAND-000453-REQ-2026-000005",
+        "approved_requisition_event_id": "REQEV-000019",
+        "currency": "INR",
+        "is_final": 1,
+        "offer_id": "OFF-2026-000031",
+        "requisition_id": "REQ-2026-000005",
+        "status": "rejected",
+        "valid_from": 1783475514,
+        "valid_to": null
+      },
+      "before": {
+        "amount_minor": 216179900,
+        "application_id": "APP-CAND-000453-REQ-2026-000005",
+        "approved_requisition_event_id": "REQEV-000019",
+        "currency": "INR",
+        "is_final": 1,
+        "offer_id": "OFF-2026-000031",
+        "requisition_id": "REQ-2026-000005",
+        "status": "rejected",
+        "valid_from": 1783475514,
+        "valid_to": null
+      },
+      "entity_id": "OFF-2026-000031",
+      "entity_type": "Offer",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "amount_minor": 7651473,
+        "application_id": "APP-CAND-000788-REQ-2026-000025",
+        "approved_requisition_event_id": "REQEV-000099",
+        "currency": "USD",
+        "is_final": 1,
+        "offer_id": "OFF-2026-000055",
+        "requisition_id": "REQ-2026-000025",
+        "status": "accepted",
+        "valid_from": 1783475602,
+        "valid_to": null
+      },
+      "before": {
+        "amount_minor": 6636400,
+        "application_id": "APP-CAND-000788-REQ-2026-000025",
+        "approved_requisition_event_id": "REQEV-000099",
+        "currency": "USD",
+        "is_final": 1,
+        "offer_id": "OFF-2026-000055",
+        "requisition_id": "REQ-2026-000025",
+        "status": "accepted",
+        "valid_from": 1783475602,
+        "valid_to": null
+      },
+      "entity_id": "OFF-2026-000055",
+      "entity_type": "Offer",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "amount_minor": 108965400,
+        "application_id": "APP-CAND-001869-REQ-2026-000085",
+        "approved_requisition_event_id": "REQEV-000339",
+        "currency": "INR",
+        "is_final": 1,
+        "offer_id": "OFF-2026-000125",
+        "requisition_id": "REQ-2026-000085",
+        "status": "rejected",
+        "valid_from": 1783475896,
+        "valid_to": null
+      },
+      "before": {
+        "amount_minor": 105266400,
+        "application_id": "APP-CAND-001869-REQ-2026-000085",
+        "approved_requisition_event_id": "REQEV-000339",
+        "currency": "INR",
+        "is_final": 1,
+        "offer_id": "OFF-2026-000125",
+        "requisition_id": "REQ-2026-000085",
+        "status": "rejected",
+        "valid_from": 1783475896,
+        "valid_to": null
+      },
+      "entity_id": "OFF-2026-000125",
+      "entity_type": "Offer",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "amount_minor": 222462278,
+        "application_id": "APP-CAND-001947-REQ-2026-000007",
+        "approved_requisition_event_id": "REQEV-000027",
+        "currency": "INR",
+        "is_final": 1,
+        "offer_id": "OFF-2026-000133",
+        "requisition_id": "REQ-2026-000007",
+        "status": "accepted",
+        "valid_from": 1783475930,
+        "valid_to": null
+      },
+      "before": {
+        "amount_minor": 186466900,
+        "application_id": "APP-CAND-001947-REQ-2026-000007",
+        "approved_requisition_event_id": "REQEV-000027",
+        "currency": "INR",
+        "is_final": 1,
+        "offer_id": "OFF-2026-000133",
+        "requisition_id": "REQ-2026-000007",
+        "status": "accepted",
+        "valid_from": 1783475930,
+        "valid_to": null
+      },
+      "entity_id": "OFF-2026-000133",
+      "entity_type": "Offer",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "evidence": "Synthetic rubric observation: stored level=3; role minimum=3; observation adjustment=0.",
+        "score_value": 3,
+        "scorecard_id": "SCORE-INT-2026-000006-STAFF-000025",
+        "skill_requirement_id": "SKILL-000021",
+        "status": "scored",
+        "weight_basis_points": 3629
+      },
+      "before": {
+        "evidence": "Synthetic rubric observation: stored level=3; role minimum=3; observation adjustment=0.",
+        "score_value": 3,
+        "scorecard_id": "SCORE-INT-2026-000006-STAFF-000025",
+        "skill_requirement_id": "SKILL-000021",
+        "status": "scored",
+        "weight_basis_points": 3629
+      },
+      "entity_id": "SCORE-INT-2026-000006-STAFF-000025|SKILL-000021",
+      "entity_type": "ScorecardItem",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "evidence": "Recorded structured rubric observation.",
+        "score_value": 2,
+        "scorecard_id": "SCORE-INT-2026-000176-STAFF-000074",
+        "skill_requirement_id": "SKILL-000635",
+        "status": "scored",
+        "weight_basis_points": 2486
+      },
+      "before": null,
+      "entity_id": "SCORE-INT-2026-000176-STAFF-000074|SKILL-000635",
+      "entity_type": "ScorecardItem",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "evidence": "Recorded structured rubric observation.",
+        "score_value": 2,
+        "scorecard_id": "SCORE-INT-2026-000257-STAFF-000089",
+        "skill_requirement_id": "SKILL-000692",
+        "status": "scored",
+        "weight_basis_points": 1372
+      },
+      "before": null,
+      "entity_id": "SCORE-INT-2026-000257-STAFF-000089|SKILL-000692",
+      "entity_type": "ScorecardItem",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "evidence": "Recorded structured rubric observation.",
+        "score_value": 2,
+        "scorecard_id": "SCORE-INT-2026-000297-STAFF-000029",
+        "skill_requirement_id": "SKILL-000768",
+        "status": "scored",
+        "weight_basis_points": 706
+      },
+      "before": null,
+      "entity_id": "SCORE-INT-2026-000297-STAFF-000029|SKILL-000768",
+      "entity_type": "ScorecardItem",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "evidence": "Recorded structured rubric observation.",
+        "score_value": 2,
+        "scorecard_id": "SCORE-INT-2026-000725-STAFF-000085",
+        "skill_requirement_id": "SKILL-000137",
+        "status": "scored",
+        "weight_basis_points": 3796
+      },
+      "before": null,
+      "entity_id": "SCORE-INT-2026-000725-STAFF-000085|SKILL-000137",
+      "entity_type": "ScorecardItem",
+      "observed_at": 1784160000
+    },
+    {
+      "after": {
+        "evidence": "Recorded structured rubric observation.",
+        "score_value": 2,
+        "scorecard_id": "SCORE-INT-2026-000976-STAFF-000074",
+        "skill_requirement_id": "SKILL-000734",
+        "status": "scored",
+        "weight_basis_points": 3648
+      },
+      "before": null,
+      "entity_id": "SCORE-INT-2026-000976-STAFF-000074|SKILL-000734",
+      "entity_type": "ScorecardItem",
+      "observed_at": 1784160000
+    }
+  ]
+}

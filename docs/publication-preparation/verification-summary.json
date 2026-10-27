@@ -1,0 +1,276 @@
+{
+  "actual_rejected_operations": 7,
+  "all_68_artifact_files_byte_identical": true,
+  "anomaly_findings": 30,
+  "canonical_sha256": "7362b01eeb0aa15999480aa8b0a810d96ff21060bd06f9b230eb637d57642ebb",
+  "canonical_tables": {
+    "Application": {
+      "rows": 8000,
+      "sha256": "b74c6e38190a1217982c6d1438adbea08c2b6cde8d0dadd39f047d1d232eb6ff"
+    },
+    "ApplicationEvent": {
+      "rows": 14843,
+      "sha256": "a21ca544f772ae5f0377fbc185d4ea3e127c99139c01fde32ba350db8e14d80d"
+    },
+    "Approval": {
+      "rows": 429,
+      "sha256": "d1a71a7d56092685a8cbfffa0615906e99a432e29a7d9195d291ff13d08b703a"
+    },
+    "ApprovalEvent": {
+      "rows": 858,
+      "sha256": "61a273bb0df412cadea89fb84ac19312250746dae2314389173eb5be6eb0f411"
+    },
+    "Availability": {
+      "rows": 2680,
+      "sha256": "5b69acedf076075b53fe918110177340a708f9fc2a816aac6c1b781f8203690f"
+    },
+    "Candidate": {
+      "rows": 5000,
+      "sha256": "5587bd6230d1512e72a8124addf427cf041b5af75fd2cd55eb22cc3b8adf3bb0"
+    },
+    "CandidateEvent": {
+      "rows": 5083,
+      "sha256": "3d11fe1e3e216663628fe5727c48ee6c706563ce605d6133de38e366189be152"
+    },
+    "CandidateSkill": {
+      "rows": 27061,
+      "sha256": "84f680161b39946ec98664e061764da3392242b2a29bb218383591e93a6f93ec"
+    },
+    "HiringManager": {
+      "rows": 20,
+      "sha256": "9a939034d2dc9a78cb800e0cddd908772f9f07b99905d58279e3084b47330e90"
+    },
+    "Interview": {
+      "rows": 2000,
+      "sha256": "c628268d17628e013c1955982d429f4647b9cf8dd5ad6ac29c4f1acb6ed01b18"
+    },
+    "InterviewEvent": {
+      "rows": 3147,
+      "sha256": "0c860a81cc269ce58d9d0c262ccaf1cebb6d62efe097c0a39b337ae3453dcdf3"
+    },
+    "InterviewPanel": {
+      "rows": 200,
+      "sha256": "feb7a5ecb1471b9e4a69f14db43555c28cdcff27a6bcce7daa83dfbef0281f0f"
+    },
+    "InterviewParticipant": {
+      "rows": 5000,
+      "sha256": "92634d5ee3cbdd48bcb474ab01aa11a8f4ac394291c38d9ec4c916d56a156127"
+    },
+    "Offer": {
+      "rows": 229,
+      "sha256": "d45986d081faf45cdfc35cd6d3db17994da800ff45a79d65886f76e10a258851"
+    },
+    "OfferEvent": {
+      "rows": 957,
+      "sha256": "36f07788c2b6acf24c3b2c3c76683e586c883a342212b299798288e63537037c"
+    },
+    "PanelMember": {
+      "rows": 500,
+      "sha256": "50a5148362a7f8a10777e781cb7649f1955d30b93449a675e209b5358b7a46de"
+    },
+    "Requisition": {
+      "rows": 200,
+      "sha256": "0a02fb0494b420f5f26fa34c41d708d3970d74cfe8f4c7c7c6d49a4b4c1bd494"
+    },
+    "RequisitionEvent": {
+      "rows": 800,
+      "sha256": "aaf1b0baab13e8c7888f82ed2124b314528baf5e8d6016d33a5799b5e255c156"
+    },
+    "SchemaMetadata": {
+      "rows": 1,
+      "sha256": "9541dcc0d5c87cf7b709276469debb2a46a8acb8ebe59f94467202082ba19162"
+    },
+    "Scorecard": {
+      "rows": 1122,
+      "sha256": "7d2c9535d9c7bdfa2e53355535679e68d1dc9fd78d6f0878bc43e04e881b9386"
+    },
+    "ScorecardEvent": {
+      "rows": 6066,
+      "sha256": "6d73eb95b065f177d12be5b0f9f45b3ab496e95c2b842f8508d642a68f213d19"
+    },
+    "ScorecardItem": {
+      "rows": 4488,
+      "sha256": "3dad7d5d07133244cac643b9b2cdda3f995d0c428a1c959a7ac6ce1df6b06ba8"
+    },
+    "SkillRequirement": {
+      "rows": 800,
+      "sha256": "9e74559cbc4b648d05f133b93ac516395352a189866ffa61659bc2edd56fc284"
+    },
+    "Staff": {
+      "rows": 91,
+      "sha256": "207f12721f23883da84938e397263cf06f3333ba5d06d605afd9024de07fcb13"
+    }
+  },
+  "chatgpt_original_user_prompts": "PENDING",
+  "clean_findings": 0,
+  "evaluation": {
+    "FN": 0,
+    "FP": 0,
+    "TP": 30,
+    "by_issue_type": {
+      "interviewer_double_booked": {
+        "FN": 0,
+        "FP": 0,
+        "TP": 10,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "irrelevant_evaluation_criterion": {
+        "FN": 0,
+        "FP": 0,
+        "TP": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "offer_exceeds_band": {
+        "FN": 0,
+        "FP": 0,
+        "TP": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "stage_gate_missing_review": {
+        "FN": 0,
+        "FP": 0,
+        "TP": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "withdrawn_still_scheduled": {
+        "FN": 0,
+        "FP": 0,
+        "TP": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "by_rule": {
+      "R01": {
+        "FN": 0,
+        "FP": 0,
+        "TP": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "R02": {
+        "FN": 0,
+        "FP": 0,
+        "TP": 10,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "R03": {
+        "FN": 0,
+        "FP": 0,
+        "TP": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "R04": {
+        "FN": 0,
+        "FP": 0,
+        "TP": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "R05": {
+        "FN": 0,
+        "FP": 0,
+        "TP": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "clean_baseline_false_positives": 0,
+    "duplicate_findings": 0,
+    "f1": 1.0,
+    "missed_scenario_ids": [],
+    "precision": 1.0,
+    "recall": 1.0,
+    "rules_with_true_positives": 5,
+    "unexpected_finding_ids": [],
+    "zero_denominators": "undefined precision/recall/F1 are null; F1=2TP/(2TP+FP+FN); no accuracy/TN claim"
+  },
+  "external_environment_and_scratch": true,
+  "five_rule_counts": {
+    "R01": 5,
+    "R02": 10,
+    "R03": 5,
+    "R04": 5,
+    "R05": 5
+  },
+  "human_personal_verification": "PENDING",
+  "independent_business_issue_checks": 30,
+  "mandatory_counts": {
+    "Application": 8000,
+    "Candidate": 5000,
+    "Interview": 2000,
+    "Requisition": 200
+  },
+  "manifest_files_verified": 67,
+  "no_git_initialized": true,
+  "no_project_network_service_or_dependency_download_required": true,
+  "privacy_initial": {
+    "compressed_files_decompressed": 5,
+    "counts_by_kind": {},
+    "expanded_bytes_scanned": 107238492,
+    "files_scanned": 187,
+    "findings": [],
+    "limits": "Pattern/known-identity scans cannot guarantee all privacy/security/ownership. Synthetic identity SQL checks and personal final content review are separate. No matched private metadata is serialized.",
+    "passed": true,
+    "policy": "Every file in publication tree; no Git required or invoked; gzip decompressed. Reports only relative location/category, never matched values. Official employer email domains and literal synthetic negative-test email are allowlisted.",
+    "private_metadata_identities_checked": 2,
+    "stored_bytes": 28016906
+  },
+  "protected_original_files_byte_identical": 116,
+  "restores": {
+    "csv": {
+      "canonical_sha256": "7362b01eeb0aa15999480aa8b0a810d96ff21060bd06f9b230eb637d57642ebb",
+      "domain_checks_passed": 99,
+      "protections": {
+        "foreign_keys": 1,
+        "recursive_triggers": 1
+      },
+      "rows": 89575
+    },
+    "json": {
+      "canonical_sha256": "7362b01eeb0aa15999480aa8b0a810d96ff21060bd06f9b230eb637d57642ebb",
+      "domain_checks_passed": 99,
+      "protections": {
+        "foreign_keys": 1,
+        "recursive_triggers": 1
+      },
+      "rows": 89575
+    },
+    "sql": {
+      "canonical_sha256": "7362b01eeb0aa15999480aa8b0a810d96ff21060bd06f9b230eb637d57642ebb",
+      "domain_checks_passed": 99,
+      "protections": {
+        "foreign_keys": 1,
+        "recursive_triggers": 1
+      },
+      "rows": 89575
+    }
+  },
+  "runtime": {
+    "python": "3.14.5",
+    "sqlite": "3.53.1"
+  },
+  "source_revision": "ca37787e1947c559d36ca12d4f79b6f5c60899ad",
+  "tests": {
+    "count": 211,
+    "executor": "Codex, not the candidate",
+    "passed": true,
+    "runner_seconds": 93.059
+  }
+}

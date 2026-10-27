@@ -1,0 +1,97 @@
+{
+  "chatgpt_original_user_prompts": "PENDING; no originals recovered",
+  "detector_import_graph": {
+    "anomaly_rules": [],
+    "canonical": [],
+    "db": [],
+    "detector": [
+      "anomaly_rules",
+      "canonical",
+      "evaluation",
+      "observations",
+      "workflow"
+    ],
+    "evaluation": [
+      "workflow"
+    ],
+    "generation_checks": [
+      "canonical",
+      "generation_config",
+      "ids",
+      "matching"
+    ],
+    "generation_config": [],
+    "ids": [],
+    "matching": [],
+    "observations": [
+      "canonical",
+      "db"
+    ],
+    "workflow": [
+      "canonical",
+      "evaluation",
+      "generation_checks",
+      "ids"
+    ]
+  },
+  "detector_transitive_modules": [
+    "anomaly_rules",
+    "canonical",
+    "db",
+    "detector",
+    "evaluation",
+    "generation_checks",
+    "generation_config",
+    "ids",
+    "matching",
+    "observations",
+    "workflow"
+  ],
+  "early_prompts": "P001-P003 complete available text, normalized whitespace/wrapping, not raw account export; P008 complete short follow-up; P012 full human answer text preserved",
+  "forbidden_dependencies_absent": true,
+  "other_tools_inventory": "User has not yet attested exhaustive account inventory",
+  "phase_prompts": {
+    "2": {
+      "attachment_byte_match": true,
+      "bytes": 11520,
+      "path": "docs/phase02/prompt.md",
+      "sha256": "e7959933c14de0ee5e2bda549573dd05100df53a2f89631bbfc137e5b27d1693"
+    },
+    "3": {
+      "attachment_byte_match": true,
+      "bytes": 16343,
+      "path": "docs/phase03/prompt.md",
+      "sha256": "433e6e2449bab6a456f980c7c914c6e6e75910770078615700930618b4908166"
+    },
+    "4": {
+      "attachment_byte_match": true,
+      "bytes": 17183,
+      "path": "docs/phase04/prompt.md",
+      "sha256": "e11457c6fdde63015cf15d454d8a356aaf72876224e2e6dce664587098589170"
+    },
+    "5": {
+      "attachment_byte_match": true,
+      "bytes": 18025,
+      "path": "docs/phase05/prompt.md",
+      "sha256": "0bdf78c7fca17e48239934daf8f6dc57e418b1c4efc0eec7d3376fb00930fc38"
+    },
+    "6": {
+      "attachment_byte_match": true,
+      "bytes": 20397,
+      "path": "docs/phase06/prompt.md",
+      "sha256": "b3c4c23b021d36e7c7a3d596eb88b9f754c0c612a906cf5fb8ffe18458e8dadb"
+    },
+    "7": {
+      "attachment_byte_match": true,
+      "bytes": 18667,
+      "path": "docs/phase07/prompt.md",
+      "sha256": "5970599c88660b19a8e05c59efa27d80d61e974ea711457f9ef8b7d6ca35810e"
+    },
+    "8": {
+      "attachment_byte_match": true,
+      "bytes": 16181,
+      "path": "docs/phase08/prompt.md",
+      "sha256": "e5ca02c03207379ccc4cf01ab357d64b1fc2b2ed51c10bd8be12fc87aaf54e73"
+    }
+  }
+}

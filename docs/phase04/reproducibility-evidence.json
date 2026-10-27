@@ -1,0 +1,1799 @@
+{
+  "passed": true,
+  "profiles": {
+    "full": {
+      "canonical_equal": true,
+      "passed": true,
+      "records": {
+        "Application": {
+          "equal": true,
+          "records_compared": 8000
+        },
+        "ApplicationEvent": {
+          "equal": true,
+          "records_compared": 12721
+        },
+        "Approval": {
+          "equal": true,
+          "records_compared": 200
+        },
+        "ApprovalEvent": {
+          "equal": true,
+          "records_compared": 400
+        },
+        "Availability": {
+          "equal": true,
+          "records_compared": 2680
+        },
+        "Candidate": {
+          "equal": true,
+          "records_compared": 5000
+        },
+        "CandidateEvent": {
+          "equal": true,
+          "records_compared": 5083
+        },
+        "CandidateSkill": {
+          "equal": true,
+          "records_compared": 27061
+        },
+        "HiringManager": {
+          "equal": true,
+          "records_compared": 20
+        },
+        "Interview": {
+          "equal": true,
+          "records_compared": 2000
+        },
+        "InterviewEvent": {
+          "equal": true,
+          "records_compared": 2609
+        },
+        "InterviewPanel": {
+          "equal": true,
+          "records_compared": 200
+        },
+        "InterviewParticipant": {
+          "equal": true,
+          "records_compared": 5000
+        },
+        "Offer": {
+          "equal": true,
+          "records_compared": 0
+        },
+        "OfferEvent": {
+          "equal": true,
+          "records_compared": 0
+        },
+        "PanelMember": {
+          "equal": true,
+          "records_compared": 500
+        },
+        "Requisition": {
+          "equal": true,
+          "records_compared": 200
+        },
+        "RequisitionEvent": {
+          "equal": true,
+          "records_compared": 800
+        },
+        "SchemaMetadata": {
+          "equal": true,
+          "records_compared": 1
+        },
+        "Scorecard": {
+          "equal": true,
+          "records_compared": 0
+        },
+        "ScorecardEvent": {
+          "equal": true,
+          "records_compared": 0
+        },
+        "ScorecardItem": {
+          "equal": true,
+          "records_compared": 0
+        },
+        "SkillRequirement": {
+          "equal": true,
+          "records_compared": 800
+        },
+        "Staff": {
+          "equal": true,
+          "records_compared": 91
+        }
+      },
+      "runs": [
+        {
+          "canonical": {
+            "sha256": "a5294a1fdc94b676a821d16406524d343966c1b485dddf717a0c7559c48b1e4f",
+            "tables": {
+              "Application": {
+                "rows": 8000,
+                "sha256": "e7ad8db692eb52d602b9366d431a4f7f86148f00fad0cfe901ab7b4b4aacefa9"
+              },
+              "ApplicationEvent": {
+                "rows": 12721,
+                "sha256": "2076144001ffea7e19c41450f77c8cccd1492ca69a459f583fc413e0c4ce9acf"
+              },
+              "Approval": {
+                "rows": 200,
+                "sha256": "a3a579ad35aa7836aab0d96f5a3b66e5fe69996e2689557a2d7e94f6a572077f"
+              },
+              "ApprovalEvent": {
+                "rows": 400,
+                "sha256": "250fc6a96bd50ba8d51c438d07c94f20867277face9b62fe1331cee303008a0a"
+              },
+              "Availability": {
+                "rows": 2680,
+                "sha256": "5b69acedf076075b53fe918110177340a708f9fc2a816aac6c1b781f8203690f"
+              },
+              "Candidate": {
+                "rows": 5000,
+                "sha256": "5587bd6230d1512e72a8124addf427cf041b5af75fd2cd55eb22cc3b8adf3bb0"
+              },
+              "CandidateEvent": {
+                "rows": 5083,
+                "sha256": "3d11fe1e3e216663628fe5727c48ee6c706563ce605d6133de38e366189be152"
+              },
+              "CandidateSkill": {
+                "rows": 27061,
+                "sha256": "84f680161b39946ec98664e061764da3392242b2a29bb218383591e93a6f93ec"
+              },
+              "HiringManager": {
+                "rows": 20,
+                "sha256": "9a939034d2dc9a78cb800e0cddd908772f9f07b99905d58279e3084b47330e90"
+              },
+              "Interview": {
+                "rows": 2000,
+                "sha256": "2abadb5841117ab0605b7b7a208ef8462b3d064ad3b06113851ca8843508b2f7"
+              },
+              "InterviewEvent": {
+                "rows": 2609,
+                "sha256": "0c86753114ebeb2cd2f1cdef3f8cbc651b72a06194966c48d60731b5969e0aa3"
+              },
+              "InterviewPanel": {
+                "rows": 200,
+                "sha256": "feb7a5ecb1471b9e4a69f14db43555c28cdcff27a6bcce7daa83dfbef0281f0f"
+              },
+              "InterviewParticipant": {
+                "rows": 5000,
+                "sha256": "92634d5ee3cbdd48bcb474ab01aa11a8f4ac394291c38d9ec4c916d56a156127"
+              },
+              "Offer": {
+                "rows": 0,
+                "sha256": "8ea460ed068c61cf6f033b1aa70292e6c0023c491e41fe66994a6b4143af7bbb"
+              },
+              "OfferEvent": {
+                "rows": 0,
+                "sha256": "3ad5ceb0648316f55107f82e2272fca5b3e9108333bce05d7510367c52623cbe"
+              },
+              "PanelMember": {
+                "rows": 500,
+                "sha256": "50a5148362a7f8a10777e781cb7649f1955d30b93449a675e209b5358b7a46de"
+              },
+              "Requisition": {
+                "rows": 200,
+                "sha256": "0a02fb0494b420f5f26fa34c41d708d3970d74cfe8f4c7c7c6d49a4b4c1bd494"
+              },
+              "RequisitionEvent": {
+                "rows": 800,
+                "sha256": "aaf1b0baab13e8c7888f82ed2124b314528baf5e8d6016d33a5799b5e255c156"
+              },
+              "SchemaMetadata": {
+                "rows": 1,
+                "sha256": "9541dcc0d5c87cf7b709276469debb2a46a8acb8ebe59f94467202082ba19162"
+              },
+              "Scorecard": {
+                "rows": 0,
+                "sha256": "78db10b7894750684e5258cd73a6a4c3c6f6d5b6e54898490353a4aa3c73b3a5"
+              },
+              "ScorecardEvent": {
+                "rows": 0,
+                "sha256": "0b2a4007c687d97ed73b5c168265cb0737e7fd3785923d8b123f509c252d1e04"
+              },
+              "ScorecardItem": {
+                "rows": 0,
+                "sha256": "f35bd6e64fa348639004984cdbc1fbce6131fe74b968972731a118a6bdad79ef"
+              },
+              "SkillRequirement": {
+                "rows": 800,
+                "sha256": "9e74559cbc4b648d05f133b93ac516395352a189866ffa61659bc2edd56fc284"
+              },
+              "Staff": {
+                "rows": 91,
+                "sha256": "207f12721f23883da84938e397263cf06f3333ba5d06d605afd9024de07fcb13"
+              }
+            }
+          },
+          "elapsed_seconds": 9.398940041894093,
+          "timings": {
+            "scheduling_seconds": 5.587379917036742,
+            "validation_seconds": 1.1264086668379605
+          }
+        },
+        {
+          "canonical": {
+            "sha256": "a5294a1fdc94b676a821d16406524d343966c1b485dddf717a0c7559c48b1e4f",
+            "tables": {
+              "Application": {
+                "rows": 8000,
+                "sha256": "e7ad8db692eb52d602b9366d431a4f7f86148f00fad0cfe901ab7b4b4aacefa9"
+              },
+              "ApplicationEvent": {
+                "rows": 12721,
+                "sha256": "2076144001ffea7e19c41450f77c8cccd1492ca69a459f583fc413e0c4ce9acf"
+              },
+              "Approval": {
+                "rows": 200,
+                "sha256": "a3a579ad35aa7836aab0d96f5a3b66e5fe69996e2689557a2d7e94f6a572077f"
+              },
+              "ApprovalEvent": {
+                "rows": 400,
+                "sha256": "250fc6a96bd50ba8d51c438d07c94f20867277face9b62fe1331cee303008a0a"
+              },
+              "Availability": {
+                "rows": 2680,
+                "sha256": "5b69acedf076075b53fe918110177340a708f9fc2a816aac6c1b781f8203690f"
+              },
+              "Candidate": {
+                "rows": 5000,
+                "sha256": "5587bd6230d1512e72a8124addf427cf041b5af75fd2cd55eb22cc3b8adf3bb0"
+              },
+              "CandidateEvent": {
+                "rows": 5083,
+                "sha256": "3d11fe1e3e216663628fe5727c48ee6c706563ce605d6133de38e366189be152"
+              },
+              "CandidateSkill": {
+                "rows": 27061,
+                "sha256": "84f680161b39946ec98664e061764da3392242b2a29bb218383591e93a6f93ec"
+              },
+              "HiringManager": {
+                "rows": 20,
+                "sha256": "9a939034d2dc9a78cb800e0cddd908772f9f07b99905d58279e3084b47330e90"
+              },
+              "Interview": {
+                "rows": 2000,
+                "sha256": "2abadb5841117ab0605b7b7a208ef8462b3d064ad3b06113851ca8843508b2f7"
+              },
+              "InterviewEvent": {
+                "rows": 2609,
+                "sha256": "0c86753114ebeb2cd2f1cdef3f8cbc651b72a06194966c48d60731b5969e0aa3"
+              },
+              "InterviewPanel": {
+                "rows": 200,
+                "sha256": "feb7a5ecb1471b9e4a69f14db43555c28cdcff27a6bcce7daa83dfbef0281f0f"
+              },
+              "InterviewParticipant": {
+                "rows": 5000,
+                "sha256": "92634d5ee3cbdd48bcb474ab01aa11a8f4ac394291c38d9ec4c916d56a156127"
+              },
+              "Offer": {
+                "rows": 0,
+                "sha256": "8ea460ed068c61cf6f033b1aa70292e6c0023c491e41fe66994a6b4143af7bbb"
+              },
+              "OfferEvent": {
+                "rows": 0,
+                "sha256": "3ad5ceb0648316f55107f82e2272fca5b3e9108333bce05d7510367c52623cbe"
+              },
+              "PanelMember": {
+                "rows": 500,
+                "sha256": "50a5148362a7f8a10777e781cb7649f1955d30b93449a675e209b5358b7a46de"
+              },
+              "Requisition": {
+                "rows": 200,
+                "sha256": "0a02fb0494b420f5f26fa34c41d708d3970d74cfe8f4c7c7c6d49a4b4c1bd494"
+              },
+              "RequisitionEvent": {
+                "rows": 800,
+                "sha256": "aaf1b0baab13e8c7888f82ed2124b314528baf5e8d6016d33a5799b5e255c156"
+              },
+              "SchemaMetadata": {
+                "rows": 1,
+                "sha256": "9541dcc0d5c87cf7b709276469debb2a46a8acb8ebe59f94467202082ba19162"
+              },
+              "Scorecard": {
+                "rows": 0,
+                "sha256": "78db10b7894750684e5258cd73a6a4c3c6f6d5b6e54898490353a4aa3c73b3a5"
+              },
+              "ScorecardEvent": {
+                "rows": 0,
+                "sha256": "0b2a4007c687d97ed73b5c168265cb0737e7fd3785923d8b123f509c252d1e04"
+              },
+              "ScorecardItem": {
+                "rows": 0,
+                "sha256": "f35bd6e64fa348639004984cdbc1fbce6131fe74b968972731a118a6bdad79ef"
+              },
+              "SkillRequirement": {
+                "rows": 800,
+                "sha256": "9e74559cbc4b648d05f133b93ac516395352a189866ffa61659bc2edd56fc284"
+              },
+              "Staff": {
+                "rows": 91,
+                "sha256": "207f12721f23883da84938e397263cf06f3333ba5d06d605afd9024de07fcb13"
+              }
+            }
+          },
+          "elapsed_seconds": 9.799881624989212,
+          "timings": {
+            "scheduling_seconds": 6.141418083105236,
+            "validation_seconds": 1.0923493339214474
+          }
+        }
+      ],
+      "summaries_equal": true,
+      "summary": {
+        "applications_per_requisition": {
+          "40": 200
+        },
+        "approved_requisitions": 200,
+        "compensation": {
+          "INR": {
+            "max_upper_minor": 444831700,
+            "mean_lower_minor": 183474504,
+            "mean_upper_minor": 238908698,
+            "min_lower_minor": 77167000,
+            "requisitions": 155
+          },
+          "USD": {
+            "max_upper_minor": 23604700,
+            "mean_lower_minor": 10582220,
+            "mean_upper_minor": 13752553,
+            "min_lower_minor": 5290400,
+            "requisitions": 45
+          }
+        },
+        "config": {
+          "counts": {
+            "Application": 8000,
+            "Candidate": 5000,
+            "Requisition": 200
+          },
+          "logical_origin": 1767225600,
+          "policy_version": 1,
+          "profile": "full",
+          "seed": 20261022
+        },
+        "counts": {
+          "Application": 8000,
+          "ApplicationEvent": 12721,
+          "Approval": 200,
+          "ApprovalEvent": 400,
+          "Availability": 2680,
+          "Candidate": 5000,
+          "CandidateEvent": 5083,
+          "CandidateSkill": 27061,
+          "HiringManager": 20,
+          "Interview": 2000,
+          "InterviewEvent": 2609,
+          "InterviewPanel": 200,
+          "InterviewParticipant": 5000,
+          "Offer": 0,
+          "OfferEvent": 0,
+          "PanelMember": 500,
+          "Requisition": 200,
+          "RequisitionEvent": 800,
+          "SchemaMetadata": 1,
+          "Scorecard": 0,
+          "ScorecardEvent": 0,
+          "ScorecardItem": 0,
+          "SkillRequirement": 800,
+          "Staff": 91
+        },
+        "current_requisition_statuses": {
+          "open": 200
+        },
+        "experience_skill_depth": {
+          "early": {
+            "candidates": 1667,
+            "mean_level_milli": 1238,
+            "skills": 9055
+          },
+          "experienced": {
+            "candidates": 1666,
+            "mean_level_milli": 3243,
+            "skills": 8983
+          },
+          "mid": {
+            "candidates": 1667,
+            "mean_level_milli": 2233,
+            "skills": 9023
+          }
+        },
+        "experience_years": {
+          "0": 560,
+          "1": 569,
+          "10": 187,
+          "11": 193,
+          "12": 200,
+          "13": 179,
+          "14": 168,
+          "15": 183,
+          "2": 538,
+          "3": 395,
+          "4": 393,
+          "5": 414,
+          "6": 465,
+          "7": 184,
+          "8": 205,
+          "9": 167
+        },
+        "fit_categories": {
+          "borderline": 2800,
+          "excellent": 3200,
+          "weak": 2000
+        },
+        "logical_origin_utc": "2026-01-01T00:00:00+00:00",
+        "master_preserved": true,
+        "mean_application_fit_basis_points": 7455,
+        "missing_required_criteria": {
+          "0": 3221,
+          "1": 1521,
+          "2": 1376,
+          "3": 1882
+        },
+        "phase03_canonical": {
+          "sha256": "131e6d27738e28c29b6b79374cf5b9ad24e5d16d704fd01ff826e68f71b0385d",
+          "tables": {
+            "Application": {
+              "rows": 8000,
+              "sha256": "46cf59cc12c363a1cec6a7e46fa0b447ed5f1b7e1610b52c11c20eee19310530"
+            },
+            "ApplicationEvent": {
+              "rows": 8000,
+              "sha256": "f0c3200bc6f065042a3dbd8568ddcaae76f62f681603f98a66dc28b691528144"
+            },
+            "Approval": {
+              "rows": 200,
+              "sha256": "a3a579ad35aa7836aab0d96f5a3b66e5fe69996e2689557a2d7e94f6a572077f"
+            },
+            "ApprovalEvent": {
+              "rows": 400,
+              "sha256": "250fc6a96bd50ba8d51c438d07c94f20867277face9b62fe1331cee303008a0a"
+            },
+            "Availability": {
+              "rows": 0,
+              "sha256": "da4835012134d0999e5dec6d5413085eed696e907db3404433c5d652b3718c78"
+            },
+            "Candidate": {
+              "rows": 5000,
+              "sha256": "6e0126303bf7fdfbf50c5207964f54ea9156f42cbcb64013f5af518ae3b1cbcc"
+            },
+            "CandidateEvent": {
+              "rows": 5000,
+              "sha256": "88ab6bc473b5013e9a6861e02b9689efe843c2db7003df4060595c07a64dfebc"
+            },
+            "CandidateSkill": {
+              "rows": 27061,
+              "sha256": "84f680161b39946ec98664e061764da3392242b2a29bb218383591e93a6f93ec"
+            },
+            "HiringManager": {
+              "rows": 20,
+              "sha256": "9a939034d2dc9a78cb800e0cddd908772f9f07b99905d58279e3084b47330e90"
+            },
+            "Interview": {
+              "rows": 0,
+              "sha256": "889a53b2e153cb73bb20b6fe37d569e0718074a4da58f3a3150b401ab7646014"
+            },
+            "InterviewEvent": {
+              "rows": 0,
+              "sha256": "20c01964c482daf46ee7e8f910ac46433e75b7a198086497c8418ffc7fb4a086"
+            },
+            "InterviewPanel": {
+              "rows": 0,
+              "sha256": "677d218df04dc58471305c01b0fd71927ff17462f14273b8aca858d19b588da1"
+            },
+            "InterviewParticipant": {
+              "rows": 0,
+              "sha256": "f39a562ce7ee03f3fbedd1707448346489ff6d78e24a5107507c5b30a45cb831"
+            },
+            "Offer": {
+              "rows": 0,
+              "sha256": "8ea460ed068c61cf6f033b1aa70292e6c0023c491e41fe66994a6b4143af7bbb"
+            },
+            "OfferEvent": {
+              "rows": 0,
+              "sha256": "3ad5ceb0648316f55107f82e2272fca5b3e9108333bce05d7510367c52623cbe"
+            },
+            "PanelMember": {
+              "rows": 0,
+              "sha256": "220213504eb5cbbce336bc20a49594e1e2c16a00b9d040eef59373dce7b337d7"
+            },
+            "Requisition": {
+              "rows": 200,
+              "sha256": "0a02fb0494b420f5f26fa34c41d708d3970d74cfe8f4c7c7c6d49a4b4c1bd494"
+            },
+            "RequisitionEvent": {
+              "rows": 800,
+              "sha256": "aaf1b0baab13e8c7888f82ed2124b314528baf5e8d6016d33a5799b5e255c156"
+            },
+            "SchemaMetadata": {
+              "rows": 1,
+              "sha256": "9541dcc0d5c87cf7b709276469debb2a46a8acb8ebe59f94467202082ba19162"
+            },
+            "Scorecard": {
+              "rows": 0,
+              "sha256": "78db10b7894750684e5258cd73a6a4c3c6f6d5b6e54898490353a4aa3c73b3a5"
+            },
+            "ScorecardEvent": {
+              "rows": 0,
+              "sha256": "0b2a4007c687d97ed73b5c168265cb0737e7fd3785923d8b123f509c252d1e04"
+            },
+            "ScorecardItem": {
+              "rows": 0,
+              "sha256": "f35bd6e64fa348639004984cdbc1fbce6131fe74b968972731a118a6bdad79ef"
+            },
+            "SkillRequirement": {
+              "rows": 800,
+              "sha256": "9e74559cbc4b648d05f133b93ac516395352a189866ffa61659bc2edd56fc284"
+            },
+            "Staff": {
+              "rows": 24,
+              "sha256": "dd2d65696197acaf16b8cb0bedfca66e06dea7a55cec41b9e025c08341ec1983"
+            }
+          }
+        },
+        "populated_table_counts": {
+          "Application": 8000,
+          "ApplicationEvent": 12721,
+          "Approval": 200,
+          "ApprovalEvent": 400,
+          "Availability": 2680,
+          "Candidate": 5000,
+          "CandidateEvent": 5083,
+          "CandidateSkill": 27061,
+          "HiringManager": 20,
+          "Interview": 2000,
+          "InterviewEvent": 2609,
+          "InterviewPanel": 200,
+          "InterviewParticipant": 5000,
+          "PanelMember": 500,
+          "Requisition": 200,
+          "RequisitionEvent": 800,
+          "SchemaMetadata": 1,
+          "SkillRequirement": 800,
+          "Staff": 91
+        },
+        "proficiency_levels": {
+          "0": 1185,
+          "1": 5708,
+          "2": 9076,
+          "3": 7724,
+          "4": 3368
+        },
+        "role_categories": {
+          "applied_ai": 50,
+          "backend": 50,
+          "data": 50,
+          "integration": 50
+        },
+        "scheduling": {
+          "attempts": {
+            "reschedule": 101,
+            "schedule": 2001
+          },
+          "calendar_end": 1783443600,
+          "calendar_start": 1781049600,
+          "max_probes_one_operation": 132,
+          "planning_probes": 11321,
+          "planning_rejections": {
+            "CANDIDATE_CONFLICT": 35,
+            "INTERVIEWER_CONFLICT": 5946,
+            "INTERVIEWER_UNAVAILABLE": 3240
+          },
+          "policy_version": 1,
+          "pool_size": 67,
+          "rejected_examples": [
+            {
+              "attempt": "review_without_evaluations",
+              "code": "REVIEW_GATE_INCOMPLETE",
+              "state_changed": false
+            },
+            {
+              "attempt": "reschedule_into_busy_panel",
+              "code": "INTERVIEWER_CONFLICT",
+              "state_changed": false
+            },
+            {
+              "attempt": "schedule_into_busy_panel",
+              "code": "INTERVIEWER_CONFLICT",
+              "state_changed": false
+            }
+          ],
+          "statistics": {
+            "application_statuses": {
+              "applied": 5888,
+              "interviewing": 1689,
+              "withdrawn": 423
+            },
+            "application_withdrawals": 423,
+            "candidate_withdrawals": 83,
+            "conflicts": {
+              "active_candidate_overlaps": 0,
+              "active_interviewer_overlaps": 0,
+              "capacity_candidate_overlaps": 0,
+              "capacity_interviewer_overlaps": 0
+            },
+            "durations_seconds": {
+              "1800": 680,
+              "2700": 680,
+              "3600": 640
+            },
+            "interview_statuses": {
+              "cancelled": 411,
+              "completed": 98,
+              "scheduled": 1491
+            },
+            "panel_sizes": {
+              "2": 100,
+              "3": 100
+            },
+            "rescheduled_events": 100,
+            "schedule_dates_utc": {
+              "2026-06-10": 92,
+              "2026-06-11": 137,
+              "2026-06-12": 121,
+              "2026-06-15": 109,
+              "2026-06-16": 101,
+              "2026-06-17": 102,
+              "2026-06-18": 89,
+              "2026-06-19": 89,
+              "2026-06-22": 101,
+              "2026-06-23": 90,
+              "2026-06-24": 101,
+              "2026-06-25": 97,
+              "2026-06-26": 91,
+              "2026-06-29": 101,
+              "2026-06-30": 98,
+              "2026-07-01": 91,
+              "2026-07-02": 101,
+              "2026-07-03": 100,
+              "2026-07-06": 88,
+              "2026-07-07": 101
+            }
+          },
+          "successful_operations": {
+            "application_withdraw": 100,
+            "candidate_withdraw": 83,
+            "complete": 98,
+            "direct_cancel": 100,
+            "reschedule": 100,
+            "schedule": 2000
+          },
+          "target": 2000,
+          "working_days": 20,
+          "working_hours_utc": [
+            9,
+            17
+          ]
+        },
+        "schema_sha256": "75c10e0264a798ff36e6ffae4c076483dc04247e9c8a5051eead036cacab1c6f",
+        "schema_version": 2,
+        "scope": "phase04_interview_lifecycle",
+        "seniority": {
+          "Junior": 68,
+          "Mid": 68,
+          "Senior": 64
+        },
+        "unavailable_metrics": [
+          "review_completion",
+          "offer_outcomes",
+          "anomaly_detection"
+        ],
+        "validation": {
+          "checks": [
+            {
+              "check": "exact_populated_counts",
+              "violations": 0
+            },
+            {
+              "check": "deferred_tables_empty",
+              "violations": 0
+            },
+            {
+              "check": "foreign_keys",
+              "violations": 0
+            },
+            {
+              "check": "sqlite_integrity",
+              "violations": 0
+            },
+            {
+              "check": "primary_keys",
+              "violations": 0
+            },
+            {
+              "check": "required_fields",
+              "violations": 0
+            },
+            {
+              "check": "logical_time_bounds",
+              "violations": 0
+            },
+            {
+              "check": "deterministic_identity_formats",
+              "violations": 0
+            },
+            {
+              "check": "application_pair_uniqueness",
+              "violations": 0
+            },
+            {
+              "check": "phase04_lifecycle_states",
+              "violations": 0
+            },
+            {
+              "check": "active_staff_and_managers",
+              "violations": 0
+            },
+            {
+              "check": "application_chronology",
+              "violations": 0
+            },
+            {
+              "check": "approval_subjects",
+              "violations": 0
+            },
+            {
+              "check": "requisition_approval_histories",
+              "violations": 0
+            },
+            {
+              "check": "requirement_weights_ranges_and_approval_bands",
+              "violations": 0
+            },
+            {
+              "check": "candidate_skill_ranges",
+              "violations": 0
+            },
+            {
+              "check": "candidate_skill_coverage",
+              "violations": 0
+            },
+            {
+              "check": "synthetic_contacts",
+              "violations": 0
+            },
+            {
+              "check": "CandidateEvent_creation_history",
+              "violations": 0
+            },
+            {
+              "check": "ApplicationEvent_creation_history",
+              "violations": 0
+            },
+            {
+              "check": "candidate_experience_history",
+              "violations": 0
+            },
+            {
+              "check": "snapshot_states_times_actors_and_no_truth_labels",
+              "violations": 0
+            },
+            {
+              "check": "exact_interview_count",
+              "violations": 0
+            },
+            {
+              "check": "active_interviewer_overlaps",
+              "violations": 0
+            },
+            {
+              "check": "active_candidate_overlaps",
+              "violations": 0
+            },
+            {
+              "check": "capacity_interviewer_overlaps",
+              "violations": 0
+            },
+            {
+              "check": "capacity_candidate_overlaps",
+              "violations": 0
+            },
+            {
+              "check": "panel_requisition_joins",
+              "violations": 0
+            },
+            {
+              "check": "membership_overlap",
+              "violations": 0
+            },
+            {
+              "check": "active_membership_calendar_participants",
+              "violations": 0
+            },
+            {
+              "check": "active_withdrawal_or_stage_mismatch",
+              "violations": 0
+            },
+            {
+              "check": "global_withdrawal_consistency",
+              "violations": 0
+            },
+            {
+              "check": "intervals_and_states",
+              "violations": 0
+            },
+            {
+              "check": "interview_event_actors",
+              "violations": 0
+            },
+            {
+              "check": "interview_support_id_formats",
+              "violations": 0
+            },
+            {
+              "check": "application_interview_audit_link",
+              "violations": 0
+            },
+            {
+              "check": "application_projection_time",
+              "violations": 0
+            },
+            {
+              "check": "application_time_snapshots",
+              "violations": 0
+            },
+            {
+              "check": "candidate_withdrawal_history",
+              "violations": 0
+            },
+            {
+              "check": "completion_chronology",
+              "violations": 0
+            },
+            {
+              "check": "event_chronology",
+              "violations": 0
+            },
+            {
+              "check": "event_continuity",
+              "violations": 0
+            },
+            {
+              "check": "event_sequence",
+              "violations": 0
+            },
+            {
+              "check": "history_intervals",
+              "violations": 0
+            },
+            {
+              "check": "legal_transitions",
+              "violations": 0
+            },
+            {
+              "check": "participant_recording_time",
+              "violations": 0
+            },
+            {
+              "check": "participant_snapshots",
+              "violations": 0
+            },
+            {
+              "check": "projection_status",
+              "violations": 0
+            },
+            {
+              "check": "reschedule_history",
+              "violations": 0
+            },
+            {
+              "check": "schedule_history",
+              "violations": 0
+            },
+            {
+              "check": "schedule_projection",
+              "violations": 0
+            },
+            {
+              "check": "status_snapshots",
+              "violations": 0
+            },
+            {
+              "check": "workflow_truth_leakage",
+              "violations": 0
+            }
+          ],
+          "passed": true,
+          "slot_error_codes": {}
+        }
+      }
+    },
+    "starter": {
+      "canonical_equal": true,
+      "passed": true,
+      "records": {
+        "Application": {
+          "equal": true,
+          "records_compared": 160
+        },
+        "ApplicationEvent": {
+          "equal": true,
+          "records_compared": 251
+        },
+        "Approval": {
+          "equal": true,
+          "records_compared": 10
+        },
+        "ApprovalEvent": {
+          "equal": true,
+          "records_compared": 20
+        },
+        "Availability": {
+          "equal": true,
+          "records_compared": 320
+        },
+        "Candidate": {
+          "equal": true,
+          "records_compared": 100
+        },
+        "CandidateEvent": {
+          "equal": true,
+          "records_compared": 102
+        },
+        "CandidateSkill": {
+          "equal": true,
+          "records_compared": 522
+        },
+        "HiringManager": {
+          "equal": true,
+          "records_compared": 2
+        },
+        "Interview": {
+          "equal": true,
+          "records_compared": 40
+        },
+        "InterviewEvent": {
+          "equal": true,
+          "records_compared": 50
+        },
+        "InterviewPanel": {
+          "equal": true,
+          "records_compared": 10
+        },
+        "InterviewParticipant": {
+          "equal": true,
+          "records_compared": 96
+        },
+        "Offer": {
+          "equal": true,
+          "records_compared": 0
+        },
+        "OfferEvent": {
+          "equal": true,
+          "records_compared": 0
+        },
+        "PanelMember": {
+          "equal": true,
+          "records_compared": 24
+        },
+        "Requisition": {
+          "equal": true,
+          "records_compared": 10
+        },
+        "RequisitionEvent": {
+          "equal": true,
+          "records_compared": 40
+        },
+        "SchemaMetadata": {
+          "equal": true,
+          "records_compared": 1
+        },
+        "Scorecard": {
+          "equal": true,
+          "records_compared": 0
+        },
+        "ScorecardEvent": {
+          "equal": true,
+          "records_compared": 0
+        },
+        "ScorecardItem": {
+          "equal": true,
+          "records_compared": 0
+        },
+        "SkillRequirement": {
+          "equal": true,
+          "records_compared": 40
+        },
+        "Staff": {
+          "equal": true,
+          "records_compared": 14
+        }
+      },
+      "runs": [
+        {
+          "canonical": {
+            "sha256": "994beef9ac1b45745e423810c08ff58ea589921a69067c4aeeb6c423bfba3b4e",
+            "tables": {
+              "Application": {
+                "rows": 160,
+                "sha256": "4df9c68fec35f0f336c59ff9b7489be3f6dfadb7171e79934e91ca0cdab66763"
+              },
+              "ApplicationEvent": {
+                "rows": 251,
+                "sha256": "2eca6fc4172e26945bc28579ff6f60faba826f489db233ced37dbd69df436226"
+              },
+              "Approval": {
+                "rows": 10,
+                "sha256": "fd1fd7d96608610008fbd86f68b60128d6f435e669b0a1bcae056058460f840f"
+              },
+              "ApprovalEvent": {
+                "rows": 20,
+                "sha256": "ba6ce882cdbedf8ca8ee3f6d2cf72c23797b2005d9a8dc8ec6a9de1f30b1f56f"
+              },
+              "Availability": {
+                "rows": 320,
+                "sha256": "3cf63eee7454076d2fec9f0545d94ce0677068475ba025a4cfeca02a2ac63b46"
+              },
+              "Candidate": {
+                "rows": 100,
+                "sha256": "a091a2900dffc8de383f3df8978e1a4a16818d32dcf03cb2cdc3574f1f1fa08e"
+              },
+              "CandidateEvent": {
+                "rows": 102,
+                "sha256": "9d2d6a5460bb3cb4ce994f3070c7fe485e78e5fece7e3f7bd42508128b8ec6ed"
+              },
+              "CandidateSkill": {
+                "rows": 522,
+                "sha256": "58e3a9dd37be8f7da4a39c3ca75db484e549b10cedd07345507a57738df0e81b"
+              },
+              "HiringManager": {
+                "rows": 2,
+                "sha256": "900b09eae8c98cdae49da417e1641c413f7934cb95f47cec02c08e879847bd76"
+              },
+              "Interview": {
+                "rows": 40,
+                "sha256": "a1bd0882ebc21c26c615b87c61b9a010de1bb440957ec102f8de214446ee8427"
+              },
+              "InterviewEvent": {
+                "rows": 50,
+                "sha256": "41be72501adb3b09e702e91ac99ac9e4980d252377d960f5b72ab74bf2547528"
+              },
+              "InterviewPanel": {
+                "rows": 10,
+                "sha256": "1307798abea1a15931f687427e2978d6ac70d7617e4439ec91a92514325dc09f"
+              },
+              "InterviewParticipant": {
+                "rows": 96,
+                "sha256": "6581c318f8237235abbd58c8a9d5d5c6cfbe9c41f2c96e5aee3dea182b6cdb70"
+              },
+              "Offer": {
+                "rows": 0,
+                "sha256": "8ea460ed068c61cf6f033b1aa70292e6c0023c491e41fe66994a6b4143af7bbb"
+              },
+              "OfferEvent": {
+                "rows": 0,
+                "sha256": "3ad5ceb0648316f55107f82e2272fca5b3e9108333bce05d7510367c52623cbe"
+              },
+              "PanelMember": {
+                "rows": 24,
+                "sha256": "bb61f9fa01be47d588bed15aa35bb5aa17f3d9335cc6084a9d622fcd26603d08"
+              },
+              "Requisition": {
+                "rows": 10,
+                "sha256": "44ac8cab5fe22a83d9c880f03e34b7717b6ac8f2a1d20dfd07319987f6b7dbfb"
+              },
+              "RequisitionEvent": {
+                "rows": 40,
+                "sha256": "6caa3f0f93fa0bce34d018d685e38574791e391acf2002733bf65f3fa010d5d5"
+              },
+              "SchemaMetadata": {
+                "rows": 1,
+                "sha256": "9541dcc0d5c87cf7b709276469debb2a46a8acb8ebe59f94467202082ba19162"
+              },
+              "Scorecard": {
+                "rows": 0,
+                "sha256": "78db10b7894750684e5258cd73a6a4c3c6f6d5b6e54898490353a4aa3c73b3a5"
+              },
+              "ScorecardEvent": {
+                "rows": 0,
+                "sha256": "0b2a4007c687d97ed73b5c168265cb0737e7fd3785923d8b123f509c252d1e04"
+              },
+              "ScorecardItem": {
+                "rows": 0,
+                "sha256": "f35bd6e64fa348639004984cdbc1fbce6131fe74b968972731a118a6bdad79ef"
+              },
+              "SkillRequirement": {
+                "rows": 40,
+                "sha256": "882e9ab27d892efdfe0461847e5ea78948105810196982d0929856b745964da4"
+              },
+              "Staff": {
+                "rows": 14,
+                "sha256": "618711696d7cb28e5df1e59461e0cf32d937da5973caa8a2ac16586d18599cd3"
+              }
+            }
+          },
+          "elapsed_seconds": 0.1489691659808159,
+          "timings": {
+            "scheduling_seconds": 0.07405345817096531,
+            "validation_seconds": 0.017633833922445774
+          }
+        },
+        {
+          "canonical": {
+            "sha256": "994beef9ac1b45745e423810c08ff58ea589921a69067c4aeeb6c423bfba3b4e",
+            "tables": {
+              "Application": {
+                "rows": 160,
+                "sha256": "4df9c68fec35f0f336c59ff9b7489be3f6dfadb7171e79934e91ca0cdab66763"
+              },
+              "ApplicationEvent": {
+                "rows": 251,
+                "sha256": "2eca6fc4172e26945bc28579ff6f60faba826f489db233ced37dbd69df436226"
+              },
+              "Approval": {
+                "rows": 10,
+                "sha256": "fd1fd7d96608610008fbd86f68b60128d6f435e669b0a1bcae056058460f840f"
+              },
+              "ApprovalEvent": {
+                "rows": 20,
+                "sha256": "ba6ce882cdbedf8ca8ee3f6d2cf72c23797b2005d9a8dc8ec6a9de1f30b1f56f"
+              },
+              "Availability": {
+                "rows": 320,
+                "sha256": "3cf63eee7454076d2fec9f0545d94ce0677068475ba025a4cfeca02a2ac63b46"
+              },
+              "Candidate": {
+                "rows": 100,
+                "sha256": "a091a2900dffc8de383f3df8978e1a4a16818d32dcf03cb2cdc3574f1f1fa08e"
+              },
+              "CandidateEvent": {
+                "rows": 102,
+                "sha256": "9d2d6a5460bb3cb4ce994f3070c7fe485e78e5fece7e3f7bd42508128b8ec6ed"
+              },
+              "CandidateSkill": {
+                "rows": 522,
+                "sha256": "58e3a9dd37be8f7da4a39c3ca75db484e549b10cedd07345507a57738df0e81b"
+              },
+              "HiringManager": {
+                "rows": 2,
+                "sha256": "900b09eae8c98cdae49da417e1641c413f7934cb95f47cec02c08e879847bd76"
+              },
+              "Interview": {
+                "rows": 40,
+                "sha256": "a1bd0882ebc21c26c615b87c61b9a010de1bb440957ec102f8de214446ee8427"
+              },
+              "InterviewEvent": {
+                "rows": 50,
+                "sha256": "41be72501adb3b09e702e91ac99ac9e4980d252377d960f5b72ab74bf2547528"
+              },
+              "InterviewPanel": {
+                "rows": 10,
+                "sha256": "1307798abea1a15931f687427e2978d6ac70d7617e4439ec91a92514325dc09f"
+              },
+              "InterviewParticipant": {
+                "rows": 96,
+                "sha256": "6581c318f8237235abbd58c8a9d5d5c6cfbe9c41f2c96e5aee3dea182b6cdb70"
+              },
+              "Offer": {
+                "rows": 0,
+                "sha256": "8ea460ed068c61cf6f033b1aa70292e6c0023c491e41fe66994a6b4143af7bbb"
+              },
+              "OfferEvent": {
+                "rows": 0,
+                "sha256": "3ad5ceb0648316f55107f82e2272fca5b3e9108333bce05d7510367c52623cbe"
+              },
+              "PanelMember": {
+                "rows": 24,
+                "sha256": "bb61f9fa01be47d588bed15aa35bb5aa17f3d9335cc6084a9d622fcd26603d08"
+              },
+              "Requisition": {
+                "rows": 10,
+                "sha256": "44ac8cab5fe22a83d9c880f03e34b7717b6ac8f2a1d20dfd07319987f6b7dbfb"
+              },
+              "RequisitionEvent": {
+                "rows": 40,
+                "sha256": "6caa3f0f93fa0bce34d018d685e38574791e391acf2002733bf65f3fa010d5d5"
+              },
+              "SchemaMetadata": {
+                "rows": 1,
+                "sha256": "9541dcc0d5c87cf7b709276469debb2a46a8acb8ebe59f94467202082ba19162"
+              },
+              "Scorecard": {
+                "rows": 0,
+                "sha256": "78db10b7894750684e5258cd73a6a4c3c6f6d5b6e54898490353a4aa3c73b3a5"
+              },
+              "ScorecardEvent": {
+                "rows": 0,
+                "sha256": "0b2a4007c687d97ed73b5c168265cb0737e7fd3785923d8b123f509c252d1e04"
+              },
+              "ScorecardItem": {
+                "rows": 0,
+                "sha256": "f35bd6e64fa348639004984cdbc1fbce6131fe74b968972731a118a6bdad79ef"
+              },
+              "SkillRequirement": {
+                "rows": 40,
+                "sha256": "882e9ab27d892efdfe0461847e5ea78948105810196982d0929856b745964da4"
+              },
+              "Staff": {
+                "rows": 14,
+                "sha256": "618711696d7cb28e5df1e59461e0cf32d937da5973caa8a2ac16586d18599cd3"
+              }
+            }
+          },
+          "elapsed_seconds": 0.14589470787905157,
+          "timings": {
+            "scheduling_seconds": 0.07651516702026129,
+            "validation_seconds": 0.017303582979366183
+          }
+        }
+      ],
+      "summaries_equal": true,
+      "summary": {
+        "applications_per_requisition": {
+          "16": 10
+        },
+        "approved_requisitions": 10,
+        "compensation": {
+          "INR": {
+            "max_upper_minor": 322143500,
+            "mean_lower_minor": 138120575,
+            "mean_upper_minor": 181226825,
+            "min_lower_minor": 84226700,
+            "requisitions": 8
+          },
+          "USD": {
+            "max_upper_minor": 20980300,
+            "mean_lower_minor": 14261050,
+            "mean_upper_minor": 18236050,
+            "min_lower_minor": 12041800,
+            "requisitions": 2
+          }
+        },
+        "config": {
+          "counts": {
+            "Application": 160,
+            "Candidate": 100,
+            "Requisition": 10
+          },
+          "logical_origin": 1767225600,
+          "policy_version": 1,
+          "profile": "starter",
+          "seed": 20261022
+        },
+        "counts": {
+          "Application": 160,
+          "ApplicationEvent": 251,
+          "Approval": 10,
+          "ApprovalEvent": 20,
+          "Availability": 320,
+          "Candidate": 100,
+          "CandidateEvent": 102,
+          "CandidateSkill": 522,
+          "HiringManager": 2,
+          "Interview": 40,
+          "InterviewEvent": 50,
+          "InterviewPanel": 10,
+          "InterviewParticipant": 96,
+          "Offer": 0,
+          "OfferEvent": 0,
+          "PanelMember": 24,
+          "Requisition": 10,
+          "RequisitionEvent": 40,
+          "SchemaMetadata": 1,
+          "Scorecard": 0,
+          "ScorecardEvent": 0,
+          "ScorecardItem": 0,
+          "SkillRequirement": 40,
+          "Staff": 14
+        },
+        "current_requisition_statuses": {
+          "open": 10
+        },
+        "experience_skill_depth": {
+          "early": {
+            "candidates": 34,
+            "mean_level_milli": 1312,
+            "skills": 179
+          },
+          "experienced": {
+            "candidates": 33,
+            "mean_level_milli": 3228,
+            "skills": 171
+          },
+          "mid": {
+            "candidates": 33,
+            "mean_level_milli": 2250,
+            "skills": 172
+          }
+        },
+        "experience_years": {
+          "0": 11,
+          "1": 10,
+          "10": 1,
+          "11": 3,
+          "12": 1,
+          "13": 2,
+          "14": 4,
+          "15": 7,
+          "2": 13,
+          "3": 8,
+          "4": 12,
+          "5": 7,
+          "6": 6,
+          "7": 3,
+          "8": 5,
+          "9": 7
+        },
+        "fit_categories": {
+          "borderline": 55,
+          "excellent": 48,
+          "weak": 57
+        },
+        "logical_origin_utc": "2026-01-01T00:00:00+00:00",
+        "master_preserved": true,
+        "mean_application_fit_basis_points": 6653,
+        "missing_required_criteria": {
+          "0": 49,
+          "1": 26,
+          "2": 34,
+          "3": 51
+        },
+        "phase03_canonical": {
+          "sha256": "d2e32228ceff587d4bbe36d944a78e902baa0d596fa447a15337d33fb157456d",
+          "tables": {
+            "Application": {
+              "rows": 160,
+              "sha256": "b30fcf94bcb8dd540c47fd9ba7cccba3d4d089d86fb189975cbf8d788efc6b0d"
+            },
+            "ApplicationEvent": {
+              "rows": 160,
+              "sha256": "d0fc5f99927a75845dc6b1b723639c8ac0630bb404c7eff087242124b6509aeb"
+            },
+            "Approval": {
+              "rows": 10,
+              "sha256": "fd1fd7d96608610008fbd86f68b60128d6f435e669b0a1bcae056058460f840f"
+            },
+            "ApprovalEvent": {
+              "rows": 20,
+              "sha256": "ba6ce882cdbedf8ca8ee3f6d2cf72c23797b2005d9a8dc8ec6a9de1f30b1f56f"
+            },
+            "Availability": {
+              "rows": 0,
+              "sha256": "da4835012134d0999e5dec6d5413085eed696e907db3404433c5d652b3718c78"
+            },
+            "Candidate": {
+              "rows": 100,
+              "sha256": "c5eadef0eb07d508d531fa88e2e7884ac6ffce13423c29b08cc9e8e3da1cc744"
+            },
+            "CandidateEvent": {
+              "rows": 100,
+              "sha256": "da887c2fad0adae82d40e40c6077d8ac77ec1061a2a89495f0ffbf257420f162"
+            },
+            "CandidateSkill": {
+              "rows": 522,
+              "sha256": "58e3a9dd37be8f7da4a39c3ca75db484e549b10cedd07345507a57738df0e81b"
+            },
+            "HiringManager": {
+              "rows": 2,
+              "sha256": "900b09eae8c98cdae49da417e1641c413f7934cb95f47cec02c08e879847bd76"
+            },
+            "Interview": {
+              "rows": 0,
+              "sha256": "889a53b2e153cb73bb20b6fe37d569e0718074a4da58f3a3150b401ab7646014"
+            },
+            "InterviewEvent": {
+              "rows": 0,
+              "sha256": "20c01964c482daf46ee7e8f910ac46433e75b7a198086497c8418ffc7fb4a086"
+            },
+            "InterviewPanel": {
+              "rows": 0,
+              "sha256": "677d218df04dc58471305c01b0fd71927ff17462f14273b8aca858d19b588da1"
+            },
+            "InterviewParticipant": {
+              "rows": 0,
+              "sha256": "f39a562ce7ee03f3fbedd1707448346489ff6d78e24a5107507c5b30a45cb831"
+            },
+            "Offer": {
+              "rows": 0,
+              "sha256": "8ea460ed068c61cf6f033b1aa70292e6c0023c491e41fe66994a6b4143af7bbb"
+            },
+            "OfferEvent": {
+              "rows": 0,
+              "sha256": "3ad5ceb0648316f55107f82e2272fca5b3e9108333bce05d7510367c52623cbe"
+            },
+            "PanelMember": {
+              "rows": 0,
+              "sha256": "220213504eb5cbbce336bc20a49594e1e2c16a00b9d040eef59373dce7b337d7"
+            },
+            "Requisition": {
+              "rows": 10,
+              "sha256": "44ac8cab5fe22a83d9c880f03e34b7717b6ac8f2a1d20dfd07319987f6b7dbfb"
+            },
+            "RequisitionEvent": {
+              "rows": 40,
+              "sha256": "6caa3f0f93fa0bce34d018d685e38574791e391acf2002733bf65f3fa010d5d5"
+            },
+            "SchemaMetadata": {
+              "rows": 1,
+              "sha256": "9541dcc0d5c87cf7b709276469debb2a46a8acb8ebe59f94467202082ba19162"
+            },
+            "Scorecard": {
+              "rows": 0,
+              "sha256": "78db10b7894750684e5258cd73a6a4c3c6f6d5b6e54898490353a4aa3c73b3a5"
+            },
+            "ScorecardEvent": {
+              "rows": 0,
+              "sha256": "0b2a4007c687d97ed73b5c168265cb0737e7fd3785923d8b123f509c252d1e04"
+            },
+            "ScorecardItem": {
+              "rows": 0,
+              "sha256": "f35bd6e64fa348639004984cdbc1fbce6131fe74b968972731a118a6bdad79ef"
+            },
+            "SkillRequirement": {
+              "rows": 40,
+              "sha256": "882e9ab27d892efdfe0461847e5ea78948105810196982d0929856b745964da4"
+            },
+            "Staff": {
+              "rows": 6,
+              "sha256": "229d171c6444248f47177802f92408a8a40043c04161358c114ba2b4e2ca958e"
+            }
+          }
+        },
+        "populated_table_counts": {
+          "Application": 160,
+          "ApplicationEvent": 251,
+          "Approval": 10,
+          "ApprovalEvent": 20,
+          "Availability": 320,
+          "Candidate": 100,
+          "CandidateEvent": 102,
+          "CandidateSkill": 522,
+          "HiringManager": 2,
+          "Interview": 40,
+          "InterviewEvent": 50,
+          "InterviewPanel": 10,
+          "InterviewParticipant": 96,
+          "PanelMember": 24,
+          "Requisition": 10,
+          "RequisitionEvent": 40,
+          "SchemaMetadata": 1,
+          "SkillRequirement": 40,
+          "Staff": 14
+        },
+        "proficiency_levels": {
+          "0": 15,
+          "1": 115,
+          "2": 175,
+          "3": 159,
+          "4": 58
+        },
+        "role_categories": {
+          "applied_ai": 2,
+          "backend": 3,
+          "data": 3,
+          "integration": 2
+        },
+        "scheduling": {
+          "attempts": {
+            "reschedule": 3,
+            "schedule": 41
+          },
+          "calendar_end": 1783443600,
+          "calendar_start": 1781049600,
+          "max_probes_one_operation": 7,
+          "planning_probes": 82,
+          "planning_rejections": {
+            "INTERVIEWER_CONFLICT": 2,
+            "INTERVIEWER_UNAVAILABLE": 38
+          },
+          "policy_version": 1,
+          "pool_size": 8,
+          "rejected_examples": [
+            {
+              "attempt": "review_without_evaluations",
+              "code": "REVIEW_GATE_INCOMPLETE",
+              "state_changed": false
+            },
+            {
+              "attempt": "reschedule_into_busy_panel",
+              "code": "INTERVIEWER_CONFLICT",
+              "state_changed": false
+            },
+            {
+              "attempt": "schedule_into_busy_panel",
+              "code": "INTERVIEWER_CONFLICT",
+              "state_changed": false
+            }
+          ],
+          "statistics": {
+            "application_statuses": {
+              "applied": 119,
+              "interviewing": 36,
+              "withdrawn": 5
+            },
+            "application_withdrawals": 5,
+            "candidate_withdrawals": 2,
+            "conflicts": {
+              "active_candidate_overlaps": 0,
+              "active_interviewer_overlaps": 0,
+              "capacity_candidate_overlaps": 0,
+              "capacity_interviewer_overlaps": 0
+            },
+            "durations_seconds": {
+              "1800": 16,
+              "2700": 16,
+              "3600": 8
+            },
+            "interview_statuses": {
+              "cancelled": 6,
+              "completed": 2,
+              "scheduled": 32
+            },
+            "panel_sizes": {
+              "2": 6,
+              "3": 4
+            },
+            "rescheduled_events": 2,
+            "schedule_dates_utc": {
+              "2026-06-11": 3,
+              "2026-06-12": 1,
+              "2026-06-15": 2,
+              "2026-06-16": 2,
+              "2026-06-17": 2,
+              "2026-06-18": 2,
+              "2026-06-19": 3,
+              "2026-06-22": 3,
+              "2026-06-23": 4,
+              "2026-06-24": 3,
+              "2026-06-25": 3,
+              "2026-06-26": 3,
+              "2026-06-29": 2,
+              "2026-06-30": 2,
+              "2026-07-01": 2,
+              "2026-07-02": 1,
+              "2026-07-03": 1,
+              "2026-07-06": 1
+            }
+          },
+          "successful_operations": {
+            "application_withdraw": 2,
+            "candidate_withdraw": 2,
+            "complete": 2,
+            "direct_cancel": 2,
+            "reschedule": 2,
+            "schedule": 40
+          },
+          "target": 40,
+          "working_days": 20,
+          "working_hours_utc": [
+            9,
+            17
+          ]
+        },
+        "schema_sha256": "75c10e0264a798ff36e6ffae4c076483dc04247e9c8a5051eead036cacab1c6f",
+        "schema_version": 2,
+        "scope": "phase04_interview_lifecycle",
+        "seniority": {
+          "Junior": 4,
+          "Mid": 4,
+          "Senior": 2
+        },
+        "unavailable_metrics": [
+          "review_completion",
+          "offer_outcomes",
+          "anomaly_detection"
+        ],
+        "validation": {
+          "checks": [
+            {
+              "check": "exact_populated_counts",
+              "violations": 0
+            },
+            {
+              "check": "deferred_tables_empty",
+              "violations": 0
+            },
+            {
+              "check": "foreign_keys",
+              "violations": 0
+            },
+            {
+              "check": "sqlite_integrity",
+              "violations": 0
+            },
+            {
+              "check": "primary_keys",
+              "violations": 0
+            },
+            {
+              "check": "required_fields",
+              "violations": 0
+            },
+            {
+              "check": "logical_time_bounds",
+              "violations": 0
+            },
+            {
+              "check": "deterministic_identity_formats",
+              "violations": 0
+            },
+            {
+              "check": "application_pair_uniqueness",
+              "violations": 0
+            },
+            {
+              "check": "phase04_lifecycle_states",
+              "violations": 0
+            },
+            {
+              "check": "active_staff_and_managers",
+              "violations": 0
+            },
+            {
+              "check": "application_chronology",
+              "violations": 0
+            },
+            {
+              "check": "approval_subjects",
+              "violations": 0
+            },
+            {
+              "check": "requisition_approval_histories",
+              "violations": 0
+            },
+            {
+              "check": "requirement_weights_ranges_and_approval_bands",
+              "violations": 0
+            },
+            {
+              "check": "candidate_skill_ranges",
+              "violations": 0
+            },
+            {
+              "check": "candidate_skill_coverage",
+              "violations": 0
+            },
+            {
+              "check": "synthetic_contacts",
+              "violations": 0
+            },
+            {
+              "check": "CandidateEvent_creation_history",
+              "violations": 0
+            },
+            {
+              "check": "ApplicationEvent_creation_history",
+              "violations": 0
+            },
+            {
+              "check": "candidate_experience_history",
+              "violations": 0
+            },
+            {
+              "check": "snapshot_states_times_actors_and_no_truth_labels",
+              "violations": 0
+            },
+            {
+              "check": "exact_interview_count",
+              "violations": 0
+            },
+            {
+              "check": "active_interviewer_overlaps",
+              "violations": 0
+            },
+            {
+              "check": "active_candidate_overlaps",
+              "violations": 0
+            },
+            {
+              "check": "capacity_interviewer_overlaps",
+              "violations": 0
+            },
+            {
+              "check": "capacity_candidate_overlaps",
+              "violations": 0
+            },
+            {
+              "check": "panel_requisition_joins",
+              "violations": 0
+            },
+            {
+              "check": "membership_overlap",
+              "violations": 0
+            },
+            {
+              "check": "active_membership_calendar_participants",
+              "violations": 0
+            },
+            {
+              "check": "active_withdrawal_or_stage_mismatch",
+              "violations": 0
+            },
+            {
+              "check": "global_withdrawal_consistency",
+              "violations": 0
+            },
+            {
+              "check": "intervals_and_states",
+              "violations": 0
+            },
+            {
+              "check": "interview_event_actors",
+              "violations": 0
+            },
+            {
+              "check": "interview_support_id_formats",
+              "violations": 0
+            },
+            {
+              "check": "application_interview_audit_link",
+              "violations": 0
+            },
+            {
+              "check": "application_projection_time",
+              "violations": 0
+            },
+            {
+              "check": "application_time_snapshots",
+              "violations": 0
+            },
+            {
+              "check": "candidate_withdrawal_history",
+              "violations": 0
+            },
+            {
+              "check": "completion_chronology",
+              "violations": 0
+            },
+            {
+              "check": "event_chronology",
+              "violations": 0
+            },
+            {
+              "check": "event_continuity",
+              "violations": 0
+            },
+            {
+              "check": "event_sequence",
+              "violations": 0
+            },
+            {
+              "check": "history_intervals",
+              "violations": 0
+            },
+            {
+              "check": "legal_transitions",
+              "violations": 0
+            },
+            {
+              "check": "participant_recording_time",
+              "violations": 0
+            },
+            {
+              "check": "participant_snapshots",
+              "violations": 0
+            },
+            {
+              "check": "projection_status",
+              "violations": 0
+            },
+            {
+              "check": "reschedule_history",
+              "violations": 0
+            },
+            {
+              "check": "schedule_history",
+              "violations": 0
+            },
+            {
+              "check": "schedule_projection",
+              "violations": 0
+            },
+            {
+              "check": "status_snapshots",
+              "violations": 0
+            },
+            {
+              "check": "workflow_truth_leakage",
+              "violations": 0
+            }
+          ],
+          "passed": true,
+          "slot_error_codes": {}
+        }
+      }
+    }
+  },
+  "seed": 20261022
+}

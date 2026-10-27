@@ -1,0 +1,972 @@
+{
+  "counts_by_rule": {
+    "R01": 5,
+    "R02": 10,
+    "R03": 5,
+    "R04": 5,
+    "R05": 5
+  },
+  "findings": [
+    {
+      "affected_entity_id": "OFF-2026-000133",
+      "affected_entity_type": "Offer",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Observed offer amount must not exceed its historically approved same-currency maximum.",
+      "explanation": "Observed amount exceeds the linked approved band.",
+      "finding_id": "FIND-0ecf4488a20e73ad983c5b12",
+      "issue_type": "offer_exceeds_band",
+      "observed_values": {
+        "amount_minor": 222462278,
+        "approved_max_minor": 222452500,
+        "currency": "INR",
+        "excess_minor": 9778
+      },
+      "related_entity_ids": {
+        "application_id": "APP-CAND-001947-REQ-2026-000007",
+        "band_event_id": "REQEV-000027",
+        "requisition_id": "REQ-2026-000007"
+      },
+      "rule_id": "R03",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "INT-2026-000541",
+      "affected_entity_type": "Interview",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Capacity-occupying intervals for one interviewer must not overlap; adjacent intervals are valid.",
+      "explanation": "Both assigned interview intervals overlap under the half-open rule.",
+      "finding_id": "FIND-1351856a9e3d7e0db66b4d5c",
+      "issue_type": "interviewer_double_booked",
+      "observed_values": {
+        "first_end": 1781533800,
+        "first_id": "INT-2026-000541",
+        "first_start": 1781530200,
+        "first_status": "scheduled",
+        "second_end": 1781533800,
+        "second_id": "INT-2026-001741",
+        "second_start": 1781530200,
+        "second_status": "scheduled",
+        "staff_id": "STAFF-000065"
+      },
+      "related_entity_ids": {
+        "interview_ids": [
+          "INT-2026-000541",
+          "INT-2026-001741"
+        ],
+        "staff_id": "STAFF-000065"
+      },
+      "rule_id": "R02",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "INT-2026-000114",
+      "affected_entity_type": "Interview",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Capacity-occupying intervals for one interviewer must not overlap; adjacent intervals are valid.",
+      "explanation": "Both assigned interview intervals overlap under the half-open rule.",
+      "finding_id": "FIND-1978054cec8059b65c848e3e",
+      "issue_type": "interviewer_double_booked",
+      "observed_values": {
+        "first_end": 1782739800,
+        "first_id": "INT-2026-000114",
+        "first_start": 1782737100,
+        "first_status": "scheduled",
+        "second_end": 1782739800,
+        "second_id": "INT-2026-000514",
+        "second_start": 1782737100,
+        "second_status": "scheduled",
+        "staff_id": "STAFF-000057"
+      },
+      "related_entity_ids": {
+        "interview_ids": [
+          "INT-2026-000114",
+          "INT-2026-000514"
+        ],
+        "staff_id": "STAFF-000057"
+      },
+      "rule_id": "R02",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "OFF-2026-000055",
+      "affected_entity_type": "Offer",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Observed offer amount must not exceed its historically approved same-currency maximum.",
+      "explanation": "Observed amount exceeds the linked approved band.",
+      "finding_id": "FIND-25e672537fdd964ddbd34460",
+      "issue_type": "offer_exceeds_band",
+      "observed_values": {
+        "amount_minor": 7651473,
+        "approved_max_minor": 7646200,
+        "currency": "USD",
+        "excess_minor": 5273
+      },
+      "related_entity_ids": {
+        "application_id": "APP-CAND-000788-REQ-2026-000025",
+        "band_event_id": "REQEV-000099",
+        "requisition_id": "REQ-2026-000025"
+      },
+      "rule_id": "R03",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "APP-CAND-000780-REQ-2026-000056",
+      "affected_entity_type": "Application",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Review-dependent stages require every completed, submitted, applicable evaluation and review policy.",
+      "explanation": "Observed advancement is unsupported by required review evidence.",
+      "finding_id": "FIND-27aa6301b1837d55d2f1eb61",
+      "issue_type": "stage_gate_missing_review",
+      "observed_values": {
+        "decision_failure": "REVIEW_GATE_INCOMPLETE: Every assigned reviewer must submit a complete evaluation after completion",
+        "evaluation_states": [
+          {
+            "interview_id": "INT-2026-000856",
+            "interview_status": "completed",
+            "scorecard_id": "SCORE-INT-2026-000856-STAFF-000033",
+            "scorecard_status": "submitted",
+            "staff_id": "STAFF-000033"
+          },
+          {
+            "interview_id": "INT-2026-000856",
+            "interview_status": "completed",
+            "scorecard_id": "SCORE-INT-2026-000856-STAFF-000060",
+            "scorecard_status": "submitted",
+            "staff_id": "STAFF-000060"
+          },
+          {
+            "interview_id": "INT-2026-000856",
+            "interview_status": "completed",
+            "scorecard_id": "SCORE-INT-2026-000856-STAFF-000086",
+            "scorecard_status": "incomplete",
+            "staff_id": "STAFF-000086"
+          }
+        ],
+        "stage": "reviewed"
+      },
+      "related_entity_ids": {
+        "candidate_id": "CAND-000780",
+        "requisition_id": "REQ-2026-000056"
+      },
+      "rule_id": "R01",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "INT-2026-000394",
+      "affected_entity_type": "Interview",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Capacity-occupying intervals for one interviewer must not overlap; adjacent intervals are valid.",
+      "explanation": "Both assigned interview intervals overlap under the half-open rule.",
+      "finding_id": "FIND-2d1682d86392094e54fe6fbb",
+      "issue_type": "interviewer_double_booked",
+      "observed_values": {
+        "first_end": 1782987300,
+        "first_id": "INT-2026-000394",
+        "first_start": 1782985500,
+        "first_status": "scheduled",
+        "second_end": 1782987300,
+        "second_id": "INT-2026-000794",
+        "second_start": 1782985500,
+        "second_status": "scheduled",
+        "staff_id": "STAFF-000070"
+      },
+      "related_entity_ids": {
+        "interview_ids": [
+          "INT-2026-000394",
+          "INT-2026-000794"
+        ],
+        "staff_id": "STAFF-000070"
+      },
+      "rule_id": "R02",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "INT-2026-000840",
+      "affected_entity_type": "Interview",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "No scheduled reservation may remain active after effective candidate/application withdrawal.",
+      "explanation": "Scheduled booking persists after a withdrawal effective before this observation.",
+      "finding_id": "FIND-2dc1e9f1758463f95696642d",
+      "issue_type": "withdrawn_still_scheduled",
+      "observed_values": {
+        "end_at": 1782383400,
+        "start_at": 1782381600,
+        "status": "scheduled",
+        "withdrawals": [
+          {
+            "scope": "candidate",
+            "withdrawn_at": 1784142555
+          }
+        ]
+      },
+      "related_entity_ids": {
+        "application_id": "APP-CAND-002480-REQ-2026-000040",
+        "candidate_id": "CAND-002480"
+      },
+      "rule_id": "R04",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "INT-2026-000394",
+      "affected_entity_type": "Interview",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Capacity-occupying intervals for one interviewer must not overlap; adjacent intervals are valid.",
+      "explanation": "Both assigned interview intervals overlap under the half-open rule.",
+      "finding_id": "FIND-361733f8b819c1b9226b431c",
+      "issue_type": "interviewer_double_booked",
+      "observed_values": {
+        "first_end": 1782987300,
+        "first_id": "INT-2026-000394",
+        "first_start": 1782985500,
+        "first_status": "scheduled",
+        "second_end": 1782987300,
+        "second_id": "INT-2026-000794",
+        "second_start": 1782985500,
+        "second_status": "scheduled",
+        "staff_id": "STAFF-000034"
+      },
+      "related_entity_ids": {
+        "interview_ids": [
+          "INT-2026-000394",
+          "INT-2026-000794"
+        ],
+        "staff_id": "STAFF-000034"
+      },
+      "rule_id": "R02",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "INT-2026-001052",
+      "affected_entity_type": "Interview",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "No scheduled reservation may remain active after effective candidate/application withdrawal.",
+      "explanation": "Scheduled booking persists after a withdrawal effective before this observation.",
+      "finding_id": "FIND-4d4aebe55e229de10a9a85df",
+      "issue_type": "withdrawn_still_scheduled",
+      "observed_values": {
+        "end_at": 1781784000,
+        "start_at": 1781782200,
+        "status": "scheduled",
+        "withdrawals": [
+          {
+            "scope": "application",
+            "withdrawn_at": 1784088726
+          }
+        ]
+      },
+      "related_entity_ids": {
+        "application_id": "APP-CAND-002460-REQ-2026-000052",
+        "candidate_id": "CAND-002460"
+      },
+      "rule_id": "R04",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "OFF-2026-000029",
+      "affected_entity_type": "Offer",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Observed offer amount must not exceed its historically approved same-currency maximum.",
+      "explanation": "Observed amount exceeds the linked approved band.",
+      "finding_id": "FIND-5c0f25679fc6451d77f26b5b",
+      "issue_type": "offer_exceeds_band",
+      "observed_values": {
+        "amount_minor": 269942615,
+        "approved_max_minor": 269932900,
+        "currency": "INR",
+        "excess_minor": 9715
+      },
+      "related_entity_ids": {
+        "application_id": "APP-CAND-000444-REQ-2026-000116",
+        "band_event_id": "REQEV-000463",
+        "requisition_id": "REQ-2026-000116"
+      },
+      "rule_id": "R03",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "INT-2026-000541",
+      "affected_entity_type": "Interview",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Capacity-occupying intervals for one interviewer must not overlap; adjacent intervals are valid.",
+      "explanation": "Both assigned interview intervals overlap under the half-open rule.",
+      "finding_id": "FIND-60e732a24912b9a7911f40a2",
+      "issue_type": "interviewer_double_booked",
+      "observed_values": {
+        "first_end": 1781533800,
+        "first_id": "INT-2026-000541",
+        "first_start": 1781530200,
+        "first_status": "scheduled",
+        "second_end": 1781533800,
+        "second_id": "INT-2026-001741",
+        "second_start": 1781530200,
+        "second_status": "scheduled",
+        "staff_id": "STAFF-000062"
+      },
+      "related_entity_ids": {
+        "interview_ids": [
+          "INT-2026-000541",
+          "INT-2026-001741"
+        ],
+        "staff_id": "STAFF-000062"
+      },
+      "rule_id": "R02",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "INT-2026-000438",
+      "affected_entity_type": "Interview",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Capacity-occupying intervals for one interviewer must not overlap; adjacent intervals are valid.",
+      "explanation": "Both assigned interview intervals overlap under the half-open rule.",
+      "finding_id": "FIND-6699c40af4112c60ea663a39",
+      "issue_type": "interviewer_double_booked",
+      "observed_values": {
+        "first_end": 1781531100,
+        "first_id": "INT-2026-000438",
+        "first_start": 1781529300,
+        "first_status": "scheduled",
+        "second_end": 1781531100,
+        "second_id": "INT-2026-000838",
+        "second_start": 1781529300,
+        "second_status": "scheduled",
+        "staff_id": "STAFF-000034"
+      },
+      "related_entity_ids": {
+        "interview_ids": [
+          "INT-2026-000438",
+          "INT-2026-000838"
+        ],
+        "staff_id": "STAFF-000034"
+      },
+      "rule_id": "R02",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "APP-CAND-001590-REQ-2026-000126",
+      "affected_entity_type": "Application",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Review-dependent stages require every completed, submitted, applicable evaluation and review policy.",
+      "explanation": "Observed advancement is unsupported by required review evidence.",
+      "finding_id": "FIND-70db0acf82c2e4108e9ff9fe",
+      "issue_type": "stage_gate_missing_review",
+      "observed_values": {
+        "decision_failure": "REVIEW_GATE_INCOMPLETE: Every assigned reviewer must submit a complete evaluation after completion",
+        "evaluation_states": [
+          {
+            "interview_id": "INT-2026-000726",
+            "interview_status": "completed",
+            "scorecard_id": "SCORE-INT-2026-000726-STAFF-000048",
+            "scorecard_status": "submitted",
+            "staff_id": "STAFF-000048"
+          },
+          {
+            "interview_id": "INT-2026-000726",
+            "interview_status": "completed",
+            "scorecard_id": "SCORE-INT-2026-000726-STAFF-000066",
+            "scorecard_status": "incomplete",
+            "staff_id": "STAFF-000066"
+          }
+        ],
+        "stage": "reviewed"
+      },
+      "related_entity_ids": {
+        "candidate_id": "CAND-001590",
+        "requisition_id": "REQ-2026-000126"
+      },
+      "rule_id": "R01",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "SCORE-INT-2026-000176-STAFF-000074",
+      "affected_entity_type": "Scorecard",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Each rubric item must be from this interview's applicable requisition and effective version.",
+      "explanation": "Existing criterion reference is semantically irrelevant to this scorecard.",
+      "finding_id": "FIND-7746641661a9be41056ca1bd",
+      "issue_type": "irrelevant_evaluation_criterion",
+      "observed_values": {
+        "criterion_requisition": "REQ-2026-000159",
+        "criterion_version": 1,
+        "interview_id": "INT-2026-000176",
+        "requisition_id": "REQ-2026-000176",
+        "rubric_version": 1,
+        "scorecard_id": "SCORE-INT-2026-000176-STAFF-000074",
+        "skill_requirement_id": "SKILL-000635",
+        "valid_from": 1768123042,
+        "valid_to": null
+      },
+      "related_entity_ids": {
+        "criterion_id": "SKILL-000635",
+        "interview_id": "INT-2026-000176",
+        "requisition_id": "REQ-2026-000176"
+      },
+      "rule_id": "R05",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "OFF-2026-000002",
+      "affected_entity_type": "Offer",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Observed offer amount must not exceed its historically approved same-currency maximum.",
+      "explanation": "Observed amount exceeds the linked approved band.",
+      "finding_id": "FIND-7776847217c19df5ec4c2537",
+      "issue_type": "offer_exceeds_band",
+      "observed_values": {
+        "amount_minor": 130983159,
+        "approved_max_minor": 130982000,
+        "currency": "INR",
+        "excess_minor": 1159
+      },
+      "related_entity_ids": {
+        "application_id": "APP-CAND-000024-REQ-2026-000076",
+        "band_event_id": "REQEV-000303",
+        "requisition_id": "REQ-2026-000076"
+      },
+      "rule_id": "R03",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "SCORE-INT-2026-000976-STAFF-000074",
+      "affected_entity_type": "Scorecard",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Each rubric item must be from this interview's applicable requisition and effective version.",
+      "explanation": "Existing criterion reference is semantically irrelevant to this scorecard.",
+      "finding_id": "FIND-7cc6d198e6674ed647e27965",
+      "issue_type": "irrelevant_evaluation_criterion",
+      "observed_values": {
+        "criterion_requisition": "REQ-2026-000184",
+        "criterion_version": 1,
+        "interview_id": "INT-2026-000976",
+        "requisition_id": "REQ-2026-000176",
+        "rubric_version": 1,
+        "scorecard_id": "SCORE-INT-2026-000976-STAFF-000074",
+        "skill_requirement_id": "SKILL-000734",
+        "valid_from": 1768012583,
+        "valid_to": null
+      },
+      "related_entity_ids": {
+        "criterion_id": "SKILL-000734",
+        "interview_id": "INT-2026-000976",
+        "requisition_id": "REQ-2026-000176"
+      },
+      "rule_id": "R05",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "SCORE-INT-2026-000257-STAFF-000089",
+      "affected_entity_type": "Scorecard",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Each rubric item must be from this interview's applicable requisition and effective version.",
+      "explanation": "Existing criterion reference is semantically irrelevant to this scorecard.",
+      "finding_id": "FIND-8306e0969198eda0af89b281",
+      "issue_type": "irrelevant_evaluation_criterion",
+      "observed_values": {
+        "criterion_requisition": "REQ-2026-000173",
+        "criterion_version": 1,
+        "interview_id": "INT-2026-000257",
+        "requisition_id": "REQ-2026-000057",
+        "rubric_version": 1,
+        "scorecard_id": "SCORE-INT-2026-000257-STAFF-000089",
+        "skill_requirement_id": "SKILL-000692",
+        "valid_from": 1773256942,
+        "valid_to": null
+      },
+      "related_entity_ids": {
+        "criterion_id": "SKILL-000692",
+        "interview_id": "INT-2026-000257",
+        "requisition_id": "REQ-2026-000057"
+      },
+      "rule_id": "R05",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "SCORE-INT-2026-000297-STAFF-000029",
+      "affected_entity_type": "Scorecard",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Each rubric item must be from this interview's applicable requisition and effective version.",
+      "explanation": "Existing criterion reference is semantically irrelevant to this scorecard.",
+      "finding_id": "FIND-85b04d8a771c203ba077868c",
+      "issue_type": "irrelevant_evaluation_criterion",
+      "observed_values": {
+        "criterion_requisition": "REQ-2026-000192",
+        "criterion_version": 1,
+        "interview_id": "INT-2026-000297",
+        "requisition_id": "REQ-2026-000097",
+        "rubric_version": 1,
+        "scorecard_id": "SCORE-INT-2026-000297-STAFF-000029",
+        "skill_requirement_id": "SKILL-000768",
+        "valid_from": 1771239815,
+        "valid_to": null
+      },
+      "related_entity_ids": {
+        "criterion_id": "SKILL-000768",
+        "interview_id": "INT-2026-000297",
+        "requisition_id": "REQ-2026-000097"
+      },
+      "rule_id": "R05",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "OFF-2026-000031",
+      "affected_entity_type": "Offer",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Observed offer amount must not exceed its historically approved same-currency maximum.",
+      "explanation": "Observed amount exceeds the linked approved band.",
+      "finding_id": "FIND-9732039def682d1a3d19a1e6",
+      "issue_type": "offer_exceeds_band",
+      "observed_values": {
+        "amount_minor": 227153971,
+        "approved_max_minor": 227144900,
+        "currency": "INR",
+        "excess_minor": 9071
+      },
+      "related_entity_ids": {
+        "application_id": "APP-CAND-000453-REQ-2026-000005",
+        "band_event_id": "REQEV-000019",
+        "requisition_id": "REQ-2026-000005"
+      },
+      "rule_id": "R03",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "APP-CAND-002304-REQ-2026-000016",
+      "affected_entity_type": "Application",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Review-dependent stages require every completed, submitted, applicable evaluation and review policy.",
+      "explanation": "Observed advancement is unsupported by required review evidence.",
+      "finding_id": "FIND-b8e7804c1eefaef5c0fc68dd",
+      "issue_type": "stage_gate_missing_review",
+      "observed_values": {
+        "decision_failure": "REVIEW_GATE_INCOMPLETE: Every assigned reviewer must submit a complete evaluation after completion",
+        "evaluation_states": [
+          {
+            "interview_id": "INT-2026-001016",
+            "interview_status": "completed",
+            "scorecard_id": "SCORE-INT-2026-001016-STAFF-000049",
+            "scorecard_status": "draft",
+            "staff_id": "STAFF-000049"
+          },
+          {
+            "interview_id": "INT-2026-001016",
+            "interview_status": "completed",
+            "scorecard_id": "SCORE-INT-2026-001016-STAFF-000050",
+            "scorecard_status": "draft",
+            "staff_id": "STAFF-000050"
+          },
+          {
+            "interview_id": "INT-2026-001016",
+            "interview_status": "completed",
+            "scorecard_id": "SCORE-INT-2026-001016-STAFF-000084",
+            "scorecard_status": "draft",
+            "staff_id": "STAFF-000084"
+          }
+        ],
+        "stage": "reviewed"
+      },
+      "related_entity_ids": {
+        "candidate_id": "CAND-002304",
+        "requisition_id": "REQ-2026-000016"
+      },
+      "rule_id": "R01",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "INT-2026-000381",
+      "affected_entity_type": "Interview",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Capacity-occupying intervals for one interviewer must not overlap; adjacent intervals are valid.",
+      "explanation": "Both assigned interview intervals overlap under the half-open rule.",
+      "finding_id": "FIND-bb944bf4257fb1464d4f7bcf",
+      "issue_type": "interviewer_double_booked",
+      "observed_values": {
+        "first_end": 1781194500,
+        "first_id": "INT-2026-000381",
+        "first_start": 1781192700,
+        "first_status": "scheduled",
+        "second_end": 1781194500,
+        "second_id": "INT-2026-001981",
+        "second_start": 1781192700,
+        "second_status": "scheduled",
+        "staff_id": "STAFF-000064"
+      },
+      "related_entity_ids": {
+        "interview_ids": [
+          "INT-2026-000381",
+          "INT-2026-001981"
+        ],
+        "staff_id": "STAFF-000064"
+      },
+      "rule_id": "R02",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "INT-2026-001999",
+      "affected_entity_type": "Interview",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "No scheduled reservation may remain active after effective candidate/application withdrawal.",
+      "explanation": "Scheduled booking persists after a withdrawal effective before this observation.",
+      "finding_id": "FIND-c0193a0ae270d4f06b6a85ac",
+      "issue_type": "withdrawn_still_scheduled",
+      "observed_values": {
+        "end_at": 1781691300,
+        "start_at": 1781688600,
+        "status": "scheduled",
+        "withdrawals": [
+          {
+            "scope": "candidate",
+            "withdrawn_at": 1784115753
+          }
+        ]
+      },
+      "related_entity_ids": {
+        "application_id": "APP-CAND-003039-REQ-2026-000199",
+        "candidate_id": "CAND-003039"
+      },
+      "rule_id": "R04",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "INT-2026-000438",
+      "affected_entity_type": "Interview",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Capacity-occupying intervals for one interviewer must not overlap; adjacent intervals are valid.",
+      "explanation": "Both assigned interview intervals overlap under the half-open rule.",
+      "finding_id": "FIND-c1bd1e9e6078ce60cc030f8a",
+      "issue_type": "interviewer_double_booked",
+      "observed_values": {
+        "first_end": 1781531100,
+        "first_id": "INT-2026-000438",
+        "first_start": 1781529300,
+        "first_status": "scheduled",
+        "second_end": 1781531100,
+        "second_id": "INT-2026-000838",
+        "second_start": 1781529300,
+        "second_status": "scheduled",
+        "staff_id": "STAFF-000084"
+      },
+      "related_entity_ids": {
+        "interview_ids": [
+          "INT-2026-000438",
+          "INT-2026-000838"
+        ],
+        "staff_id": "STAFF-000084"
+      },
+      "rule_id": "R02",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "INT-2026-000114",
+      "affected_entity_type": "Interview",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Capacity-occupying intervals for one interviewer must not overlap; adjacent intervals are valid.",
+      "explanation": "Both assigned interview intervals overlap under the half-open rule.",
+      "finding_id": "FIND-c77d6c257f99ed3e667aaefa",
+      "issue_type": "interviewer_double_booked",
+      "observed_values": {
+        "first_end": 1782739800,
+        "first_id": "INT-2026-000114",
+        "first_start": 1782737100,
+        "first_status": "scheduled",
+        "second_end": 1782739800,
+        "second_id": "INT-2026-000514",
+        "second_start": 1782737100,
+        "second_status": "scheduled",
+        "staff_id": "STAFF-000064"
+      },
+      "related_entity_ids": {
+        "interview_ids": [
+          "INT-2026-000114",
+          "INT-2026-000514"
+        ],
+        "staff_id": "STAFF-000064"
+      },
+      "rule_id": "R02",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "INT-2026-001348",
+      "affected_entity_type": "Interview",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "No scheduled reservation may remain active after effective candidate/application withdrawal.",
+      "explanation": "Scheduled booking persists after a withdrawal effective before this observation.",
+      "finding_id": "FIND-d0f507e2aa183f4e61f6a661",
+      "issue_type": "withdrawn_still_scheduled",
+      "observed_values": {
+        "end_at": 1781692200,
+        "start_at": 1781690400,
+        "status": "scheduled",
+        "withdrawals": [
+          {
+            "scope": "application",
+            "withdrawn_at": 1784138175
+          }
+        ]
+      },
+      "related_entity_ids": {
+        "application_id": "APP-CAND-002552-REQ-2026-000148",
+        "candidate_id": "CAND-002552"
+      },
+      "rule_id": "R04",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "APP-CAND-000897-REQ-2026-000165",
+      "affected_entity_type": "Application",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Review-dependent stages require every completed, submitted, applicable evaluation and review policy.",
+      "explanation": "Observed advancement is unsupported by required review evidence.",
+      "finding_id": "FIND-daa5d1a27f385687913ae186",
+      "issue_type": "stage_gate_missing_review",
+      "observed_values": {
+        "decision_failure": "REVIEW_GATE_INCOMPLETE: Every assigned reviewer must submit a complete evaluation after completion",
+        "evaluation_states": [
+          {
+            "interview_id": "INT-2026-000765",
+            "interview_status": "completed",
+            "scorecard_id": "SCORE-INT-2026-000765-STAFF-000055",
+            "scorecard_status": "draft",
+            "staff_id": "STAFF-000055"
+          },
+          {
+            "interview_id": "INT-2026-000765",
+            "interview_status": "completed",
+            "scorecard_id": "SCORE-INT-2026-000765-STAFF-000056",
+            "scorecard_status": "draft",
+            "staff_id": "STAFF-000056"
+          }
+        ],
+        "stage": "reviewed"
+      },
+      "related_entity_ids": {
+        "candidate_id": "CAND-000897",
+        "requisition_id": "REQ-2026-000165"
+      },
+      "rule_id": "R01",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "SCORE-INT-2026-000725-STAFF-000085",
+      "affected_entity_type": "Scorecard",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Each rubric item must be from this interview's applicable requisition and effective version.",
+      "explanation": "Existing criterion reference is semantically irrelevant to this scorecard.",
+      "finding_id": "FIND-e3d4ce6fae8d9b660372f836",
+      "issue_type": "irrelevant_evaluation_criterion",
+      "observed_values": {
+        "criterion_requisition": "REQ-2026-000035",
+        "criterion_version": 1,
+        "interview_id": "INT-2026-000725",
+        "requisition_id": "REQ-2026-000125",
+        "rubric_version": 1,
+        "scorecard_id": "SCORE-INT-2026-000725-STAFF-000085",
+        "skill_requirement_id": "SKILL-000137",
+        "valid_from": 1772133056,
+        "valid_to": null
+      },
+      "related_entity_ids": {
+        "criterion_id": "SKILL-000137",
+        "interview_id": "INT-2026-000725",
+        "requisition_id": "REQ-2026-000125"
+      },
+      "rule_id": "R05",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "APP-CAND-000075-REQ-2026-000087",
+      "affected_entity_type": "Application",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Review-dependent stages require every completed, submitted, applicable evaluation and review policy.",
+      "explanation": "Observed advancement is unsupported by required review evidence.",
+      "finding_id": "FIND-eac1923957acd4899544cf97",
+      "issue_type": "stage_gate_missing_review",
+      "observed_values": {
+        "decision_failure": "REVIEW_GATE_INCOMPLETE: Every assigned reviewer must submit a complete evaluation after completion",
+        "evaluation_states": [
+          {
+            "interview_id": "INT-2026-000087",
+            "interview_status": "completed",
+            "scorecard_id": "SCORE-INT-2026-000087-STAFF-000043",
+            "scorecard_status": "draft",
+            "staff_id": "STAFF-000043"
+          },
+          {
+            "interview_id": "INT-2026-000087",
+            "interview_status": "completed",
+            "scorecard_id": "SCORE-INT-2026-000087-STAFF-000074",
+            "scorecard_status": "draft",
+            "staff_id": "STAFF-000074"
+          },
+          {
+            "interview_id": "INT-2026-000087",
+            "interview_status": "completed",
+            "scorecard_id": "SCORE-INT-2026-000087-STAFF-000078",
+            "scorecard_status": "draft",
+            "staff_id": "STAFF-000078"
+          }
+        ],
+        "stage": "reviewed"
+      },
+      "related_entity_ids": {
+        "candidate_id": "CAND-000075",
+        "requisition_id": "REQ-2026-000087"
+      },
+      "rule_id": "R01",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "INT-2026-000512",
+      "affected_entity_type": "Interview",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "No scheduled reservation may remain active after effective candidate/application withdrawal.",
+      "explanation": "Scheduled booking persists after a withdrawal effective before this observation.",
+      "finding_id": "FIND-f48dbb7b3c689f427f0f54af",
+      "issue_type": "withdrawn_still_scheduled",
+      "observed_values": {
+        "end_at": 1783097100,
+        "start_at": 1783095300,
+        "status": "scheduled",
+        "withdrawals": [
+          {
+            "scope": "application",
+            "withdrawn_at": 1784105732
+          }
+        ]
+      },
+      "related_entity_ids": {
+        "application_id": "APP-CAND-000728-REQ-2026-000112",
+        "candidate_id": "CAND-000728"
+      },
+      "rule_id": "R04",
+      "severity": "high"
+    },
+    {
+      "affected_entity_id": "INT-2026-000381",
+      "affected_entity_type": "Interview",
+      "evidence_timestamps": [
+        1784160000
+      ],
+      "expected_invariant": "Capacity-occupying intervals for one interviewer must not overlap; adjacent intervals are valid.",
+      "explanation": "Both assigned interview intervals overlap under the half-open rule.",
+      "finding_id": "FIND-f5c7062e54be68b85043dcf4",
+      "issue_type": "interviewer_double_booked",
+      "observed_values": {
+        "first_end": 1781194500,
+        "first_id": "INT-2026-000381",
+        "first_start": 1781192700,
+        "first_status": "scheduled",
+        "second_end": 1781194500,
+        "second_id": "INT-2026-001981",
+        "second_start": 1781192700,
+        "second_status": "scheduled",
+        "staff_id": "STAFF-000057"
+      },
+      "related_entity_ids": {
+        "interview_ids": [
+          "INT-2026-000381",
+          "INT-2026-001981"
+        ],
+        "staff_id": "STAFF-000057"
+      },
+      "rule_id": "R02",
+      "severity": "high"
+    }
+  ],
+  "semantic_valid": false,
+  "structure": {
+    "checks": {
+      "changed_core_counts": 0,
+      "foreign_key_violations": 0,
+      "historical_rows_changed": 0,
+      "integrity_errors": 0,
+      "primary_key_duplicates": 0,
+      "unrelated_table_changes": 0
+    },
+    "constraints": "actual unchanged STRICT/CHECK/FK/unique constraints applied with FK/recursive triggers ON",
+    "counts": {
+      "Application": 8000,
+      "ApplicationEvent": 14843,
+      "Approval": 429,
+      "ApprovalEvent": 858,
+      "Availability": 2680,
+      "Candidate": 5000,
+      "CandidateEvent": 5083,
+      "CandidateSkill": 27061,
+      "HiringManager": 20,
+      "Interview": 2000,
+      "InterviewEvent": 3147,
+      "InterviewPanel": 200,
+      "InterviewParticipant": 5000,
+      "Offer": 229,
+      "OfferEvent": 957,
+      "PanelMember": 500,
+      "Requisition": 200,
+      "RequisitionEvent": 800,
+      "SchemaMetadata": 1,
+      "Scorecard": 1122,
+      "ScorecardEvent": 6066,
+      "ScorecardItem": 4493,
+      "SkillRequirement": 800,
+      "Staff": 91
+    },
+    "observations": 41,
+    "passed": true
+  }
+}

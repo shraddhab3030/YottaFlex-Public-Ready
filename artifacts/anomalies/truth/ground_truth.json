@@ -1,0 +1,752 @@
+[
+  {
+    "affected_entity_id": "APP-CAND-000780-REQ-2026-000056",
+    "affected_entity_type": "Application",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "stage_gate_missing_review",
+    "observed_violation": {
+      "after_status": "reviewed",
+      "before_status": "interviewing",
+      "incomplete_card_ids": [
+        "SCORE-INT-2026-000856-STAFF-000086"
+      ]
+    },
+    "related_entity_ids": {
+      "candidate_id": "CAND-000780",
+      "requisition_id": "REQ-2026-000056"
+    },
+    "rule_id": "R01",
+    "scenario_id": "SCN-07ebbfb1b4dbcd4e24e638b0",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "INT-2026-000114",
+    "affected_entity_type": "Interview",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "interviewer_double_booked",
+    "observed_violation": {
+      "first_interval": [
+        1782737100,
+        1782739800
+      ],
+      "second_interval": [
+        1782737100,
+        1782739800
+      ],
+      "statuses": [
+        "scheduled",
+        "scheduled"
+      ]
+    },
+    "related_entity_ids": {
+      "interview_ids": [
+        "INT-2026-000114",
+        "INT-2026-000514"
+      ],
+      "staff_id": "STAFF-000057"
+    },
+    "rule_id": "R02",
+    "scenario_id": "SCN-0aa2efee0561056b936014cd",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "INT-2026-000381",
+    "affected_entity_type": "Interview",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "interviewer_double_booked",
+    "observed_violation": {
+      "first_interval": [
+        1781192700,
+        1781194500
+      ],
+      "second_interval": [
+        1781192700,
+        1781194500
+      ],
+      "statuses": [
+        "scheduled",
+        "scheduled"
+      ]
+    },
+    "related_entity_ids": {
+      "interview_ids": [
+        "INT-2026-000381",
+        "INT-2026-001981"
+      ],
+      "staff_id": "STAFF-000057"
+    },
+    "rule_id": "R02",
+    "scenario_id": "SCN-1046d2b2572fbf20b9c01d5b",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "INT-2026-000394",
+    "affected_entity_type": "Interview",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "interviewer_double_booked",
+    "observed_violation": {
+      "first_interval": [
+        1782985500,
+        1782987300
+      ],
+      "second_interval": [
+        1782985500,
+        1782987300
+      ],
+      "statuses": [
+        "scheduled",
+        "scheduled"
+      ]
+    },
+    "related_entity_ids": {
+      "interview_ids": [
+        "INT-2026-000394",
+        "INT-2026-000794"
+      ],
+      "staff_id": "STAFF-000034"
+    },
+    "rule_id": "R02",
+    "scenario_id": "SCN-2a2a772145e5f12d5579f283",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "INT-2026-000438",
+    "affected_entity_type": "Interview",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "interviewer_double_booked",
+    "observed_violation": {
+      "first_interval": [
+        1781529300,
+        1781531100
+      ],
+      "second_interval": [
+        1781529300,
+        1781531100
+      ],
+      "statuses": [
+        "scheduled",
+        "scheduled"
+      ]
+    },
+    "related_entity_ids": {
+      "interview_ids": [
+        "INT-2026-000438",
+        "INT-2026-000838"
+      ],
+      "staff_id": "STAFF-000084"
+    },
+    "rule_id": "R02",
+    "scenario_id": "SCN-2d1b0822af1b6e9f01d823b3",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "SCORE-INT-2026-000176-STAFF-000074",
+    "affected_entity_type": "Scorecard",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "irrelevant_evaluation_criterion",
+    "observed_violation": {
+      "criterion_requisition_id": "REQ-2026-000159",
+      "criterion_version": 1,
+      "scorecard_requisition_id": "REQ-2026-000176"
+    },
+    "related_entity_ids": {
+      "criterion_id": "SKILL-000635",
+      "interview_id": "INT-2026-000176",
+      "requisition_id": "REQ-2026-000176"
+    },
+    "rule_id": "R05",
+    "scenario_id": "SCN-2fa7cac30ef2499e042b9b88",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "INT-2026-001052",
+    "affected_entity_type": "Interview",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "withdrawn_still_scheduled",
+    "observed_violation": {
+      "observed_status": "scheduled",
+      "scope": "application",
+      "withdrawn_at": 1784088726
+    },
+    "related_entity_ids": {
+      "application_id": "APP-CAND-002460-REQ-2026-000052",
+      "candidate_id": "CAND-002460"
+    },
+    "rule_id": "R04",
+    "scenario_id": "SCN-44a2296905b1ae98699ab5c2",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "INT-2026-000512",
+    "affected_entity_type": "Interview",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "withdrawn_still_scheduled",
+    "observed_violation": {
+      "observed_status": "scheduled",
+      "scope": "application",
+      "withdrawn_at": 1784105732
+    },
+    "related_entity_ids": {
+      "application_id": "APP-CAND-000728-REQ-2026-000112",
+      "candidate_id": "CAND-000728"
+    },
+    "rule_id": "R04",
+    "scenario_id": "SCN-592ed5018954429bba77c7e7",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "INT-2026-000394",
+    "affected_entity_type": "Interview",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "interviewer_double_booked",
+    "observed_violation": {
+      "first_interval": [
+        1782985500,
+        1782987300
+      ],
+      "second_interval": [
+        1782985500,
+        1782987300
+      ],
+      "statuses": [
+        "scheduled",
+        "scheduled"
+      ]
+    },
+    "related_entity_ids": {
+      "interview_ids": [
+        "INT-2026-000394",
+        "INT-2026-000794"
+      ],
+      "staff_id": "STAFF-000070"
+    },
+    "rule_id": "R02",
+    "scenario_id": "SCN-62ede3b7d23cc43946c7fea6",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "APP-CAND-002304-REQ-2026-000016",
+    "affected_entity_type": "Application",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "stage_gate_missing_review",
+    "observed_violation": {
+      "after_status": "reviewed",
+      "before_status": "interviewing",
+      "incomplete_card_ids": [
+        "SCORE-INT-2026-001016-STAFF-000049",
+        "SCORE-INT-2026-001016-STAFF-000050",
+        "SCORE-INT-2026-001016-STAFF-000084"
+      ]
+    },
+    "related_entity_ids": {
+      "candidate_id": "CAND-002304",
+      "requisition_id": "REQ-2026-000016"
+    },
+    "rule_id": "R01",
+    "scenario_id": "SCN-63cc3872c6c9871cdabad515",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "INT-2026-000840",
+    "affected_entity_type": "Interview",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "withdrawn_still_scheduled",
+    "observed_violation": {
+      "observed_status": "scheduled",
+      "scope": "candidate",
+      "withdrawn_at": 1784142555
+    },
+    "related_entity_ids": {
+      "application_id": "APP-CAND-002480-REQ-2026-000040",
+      "candidate_id": "CAND-002480"
+    },
+    "rule_id": "R04",
+    "scenario_id": "SCN-6864e8437167c0c048bcde70",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "SCORE-INT-2026-000297-STAFF-000029",
+    "affected_entity_type": "Scorecard",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "irrelevant_evaluation_criterion",
+    "observed_violation": {
+      "criterion_requisition_id": "REQ-2026-000192",
+      "criterion_version": 1,
+      "scorecard_requisition_id": "REQ-2026-000097"
+    },
+    "related_entity_ids": {
+      "criterion_id": "SKILL-000768",
+      "interview_id": "INT-2026-000297",
+      "requisition_id": "REQ-2026-000097"
+    },
+    "rule_id": "R05",
+    "scenario_id": "SCN-710041f65318820286497c91",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "OFF-2026-000031",
+    "affected_entity_type": "Offer",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "offer_exceeds_band",
+    "observed_violation": {
+      "approved_max_minor": 227144900,
+      "currency": "INR",
+      "difference_minor": 9071,
+      "observed_amount_minor": 227153971
+    },
+    "related_entity_ids": {
+      "application_id": "APP-CAND-000453-REQ-2026-000005",
+      "band_event_id": "REQEV-000019",
+      "requisition_id": "REQ-2026-000005"
+    },
+    "rule_id": "R03",
+    "scenario_id": "SCN-736838d4a8ebfff9ebd3efdd",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "SCORE-INT-2026-000725-STAFF-000085",
+    "affected_entity_type": "Scorecard",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "irrelevant_evaluation_criterion",
+    "observed_violation": {
+      "criterion_requisition_id": "REQ-2026-000035",
+      "criterion_version": 1,
+      "scorecard_requisition_id": "REQ-2026-000125"
+    },
+    "related_entity_ids": {
+      "criterion_id": "SKILL-000137",
+      "interview_id": "INT-2026-000725",
+      "requisition_id": "REQ-2026-000125"
+    },
+    "rule_id": "R05",
+    "scenario_id": "SCN-77ee6314a929bd9b963500b1",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "OFF-2026-000029",
+    "affected_entity_type": "Offer",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "offer_exceeds_band",
+    "observed_violation": {
+      "approved_max_minor": 269932900,
+      "currency": "INR",
+      "difference_minor": 9715,
+      "observed_amount_minor": 269942615
+    },
+    "related_entity_ids": {
+      "application_id": "APP-CAND-000444-REQ-2026-000116",
+      "band_event_id": "REQEV-000463",
+      "requisition_id": "REQ-2026-000116"
+    },
+    "rule_id": "R03",
+    "scenario_id": "SCN-880d5251813373a3d1f44363",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "INT-2026-000438",
+    "affected_entity_type": "Interview",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "interviewer_double_booked",
+    "observed_violation": {
+      "first_interval": [
+        1781529300,
+        1781531100
+      ],
+      "second_interval": [
+        1781529300,
+        1781531100
+      ],
+      "statuses": [
+        "scheduled",
+        "scheduled"
+      ]
+    },
+    "related_entity_ids": {
+      "interview_ids": [
+        "INT-2026-000438",
+        "INT-2026-000838"
+      ],
+      "staff_id": "STAFF-000034"
+    },
+    "rule_id": "R02",
+    "scenario_id": "SCN-8b0926cd9f98bac30444ebf6",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "INT-2026-001348",
+    "affected_entity_type": "Interview",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "withdrawn_still_scheduled",
+    "observed_violation": {
+      "observed_status": "scheduled",
+      "scope": "application",
+      "withdrawn_at": 1784138175
+    },
+    "related_entity_ids": {
+      "application_id": "APP-CAND-002552-REQ-2026-000148",
+      "candidate_id": "CAND-002552"
+    },
+    "rule_id": "R04",
+    "scenario_id": "SCN-90d9c2865722f5738cdd3302",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "APP-CAND-001590-REQ-2026-000126",
+    "affected_entity_type": "Application",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "stage_gate_missing_review",
+    "observed_violation": {
+      "after_status": "reviewed",
+      "before_status": "interviewing",
+      "incomplete_card_ids": [
+        "SCORE-INT-2026-000726-STAFF-000066"
+      ]
+    },
+    "related_entity_ids": {
+      "candidate_id": "CAND-001590",
+      "requisition_id": "REQ-2026-000126"
+    },
+    "rule_id": "R01",
+    "scenario_id": "SCN-986bea5773e36b82632d9ca2",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "OFF-2026-000133",
+    "affected_entity_type": "Offer",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "offer_exceeds_band",
+    "observed_violation": {
+      "approved_max_minor": 222452500,
+      "currency": "INR",
+      "difference_minor": 9778,
+      "observed_amount_minor": 222462278
+    },
+    "related_entity_ids": {
+      "application_id": "APP-CAND-001947-REQ-2026-000007",
+      "band_event_id": "REQEV-000027",
+      "requisition_id": "REQ-2026-000007"
+    },
+    "rule_id": "R03",
+    "scenario_id": "SCN-9e4ea8e4fa653edafc32716c",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "INT-2026-000114",
+    "affected_entity_type": "Interview",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "interviewer_double_booked",
+    "observed_violation": {
+      "first_interval": [
+        1782737100,
+        1782739800
+      ],
+      "second_interval": [
+        1782737100,
+        1782739800
+      ],
+      "statuses": [
+        "scheduled",
+        "scheduled"
+      ]
+    },
+    "related_entity_ids": {
+      "interview_ids": [
+        "INT-2026-000114",
+        "INT-2026-000514"
+      ],
+      "staff_id": "STAFF-000064"
+    },
+    "rule_id": "R02",
+    "scenario_id": "SCN-a1c753c8dc830d29b056fc5d",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "INT-2026-000381",
+    "affected_entity_type": "Interview",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "interviewer_double_booked",
+    "observed_violation": {
+      "first_interval": [
+        1781192700,
+        1781194500
+      ],
+      "second_interval": [
+        1781192700,
+        1781194500
+      ],
+      "statuses": [
+        "scheduled",
+        "scheduled"
+      ]
+    },
+    "related_entity_ids": {
+      "interview_ids": [
+        "INT-2026-000381",
+        "INT-2026-001981"
+      ],
+      "staff_id": "STAFF-000064"
+    },
+    "rule_id": "R02",
+    "scenario_id": "SCN-b892da1fd620340ea4025880",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "SCORE-INT-2026-000257-STAFF-000089",
+    "affected_entity_type": "Scorecard",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "irrelevant_evaluation_criterion",
+    "observed_violation": {
+      "criterion_requisition_id": "REQ-2026-000173",
+      "criterion_version": 1,
+      "scorecard_requisition_id": "REQ-2026-000057"
+    },
+    "related_entity_ids": {
+      "criterion_id": "SKILL-000692",
+      "interview_id": "INT-2026-000257",
+      "requisition_id": "REQ-2026-000057"
+    },
+    "rule_id": "R05",
+    "scenario_id": "SCN-ba542b081a8037aacf9635ed",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "APP-CAND-000897-REQ-2026-000165",
+    "affected_entity_type": "Application",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "stage_gate_missing_review",
+    "observed_violation": {
+      "after_status": "reviewed",
+      "before_status": "interviewing",
+      "incomplete_card_ids": [
+        "SCORE-INT-2026-000765-STAFF-000055",
+        "SCORE-INT-2026-000765-STAFF-000056"
+      ]
+    },
+    "related_entity_ids": {
+      "candidate_id": "CAND-000897",
+      "requisition_id": "REQ-2026-000165"
+    },
+    "rule_id": "R01",
+    "scenario_id": "SCN-bd3777ea57e5b3cdd4c435d9",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "INT-2026-001999",
+    "affected_entity_type": "Interview",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "withdrawn_still_scheduled",
+    "observed_violation": {
+      "observed_status": "scheduled",
+      "scope": "candidate",
+      "withdrawn_at": 1784115753
+    },
+    "related_entity_ids": {
+      "application_id": "APP-CAND-003039-REQ-2026-000199",
+      "candidate_id": "CAND-003039"
+    },
+    "rule_id": "R04",
+    "scenario_id": "SCN-c69823f9f77c35939463da9b",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "INT-2026-000541",
+    "affected_entity_type": "Interview",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "interviewer_double_booked",
+    "observed_violation": {
+      "first_interval": [
+        1781530200,
+        1781533800
+      ],
+      "second_interval": [
+        1781530200,
+        1781533800
+      ],
+      "statuses": [
+        "scheduled",
+        "scheduled"
+      ]
+    },
+    "related_entity_ids": {
+      "interview_ids": [
+        "INT-2026-000541",
+        "INT-2026-001741"
+      ],
+      "staff_id": "STAFF-000062"
+    },
+    "rule_id": "R02",
+    "scenario_id": "SCN-d0e87b627a6dd4c5f675a8f8",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "OFF-2026-000055",
+    "affected_entity_type": "Offer",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "offer_exceeds_band",
+    "observed_violation": {
+      "approved_max_minor": 7646200,
+      "currency": "USD",
+      "difference_minor": 5273,
+      "observed_amount_minor": 7651473
+    },
+    "related_entity_ids": {
+      "application_id": "APP-CAND-000788-REQ-2026-000025",
+      "band_event_id": "REQEV-000099",
+      "requisition_id": "REQ-2026-000025"
+    },
+    "rule_id": "R03",
+    "scenario_id": "SCN-dd6b42d744e1050e17a043bc",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "APP-CAND-000075-REQ-2026-000087",
+    "affected_entity_type": "Application",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "stage_gate_missing_review",
+    "observed_violation": {
+      "after_status": "reviewed",
+      "before_status": "interviewing",
+      "incomplete_card_ids": [
+        "SCORE-INT-2026-000087-STAFF-000043",
+        "SCORE-INT-2026-000087-STAFF-000074",
+        "SCORE-INT-2026-000087-STAFF-000078"
+      ]
+    },
+    "related_entity_ids": {
+      "candidate_id": "CAND-000075",
+      "requisition_id": "REQ-2026-000087"
+    },
+    "rule_id": "R01",
+    "scenario_id": "SCN-efe6d57d7a46d340ef5c6c8b",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "OFF-2026-000002",
+    "affected_entity_type": "Offer",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "offer_exceeds_band",
+    "observed_violation": {
+      "approved_max_minor": 130982000,
+      "currency": "INR",
+      "difference_minor": 1159,
+      "observed_amount_minor": 130983159
+    },
+    "related_entity_ids": {
+      "application_id": "APP-CAND-000024-REQ-2026-000076",
+      "band_event_id": "REQEV-000303",
+      "requisition_id": "REQ-2026-000076"
+    },
+    "rule_id": "R03",
+    "scenario_id": "SCN-eff945347d34bcf80dc021b8",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "INT-2026-000541",
+    "affected_entity_type": "Interview",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "interviewer_double_booked",
+    "observed_violation": {
+      "first_interval": [
+        1781530200,
+        1781533800
+      ],
+      "second_interval": [
+        1781530200,
+        1781533800
+      ],
+      "statuses": [
+        "scheduled",
+        "scheduled"
+      ]
+    },
+    "related_entity_ids": {
+      "interview_ids": [
+        "INT-2026-000541",
+        "INT-2026-001741"
+      ],
+      "staff_id": "STAFF-000065"
+    },
+    "rule_id": "R02",
+    "scenario_id": "SCN-f6724020312d12f2ac786803",
+    "severity": "high"
+  },
+  {
+    "affected_entity_id": "SCORE-INT-2026-000976-STAFF-000074",
+    "affected_entity_type": "Scorecard",
+    "applicable_timestamp": 1784160000,
+    "deterministic_seed": 20261022,
+    "expected_decision": "flag",
+    "issue_type": "irrelevant_evaluation_criterion",
+    "observed_violation": {
+      "criterion_requisition_id": "REQ-2026-000184",
+      "criterion_version": 1,
+      "scorecard_requisition_id": "REQ-2026-000176"
+    },
+    "related_entity_ids": {
+      "criterion_id": "SKILL-000734",
+      "interview_id": "INT-2026-000976",
+      "requisition_id": "REQ-2026-000176"
+    },
+    "rule_id": "R05",
+    "scenario_id": "SCN-fea9e6b6532033403092549c",
+    "severity": "high"
+  }
+]

@@ -1,0 +1,7 @@
+* text=auto
+*.sh text eol=lf
+*.md text eol=lf
+*.sql text eol=lf
+
+# Preserve exact export/manifest bytes, including embedded CR/LF and gzip headers.
+artifacts/** -text

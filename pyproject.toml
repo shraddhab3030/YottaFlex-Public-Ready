@@ -1,0 +1,9 @@
+[project]
+name = "yottaflex"
+version = "0.0.0"
+description = "Local recruiting challenge - deterministic evaluation and offer workflow"
+requires-python = "==3.14.5"
+dependencies = []
+
+# Source-tree execution via PYTHONPATH=src; no packaging backend/install required.
+# No third-party runtime or test dependency is needed.

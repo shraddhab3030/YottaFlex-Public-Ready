@@ -1,0 +1,147 @@
+{
+  "actual_findings": 30,
+  "baseline_classification": "valid_canonical_baseline",
+  "clean_findings": 0,
+  "evaluation": {
+    "FN": 0,
+    "FP": 0,
+    "TP": 30,
+    "by_issue_type": {
+      "interviewer_double_booked": {
+        "FN": 0,
+        "FP": 0,
+        "TP": 10,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "irrelevant_evaluation_criterion": {
+        "FN": 0,
+        "FP": 0,
+        "TP": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "offer_exceeds_band": {
+        "FN": 0,
+        "FP": 0,
+        "TP": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "stage_gate_missing_review": {
+        "FN": 0,
+        "FP": 0,
+        "TP": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "withdrawn_still_scheduled": {
+        "FN": 0,
+        "FP": 0,
+        "TP": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "by_rule": {
+      "R01": {
+        "FN": 0,
+        "FP": 0,
+        "TP": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "R02": {
+        "FN": 0,
+        "FP": 0,
+        "TP": 10,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "R03": {
+        "FN": 0,
+        "FP": 0,
+        "TP": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "R04": {
+        "FN": 0,
+        "FP": 0,
+        "TP": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "R05": {
+        "FN": 0,
+        "FP": 0,
+        "TP": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "clean_baseline_false_positives": 0,
+    "duplicate_findings": 0,
+    "f1": 1.0,
+    "missed_scenario_ids": [],
+    "precision": 1.0,
+    "recall": 1.0,
+    "rules_with_true_positives": 5,
+    "unexpected_finding_ids": [],
+    "zero_denominators": "undefined precision/recall/F1 are null; F1=2TP/(2TP+FP+FN); no accuracy/TN claim"
+  },
+  "expected_findings": 30,
+  "missed_expected_findings": 0,
+  "observation_classification": "structurally_valid_intentional_semantic_violations",
+  "observed_structure": {
+    "checks": {
+      "changed_core_counts": 0,
+      "foreign_key_violations": 0,
+      "historical_rows_changed": 0,
+      "integrity_errors": 0,
+      "primary_key_duplicates": 0,
+      "unrelated_table_changes": 0
+    },
+    "constraints": "actual unchanged STRICT/CHECK/FK/unique constraints applied with FK/recursive triggers ON",
+    "counts": {
+      "Application": 8000,
+      "ApplicationEvent": 14843,
+      "Approval": 429,
+      "ApprovalEvent": 858,
+      "Availability": 2680,
+      "Candidate": 5000,
+      "CandidateEvent": 5083,
+      "CandidateSkill": 27061,
+      "HiringManager": 20,
+      "Interview": 2000,
+      "InterviewEvent": 3147,
+      "InterviewPanel": 200,
+      "InterviewParticipant": 5000,
+      "Offer": 229,
+      "OfferEvent": 957,
+      "PanelMember": 500,
+      "Requisition": 200,
+      "RequisitionEvent": 800,
+      "SchemaMetadata": 1,
+      "Scorecard": 1122,
+      "ScorecardEvent": 6066,
+      "ScorecardItem": 4493,
+      "SkillRequirement": 800,
+      "Staff": 91
+    },
+    "observations": 41,
+    "passed": true
+  },
+  "semantic_valid": false,
+  "unexpected_findings": 0
+}

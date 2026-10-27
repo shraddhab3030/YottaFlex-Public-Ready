@@ -1,0 +1,49 @@
+[
+  {
+    "control": "upper_bound_offer",
+    "entity_ids": [
+      "OFF-2026-000125"
+    ],
+    "rule_id": "R03"
+  },
+  {
+    "control": "adjacent_interviews",
+    "entity_ids": [
+      "INT-2026-000201",
+      "INT-2026-000401"
+    ],
+    "rule_id": "R02"
+  },
+  {
+    "control": "cancelled_overlap",
+    "entity_ids": [
+      "INT-2026-000201",
+      "INT-2026-000001"
+    ],
+    "rule_id": "R02"
+  },
+  {
+    "control": "applicable_criterion",
+    "entity_ids": [
+      "SCORE-INT-2026-000006-STAFF-000025",
+      "SKILL-000021"
+    ],
+    "rule_id": "R05"
+  },
+  {
+    "control": "completed_before_later_application_withdrawal",
+    "entity_ids": [
+      "INT-2026-000976",
+      "APP-CAND-001772-REQ-2026-000176"
+    ],
+    "rule_id": "R04"
+  },
+  {
+    "control": "unsubmitted_card_without_advancement",
+    "entity_ids": [
+      "SCORE-INT-2026-000976-STAFF-000074",
+      "APP-CAND-001772-REQ-2026-000176"
+    ],
+    "rule_id": "R01"
+  }
+]

@@ -1,0 +1,1365 @@
+{
+  "file_count": 194,
+  "files": [
+    {
+      "bytes": 167,
+      "file": ".gitattributes",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "953ffaa28b9399c30d197f0b5b1b66cb390f468dc5cb910327b6f22e6e02495c"
+    },
+    {
+      "bytes": 703,
+      "file": ".gitignore",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "5f61b187b047b8590ea03bbc2b11de5a4fc268afa72cdcbd2a2112503f7b236d"
+    },
+    {
+      "bytes": 7,
+      "file": ".python-version",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "11418a5b37ee3358335edfaf2c728355c3a955d040aee91fa881842b8891cb9c"
+    },
+    {
+      "bytes": 6630,
+      "file": "AGENTS.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "1cce5721fe2eab07f225edf7439f9823cdb72f7bae9b6345537d5df8c567286d"
+    },
+    {
+      "bytes": 13074,
+      "file": "README.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "100be0d87b376be7c71a399b04670ec4655e796241871f5d4f1ef22e2cead295"
+    },
+    {
+      "bytes": 1844,
+      "file": "artifacts/README.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "e456ec3a95b826d33864e045d1ac5c32c4b00095e1ddaf59e02fa72106e7e40f"
+    },
+    {
+      "bytes": 29296,
+      "file": "artifacts/anomalies/input/observations.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "75e0ef87e9cdeeb69fe5c4c8c5b9b13b217d2f7935097f27d5321670928cc72c"
+    },
+    {
+      "bytes": 13380,
+      "file": "artifacts/anomalies/reports/clean-validation.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "bdbe5c0f0753d1d6b830b98e5af37f353ad3c8347afcdebe2e2b10e5692861f6"
+    },
+    {
+      "bytes": 949,
+      "file": "artifacts/anomalies/reports/controls.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "8446e33195cd2158c57419913937a18a3a34e7028594d80990c4916f3b0eaee4"
+    },
+    {
+      "bytes": 1770,
+      "file": "artifacts/anomalies/reports/evaluation.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "7722e789b14b0f7ca30d6a9075bdb02096944d4ba7afd2a6732d635191dd365d"
+    },
+    {
+      "bytes": 12521,
+      "file": "artifacts/anomalies/reports/experiment.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "8d9df21567d5871f5f3b071e178760c888eb26f3c967caec0101c56842f4f6ef"
+    },
+    {
+      "bytes": 34475,
+      "file": "artifacts/anomalies/reports/findings.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "2d82364a52885e20f37af09402f02f036436184c55310a14feed100efd787059"
+    },
+    {
+      "bytes": 993,
+      "file": "artifacts/anomalies/reports/observation-structure.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "4923ba9effcdc4c084b413ffbcd8beeab7f8e3cb2cb27f8ed0e6f065462f5593"
+    },
+    {
+      "bytes": 3384,
+      "file": "artifacts/anomalies/reports/package-verification.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "41497f39cb453e922a7f444842765dfab67ff74b15d093fa273d41303adf95a8"
+    },
+    {
+      "bytes": 10688,
+      "file": "artifacts/anomalies/truth/ground_truth.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "860469ee6b8ff4ff29f5fbdbe6055e301ee4326c7417b6c079246f33f4bf793d"
+    },
+    {
+      "bytes": 21100,
+      "file": "artifacts/anomalies/truth/ground_truth.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "205b31bdb6abce3c9c84889f658b7e64ac710ef5102dbadf7431307d660e4688"
+    },
+    {
+      "bytes": 46400,
+      "file": "artifacts/baseline/catalog.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "dd67507f1c3ee5c573547fc926f835d437261204ed0dd8a2aaa3a6226f17c750"
+    },
+    {
+      "bytes": 823356,
+      "file": "artifacts/baseline/csv/Application.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "6480b6f817800abe3b6b942f770de332fc2a14119b06dee8a68dc495f281dd54"
+    },
+    {
+      "bytes": 353329,
+      "file": "artifacts/baseline/csv/ApplicationEvent.csv.gz",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "87e4051d5fc10a8e1ec5d39940c20fd7147b024dc4a8b93c05154b5aab36938b"
+    },
+    {
+      "bytes": 56842,
+      "file": "artifacts/baseline/csv/Approval.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "7fe7347202c4c38d3afb2415e14a397ce1e66718bc5e1e719cff4f3f3e4428a5"
+    },
+    {
+      "bytes": 438749,
+      "file": "artifacts/baseline/csv/ApprovalEvent.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "3ffbdde97da2a2466207e0eebe4dcb7dbd3132d947d59c205a9f4530a2fc46f5"
+    },
+    {
+      "bytes": 179618,
+      "file": "artifacts/baseline/csv/Availability.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "1ccbf0e1a85efc56770d222cd6e159f25942e8324a6c1e8ca3592c9d6c6c2666"
+    },
+    {
+      "bytes": 542125,
+      "file": "artifacts/baseline/csv/Candidate.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "9dce37dcdf806575cb302f0bc4b82daba175996def85d8821dd36a47a8518b50"
+    },
+    {
+      "bytes": 1245457,
+      "file": "artifacts/baseline/csv/CandidateEvent.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "e3881b4e15701d8c4f19ce5d9161c464cceb9ff8122de92a14fbd76126f98b0d"
+    },
+    {
+      "bytes": 1063391,
+      "file": "artifacts/baseline/csv/CandidateSkill.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "ed1479d9d460f4446a0134df754ea6536127287c96ae252b40cb5e1bf1c11683"
+    },
+    {
+      "bytes": 1377,
+      "file": "artifacts/baseline/csv/HiringManager.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "1eeedddab36f9a6676497aa4bf79a882d3e996013b3f06cd210f022c8b2de142"
+    },
+    {
+      "bytes": 246089,
+      "file": "artifacts/baseline/csv/Interview.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "392582c7242ce268eb17989583e18ac95a352cb132cfdb79d1898757650ffc03"
+    },
+    {
+      "bytes": 1182091,
+      "file": "artifacts/baseline/csv/InterviewEvent.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "e0b7af50b186e171f8fd2f607c5bc27c7a997c34ad47b211a14044f7b3b54ed7"
+    },
+    {
+      "bytes": 17871,
+      "file": "artifacts/baseline/csv/InterviewPanel.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "dca5d290b35a3d7ed0dc9133536d32d2ff0663658c647de86758433b9f901c48"
+    },
+    {
+      "bytes": 285058,
+      "file": "artifacts/baseline/csv/InterviewParticipant.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "e6f22635e6f56b599662d19119b47e68fc5997215fe5e46d253cc37719dda591"
+    },
+    {
+      "bytes": 31202,
+      "file": "artifacts/baseline/csv/Offer.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "9b29b43c0f02b31e185063c7bc3871a6a33b511aa1c2cc7168db5627d9429ceb"
+    },
+    {
+      "bytes": 849339,
+      "file": "artifacts/baseline/csv/OfferEvent.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "0ad240a2eef52361de28d267edc9066ee1c51654a72ace60876598a95bf55e3d"
+    },
+    {
+      "bytes": 32555,
+      "file": "artifacts/baseline/csv/PanelMember.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "8c654e3dcc950b454b29497c4dc572a3de08fab9314c28ed42925f0d4c6775a5"
+    },
+    {
+      "bytes": 22916,
+      "file": "artifacts/baseline/csv/Requisition.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "b52a3e347c0859d5ea89286480e3503a7da452e7a21479b9587128e0fd33bd8f"
+    },
+    {
+      "bytes": 256067,
+      "file": "artifacts/baseline/csv/RequisitionEvent.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "a9e8c35be2bcec17eb860ebd543b1f76e1b6bed7ec7ed7fa44215e0e54fbb5a1"
+    },
+    {
+      "bytes": 204,
+      "file": "artifacts/baseline/csv/SchemaMetadata.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "ca8e23a1814c234a8a1c84fe891aa5fec4bddd21e4224ee6095aac7999327951"
+    },
+    {
+      "bytes": 131614,
+      "file": "artifacts/baseline/csv/Scorecard.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "68bff2618af5d9a47d10a8cd9eedfd563afd4a9be73c8e5a82e78a6df59d5490"
+    },
+    {
+      "bytes": 270319,
+      "file": "artifacts/baseline/csv/ScorecardEvent.csv.gz",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "65492c23f892e03bdf0e8161dadbf17bf2754e9535c1db646d0435295e173313"
+    },
+    {
+      "bytes": 685282,
+      "file": "artifacts/baseline/csv/ScorecardItem.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "9902f6d535666f3c3eabccc59a821ffb9e327a7890b4a0a32148aa13e00a79f4"
+    },
+    {
+      "bytes": 101983,
+      "file": "artifacts/baseline/csv/SkillRequirement.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "7a517fa9529c74bcdf6357ce78bb16e6954193f1a69529fb3ef74c0537ec0074"
+    },
+    {
+      "bytes": 8118,
+      "file": "artifacts/baseline/csv/Staff.csv",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "f04e1069333529821d18dae2deb4f0d179d190f3aa79342db1080f8a9069da35"
+    },
+    {
+      "bytes": 1487402,
+      "file": "artifacts/baseline/json/Application.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "9c293ed5efb3b24d7bebffb6bb78f907b06e0282f14e2c8dbce47dc0338fc66d"
+    },
+    {
+      "bytes": 386612,
+      "file": "artifacts/baseline/json/ApplicationEvent.json.gz",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "52e7e253bbc588c747777f0f11d6e71fa1be980f4d1fe9dabea80fbfcb3bcce9"
+    },
+    {
+      "bytes": 114371,
+      "file": "artifacts/baseline/json/Approval.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "5c1e3ff8a10e22e0f3d52057e63c0ce622a896996d54e1a6d9528e0ed2f451ba"
+    },
+    {
+      "bytes": 601817,
+      "file": "artifacts/baseline/json/ApprovalEvent.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "0dde6262d6639715c4f5d4780cb48ed2a055265b0d44adaf9d7c5978d749cb15"
+    },
+    {
+      "bytes": 332425,
+      "file": "artifacts/baseline/json/Availability.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "65210422f0bb26091d02d1ab3e7e4ffeec2a6cb08d4c67b1bcc2b820df4cb76e"
+    },
+    {
+      "bytes": 1047003,
+      "file": "artifacts/baseline/json/Candidate.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "19e2f92630191878e4aa0f97532e2ab474ea6f71a7372dbee39010f099bfb007"
+    },
+    {
+      "bytes": 2216359,
+      "file": "artifacts/baseline/json/CandidateEvent.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "6303bac6541f1282fb3eaaf9c76751915de52fabd3c856f4edc0ba813c3cbffc"
+    },
+    {
+      "bytes": 2281185,
+      "file": "artifacts/baseline/json/CandidateSkill.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "f48e68e0a7433ecf570c389d1cb858bd8bbc8c4f8df1dc7b5b0e0c57ae6d1a5b"
+    },
+    {
+      "bytes": 2985,
+      "file": "artifacts/baseline/json/HiringManager.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "7889a790d661ba7a9acbdb8d52367ced1878da86ca00ddb5c3c8a7f5a5009485"
+    },
+    {
+      "bytes": 422133,
+      "file": "artifacts/baseline/json/Interview.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "94b665fcb84c72f97952266cdf03aa7e6e124752669eac67420736a62f6c1d80"
+    },
+    {
+      "bytes": 1783217,
+      "file": "artifacts/baseline/json/InterviewEvent.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "bcb7a7112b1475f968d432a96649f3a03adce6a6ece2c95bffa9affd549d03a2"
+    },
+    {
+      "bytes": 31920,
+      "file": "artifacts/baseline/json/InterviewPanel.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "11f9cf9751c1b26413c7c39868bc9e520690747a62526c8c5890aa9a2e67a06d"
+    },
+    {
+      "bytes": 580113,
+      "file": "artifacts/baseline/json/InterviewParticipant.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "277cd6bf6fa063da45eeb1beb33504d5cc4e68ca747ffc44dcf3e860bc510523"
+    },
+    {
+      "bytes": 64218,
+      "file": "artifacts/baseline/json/Offer.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "7972ae642b122a3db7309c06cfea84ba2120905fa10d295d880cbfbfb09b5eef"
+    },
+    {
+      "bytes": 1028343,
+      "file": "artifacts/baseline/json/OfferEvent.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "214be428a0efb4f613be84c892c4442e8f1ffe018ffa2a42b9259016e4ec1d6d"
+    },
+    {
+      "bytes": 59601,
+      "file": "artifacts/baseline/json/PanelMember.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "85d504701f2a1a5624bb9e5a4e3109ba48969f278ee32fded7b06f819b8b5633"
+    },
+    {
+      "bytes": 49962,
+      "file": "artifacts/baseline/json/Requisition.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "893b0e5781f2e9313d195afd9486c029969fa012b39c4342ee2ffc3b78ba9b0a"
+    },
+    {
+      "bytes": 445718,
+      "file": "artifacts/baseline/json/RequisitionEvent.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "5b1225533462b70532459674dacb0e6cd0b2f38a771b5513f746a7d85ecb33cd"
+    },
+    {
+      "bytes": 314,
+      "file": "artifacts/baseline/json/SchemaMetadata.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "b33e85b2b3329821af2ed60b5004b5a3762a923f02623a2eed7d7177bf70a4b5"
+    },
+    {
+      "bytes": 265824,
+      "file": "artifacts/baseline/json/Scorecard.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "f71331c5093e1bfe4be0de9cc988e5a30a604ccfec12fa9b7a7d6b277b0cfb4d"
+    },
+    {
+      "bytes": 288703,
+      "file": "artifacts/baseline/json/ScorecardEvent.json.gz",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "c3c07d12e9b9571c6e5d9785d55f687fbd9dd8cdcfa1a3ac56f0f3fe237ade00"
+    },
+    {
+      "bytes": 1103722,
+      "file": "artifacts/baseline/json/ScorecardItem.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "ff30ea5c01e3c33b13c2029106c8dd6a6142cbe9fd375ec442aeabb882270492"
+    },
+    {
+      "bytes": 235634,
+      "file": "artifacts/baseline/json/SkillRequirement.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "eeb9d86c4f5a12f36b1125e817b71bdd3fa175106d5ab7ad1ded37e6716242b3"
+    },
+    {
+      "bytes": 14121,
+      "file": "artifacts/baseline/json/Staff.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "bbb15109555de89661ba12a2638f8fca3222016ad43160672b15f098aa38fde8"
+    },
+    {
+      "bytes": 46502,
+      "file": "artifacts/baseline/round-trip-verification.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "df484643e95ec0afb966059a2da582547c1a9c93b53e32bc554d40d327af22bd"
+    },
+    {
+      "bytes": 47328,
+      "file": "artifacts/baseline/sql/schema.sql",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "75c10e0264a798ff36e6ffae4c076483dc04247e9c8a5051eead036cacab1c6f"
+    },
+    {
+      "bytes": 1404045,
+      "file": "artifacts/baseline/sql/seed.sql.gz",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "4dfb3d8d7275b00a5434e6dbeabacf1b257456fee09930530bf9fe8a5c3df7d7"
+    },
+    {
+      "bytes": 12678,
+      "file": "artifacts/baseline/validation-summary.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "19ac81649c5185f14386d13b2c0e0a73200a9b6d548bf15cccaecb7d2800d086"
+    },
+    {
+      "bytes": 117886,
+      "file": "artifacts/data-dictionary.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "1a40941e29a113a0141fae12df0671e82c1616e205d4905c4a10da0152652162"
+    },
+    {
+      "bytes": 20653,
+      "file": "artifacts/manifest.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "7afef9081a4696a10119580ccc1fbd70a22c3ddc3c0d474990a0dc5108e2f119"
+    },
+    {
+      "bytes": 665,
+      "file": "artifacts/privacy-scan.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "fa4f087c1bdbf921a5e9de401a3114663a04a31e609ecb4c66a5ee394db59e35"
+    },
+    {
+      "bytes": 750,
+      "file": "artifacts/provenance.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "97983255773e426efd26f6dbc71c70d1647c96dd8532cca840d4b61d1b0284ed"
+    },
+    {
+      "bytes": 1822,
+      "file": "docs/AI-DISCLOSURE.md",
+      "hash_exclusion": null,
+      "origin": "publication-preparation addition",
+      "sha256": "c82cccc30d3e60e4493cae98779983ae791a36e4333827a02db66b9527415957"
+    },
+    {
+      "bytes": 1433,
+      "file": "docs/LICENSE-STATUS.md",
+      "hash_exclusion": null,
+      "origin": "publication-preparation addition",
+      "sha256": "4f17a5c2a46b23c7f8111ba14734e4a91a3cc2aa44d8b353c79841b27b78e2ee"
+    },
+    {
+      "bytes": 3551,
+      "file": "docs/PERSONAL-VERIFICATION.md",
+      "hash_exclusion": null,
+      "origin": "publication-preparation addition",
+      "sha256": "684341ab9bbe4457300fcec7530c3be39c048938564b98971b54a37edccd8754"
+    },
+    {
+      "bytes": 2727,
+      "file": "docs/ai-history/chatgpt/README.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "4a5ee47742353f417e6ce02f17679f1aaae206789de80c22d5062019e6bf8a5a"
+    },
+    {
+      "bytes": 1207,
+      "file": "docs/assignment/README.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "fe496f1a8bf8b67e59e1c9ec379ebe833ea3132e21d4d24b7b9d428efb37b92d"
+    },
+    {
+      "bytes": 117886,
+      "file": "docs/data-dictionary.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "1a40941e29a113a0141fae12df0671e82c1616e205d4905c4a10da0152652162"
+    },
+    {
+      "bytes": 8244,
+      "file": "docs/phase01/architecture.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "fc7988fd6baecfb193a7ab36a4e3725d8e6cda8856d631633bcc8c39fa592371"
+    },
+    {
+      "bytes": 50367,
+      "file": "docs/phase01/journal.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "fa11e9b47f8af637ffc2e750871361cfd20a0be960e69a69da2b6c3be78c689a"
+    },
+    {
+      "bytes": 7569,
+      "file": "docs/phase01/model.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "08627d35bf36e5165c0cadac0d9c8c98218a22a59e361eb6cfc66b00529443b4"
+    },
+    {
+      "bytes": 44968,
+      "file": "docs/phase01/requirements.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "3365b9e64e1781def71ab8ae3ecb9905cf1fe4dd935c7bfeabfe381ad3ee945f"
+    },
+    {
+      "bytes": 6749,
+      "file": "docs/phase01/risks-and-decisions.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "b0f5d70270fe4c16a1210057ab264d8282299fc26524e0ad01b34ad02ae9cbe6"
+    },
+    {
+      "bytes": 1734,
+      "file": "docs/phase01/sources.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "054e8de74635dca9b8b308880795fe3ebcc0239cdab44c9903d6cea4e8e35be2"
+    },
+    {
+      "bytes": 11520,
+      "file": "docs/phase02/prompt.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "e7959933c14de0ee5e2bda549573dd05100df53a2f89631bbfc137e5b27d1693"
+    },
+    {
+      "bytes": 6902,
+      "file": "docs/phase02/schema-design.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "bce1d9780666089d775916c6e2a86b93a963d43a9be62618a6b836936deb95d2"
+    },
+    {
+      "bytes": 9887,
+      "file": "docs/phase03/data-generation-design.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "d8502e50f0b5d0ac1aecc7bfbd11e7037cd0846490dd8291eeb47cf473e53054"
+    },
+    {
+      "bytes": 16343,
+      "file": "docs/phase03/prompt.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "433e6e2449bab6a456f980c7c914c6e6e75910770078615700930618b4908166"
+    },
+    {
+      "bytes": 35400,
+      "file": "docs/phase03/reproducibility-evidence.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "f67e4ee8290b59c4b0b089ed25887505960aa8bdd813f2d74e8eaf791d144194"
+    },
+    {
+      "bytes": 15805,
+      "file": "docs/phase04/interview-workflow-design.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "60fb3a8ed1bbb69fc6b482c86757bff553071d3a7976c21848cc884469999e6f"
+    },
+    {
+      "bytes": 17183,
+      "file": "docs/phase04/prompt.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "e11457c6fdde63015cf15d454d8a356aaf72876224e2e6dce664587098589170"
+    },
+    {
+      "bytes": 57307,
+      "file": "docs/phase04/reproducibility-evidence.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "1df274f779e5c3cbbd9b4e7a9bdedd6642c43dd5abdd8288f97f4f7ddf8457c0"
+    },
+    {
+      "bytes": 18052,
+      "file": "docs/phase05/evaluation-offer-design.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "97a37dfb942a79f4ece23b4f9f8d0751155bf073bf64ff760994f0b4516d9f24"
+    },
+    {
+      "bytes": 18025,
+      "file": "docs/phase05/prompt.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "0bdf78c7fca17e48239934daf8f6dc57e418b1c4efc0eec7d3376fb00930fc38"
+    },
+    {
+      "bytes": 112588,
+      "file": "docs/phase05/reproducibility-evidence.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "83da0b2991322be294662e27359b182c9c4199159e226fbafaa2d1463ffaf351"
+    },
+    {
+      "bytes": 14800,
+      "file": "docs/phase06/anomaly-design.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "d933c46dd04f515f4391b0468e924dd163be0d88c1f411339262c2ca43a939ed"
+    },
+    {
+      "bytes": 20397,
+      "file": "docs/phase06/prompt.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "b3c4c23b021d36e7c7a3d596eb88b9f754c0c612a906cf5fb8ffe18458e8dadb"
+    },
+    {
+      "bytes": 44753,
+      "file": "docs/phase06/reproducibility-evidence.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "8ee8957f3d4f286e6d79c92d6a4fbacfd95eb8166cb514af389a6e6eaefcd817"
+    },
+    {
+      "bytes": 11487,
+      "file": "docs/phase07/export-and-reproducibility-design.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "0aff1052b06c5e0b21cf54781c92f3f54f375270d09dcce419e0609d54e9aa3d"
+    },
+    {
+      "bytes": 18667,
+      "file": "docs/phase07/prompt.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "5970599c88660b19a8e05c59efa27d80d61e974ea711457f9ef8b7d6ca35810e"
+    },
+    {
+      "bytes": 1532,
+      "file": "docs/phase07/repository-privacy-review.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "2e02030a6f9494e5aac171df873c8c2dcb5711647855969a4b6162eaf64d133e"
+    },
+    {
+      "bytes": 19189,
+      "file": "docs/phase07/reproducibility-evidence.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "4b99cdbd8c69d38d2d41eea6a73a9cd0851016a04c35c216ccaa38cbcba10140"
+    },
+    {
+      "bytes": 19809,
+      "file": "docs/phase07/requirements-acceptance.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "939892e4f4ddce6f30922f69a182ab6629992546ba43170f83192c1bddcd1ec0"
+    },
+    {
+      "bytes": 6191,
+      "file": "docs/phase07/reviewer-verification.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "6226f52d755cba6efe1181995d899fc9ec1d47d1ab843e530fe5dc1186748c1e"
+    },
+    {
+      "bytes": 5748,
+      "file": "docs/phase08/ai-history-audit.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "132ab6379bba5b9db3ce6eeb9694607a427e7c3e7cfc6cd49da78d92c349b14c"
+    },
+    {
+      "bytes": 1581,
+      "file": "docs/phase08/artifact-change-evidence.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "5d790b1af8ff64fa13f1212615ab327079e0cfaf9fcad138ac41e1b3bcc290de"
+    },
+    {
+      "bytes": 2056,
+      "file": "docs/phase08/change-safety-evidence.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "dc598887422d8021b7cfe047d93410245b76a5f04be554542ff7476d844bb8c2"
+    },
+    {
+      "bytes": 3772,
+      "file": "docs/phase08/clean-copy-preparation.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "6b38a4f7abf01e19e07867a1111b7f1ba2731b6123ed90611fe673e9525f965e"
+    },
+    {
+      "bytes": 7140,
+      "file": "docs/phase08/code-review-findings.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "8d39ad654de518115a09064ac8a6b0a66a1db76073f48206108a3c47d3b2ba9d"
+    },
+    {
+      "bytes": 24944,
+      "file": "docs/phase08/dataset-audit-evidence.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "b24f32e4a9ecb8f50e7133d3be06f1678ef7f7f435ca25d9bb4fa273f73c9897"
+    },
+    {
+      "bytes": 8104,
+      "file": "docs/phase08/execution-evidence.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "27423ee46c80cd42fbf9c29fd423c6dcf10ef009baa6e17e4d75b2face0d8eef"
+    },
+    {
+      "bytes": 53998,
+      "file": "docs/phase08/final-requirements-audit.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "5dec6fd346c7b5fd8f7658faeb99798a07d4eb6669e7ab95f79c40fa3857d0b9"
+    },
+    {
+      "bytes": 37301,
+      "file": "docs/phase08/final-requirements-audit.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "5b6e00ce0403aa14950d46ce991798b6321dab31d221314017ecbcd2ff62f3cd"
+    },
+    {
+      "bytes": 5409,
+      "file": "docs/phase08/human-ai-disclosure.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "dcdd8a6254ca7bc68f27d231225045195c65fc91acd4c51e69062f679c6c21b8"
+    },
+    {
+      "bytes": 4824,
+      "file": "docs/phase08/human-verification-checklist.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "51df506a9c55343c1784fbf0d56bc3b2bbcf82dc39e9aac5ba3bfc1bd296da5a"
+    },
+    {
+      "bytes": 62144,
+      "file": "docs/phase08/inspection-inventory.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "2feaed97a8b444961bf8a257aa459ce1991d0c8b3d6957ae197948490c61d973"
+    },
+    {
+      "bytes": 6858,
+      "file": "docs/phase08/interview-walkthrough.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "3d527e398a21233dd9d256ee00134de00a92cd26ab35d6d41e13c092ba34c376"
+    },
+    {
+      "bytes": 1899,
+      "file": "docs/phase08/pre-correction-evidence.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "9a0408629ac1516233566224ada162172ffe90be7b9b420a7051e62e54029bf1"
+    },
+    {
+      "bytes": 5841,
+      "file": "docs/phase08/privacy-and-publication-review.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "ab979cafbe617d468d5eca99eccc9ef10250ff7f613b037d202c5fe67d1638f2"
+    },
+    {
+      "bytes": 18303,
+      "file": "docs/phase08/privacy-history-evidence.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "25881871b809697e41f68a5a95e56a3029b5a3b23211d02f5416a78fc2116c73"
+    },
+    {
+      "bytes": 2639,
+      "file": "docs/phase08/prompt-and-dependency-evidence.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "ee897614927077562a8280492a3802ec89e3ab47de6284c167c7c357787b467a"
+    },
+    {
+      "bytes": 16181,
+      "file": "docs/phase08/prompt.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "e5ca02c03207379ccc4cf01ab357d64b1fc2b2ed51c10bd8be12fc87aaf54e73"
+    },
+    {
+      "bytes": 3810,
+      "file": "docs/phase08/release-readiness-checklist.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "2267780c09f6f1a8becdce609462f36f61d4678ba6977c3c02b150c933211a73"
+    },
+    {
+      "bytes": 19192,
+      "file": "docs/phase08/reproducibility-evidence.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "5e4a5eecf30982717fac7b7e6aad36db27f5d43f7dd5e82a493006b9d6519325"
+    },
+    {
+      "bytes": 1119,
+      "file": "docs/phase08/verification-summary.json",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "eea0ce8d597e9dd3918bddac6b84871cc6b728cfdf2aabf73bef5087570e8a64"
+    },
+    {
+      "bytes": 1485,
+      "file": "docs/publication-preparation/PUBLICATION-CONTEXT.md",
+      "hash_exclusion": null,
+      "origin": "publication-preparation addition",
+      "sha256": "7ff811221c949ed6fc4b8406f21df09aa1db10ef63eedc7e6a9999dc7506c6c7"
+    },
+    {
+      "bytes": 3712,
+      "file": "docs/publication-preparation/SAFE-PUBLISHING-NEXT-STEPS.md",
+      "hash_exclusion": null,
+      "origin": "publication-preparation addition",
+      "sha256": "0957530cbc6c14f5afd35af851e584b7c2ae5183de49cc79424bad261978b83b"
+    },
+    {
+      "bytes": 53634,
+      "file": "docs/publication-preparation/copy-inventory.json",
+      "hash_exclusion": null,
+      "origin": "publication-preparation addition",
+      "sha256": "6e34aa2a944a136ff9607dce797dfe2124e91c37256180c384de059d362e5031"
+    },
+    {
+      "bytes": 623429,
+      "file": "docs/publication-preparation/excluded-inventory.json",
+      "hash_exclusion": null,
+      "origin": "publication-preparation addition",
+      "sha256": "8e7908787d1c55ba05e0c4e1b3e7661354e2478df137a5fd15c66312e4eebc03"
+    },
+    {
+      "bytes": 14441,
+      "file": "docs/publication-preparation/execution-evidence.json",
+      "hash_exclusion": null,
+      "origin": "publication-preparation addition",
+      "sha256": "a6ce65d1fce2c2d34a037fb989af36c3c14558c93c499d9e29c862dc88095027"
+    },
+    {
+      "bytes": null,
+      "file": "docs/publication-preparation/final-file-inventory.json",
+      "hash_exclusion": "self or final report/privacy closure metadata; avoids recursive hashes",
+      "origin": "publication-preparation addition",
+      "sha256": null
+    },
+    {
+      "bytes": 1103,
+      "file": "docs/publication-preparation/identity-and-scanner-checks.json",
+      "hash_exclusion": null,
+      "origin": "publication-preparation addition",
+      "sha256": "393599c658688e067ab44684616cb0c76ce39438c6f5d3630bc264a48500efcb"
+    },
+    {
+      "bytes": 60639,
+      "file": "docs/publication-preparation/original-preservation.json",
+      "hash_exclusion": null,
+      "origin": "publication-preparation addition",
+      "sha256": "8f15ae606688ddc4c3877bfacd9f51d54a6395ed774a9870bfac39945491aafb"
+    },
+    {
+      "bytes": 698,
+      "file": "docs/publication-preparation/privacy-audit.json",
+      "hash_exclusion": "self or final report/privacy closure metadata; avoids recursive hashes",
+      "origin": "publication-preparation addition",
+      "sha256": null
+    },
+    {
+      "bytes": 7986,
+      "file": "docs/publication-preparation/redaction-log.json",
+      "hash_exclusion": null,
+      "origin": "publication-preparation addition",
+      "sha256": "915208991839d425988caa46d8d933d7f0a6c1e9b8f9b7749b6419089e3b12c1"
+    },
+    {
+      "bytes": 3225,
+      "file": "docs/publication-preparation/request.md",
+      "hash_exclusion": null,
+      "origin": "publication-preparation addition",
+      "sha256": "6cd5517bc1dcac6001ab55d030fe1ca3a46cdadf96a574388eb5334fff015f49"
+    },
+    {
+      "bytes": 7774,
+      "file": "docs/publication-preparation/verification-summary.json",
+      "hash_exclusion": null,
+      "origin": "publication-preparation addition",
+      "sha256": "83e57e0cf7b30ef5b828274701db17754b5d07cb8c3d7d16612db892e543790b"
+    },
+    {
+      "bytes": 322,
+      "file": "pyproject.toml",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "6d17287b56b6be6c80993753345bc9751dace9574becdec6151587b25b6f8235"
+    },
+    {
+      "bytes": 12962,
+      "file": "reports/phase01-handoff.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "ec4c6670a8f369a9bd727e2e720a35d47b753a6c9f3ae73c2427a49d0b0a3c60"
+    },
+    {
+      "bytes": 32821,
+      "file": "reports/phase01-resumed-handoff.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "aff6d45a8fd3f73ef7834fdab2be3152b2cc25bf57a3563d035a88a25d6bb23a"
+    },
+    {
+      "bytes": 27006,
+      "file": "reports/phase02-schema-handoff.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "b3437cddcde2fda633e02527d334b7caa3bc0d23e147970fb16238629919e781"
+    },
+    {
+      "bytes": 26587,
+      "file": "reports/phase03-data-generation-handoff.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "ef7e3f14cc93a51abf6975f6bd680e2fa30152027b2271baa1fe093d0e09d402"
+    },
+    {
+      "bytes": 28290,
+      "file": "reports/phase04-interview-workflow-handoff.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "46c352164296ec941c7fa9fdcc80d7b2316b1d059e85e9a739224cd521da8945"
+    },
+    {
+      "bytes": 34381,
+      "file": "reports/phase05-evaluation-offer-handoff.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "2db1c8295f5e32c5f98101b6ad7ac6feef3397eb45dfc85e39d058ec10df821e"
+    },
+    {
+      "bytes": 40149,
+      "file": "reports/phase06-anomaly-ground-truth-handoff.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "caf1a901deff7e6393b75842f24958b36aa33ac2aa2fc4ba0d810c6146fb6265"
+    },
+    {
+      "bytes": 49458,
+      "file": "reports/phase07-export-deliverables-handoff.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "6c168fcdbf58711bf0e9c49bfa3f66edb647605cc931a421b6a6fa65a2c7d981"
+    },
+    {
+      "bytes": 46909,
+      "file": "reports/phase08-final-audit-handoff.md",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "55a75d864ba336b834d8c5e96e39eb8912007c0467db182be5d8dc1385ff15f6"
+    },
+    {
+      "bytes": 33055,
+      "file": "reports/publication-preparation-handoff.md",
+      "hash_exclusion": "self or final report/privacy closure metadata; avoids recursive hashes",
+      "origin": "publication-preparation addition",
+      "sha256": null
+    },
+    {
+      "bytes": 12818,
+      "file": "scripts/audit_dataset.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "c8b7ba688f2bd3e0fa203742479f4496d4e01ba47f702964cd9338cf5fd53a49"
+    },
+    {
+      "bytes": 4519,
+      "file": "scripts/audit_publication_candidate.py",
+      "hash_exclusion": null,
+      "origin": "publication-preparation addition",
+      "sha256": "2239b459e55d2bd2fd5fb9f80802aa64aa4de46a45365018ae8ac6ae41f15081"
+    },
+    {
+      "bytes": 5454,
+      "file": "scripts/audit_repository_privacy.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "a6608fdb139bc3c1553260c34cfe2e0a5e0069780789e363d5dd6201fcf611f3"
+    },
+    {
+      "bytes": 12301,
+      "file": "scripts/build_data_dictionary.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "caf5ec246e8250d40f8022094a4e88c551a192b572a633786cfa2953d8184784"
+    },
+    {
+      "bytes": 4627,
+      "file": "scripts/check_foundation.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "27a5c73276b9fd9347916652897e9b6843edbc0f2362de427568a69f4090ec8d"
+    },
+    {
+      "bytes": 2206,
+      "file": "scripts/smoke.sh",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "df109fedd7c293caea040339507d8bae36d1afc48b0f395263364d10a30a48c7"
+    },
+    {
+      "bytes": 3419,
+      "file": "scripts/verify_anomaly_reproducibility.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "14eb37e9c0ec0b7f0968cda29bf856d43a406f029e10420bf1313d2a20ede1e0"
+    },
+    {
+      "bytes": 3199,
+      "file": "scripts/verify_deliverable_reproducibility.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "aee0f2db2835163655f31629acdde035e7fec20c0b3eb80735d73791e8603fa7"
+    },
+    {
+      "bytes": 4438,
+      "file": "scripts/verify_generation_reproducibility.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "9e64d0246e6b2060e50fafa4737721d2279a611fa19fae1ccd8059d3268ca44f"
+    },
+    {
+      "bytes": 82,
+      "file": "src/yottaflex/__init__.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "6e1a4d244d7836a6cd930303b7264ab13768335887b6a1ac014755f2c3f60f03"
+    },
+    {
+      "bytes": 6622,
+      "file": "src/yottaflex/anomalies.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "75171688857926a90bab4f22bf4f70a2897f1b834eba9843a8fbd0580d37ae93"
+    },
+    {
+      "bytes": 3247,
+      "file": "src/yottaflex/anomaly_evaluation.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "dd79cf7c472482744eddefab887d70513bad5e740332771ca991b612a461a38a"
+    },
+    {
+      "bytes": 12875,
+      "file": "src/yottaflex/anomaly_injection.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "d6f4771588e8d0c918fbab068cb045e19c1d42365a085883f4857f3eaab76927"
+    },
+    {
+      "bytes": 337,
+      "file": "src/yottaflex/anomaly_rules.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "d80d2a5b343ee906d32c1e4ee334a3093b8b136696e9dfaef56ea9fea8e13670"
+    },
+    {
+      "bytes": 1429,
+      "file": "src/yottaflex/anomaly_truth.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "4c723c6609b76ba0c5db3a9f173cbef4b36fb2988a1561a556ddd6b733925d3c"
+    },
+    {
+      "bytes": 1700,
+      "file": "src/yottaflex/canonical.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "c439db79a2643e00a93e8a5bad416f204e902576bf6e037b92f753885f9a9a46"
+    },
+    {
+      "bytes": 4763,
+      "file": "src/yottaflex/db.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "41dd43575c5e49a2948f56782c308f8d7ff1f0e87126eebd6dc3cc69ec18f5e7"
+    },
+    {
+      "bytes": 19046,
+      "file": "src/yottaflex/deliverables.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "bc728ca11d3e22bd6ac62d1699b7a62ea34d1df518a20981dca941f50ff980b9"
+    },
+    {
+      "bytes": 8638,
+      "file": "src/yottaflex/detector.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "7b69e5230135f5e89cf7aed3ddff20e56a541b59596278ae8c472b0f57f01d24"
+    },
+    {
+      "bytes": 14969,
+      "file": "src/yottaflex/evaluation.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "a2905d15720b1319697d682e5f54af8a421e5fdae9af2538d9203c414c080679"
+    },
+    {
+      "bytes": 18890,
+      "file": "src/yottaflex/evaluation_checks.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "62c07fef9592377d6bcbc912e0637586ef6a8dfe9540c3996c38082cafd8d190"
+    },
+    {
+      "bytes": 8866,
+      "file": "src/yottaflex/evaluation_generation.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "c458e7604d9ebb9b97fd76f946cad2e56f41dfa66cf54f6ff03c6f05a263deab"
+    },
+    {
+      "bytes": 17014,
+      "file": "src/yottaflex/exports.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "d72cc672a65d0344a5a6f81f8b6ae5319a162392a68d64a6c5a02dc73249e73c"
+    },
+    {
+      "bytes": 20390,
+      "file": "src/yottaflex/generate.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "5ef462416069a1de33280253c86439f4209ea81b0b1728d47d42f6c5b80d3745"
+    },
+    {
+      "bytes": 18406,
+      "file": "src/yottaflex/generation_checks.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "a97a5f70a1abbb28bf6b7eb5d5c1983a41437dea8875d63cddf083b1e86bdd4d"
+    },
+    {
+      "bytes": 3410,
+      "file": "src/yottaflex/generation_config.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "f270270c8e81baa3b36cf8193ef3242fe71a2f77e6bd32ffa9204ada4f78775a"
+    },
+    {
+      "bytes": 1365,
+      "file": "src/yottaflex/ids.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "e841e70fadb391031f8d799cfc88bbcf54e008bfe2d143634a07d445d1f773eb"
+    },
+    {
+      "bytes": 12888,
+      "file": "src/yottaflex/interview_generation.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "cab96d1e0663a427c27cef9196f142dd17ae013e4d39fdc2ce789fd73b8b2c9a"
+    },
+    {
+      "bytes": 1664,
+      "file": "src/yottaflex/matching.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "83062586f0718e222c9583f0d409b6340fb47ac3c8f33cb215db0df1f52a26b4"
+    },
+    {
+      "bytes": 7289,
+      "file": "src/yottaflex/observations.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "8919f508c5acc635a61e68cf13dfbdf78f67fa6a7df79f3ecfb04b66ed6cb340"
+    },
+    {
+      "bytes": 13598,
+      "file": "src/yottaflex/offers.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "d96ad9090b0e3f71a2d9e6bd5ab567e0a327e8cc94419c890c534d4a9131a3a9"
+    },
+    {
+      "bytes": 3065,
+      "file": "src/yottaflex/privacy.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "7f816527ed10222805bf9efc7e0ef79938ea863cc2734563a13752ce2272cbfc"
+    },
+    {
+      "bytes": 47328,
+      "file": "src/yottaflex/schema.sql",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "75c10e0264a798ff36e6ffae4c076483dc04247e9c8a5051eead036cacab1c6f"
+    },
+    {
+      "bytes": 22829,
+      "file": "src/yottaflex/workflow.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "e504f895f7767dd8c3fd43565b7a099cae993cb0e65b652438f39e0d2ac20a22"
+    },
+    {
+      "bytes": 15717,
+      "file": "src/yottaflex/workflow_checks.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "8021f1a735b8c69b7bad9ad1372e01f082379f0bf2a6a960a9a96110d985b541"
+    },
+    {
+      "bytes": 4444,
+      "file": "tests/fixtures.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "25664ee13cae19db889a8632335a3135274df6a7315be0a3840b2254641adcf8"
+    },
+    {
+      "bytes": 20976,
+      "file": "tests/test_anomalies.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "073b488d533780360697f4bd48f228877a8abe85847dcc8e4b99a1681d5d1545"
+    },
+    {
+      "bytes": 1563,
+      "file": "tests/test_audit_regressions.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "2911298e09e5e244954fe79374c4d64047fb9a65e60d26fe3fa2ce94fa6dcba4"
+    },
+    {
+      "bytes": 23228,
+      "file": "tests/test_evaluation.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "be267bbeb3b707bc18cb852b7460905c44b85c0e39b49a84b468333bfc12bca1"
+    },
+    {
+      "bytes": 7602,
+      "file": "tests/test_evaluation_generation.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "727338f5cf373d04271709644f1e030de6776cdb5ee9adfde01b5a0a18c248eb"
+    },
+    {
+      "bytes": 16901,
+      "file": "tests/test_exports.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "6adf7577c5ca28256026cc3655a820709fd82405dbda7cb3c6889060c9c52e1d"
+    },
+    {
+      "bytes": 20262,
+      "file": "tests/test_generation.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "683edd045611e47fd4af8b66d6a99fd20129a59dbcdd1089b5bd8fd0ded0ef1d"
+    },
+    {
+      "bytes": 8781,
+      "file": "tests/test_interview_generation.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "6a88f17a3682a01e214dfe703a02052a11b303ee651ecd009651a5e8a6680faa"
+    },
+    {
+      "bytes": 30428,
+      "file": "tests/test_schema.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "39398c1fe5e40a53bfcf3f09529027479de78d85300a4bd6b6a8f09b10560ff0"
+    },
+    {
+      "bytes": 19237,
+      "file": "tests/test_workflow.py",
+      "hash_exclusion": null,
+      "origin": "copied from original tracked tree",
+      "sha256": "57e5e3b2eae077a8744fc8e06189f80ec8def3af65d805d050b53e8019be90a0"
+    }
+  ],
+  "hash_policy": "SHA256 exact bytes for all stable files; all filenames listed; self/final-report/privacy metadata hashes excluded to avoid recursion. Original artifact manifest remains untouched.",
+  "source_revision": "ca37787e1947c559d36ca12d4f79b6f5c60899ad"
+}

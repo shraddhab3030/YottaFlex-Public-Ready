@@ -1,0 +1,29 @@
+{
+  "bytes": 25474643,
+  "files_scanned": 66,
+  "findings": [],
+  "largest_files": [
+    {
+      "bytes": 2281185,
+      "path": "baseline/json/CandidateSkill.json"
+    },
+    {
+      "bytes": 2216359,
+      "path": "baseline/json/CandidateEvent.json"
+    },
+    {
+      "bytes": 1783217,
+      "path": "baseline/json/InterviewEvent.json"
+    },
+    {
+      "bytes": 1487402,
+      "path": "baseline/json/Application.json"
+    },
+    {
+      "bytes": 1404045,
+      "path": "baseline/sql/seed.sql.gz"
+    }
+  ],
+  "limitation": "Pattern and provenance checks reduce accidental disclosure; final human content/ownership review remains required.",
+  "passed": true
+}

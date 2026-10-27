@@ -1,0 +1,429 @@
+[
+  {
+    "command": [
+      "python3",
+      "--version"
+    ],
+    "elapsed_seconds": 0.01191279198974371,
+    "environment": {
+      "GIT_OPTIONAL_LOCKS": "0",
+      "Git_discovery": "stops at candidate parent",
+      "PATH": "isolated external venv/bin prepended after environment creation",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONPATH": "src",
+      "scratch": "$PREP_WORK/work"
+    },
+    "exit_code": 0,
+    "label": "interpreter",
+    "raw_log_sha256": "1ef9a497d30d7ff8c9796dbb5a06c75ab4301a345348f07e154077fccdd9ea28",
+    "work_directory": "publication candidate root"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "venv",
+      "$PREP_WORK/venv"
+    ],
+    "elapsed_seconds": 2.0807255001273006,
+    "environment": {
+      "GIT_OPTIONAL_LOCKS": "0",
+      "Git_discovery": "stops at candidate parent",
+      "PATH": "isolated external venv/bin prepended after environment creation",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONPATH": "src",
+      "scratch": "$PREP_WORK/work"
+    },
+    "exit_code": 0,
+    "label": "isolated-environment",
+    "raw_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "work_directory": "publication candidate root"
+  },
+  {
+    "command": [
+      "python3",
+      "-c",
+      "import sqlite3,sys; print(sys.version.split()[0]); print(sqlite3.sqlite_version)"
+    ],
+    "elapsed_seconds": 0.030261166859418154,
+    "environment": {
+      "GIT_OPTIONAL_LOCKS": "0",
+      "Git_discovery": "stops at candidate parent",
+      "PATH": "isolated external venv/bin prepended after environment creation",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONPATH": "src",
+      "scratch": "$PREP_WORK/work"
+    },
+    "exit_code": 0,
+    "label": "runtime",
+    "raw_log_sha256": "b509a66936881da136ee1491183d9f685b49794d55ce65b284d9a8e7e2d746f7",
+    "work_directory": "publication candidate root"
+  },
+  {
+    "command": [
+      "python3",
+      "scripts/audit_publication_candidate.py",
+      "--private-identities",
+      "$PREP_WORK/private-identities.json",
+      "--output",
+      "$PREP_WORK/work/privacy-initial.json"
+    ],
+    "elapsed_seconds": 12.827112541999668,
+    "environment": {
+      "GIT_OPTIONAL_LOCKS": "0",
+      "Git_discovery": "stops at candidate parent",
+      "PATH": "isolated external venv/bin prepended after environment creation",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONPATH": "src",
+      "scratch": "$PREP_WORK/work"
+    },
+    "exit_code": 0,
+    "label": "privacy-initial",
+    "raw_log_sha256": "7ed888c7f5d98581288f4508891d4ab18d07a3cc1ebcb107a43cf67ee1dfc213",
+    "work_directory": "publication candidate root"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "elapsed_seconds": 93.22843083296902,
+    "environment": {
+      "GIT_OPTIONAL_LOCKS": "0",
+      "Git_discovery": "stops at candidate parent",
+      "PATH": "isolated external venv/bin prepended after environment creation",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONPATH": "src",
+      "scratch": "$PREP_WORK/work"
+    },
+    "exit_code": 0,
+    "label": "all-tests",
+    "raw_log_sha256": "368792b1c3ef0a2c6375a2c456004502fce628915e0445e890661029e357e4f0",
+    "work_directory": "publication candidate root"
+  },
+  {
+    "command": [
+      "python3",
+      "scripts/build_data_dictionary.py",
+      "--check"
+    ],
+    "elapsed_seconds": 0.052318125031888485,
+    "environment": {
+      "GIT_OPTIONAL_LOCKS": "0",
+      "Git_discovery": "stops at candidate parent",
+      "PATH": "isolated external venv/bin prepended after environment creation",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONPATH": "src",
+      "scratch": "$PREP_WORK/work"
+    },
+    "exit_code": 0,
+    "label": "dictionary",
+    "raw_log_sha256": "8426eb2eab8db3694cfeb160ca8eba6074198c0485ec81be0c694e31daefe370",
+    "work_directory": "publication candidate root"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "yottaflex.deliverables",
+      "verify",
+      "--directory",
+      "artifacts",
+      "--work",
+      "$PREP_WORK/work/package-verify"
+    ],
+    "elapsed_seconds": 15.767599832965061,
+    "environment": {
+      "GIT_OPTIONAL_LOCKS": "0",
+      "Git_discovery": "stops at candidate parent",
+      "PATH": "isolated external venv/bin prepended after environment creation",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONPATH": "src",
+      "scratch": "$PREP_WORK/work"
+    },
+    "exit_code": 0,
+    "label": "artifact-package",
+    "raw_log_sha256": "7f402e7911098d93c404c9ff0a1ae47ae2abed8a88c57816ea001a7490238427",
+    "work_directory": "publication candidate root"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "yottaflex.deliverables",
+      "restore",
+      "--directory",
+      "artifacts/baseline",
+      "--format",
+      "csv",
+      "--database",
+      "$PREP_WORK/work/csv.sqlite3"
+    ],
+    "elapsed_seconds": 3.039339582901448,
+    "environment": {
+      "GIT_OPTIONAL_LOCKS": "0",
+      "Git_discovery": "stops at candidate parent",
+      "PATH": "isolated external venv/bin prepended after environment creation",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONPATH": "src",
+      "scratch": "$PREP_WORK/work"
+    },
+    "exit_code": 0,
+    "label": "csv-restore",
+    "raw_log_sha256": "d8b46d45ab2b28032b7496e1ac32b5f758a6f4eba7bb0f3aa466b9c7d65cf14a",
+    "work_directory": "publication candidate root"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "yottaflex.evaluation_checks",
+      "--database",
+      "$PREP_WORK/work/csv.sqlite3",
+      "--profile",
+      "full",
+      "--seed",
+      "20261022"
+    ],
+    "elapsed_seconds": 1.5563987500499934,
+    "environment": {
+      "GIT_OPTIONAL_LOCKS": "0",
+      "Git_discovery": "stops at candidate parent",
+      "PATH": "isolated external venv/bin prepended after environment creation",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONPATH": "src",
+      "scratch": "$PREP_WORK/work"
+    },
+    "exit_code": 0,
+    "label": "csv-validation",
+    "raw_log_sha256": "8fd3e8a7ca7197b6c6c329ea31c35e5213b28f1442b2a571898783559593108d",
+    "work_directory": "publication candidate root"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "yottaflex.deliverables",
+      "restore",
+      "--directory",
+      "artifacts/baseline",
+      "--format",
+      "json",
+      "--database",
+      "$PREP_WORK/work/json.sqlite3"
+    ],
+    "elapsed_seconds": 3.068506957963109,
+    "environment": {
+      "GIT_OPTIONAL_LOCKS": "0",
+      "Git_discovery": "stops at candidate parent",
+      "PATH": "isolated external venv/bin prepended after environment creation",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONPATH": "src",
+      "scratch": "$PREP_WORK/work"
+    },
+    "exit_code": 0,
+    "label": "json-restore",
+    "raw_log_sha256": "f1037c0c329a9b9f8b18b712fef19b9c8d4338a426e75cf4ace4bba4868188d5",
+    "work_directory": "publication candidate root"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "yottaflex.evaluation_checks",
+      "--database",
+      "$PREP_WORK/work/json.sqlite3",
+      "--profile",
+      "full",
+      "--seed",
+      "20261022"
+    ],
+    "elapsed_seconds": 1.546486249892041,
+    "environment": {
+      "GIT_OPTIONAL_LOCKS": "0",
+      "Git_discovery": "stops at candidate parent",
+      "PATH": "isolated external venv/bin prepended after environment creation",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONPATH": "src",
+      "scratch": "$PREP_WORK/work"
+    },
+    "exit_code": 0,
+    "label": "json-validation",
+    "raw_log_sha256": "8fd3e8a7ca7197b6c6c329ea31c35e5213b28f1442b2a571898783559593108d",
+    "work_directory": "publication candidate root"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "yottaflex.deliverables",
+      "restore",
+      "--directory",
+      "artifacts/baseline",
+      "--format",
+      "sql",
+      "--database",
+      "$PREP_WORK/work/sql.sqlite3"
+    ],
+    "elapsed_seconds": 4.000497207976878,
+    "environment": {
+      "GIT_OPTIONAL_LOCKS": "0",
+      "Git_discovery": "stops at candidate parent",
+      "PATH": "isolated external venv/bin prepended after environment creation",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONPATH": "src",
+      "scratch": "$PREP_WORK/work"
+    },
+    "exit_code": 0,
+    "label": "sql-restore",
+    "raw_log_sha256": "6e2a8e69cb5cc9e03239104e129f7ad788762ea326c50bab3f48de76a69e3223",
+    "work_directory": "publication candidate root"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "yottaflex.evaluation_checks",
+      "--database",
+      "$PREP_WORK/work/sql.sqlite3",
+      "--profile",
+      "full",
+      "--seed",
+      "20261022"
+    ],
+    "elapsed_seconds": 1.6822685000952333,
+    "environment": {
+      "GIT_OPTIONAL_LOCKS": "0",
+      "Git_discovery": "stops at candidate parent",
+      "PATH": "isolated external venv/bin prepended after environment creation",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONPATH": "src",
+      "scratch": "$PREP_WORK/work"
+    },
+    "exit_code": 0,
+    "label": "sql-validation",
+    "raw_log_sha256": "8fd3e8a7ca7197b6c6c329ea31c35e5213b28f1442b2a571898783559593108d",
+    "work_directory": "publication candidate root"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "yottaflex.detector",
+      "--database",
+      "$PREP_WORK/work/sql.sqlite3"
+    ],
+    "elapsed_seconds": 1.0290090420749038,
+    "environment": {
+      "GIT_OPTIONAL_LOCKS": "0",
+      "Git_discovery": "stops at candidate parent",
+      "PATH": "isolated external venv/bin prepended after environment creation",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONPATH": "src",
+      "scratch": "$PREP_WORK/work"
+    },
+    "exit_code": 0,
+    "label": "clean-detection",
+    "raw_log_sha256": "16efdc8c523053ee0d88e855b8e629a082a1d4234aa3754e4be19d310f1cd929",
+    "work_directory": "publication candidate root"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "yottaflex.detector",
+      "--database",
+      "$PREP_WORK/work/sql.sqlite3",
+      "--observations",
+      "artifacts/anomalies/input/observations.json"
+    ],
+    "elapsed_seconds": 0.9857660830020905,
+    "environment": {
+      "GIT_OPTIONAL_LOCKS": "0",
+      "Git_discovery": "stops at candidate parent",
+      "PATH": "isolated external venv/bin prepended after environment creation",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONPATH": "src",
+      "scratch": "$PREP_WORK/work"
+    },
+    "exit_code": 0,
+    "label": "anomaly-detection",
+    "raw_log_sha256": "2d82364a52885e20f37af09402f02f036436184c55310a14feed100efd787059",
+    "work_directory": "publication candidate root"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "yottaflex.deliverables",
+      "evaluate",
+      "--directory",
+      "artifacts/anomalies",
+      "--database",
+      "$PREP_WORK/work/sql.sqlite3"
+    ],
+    "elapsed_seconds": 2.2445049171801656,
+    "environment": {
+      "GIT_OPTIONAL_LOCKS": "0",
+      "Git_discovery": "stops at candidate parent",
+      "PATH": "isolated external venv/bin prepended after environment creation",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONPATH": "src",
+      "scratch": "$PREP_WORK/work"
+    },
+    "exit_code": 0,
+    "label": "anomaly-evaluation",
+    "raw_log_sha256": "32eeb2484136b90afb841339aa7d4682f423be718e4e3421ed809753bba3486e",
+    "work_directory": "publication candidate root"
+  },
+  {
+    "command": [
+      "python3",
+      "scripts/audit_dataset.py",
+      "--database",
+      "$PREP_WORK/work/sql.sqlite3",
+      "--observations",
+      "artifacts/anomalies/input/observations.json",
+      "--truth",
+      "artifacts/anomalies/truth/ground_truth.json",
+      "--output",
+      "$PREP_WORK/work/dataset-audit.json"
+    ],
+    "elapsed_seconds": 4.286807375028729,
+    "environment": {
+      "GIT_OPTIONAL_LOCKS": "0",
+      "Git_discovery": "stops at candidate parent",
+      "PATH": "isolated external venv/bin prepended after environment creation",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONPATH": "src",
+      "scratch": "$PREP_WORK/work"
+    },
+    "exit_code": 0,
+    "label": "independent-dataset-audit",
+    "raw_log_sha256": "7c8a741f1b2a4c9aa1273cb0aac0379de6270fc578aa4192bcb18883f0adbe4a",
+    "work_directory": "publication candidate root"
+  },
+  {
+    "command": [
+      "python3",
+      "-c",
+      "from pathlib import Path\nimport json,importlib.util,tempfile\nfrom yottaflex.observations import reference\nfrom yottaflex.privacy import synthetic_identity_check\nwork=Path(__import__('sys').argv[1]);identities={}\nfor kind in ('csv','json','sql'):\n with reference(work/(kind+'.sqlite3')) as db:\n  check=synthetic_identity_check(db);assert check['passed'];identities[kind]=check\nspec=importlib.util.spec_from_file_location('public_scan','scripts/audit_publication_candidate.py');module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)\nwith tempfile.TemporaryDirectory(prefix='publication-scanner-positive-') as name:\n p=Path(name);(p/'bad.txt').write_text('/'+'Users/'+'fixture-person'+'\\n'+'sk-'+'X'*32+'\\n'+'fixture'+'@example.net'+'\\n'+'Scanner Fixture Identity')\n (p/'source.pdf').write_text('%PDF-synthetic scanner-only fixture')\n r=module.scan(p,['Scanner Fixture Identity']);kinds={i['kind'] for i in r['findings']}\n assert not r['passed'] and {'private_path','credential_token','non_allowlisted_email','unwanted_source_metadata_or_local_file'}<=kinds\n assert any(k.startswith('private_metadata_identity') for k in kinds)\n(work/'identity-and-scanner-checks.json').write_text(json.dumps({'synthetic_identities_all_restores':identities,'positive_fixture_checks':'PASS: path without trailing slash, token, nonallowlisted email, private identity and forbidden PDF filename detected; isolated synthetic fixture outside publication tree'},sort_keys=True,indent=2)+'\\n')\nprint('PASS synthetic identity checks for all3 restores and actual scanner positive fixtures')\n",
+      "$PREP_WORK/work"
+    ],
+    "elapsed_seconds": 0.1503443750552833,
+    "environment": {
+      "PATH": "isolated external venv/bin prepended",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONPATH": "src"
+    },
+    "exit_code": 0,
+    "label": "identity-and-scanner-checks",
+    "raw_log_sha256": "6bc57af88a6bd71ece505e4658598922769e89569a1345cd11dd42b901b85282",
+    "work_directory": "publication candidate root"
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "bytes": 26934194,
+  "files_scanned": 151,
+  "findings": [
+    {
+      "file": "reports/phase01-handoff.md",
+      "kind": "private_path",
+      "line": 15
+    },
+    {
+      "file": "reports/phase01-resumed-handoff.md",
+      "kind": "private_path",
+      "line": 12
+    },
+    {
+      "file": "reports/phase02-schema-handoff.md",
+      "kind": "private_path",
+      "line": 11
+    },
+    {
+      "file": "reports/phase03-data-generation-handoff.md",
+      "kind": "private_path",
+      "line": 10
+    },
+    {
+      "file": "reports/phase04-interview-workflow-handoff.md",
+      "kind": "private_path",
+      "line": 5
+    },
+    {
+      "file": "reports/phase05-evaluation-offer-handoff.md",
+      "kind": "private_path",
+      "line": 4
+    },
+    {
+      "file": "reports/phase06-anomaly-ground-truth-handoff.md",
+      "kind": "private_path",
+      "line": 5
+    }
+  ],
+  "largest_files": [
+    {
+      "bytes": 2281185,
+      "path": "artifacts/baseline/json/CandidateSkill.json"
+    },
+    {
+      "bytes": 2216359,
+      "path": "artifacts/baseline/json/CandidateEvent.json"
+    },
+    {
+      "bytes": 1783217,
+      "path": "artifacts/baseline/json/InterviewEvent.json"
+    },
+    {
+      "bytes": 1487402,
+      "path": "artifacts/baseline/json/Application.json"
+    },
+    {
+      "bytes": 1404045,
+      "path": "artifacts/baseline/sql/seed.sql.gz"
+    }
+  ],
+  "limitation": "Pattern and provenance checks reduce accidental disclosure; final human content/ownership review remains required.",
+  "passed": false
+}

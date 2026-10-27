@@ -1,0 +1,2435 @@
+[
+  {
+    "bytes": 167,
+    "file": ".gitattributes",
+    "lines": 7,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "953ffaa28b9399c30d197f0b5b1b66cb390f468dc5cb910327b6f22e6e02495c"
+  },
+  {
+    "bytes": 594,
+    "file": ".gitignore",
+    "lines": 32,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "37d720864dc985de48ebc3261787ec6cb56d1a9af5630aa0f59deec25ac1050c"
+  },
+  {
+    "bytes": 7,
+    "file": ".python-version",
+    "lines": 1,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "11418a5b37ee3358335edfaf2c728355c3a955d040aee91fa881842b8891cb9c"
+  },
+  {
+    "bytes": 5713,
+    "file": "AGENTS.md",
+    "lines": 76,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "cd50cc8f2a23b8eecd8f68c02901901b18fed136103476b70805852322d0b4dd"
+  },
+  {
+    "bytes": 10852,
+    "file": "README.md",
+    "lines": 186,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "ac8d3ca6aa9a39e73b8da53ee621969e2417fec1dd6d33cacf7c8b04611d6812"
+  },
+  {
+    "bytes": 1207,
+    "file": "docs/assignment/README.md",
+    "lines": 20,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "fe496f1a8bf8b67e59e1c9ec379ebe833ea3132e21d4d24b7b9d428efb37b92d"
+  },
+  {
+    "bytes": 117886,
+    "file": "docs/data-dictionary.md",
+    "lines": 1119,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "1a40941e29a113a0141fae12df0671e82c1616e205d4905c4a10da0152652162"
+  },
+  {
+    "bytes": 8244,
+    "file": "docs/phase01/architecture.md",
+    "lines": 119,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "fc7988fd6baecfb193a7ab36a4e3725d8e6cda8856d631633bcc8c39fa592371"
+  },
+  {
+    "bytes": 43478,
+    "file": "docs/phase01/journal.md",
+    "lines": 704,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "99d8ab1e35e3e630c83dd1d7d81eacdb2d4c27e1725e70a4880e06d18346d79e"
+  },
+  {
+    "bytes": 7569,
+    "file": "docs/phase01/model.md",
+    "lines": 87,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "08627d35bf36e5165c0cadac0d9c8c98218a22a59e361eb6cfc66b00529443b4"
+  },
+  {
+    "bytes": 43732,
+    "file": "docs/phase01/requirements.md",
+    "lines": 391,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "8aa1d62a99e08b5384e84796a68ced24878398cc3821216edf38c5c71bb40c52"
+  },
+  {
+    "bytes": 6749,
+    "file": "docs/phase01/risks-and-decisions.md",
+    "lines": 66,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "b0f5d70270fe4c16a1210057ab264d8282299fc26524e0ad01b34ad02ae9cbe6"
+  },
+  {
+    "bytes": 1734,
+    "file": "docs/phase01/sources.json",
+    "lines": 41,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "054e8de74635dca9b8b308880795fe3ebcc0239cdab44c9903d6cea4e8e35be2"
+  },
+  {
+    "bytes": 11520,
+    "file": "docs/phase02/prompt.md",
+    "lines": 364,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "e7959933c14de0ee5e2bda549573dd05100df53a2f89631bbfc137e5b27d1693"
+  },
+  {
+    "bytes": 6902,
+    "file": "docs/phase02/schema-design.md",
+    "lines": 101,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "bce1d9780666089d775916c6e2a86b93a963d43a9be62618a6b836936deb95d2"
+  },
+  {
+    "bytes": 9887,
+    "file": "docs/phase03/data-generation-design.md",
+    "lines": 162,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "d8502e50f0b5d0ac1aecc7bfbd11e7037cd0846490dd8291eeb47cf473e53054"
+  },
+  {
+    "bytes": 16343,
+    "file": "docs/phase03/prompt.md",
+    "lines": 492,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "433e6e2449bab6a456f980c7c914c6e6e75910770078615700930618b4908166"
+  },
+  {
+    "bytes": 35400,
+    "file": "docs/phase03/reproducibility-evidence.json",
+    "lines": 1122,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "f67e4ee8290b59c4b0b089ed25887505960aa8bdd813f2d74e8eaf791d144194"
+  },
+  {
+    "bytes": 15805,
+    "file": "docs/phase04/interview-workflow-design.md",
+    "lines": 223,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "60fb3a8ed1bbb69fc6b482c86757bff553071d3a7976c21848cc884469999e6f"
+  },
+  {
+    "bytes": 17183,
+    "file": "docs/phase04/prompt.md",
+    "lines": 509,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "e11457c6fdde63015cf15d454d8a356aaf72876224e2e6dce664587098589170"
+  },
+  {
+    "bytes": 57307,
+    "file": "docs/phase04/reproducibility-evidence.json",
+    "lines": 1799,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "1df274f779e5c3cbbd9b4e7a9bdedd6642c43dd5abdd8288f97f4f7ddf8457c0"
+  },
+  {
+    "bytes": 18052,
+    "file": "docs/phase05/evaluation-offer-design.md",
+    "lines": 279,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "97a37dfb942a79f4ece23b4f9f8d0751155bf073bf64ff760994f0b4516d9f24"
+  },
+  {
+    "bytes": 18025,
+    "file": "docs/phase05/prompt.md",
+    "lines": 564,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "0bdf78c7fca17e48239934daf8f6dc57e418b1c4efc0eec7d3376fb00930fc38"
+  },
+  {
+    "bytes": 112588,
+    "file": "docs/phase05/reproducibility-evidence.json",
+    "lines": 3583,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "83da0b2991322be294662e27359b182c9c4199159e226fbafaa2d1463ffaf351"
+  },
+  {
+    "bytes": 14800,
+    "file": "docs/phase06/anomaly-design.md",
+    "lines": 226,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "d933c46dd04f515f4391b0468e924dd163be0d88c1f411339262c2ca43a939ed"
+  },
+  {
+    "bytes": 20397,
+    "file": "docs/phase06/prompt.md",
+    "lines": 615,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "b3c4c23b021d36e7c7a3d596eb88b9f754c0c612a906cf5fb8ffe18458e8dadb"
+  },
+  {
+    "bytes": 44753,
+    "file": "docs/phase06/reproducibility-evidence.json",
+    "lines": 1315,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "8ee8957f3d4f286e6d79c92d6a4fbacfd95eb8166cb514af389a6e6eaefcd817"
+  },
+  {
+    "bytes": 11487,
+    "file": "docs/phase07/export-and-reproducibility-design.md",
+    "lines": 185,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "0aff1052b06c5e0b21cf54781c92f3f54f375270d09dcce419e0609d54e9aa3d"
+  },
+  {
+    "bytes": 18667,
+    "file": "docs/phase07/prompt.md",
+    "lines": 646,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "5970599c88660b19a8e05c59efa27d80d61e974ea711457f9ef8b7d6ca35810e"
+  },
+  {
+    "bytes": 1532,
+    "file": "docs/phase07/repository-privacy-review.json",
+    "lines": 65,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "2e02030a6f9494e5aac171df873c8c2dcb5711647855969a4b6162eaf64d133e"
+  },
+  {
+    "bytes": 19189,
+    "file": "docs/phase07/reproducibility-evidence.json",
+    "lines": 601,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "4b99cdbd8c69d38d2d41eea6a73a9cd0851016a04c35c216ccaa38cbcba10140"
+  },
+  {
+    "bytes": 19809,
+    "file": "docs/phase07/requirements-acceptance.md",
+    "lines": 84,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "939892e4f4ddce6f30922f69a182ab6629992546ba43170f83192c1bddcd1ec0"
+  },
+  {
+    "bytes": 6191,
+    "file": "docs/phase07/reviewer-verification.json",
+    "lines": 232,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "6226f52d755cba6efe1181995d899fc9ec1d47d1ab843e530fe5dc1186748c1e"
+  },
+  {
+    "bytes": 322,
+    "file": "pyproject.toml",
+    "lines": 9,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "6d17287b56b6be6c80993753345bc9751dace9574becdec6151587b25b6f8235"
+  },
+  {
+    "bytes": 12724,
+    "file": "reports/phase01-handoff.md",
+    "lines": 198,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "101fd67855ccccb9bb4d16da99fd26a159901458e231f00fc905eff917a7c076"
+  },
+  {
+    "bytes": 32563,
+    "file": "reports/phase01-resumed-handoff.md",
+    "lines": 406,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "9d9af38d50a23eb330ae8060f14ced108ef277c5c8fbdbd2775a2f3a3f5de3c6"
+  },
+  {
+    "bytes": 26742,
+    "file": "reports/phase02-schema-handoff.md",
+    "lines": 417,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "a84854b48074028ca230575abe37013c8999752dd32ace9749883f6ef5dc81b1"
+  },
+  {
+    "bytes": 26323,
+    "file": "reports/phase03-data-generation-handoff.md",
+    "lines": 418,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "a839edd3733b2ef3b6de2ac6b306d04f0bc60ce5135e7355ccaa5f076f42be4d"
+  },
+  {
+    "bytes": 28026,
+    "file": "reports/phase04-interview-workflow-handoff.md",
+    "lines": 463,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "3ff0bae05847e75d1d1bb83a3bb800d6471f8a34f3a1a6818556ba95ace48899"
+  },
+  {
+    "bytes": 34117,
+    "file": "reports/phase05-evaluation-offer-handoff.md",
+    "lines": 622,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "512842bfc9348d094425e3a77d730cc0d8a59abc1a8977514d2303e89f8ca617"
+  },
+  {
+    "bytes": 39885,
+    "file": "reports/phase06-anomaly-ground-truth-handoff.md",
+    "lines": 835,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "82ce25dcf714864c2798362b5272e3fa80c263e029a5326955e6cebc93771ae2"
+  },
+  {
+    "bytes": 49458,
+    "file": "reports/phase07-export-deliverables-handoff.md",
+    "lines": 726,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "6c168fcdbf58711bf0e9c49bfa3f66edb647605cc931a421b6a6fa65a2c7d981"
+  },
+  {
+    "bytes": 12301,
+    "file": "scripts/build_data_dictionary.py",
+    "functions": [
+      {
+        "line": 111,
+        "name": "annotations"
+      },
+      {
+        "line": 135,
+        "name": "render_dictionary"
+      },
+      {
+        "line": 183,
+        "name": "main"
+      }
+    ],
+    "lines": 200,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "caf5ec246e8250d40f8022094a4e88c551a192b572a633786cfa2953d8184784"
+  },
+  {
+    "bytes": 4627,
+    "file": "scripts/check_foundation.py",
+    "functions": [
+      {
+        "line": 15,
+        "name": "check_runtime"
+      },
+      {
+        "line": 41,
+        "name": "check_sources"
+      },
+      {
+        "line": 65,
+        "name": "check_publication_candidates"
+      },
+      {
+        "line": 87,
+        "name": "main"
+      }
+    ],
+    "lines": 100,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "27a5c73276b9fd9347916652897e9b6843edbc0f2362de427568a69f4090ec8d"
+  },
+  {
+    "bytes": 2206,
+    "file": "scripts/smoke.sh",
+    "lines": 47,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "df109fedd7c293caea040339507d8bae36d1afc48b0f395263364d10a30a48c7"
+  },
+  {
+    "bytes": 3419,
+    "file": "scripts/verify_anomaly_reproducibility.py",
+    "functions": [
+      {
+        "line": 16,
+        "name": "verify"
+      }
+    ],
+    "lines": 53,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "14eb37e9c0ec0b7f0968cda29bf856d43a406f029e10420bf1313d2a20ede1e0"
+  },
+  {
+    "bytes": 3199,
+    "file": "scripts/verify_deliverable_reproducibility.py",
+    "functions": [
+      {
+        "line": 13,
+        "name": "verify"
+      }
+    ],
+    "lines": 45,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "aee0f2db2835163655f31629acdde035e7fec20c0b3eb80735d73791e8603fa7"
+  },
+  {
+    "bytes": 4438,
+    "file": "scripts/verify_generation_reproducibility.py",
+    "functions": [
+      {
+        "line": 16,
+        "name": "verify"
+      },
+      {
+        "line": 61,
+        "name": "main"
+      }
+    ],
+    "lines": 81,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "9e64d0246e6b2060e50fafa4737721d2279a611fa19fae1ccd8059d3268ca44f"
+  },
+  {
+    "bytes": 82,
+    "file": "src/yottaflex/__init__.py",
+    "functions": [],
+    "lines": 1,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "6e1a4d244d7836a6cd930303b7264ab13768335887b6a1ac014755f2c3f60f03"
+  },
+  {
+    "bytes": 6622,
+    "file": "src/yottaflex/anomalies.py",
+    "functions": [
+      {
+        "line": 24,
+        "name": "_write"
+      },
+      {
+        "line": 28,
+        "name": "build_bundle"
+      },
+      {
+        "line": 101,
+        "name": "main"
+      }
+    ],
+    "lines": 115,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "75171688857926a90bab4f22bf4f70a2897f1b834eba9843a8fbd0580d37ae93"
+  },
+  {
+    "bytes": 3247,
+    "file": "src/yottaflex/anomaly_evaluation.py",
+    "functions": [
+      {
+        "line": 8,
+        "name": "match_key"
+      },
+      {
+        "line": 24,
+        "name": "_metrics"
+      },
+      {
+        "line": 29,
+        "name": "evaluate"
+      }
+    ],
+    "lines": 58,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "dd79cf7c472482744eddefab887d70513bad5e740332771ca991b612a461a38a"
+  },
+  {
+    "bytes": 12875,
+    "file": "src/yottaflex/anomaly_injection.py",
+    "functions": [
+      {
+        "line": 14,
+        "name": "inject"
+      },
+      {
+        "line": 23,
+        "name": "rows"
+      },
+      {
+        "line": 25,
+        "name": "shuffled"
+      },
+      {
+        "line": 27,
+        "name": "observe"
+      },
+      {
+        "line": 34,
+        "name": "label"
+      },
+      {
+        "line": 39,
+        "name": "require"
+      }
+    ],
+    "lines": 164,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "d6f4771588e8d0c918fbab068cb045e19c1d42365a085883f4857f3eaab76927"
+  },
+  {
+    "bytes": 337,
+    "file": "src/yottaflex/anomaly_rules.py",
+    "functions": [],
+    "lines": 9,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "d80d2a5b343ee906d32c1e4ee334a3093b8b136696e9dfaef56ea9fea8e13670"
+  },
+  {
+    "bytes": 1429,
+    "file": "src/yottaflex/anomaly_truth.py",
+    "functions": [
+      {
+        "line": 13,
+        "name": "write_truth"
+      },
+      {
+        "line": 25,
+        "name": "read_csv"
+      }
+    ],
+    "lines": 33,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "4c723c6609b76ba0c5db3a9f173cbef4b36fb2988a1561a556ddd6b733925d3c"
+  },
+  {
+    "bytes": 1700,
+    "file": "src/yottaflex/canonical.py",
+    "functions": [
+      {
+        "line": 7,
+        "name": "stable_json"
+      },
+      {
+        "line": 11,
+        "name": "table_names"
+      },
+      {
+        "line": 16,
+        "name": "primary_keys"
+      },
+      {
+        "line": 21,
+        "name": "ordered_records"
+      },
+      {
+        "line": 31,
+        "name": "table_digest"
+      },
+      {
+        "line": 42,
+        "name": "dataset_digest"
+      }
+    ],
+    "lines": 44,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "c439db79a2643e00a93e8a5bad416f204e902576bf6e037b92f753885f9a9a46"
+  },
+  {
+    "bytes": 4763,
+    "file": "src/yottaflex/db.py",
+    "functions": [
+      {
+        "line": 18,
+        "name": "_configure"
+      },
+      {
+        "line": 27,
+        "name": "connect"
+      },
+      {
+        "line": 41,
+        "name": "_catalog_digest"
+      },
+      {
+        "line": 50,
+        "name": "_statements"
+      },
+      {
+        "line": 62,
+        "name": "initialize"
+      },
+      {
+        "line": 103,
+        "name": "main"
+      }
+    ],
+    "lines": 121,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "41dd43575c5e49a2948f56782c308f8d7ff1f0e87126eebd6dc3cc69ec18f5e7"
+  },
+  {
+    "bytes": 19046,
+    "file": "src/yottaflex/deliverables.py",
+    "functions": [
+      {
+        "line": 30,
+        "name": "validation_summary"
+      },
+      {
+        "line": 68,
+        "name": "verify_roundtrips"
+      },
+      {
+        "line": 80,
+        "name": "_verify_anomalies"
+      },
+      {
+        "line": 99,
+        "name": "tool_fingerprints"
+      },
+      {
+        "line": 103,
+        "name": "source_revision"
+      },
+      {
+        "line": 113,
+        "name": "build_package"
+      },
+      {
+        "line": 190,
+        "name": "verify_package"
+      },
+      {
+        "line": 220,
+        "name": "main"
+      }
+    ],
+    "lines": 242,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "bc728ca11d3e22bd6ac62d1699b7a62ea34d1df518a20981dca941f50ff980b9"
+  },
+  {
+    "bytes": 8638,
+    "file": "src/yottaflex/detector.py",
+    "functions": [
+      {
+        "line": 14,
+        "name": "_finding"
+      },
+      {
+        "line": 21,
+        "name": "detect_records"
+      },
+      {
+        "line": 98,
+        "name": "detect"
+      },
+      {
+        "line": 108,
+        "name": "main"
+      }
+    ],
+    "lines": 122,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "7b69e5230135f5e89cf7aed3ddff20e56a541b59596278ae8c472b0f57f01d24"
+  },
+  {
+    "bytes": 14969,
+    "file": "src/yottaflex/evaluation.py",
+    "functions": [
+      {
+        "line": 14,
+        "name": "applicable_criteria"
+      },
+      {
+        "line": 27,
+        "name": "card_snapshot"
+      },
+      {
+        "line": 33,
+        "name": "computed_card"
+      },
+      {
+        "line": 62,
+        "name": "_interview_for_card"
+      },
+      {
+        "line": 82,
+        "name": "create_scorecard"
+      },
+      {
+        "line": 98,
+        "name": "_editable"
+      },
+      {
+        "line": 110,
+        "name": "set_scorecard_item"
+      },
+      {
+        "line": 132,
+        "name": "submit_scorecard"
+      },
+      {
+        "line": 145,
+        "name": "evaluate_application"
+      },
+      {
+        "line": 185,
+        "name": "_review_context"
+      },
+      {
+        "line": 193,
+        "name": "review_application"
+      },
+      {
+        "line": 206,
+        "name": "reject_evaluated_application"
+      }
+    ],
+    "lines": 213,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "a2905d15720b1319697d682e5f54af8a421e5fdae9af2538d9203c414c080679"
+  },
+  {
+    "bytes": 18890,
+    "file": "src/yottaflex/evaluation_checks.py",
+    "functions": [
+      {
+        "line": 10,
+        "name": "_histories"
+      },
+      {
+        "line": 45,
+        "name": "validate_evaluations"
+      },
+      {
+        "line": 213,
+        "name": "main"
+      },
+      {
+        "line": 49,
+        "name": "add"
+      },
+      {
+        "line": 51,
+        "name": "scalar"
+      },
+      {
+        "line": 103,
+        "name": "decision"
+      }
+    ],
+    "lines": 236,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "62c07fef9592377d6bcbc912e0637586ef6a8dfe9540c3996c38082cafd8d190"
+  },
+  {
+    "bytes": 8866,
+    "file": "src/yottaflex/evaluation_generation.py",
+    "functions": [
+      {
+        "line": 15,
+        "name": "evaluation_statistics"
+      },
+      {
+        "line": 26,
+        "name": "populate_evaluations"
+      },
+      {
+        "line": 16,
+        "name": "histogram"
+      },
+      {
+        "line": 35,
+        "name": "metadata"
+      },
+      {
+        "line": 40,
+        "name": "rejected"
+      }
+    ],
+    "lines": 123,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "c458e7604d9ebb9b97fd76f946cad2e56f41dfa66cf54f6ff03c6f05a263deab"
+  },
+  {
+    "bytes": 17014,
+    "file": "src/yottaflex/exports.py",
+    "functions": [
+      {
+        "line": 27,
+        "name": "new_directory"
+      },
+      {
+        "line": 45,
+        "name": "write_json"
+      },
+      {
+        "line": 49,
+        "name": "file_info"
+      },
+      {
+        "line": 57,
+        "name": "text_input"
+      },
+      {
+        "line": 63,
+        "name": "compress_large"
+      },
+      {
+        "line": 74,
+        "name": "csv_cell"
+      },
+      {
+        "line": 81,
+        "name": "parse_csv_cell"
+      },
+      {
+        "line": 94,
+        "name": "sql_value"
+      },
+      {
+        "line": 102,
+        "name": "import_order"
+      },
+      {
+        "line": 112,
+        "name": "columns"
+      },
+      {
+        "line": 117,
+        "name": "_export_tables"
+      },
+      {
+        "line": 168,
+        "name": "export_database"
+      },
+      {
+        "line": 178,
+        "name": "_safe_file"
+      },
+      {
+        "line": 186,
+        "name": "_read_rows"
+      },
+      {
+        "line": 211,
+        "name": "_sql_statements"
+      },
+      {
+        "line": 219,
+        "name": "restore_database"
+      },
+      {
+        "line": 271,
+        "name": "compare_records"
+      },
+      {
+        "line": 197,
+        "name": "unique_object"
+      }
+    ],
+    "lines": 287,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "d72cc672a65d0344a5a6f81f8b6ae5319a162392a68d64a6c5a02dc73249e73c"
+  },
+  {
+    "bytes": 20390,
+    "file": "src/yottaflex/generate.py",
+    "functions": [
+      {
+        "line": 35,
+        "name": "domain_random"
+      },
+      {
+        "line": 40,
+        "name": "_insert"
+      },
+      {
+        "line": 46,
+        "name": "_batch"
+      },
+      {
+        "line": 54,
+        "name": "_event"
+      },
+      {
+        "line": 65,
+        "name": "_staff_and_managers"
+      },
+      {
+        "line": 79,
+        "name": "normalized_weights"
+      },
+      {
+        "line": 91,
+        "name": "_approval_policy"
+      },
+      {
+        "line": 108,
+        "name": "_requisitions"
+      },
+      {
+        "line": 159,
+        "name": "_candidates"
+      },
+      {
+        "line": 193,
+        "name": "_applications"
+      },
+      {
+        "line": 228,
+        "name": "_populate"
+      },
+      {
+        "line": 235,
+        "name": "generate_database"
+      },
+      {
+        "line": 311,
+        "name": "main"
+      },
+      {
+        "line": 162,
+        "name": "flush"
+      }
+    ],
+    "lines": 341,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "5ef462416069a1de33280253c86439f4209ea81b0b1728d47d42f6c5b80d3745"
+  },
+  {
+    "bytes": 18406,
+    "file": "src/yottaflex/generation_checks.py",
+    "functions": [
+      {
+        "line": 23,
+        "name": "count_tables"
+      },
+      {
+        "line": 28,
+        "name": "role_details"
+      },
+      {
+        "line": 37,
+        "name": "_history_violations"
+      },
+      {
+        "line": 81,
+        "name": "validate_generated"
+      },
+      {
+        "line": 192,
+        "name": "_histogram"
+      },
+      {
+        "line": 196,
+        "name": "generation_summary"
+      },
+      {
+        "line": 86,
+        "name": "add"
+      },
+      {
+        "line": 88,
+        "name": "scalar"
+      }
+    ],
+    "lines": 231,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "a97a5f70a1abbb28bf6b7eb5d5c1983a41437dea8875d63cddf083b1e86bdd4d"
+  },
+  {
+    "bytes": 3410,
+    "file": "src/yottaflex/generation_config.py",
+    "functions": [
+      {
+        "line": 40,
+        "name": "__post_init__"
+      },
+      {
+        "line": 62,
+        "name": "managers"
+      },
+      {
+        "line": 65,
+        "name": "as_dict"
+      }
+    ],
+    "lines": 68,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "f270270c8e81baa3b36cf8193ef3242fe71a2f77e6bd32ffa9204ada4f78775a"
+  },
+  {
+    "bytes": 1365,
+    "file": "src/yottaflex/ids.py",
+    "functions": [
+      {
+        "line": 15,
+        "name": "numbered_id"
+      },
+      {
+        "line": 21,
+        "name": "valid_numbered_id"
+      },
+      {
+        "line": 27,
+        "name": "application_id"
+      }
+    ],
+    "lines": 30,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "e841e70fadb391031f8d799cfc88bbcf54e008bfe2d143634a07d445d1f773eb"
+  },
+  {
+    "bytes": 12888,
+    "file": "src/yottaflex/interview_generation.py",
+    "functions": [
+      {
+        "line": 43,
+        "name": "_supporting_records"
+      },
+      {
+        "line": 86,
+        "name": "_selection"
+      },
+      {
+        "line": 105,
+        "name": "populate_interviews"
+      },
+      {
+        "line": 27,
+        "name": "for_profile"
+      },
+      {
+        "line": 30,
+        "name": "validate_for"
+      },
+      {
+        "line": 115,
+        "name": "metadata"
+      },
+      {
+        "line": 120,
+        "name": "slot"
+      },
+      {
+        "line": 156,
+        "name": "reject"
+      }
+    ],
+    "lines": 223,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "cab96d1e0663a427c27cef9196f142dd17ae013e4d39fdc2ce789fd73b8b2c9a"
+  },
+  {
+    "bytes": 1664,
+    "file": "src/yottaflex/matching.py",
+    "functions": [
+      {
+        "line": 12,
+        "name": "skill_fit"
+      },
+      {
+        "line": 26,
+        "name": "load_matching_inputs"
+      }
+    ],
+    "lines": 34,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "83062586f0718e222c9583f0d409b6340fb47ac3c8f33cb215db0df1f52a26b4"
+  },
+  {
+    "bytes": 7289,
+    "file": "src/yottaflex/observations.py",
+    "functions": [
+      {
+        "line": 19,
+        "name": "reference"
+      },
+      {
+        "line": 35,
+        "name": "entity_identity"
+      },
+      {
+        "line": 39,
+        "name": "document_time"
+      },
+      {
+        "line": 44,
+        "name": "empty_document"
+      },
+      {
+        "line": 48,
+        "name": "load_document"
+      },
+      {
+        "line": 53,
+        "name": "projected"
+      }
+    ],
+    "lines": 123,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "8919f508c5acc635a61e68cf13dfbdf78f67fa6a7df79f3ecfb04b66ed6cb340"
+  },
+  {
+    "bytes": 13598,
+    "file": "src/yottaflex/offers.py",
+    "functions": [
+      {
+        "line": 14,
+        "name": "approved_band"
+      },
+      {
+        "line": 24,
+        "name": "proposed_amount"
+      },
+      {
+        "line": 29,
+        "name": "approval_limit"
+      },
+      {
+        "line": 33,
+        "name": "_amount"
+      },
+      {
+        "line": 42,
+        "name": "_other_active"
+      },
+      {
+        "line": 48,
+        "name": "_snapshot"
+      },
+      {
+        "line": 52,
+        "name": "_offer_change"
+      },
+      {
+        "line": 59,
+        "name": "create_offer"
+      },
+      {
+        "line": 85,
+        "name": "_context"
+      },
+      {
+        "line": 111,
+        "name": "submit_offer"
+      },
+      {
+        "line": 131,
+        "name": "decide_offer"
+      },
+      {
+        "line": 160,
+        "name": "_approved"
+      },
+      {
+        "line": 170,
+        "name": "send_offer"
+      },
+      {
+        "line": 181,
+        "name": "accept_offer"
+      }
+    ],
+    "lines": 197,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "d96ad9090b0e3f71a2d9e6bd5ab567e0a327e8cc94419c890c534d4a9131a3a9"
+  },
+  {
+    "bytes": 3065,
+    "file": "src/yottaflex/privacy.py",
+    "functions": [
+      {
+        "line": 16,
+        "name": "scan_files"
+      },
+      {
+        "line": 38,
+        "name": "synthetic_identity_check"
+      }
+    ],
+    "lines": 45,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "7f816527ed10222805bf9efc7e0ef79938ea863cc2734563a13752ce2272cbfc"
+  },
+  {
+    "bytes": 47328,
+    "file": "src/yottaflex/schema.sql",
+    "lines": 644,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "75c10e0264a798ff36e6ffae4c076483dc04247e9c8a5051eead036cacab1c6f"
+  },
+  {
+    "bytes": 22829,
+    "file": "src/yottaflex/workflow.py",
+    "functions": [
+      {
+        "line": 22,
+        "name": "_fail"
+      },
+      {
+        "line": 27,
+        "name": "write_transaction"
+      },
+      {
+        "line": 41,
+        "name": "_metadata"
+      },
+      {
+        "line": 50,
+        "name": "_row"
+      },
+      {
+        "line": 57,
+        "name": "_authorize"
+      },
+      {
+        "line": 71,
+        "name": "_last_event"
+      },
+      {
+        "line": 80,
+        "name": "next_id"
+      },
+      {
+        "line": 88,
+        "name": "_append_event"
+      },
+      {
+        "line": 106,
+        "name": "_app_change"
+      },
+      {
+        "line": 116,
+        "name": "_eligible_application"
+      },
+      {
+        "line": 126,
+        "name": "_eligible_requisition"
+      },
+      {
+        "line": 144,
+        "name": "_interval"
+      },
+      {
+        "line": 149,
+        "name": "covers"
+      },
+      {
+        "line": 160,
+        "name": "_members"
+      },
+      {
+        "line": 187,
+        "name": "_calendar"
+      },
+      {
+        "line": 194,
+        "name": "check_slot"
+      },
+      {
+        "line": 214,
+        "name": "transition_application"
+      },
+      {
+        "line": 235,
+        "name": "schedule_interview"
+      },
+      {
+        "line": 260,
+        "name": "_interview_context"
+      },
+      {
+        "line": 273,
+        "name": "_interview_change"
+      },
+      {
+        "line": 282,
+        "name": "reschedule_interview"
+      },
+      {
+        "line": 302,
+        "name": "cancel_interview"
+      },
+      {
+        "line": 310,
+        "name": "complete_interview"
+      },
+      {
+        "line": 320,
+        "name": "_withdraw_app"
+      },
+      {
+        "line": 333,
+        "name": "withdraw_application"
+      },
+      {
+        "line": 341,
+        "name": "withdraw_candidate"
+      },
+      {
+        "line": 17,
+        "name": "__init__"
+      }
+    ],
+    "lines": 362,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "e504f895f7767dd8c3fd43565b7a099cae993cb0e65b652438f39e0d2ac20a22"
+  },
+  {
+    "bytes": 15717,
+    "file": "src/yottaflex/workflow_checks.py",
+    "functions": [
+      {
+        "line": 13,
+        "name": "_query_hash"
+      },
+      {
+        "line": 20,
+        "name": "master_fingerprint"
+      },
+      {
+        "line": 37,
+        "name": "conflict_counts"
+      },
+      {
+        "line": 61,
+        "name": "_history_errors"
+      },
+      {
+        "line": 126,
+        "name": "validate_workflow"
+      },
+      {
+        "line": 182,
+        "name": "workflow_statistics"
+      },
+      {
+        "line": 196,
+        "name": "main"
+      },
+      {
+        "line": 131,
+        "name": "add"
+      },
+      {
+        "line": 133,
+        "name": "scalar"
+      },
+      {
+        "line": 183,
+        "name": "histogram"
+      }
+    ],
+    "lines": 219,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "8021f1a735b8c69b7bad9ad1372e01f082379f0bf2a6a960a9a96110d985b541"
+  },
+  {
+    "bytes": 4444,
+    "file": "tests/fixtures.py",
+    "functions": [
+      {
+        "line": 12,
+        "name": "audit"
+      },
+      {
+        "line": 47,
+        "name": "insert"
+      },
+      {
+        "line": 53,
+        "name": "seed"
+      }
+    ],
+    "lines": 58,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "25664ee13cae19db889a8632335a3135274df6a7315be0a3840b2254641adcf8"
+  },
+  {
+    "bytes": 20976,
+    "file": "tests/test_anomalies.py",
+    "functions": [
+      {
+        "line": 30,
+        "name": "setUpClass"
+      },
+      {
+        "line": 42,
+        "name": "tearDownClass"
+      },
+      {
+        "line": 44,
+        "name": "control"
+      },
+      {
+        "line": 45,
+        "name": "issue"
+      },
+      {
+        "line": 46,
+        "name": "observed"
+      },
+      {
+        "line": 49,
+        "name": "test_clean_baseline_same_engine_has_zero_findings"
+      },
+      {
+        "line": 54,
+        "name": "test_all_five_types_generated_from_real_values"
+      },
+      {
+        "line": 59,
+        "name": "test_all_five_types_independently_detected"
+      },
+      {
+        "line": 63,
+        "name": "test_detector_transitive_imports_cannot_read_labels_or_injection"
+      },
+      {
+        "line": 76,
+        "name": "test_missing_or_poisoned_truth_cannot_change_findings"
+      },
+      {
+        "line": 86,
+        "name": "test_adjacent_control_is_not_double_booked"
+      },
+      {
+        "line": 93,
+        "name": "test_cancelled_booking_never_blocks_shared_staff"
+      },
+      {
+        "line": 98,
+        "name": "test_above_band_offer_and_exact_boundary_distinguished"
+      },
+      {
+        "line": 105,
+        "name": "test_wrong_requisition_is_existing_fk_not_orphan"
+      },
+      {
+        "line": 112,
+        "name": "test_correct_criterion_is_accepted"
+      },
+      {
+        "line": 116,
+        "name": "test_same_requisition_future_version_is_still_irrelevant"
+      },
+      {
+        "line": 134,
+        "name": "test_incomplete_review_without_advancement_is_not_anomalous"
+      },
+      {
+        "line": 140,
+        "name": "test_advancement_despite_missing_review_has_actual_card_evidence"
+      },
+      {
+        "line": 146,
+        "name": "test_withdrawn_scheduled_is_detected_and_cancelled_is_not"
+      },
+      {
+        "line": 152,
+        "name": "test_candidate_wide_withdrawal_and_completed_history"
+      },
+      {
+        "line": 162,
+        "name": "test_all_references_and_pk_fk_scalar_constraints_hold"
+      },
+      {
+        "line": 169,
+        "name": "test_immutable_reference_and_no_baseline_change"
+      },
+      {
+        "line": 177,
+        "name": "test_exact_observed_rows_only_no_unrelated_history_changes"
+      },
+      {
+        "line": 187,
+        "name": "test_truth_csv_and_json_exact_agreement"
+      },
+      {
+        "line": 190,
+        "name": "test_answer_keys_and_extra_metadata_rejected_from_input"
+      },
+      {
+        "line": 195,
+        "name": "test_shuffle_or_identifiers_in_filename_do_not_influence_engine"
+      },
+      {
+        "line": 200,
+        "name": "test_tp_fp_fn_and_conventional_precision_recall_f1"
+      },
+      {
+        "line": 208,
+        "name": "test_duplicate_findings_are_fp_not_multiple_tp"
+      },
+      {
+        "line": 212,
+        "name": "test_pair_order_invariant_but_staff_identity_required"
+      },
+      {
+        "line": 219,
+        "name": "test_criterion_and_band_identity_required_for_matching"
+      },
+      {
+        "line": 225,
+        "name": "test_zero_denominators_and_no_accuracy_or_fake_tn"
+      },
+      {
+        "line": 232,
+        "name": "test_same_engine_used_for_clean_and_anomalous"
+      },
+      {
+        "line": 238,
+        "name": "test_two_independent_bundles_match_all_files_and_content"
+      },
+      {
+        "line": 245,
+        "name": "test_different_anomaly_seed_changes_interventions_not_baseline"
+      },
+      {
+        "line": 251,
+        "name": "test_injection_failure_never_publishes_partial_output"
+      },
+      {
+        "line": 258,
+        "name": "test_existing_outputs_and_unowned_locks_preserved"
+      },
+      {
+        "line": 266,
+        "name": "test_invalid_foreign_key_scalar_and_before_snapshot_rejected"
+      },
+      {
+        "line": 275,
+        "name": "test_generation_runs_detector_before_truth_serialization"
+      },
+      {
+        "line": 287,
+        "name": "setUpClass"
+      },
+      {
+        "line": 294,
+        "name": "tearDownClass"
+      },
+      {
+        "line": 296,
+        "name": "test_full_target_counts_preserved_with_all_five_detectable_types"
+      },
+      {
+        "line": 302,
+        "name": "test_previous_phase05_full_canonical_content_unchanged"
+      },
+      {
+        "line": 278,
+        "name": "detect_first"
+      },
+      {
+        "line": 279,
+        "name": "labels_later"
+      }
+    ],
+    "lines": 308,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "073b488d533780360697f4bd48f228877a8abe85847dcc8e4b99a1681d5d1545"
+  },
+  {
+    "bytes": 23228,
+    "file": "tests/test_evaluation.py",
+    "functions": [
+      {
+        "line": 24,
+        "name": "setUpClass"
+      },
+      {
+        "line": 30,
+        "name": "tearDownClass"
+      },
+      {
+        "line": 33,
+        "name": "setUp"
+      },
+      {
+        "line": 47,
+        "name": "meta"
+      },
+      {
+        "line": 51,
+        "name": "fails"
+      },
+      {
+        "line": 59,
+        "name": "card"
+      },
+      {
+        "line": 70,
+        "name": "reviewed"
+      },
+      {
+        "line": 75,
+        "name": "offer"
+      },
+      {
+        "line": 79,
+        "name": "pending"
+      },
+      {
+        "line": 85,
+        "name": "accepted"
+      },
+      {
+        "line": 92,
+        "name": "test_valid_creation_has_canonical_staff_reviewer_id_and_pending_items"
+      },
+      {
+        "line": 99,
+        "name": "test_invalid_reviewer_and_wrong_author_rejected"
+      },
+      {
+        "line": 103,
+        "name": "test_cancelled_interview_and_uncompleted_interview_cannot_be_scored"
+      },
+      {
+        "line": 108,
+        "name": "test_irrelevant_criterion_rejected"
+      },
+      {
+        "line": 113,
+        "name": "test_rubric_boundaries_zero_four_and_invalid_values"
+      },
+      {
+        "line": 122,
+        "name": "test_required_criterion_omission_blocks_submit"
+      },
+      {
+        "line": 127,
+        "name": "test_optional_criterion_omission_also_blocks_weight_normalization"
+      },
+      {
+        "line": 132,
+        "name": "test_duplicate_scorecard_rejected"
+      },
+      {
+        "line": 136,
+        "name": "test_weighted_integer_math_and_independent_sql_recomputation"
+      },
+      {
+        "line": 143,
+        "name": "test_missing_evidence_rejected_and_editable_pending_reset_supported"
+      },
+      {
+        "line": 149,
+        "name": "test_submitted_scorecards_are_locked"
+      },
+      {
+        "line": 154,
+        "name": "test_criterion_version_drift_rejected"
+      },
+      {
+        "line": 160,
+        "name": "test_incomplete_or_missing_reviewer_blocks_review"
+      },
+      {
+        "line": 164,
+        "name": "test_completed_required_evaluations_allow_real_transition"
+      },
+      {
+        "line": 170,
+        "name": "test_general_transition_routes_to_actual_review_gate"
+      },
+      {
+        "line": 176,
+        "name": "test_uncompleted_interview_blocks_review"
+      },
+      {
+        "line": 180,
+        "name": "test_withdrawn_and_rejected_applications_cannot_review"
+      },
+      {
+        "line": 187,
+        "name": "test_low_evaluation_rejects_review_and_supports_reasoned_rejection"
+      },
+      {
+        "line": 194,
+        "name": "test_conflicting_complete_reviewers_block_review_despite_aggregate_and_minimum"
+      },
+      {
+        "line": 203,
+        "name": "test_review_and_offer_eligibility_are_separate"
+      },
+      {
+        "line": 210,
+        "name": "test_valid_offer_amount_derived_from_actual_aggregate_and_snapshot"
+      },
+      {
+        "line": 217,
+        "name": "test_below_band_and_above_band_rejected"
+      },
+      {
+        "line": 222,
+        "name": "test_exact_lower_band_accepted"
+      },
+      {
+        "line": 226,
+        "name": "test_exact_upper_band_accepted_at_creation"
+      },
+      {
+        "line": 230,
+        "name": "test_currency_mismatch_and_noninteger_amount_rejected"
+      },
+      {
+        "line": 236,
+        "name": "test_unapproved_requisition_and_mutated_compensation_rejected"
+      },
+      {
+        "line": 245,
+        "name": "test_invalid_offer_actor_and_application_stage_rejected"
+      },
+      {
+        "line": 250,
+        "name": "test_duplicate_active_offer_rejected"
+      },
+      {
+        "line": 254,
+        "name": "test_self_approval_and_unappointed_actor_rejected"
+      },
+      {
+        "line": 262,
+        "name": "test_offer_rejection_audit_and_policy"
+      },
+      {
+        "line": 269,
+        "name": "test_approved_offer_end_to_end_audit_and_final_hired_state"
+      },
+      {
+        "line": 275,
+        "name": "test_direct_hired_and_accept_before_approval_rejected"
+      },
+      {
+        "line": 280,
+        "name": "test_hiring_resolves_other_applications_and_active_scheduling"
+      },
+      {
+        "line": 287,
+        "name": "test_post_hire_global_withdrawal_requires_explicit_future_policy"
+      },
+      {
+        "line": 292,
+        "name": "test_withdrawn_or_rejected_application_and_candidate_cannot_be_hired"
+      },
+      {
+        "line": 305,
+        "name": "test_exact_budget_limit_approval_and_expired_approval_rejection"
+      },
+      {
+        "line": 316,
+        "name": "test_scorecard_partial_write_failure_rolls_back"
+      },
+      {
+        "line": 322,
+        "name": "test_offer_partial_write_failure_rolls_back"
+      },
+      {
+        "line": 328,
+        "name": "test_approval_and_hire_partial_failures_roll_back_all_entities"
+      },
+      {
+        "line": 339,
+        "name": "test_event_time_backdating_and_evidence_tampering_cannot_review"
+      },
+      {
+        "line": 347,
+        "name": "test_score_offer_approval_events_are_immutable"
+      }
+    ],
+    "lines": 356,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "be267bbeb3b707bc18cb852b7460905c44b85c0e39b49a84b468333bfc12bca1"
+  },
+  {
+    "bytes": 7602,
+    "file": "tests/test_evaluation_generation.py",
+    "functions": [
+      {
+        "line": 21,
+        "name": "setUpClass"
+      },
+      {
+        "line": 34,
+        "name": "tearDownClass"
+      },
+      {
+        "line": 37,
+        "name": "test_starter_full_parent_interview_counts_and_real_core_entities"
+      },
+      {
+        "line": 47,
+        "name": "test_two_independent_runs_every_ordered_row_hash_count_and_decision"
+      },
+      {
+        "line": 59,
+        "name": "test_old_generation_modes_match_archived_master_and_workflow_digests"
+      },
+      {
+        "line": 67,
+        "name": "test_real_drafts_incomplete_submitted_approved_rejected_hired_variety"
+      },
+      {
+        "line": 77,
+        "name": "test_every_total_recomputed_independently_and_amounts_within_snapshot"
+      },
+      {
+        "line": 89,
+        "name": "test_phase05_validator_detects_actual_semantic_corruption_without_masking"
+      },
+      {
+        "line": 110,
+        "name": "test_workflow_only_validation_stays_strict_and_advanced_validation_passes"
+      },
+      {
+        "line": 116,
+        "name": "test_existing_phase05_output_never_overwritten"
+      }
+    ],
+    "lines": 125,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "727338f5cf373d04271709644f1e030de6776cdb5ee9adfde01b5a0a18c248eb"
+  },
+  {
+    "bytes": 16901,
+    "file": "tests/test_exports.py",
+    "functions": [
+      {
+        "line": 28,
+        "name": "setUpClass"
+      },
+      {
+        "line": 38,
+        "name": "tearDownClass"
+      },
+      {
+        "line": 40,
+        "name": "test_all24_tables_csv_json_headers_schema_column_order_and_pk_order"
+      },
+      {
+        "line": 54,
+        "name": "test_null_empty_literal_backslash_and_unicode_csv_escaping"
+      },
+      {
+        "line": 60,
+        "name": "test_exact_int64_and_json_null_integer_types"
+      },
+      {
+        "line": 69,
+        "name": "test_sql_escaping_unicode_nul_quotes_newlines_and_null"
+      },
+      {
+        "line": 73,
+        "name": "test_json_text_snapshot_not_parsed_or_reformatted"
+      },
+      {
+        "line": 81,
+        "name": "test_all_formats_restore_all_rows_types_ids_hashes_and_history"
+      },
+      {
+        "line": 93,
+        "name": "test_sql_is_fresh_database_seed_not_double_initializer_metadata"
+      },
+      {
+        "line": 104,
+        "name": "test_dependency_order_matches_every_foreign_key"
+      },
+      {
+        "line": 111,
+        "name": "test_first_difference_identifies_table_pk_field"
+      },
+      {
+        "line": 118,
+        "name": "test_unicode_control_chars_real_schema_roundtrip_all_formats"
+      },
+      {
+        "line": 128,
+        "name": "test_gzip_is_lossless_deterministic_without_filename_or_wallclock"
+      },
+      {
+        "line": 136,
+        "name": "test_existing_output_and_symlink_refused_without_mutation"
+      },
+      {
+        "line": 144,
+        "name": "test_failed_export_discards_owned_scratch"
+      },
+      {
+        "line": 150,
+        "name": "test_checksum_corrupted_import_rejected_and_no_partial_database"
+      },
+      {
+        "line": 158,
+        "name": "test_corruption_with_updated_hash_still_hits_actual_fk_constraints"
+      },
+      {
+        "line": 170,
+        "name": "test_json_boolean_type_corruption_rejected_even_if_checksum_updated"
+      },
+      {
+        "line": 177,
+        "name": "test_sql_duplicate_metadata_still_hits_append_only_protection"
+      },
+      {
+        "line": 188,
+        "name": "test_validation_counts_cover_unique_without_rowid_internal_index"
+      },
+      {
+        "line": 196,
+        "name": "setUpClass"
+      },
+      {
+        "line": 202,
+        "name": "tearDownClass"
+      },
+      {
+        "line": 204,
+        "name": "test_two_independent_complete_packages_match_every_byte_and_manifest"
+      },
+      {
+        "line": 210,
+        "name": "test_manifest_provenance_full_file_hashes_sizes_and_no_self_reference"
+      },
+      {
+        "line": 217,
+        "name": "test_packaged_detector_and_evaluator_recreate_actual_findings_metrics"
+      },
+      {
+        "line": 224,
+        "name": "test_artifact_has_no_scratch_sqlite_private_paths_credentials_or_real_names"
+      },
+      {
+        "line": 229,
+        "name": "test_manifest_rejects_unlisted_or_corrupted_file"
+      },
+      {
+        "line": 235,
+        "name": "test_package_failure_cleanup_no_partial_artifacts"
+      },
+      {
+        "line": 240,
+        "name": "test_privacy_scanner_finds_tokens_paths_links_and_private_binaries"
+      }
+    ],
+    "lines": 250,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "6adf7577c5ca28256026cc3655a820709fd82405dbda7cb3c6889060c9c52e1d"
+  },
+  {
+    "bytes": 20262,
+    "file": "tests/test_generation.py",
+    "functions": [
+      {
+        "line": 29,
+        "name": "setUpClass"
+      },
+      {
+        "line": 45,
+        "name": "tearDownClass"
+      },
+      {
+        "line": 48,
+        "name": "test_exact_starter_and_full_counts_same_generator"
+      },
+      {
+        "line": 58,
+        "name": "test_every_generated_pk_fk_and_required_field_valid"
+      },
+      {
+        "line": 67,
+        "name": "test_unique_application_pairs_and_exact_composite_identities"
+      },
+      {
+        "line": 78,
+        "name": "test_chronological_approval_and_application_history"
+      },
+      {
+        "line": 98,
+        "name": "test_projection_and_snapshot_history_agree"
+      },
+      {
+        "line": 106,
+        "name": "test_weights_proficiency_compensation_and_required_skills"
+      },
+      {
+        "line": 118,
+        "name": "test_measured_distributions_and_experience_correlation"
+      },
+      {
+        "line": 133,
+        "name": "test_no_downstream_records_advanced_states_or_truth_labels"
+      },
+      {
+        "line": 143,
+        "name": "test_two_independent_generations_equal_records_counts_summaries_and_hashes"
+      },
+      {
+        "line": 157,
+        "name": "test_different_seed_changes_real_attributes_but_preserves_ids_and_counts"
+      },
+      {
+        "line": 168,
+        "name": "test_hash_randomization_and_working_directory_do_not_affect_data"
+      },
+      {
+        "line": 180,
+        "name": "test_derived_fit_formula_required_criteria_and_zero_minimum"
+      },
+      {
+        "line": 193,
+        "name": "test_fit_uses_actual_database_skills"
+      },
+      {
+        "line": 208,
+        "name": "test_single_pair_capacity_and_zero_application_boundaries"
+      },
+      {
+        "line": 216,
+        "name": "test_invalid_configuration_and_id_capacity"
+      },
+      {
+        "line": 229,
+        "name": "test_weight_rounding_is_deterministic_and_reconciles"
+      },
+      {
+        "line": 235,
+        "name": "test_existing_empty_populated_and_symlink_outputs_are_never_overwritten"
+      },
+      {
+        "line": 247,
+        "name": "test_transaction_failure_removes_scratch_and_never_publishes_partial_db"
+      },
+      {
+        "line": 254,
+        "name": "test_failed_real_approval_policy_cannot_fabricate_approved_history"
+      },
+      {
+        "line": 262,
+        "name": "test_publish_race_preserves_another_writers_output"
+      },
+      {
+        "line": 272,
+        "name": "test_validation_detects_semantic_corruption_in_isolated_savepoints"
+      },
+      {
+        "line": 292,
+        "name": "test_cli_failure_has_nonzero_status_no_success_output"
+      },
+      {
+        "line": 264,
+        "name": "competing_writer"
+      }
+    ],
+    "lines": 304,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "683edd045611e47fd4af8b66d6a99fd20129a59dbcdd1089b5bd8fd0ded0ef1d"
+  },
+  {
+    "bytes": 8781,
+    "file": "tests/test_interview_generation.py",
+    "functions": [
+      {
+        "line": 29,
+        "name": "setUpClass"
+      },
+      {
+        "line": 42,
+        "name": "tearDownClass"
+      },
+      {
+        "line": 45,
+        "name": "test_exact_40_and_2000_master_counts_preserved_all_checks_zero"
+      },
+      {
+        "line": 57,
+        "name": "test_two_independent_replays_every_row_count_table_hash_and_aggregate"
+      },
+      {
+        "line": 70,
+        "name": "test_original_phase03_master_digest_and_schema_unchanged"
+      },
+      {
+        "line": 76,
+        "name": "test_variations_have_real_history_no_fake_scores_and_distinct_attempt_counts"
+      },
+      {
+        "line": 90,
+        "name": "test_weak_applications_remain_initial_stage"
+      },
+      {
+        "line": 98,
+        "name": "test_master_and_workflow_validation_are_distinct"
+      },
+      {
+        "line": 103,
+        "name": "test_workflow_validator_detects_semantic_corruption"
+      },
+      {
+        "line": 121,
+        "name": "test_insufficient_fixed_capacity_fails_without_publishing_or_expanding"
+      },
+      {
+        "line": 131,
+        "name": "test_starter_target_configurable_full_fixed_and_invalid_inputs_refused"
+      },
+      {
+        "line": 139,
+        "name": "test_different_hash_seed_and_working_directory_preserve_workflow"
+      }
+    ],
+    "lines": 147,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "6a88f17a3682a01e214dfe703a02052a11b303ee651ecd009651a5e8a6680faa"
+  },
+  {
+    "bytes": 30428,
+    "file": "tests/test_schema.py",
+    "functions": [
+      {
+        "line": 26,
+        "name": "parents_for"
+      },
+      {
+        "line": 38,
+        "name": "setUp"
+      },
+      {
+        "line": 44,
+        "name": "tearDown"
+      },
+      {
+        "line": 48,
+        "name": "isolated_statement"
+      },
+      {
+        "line": 56,
+        "name": "reject"
+      },
+      {
+        "line": 63,
+        "name": "accept"
+      },
+      {
+        "line": 67,
+        "name": "test_core_and_support_inventory_explicit_primary_keys_and_strict_storage"
+      },
+      {
+        "line": 77,
+        "name": "test_all_declared_required_fk_relationships"
+      },
+      {
+        "line": 103,
+        "name": "test_every_fk_group_rejects_missing_references"
+      },
+      {
+        "line": 127,
+        "name": "test_every_required_domain_field_rejects_null"
+      },
+      {
+        "line": 135,
+        "name": "test_duplicate_primary_keys_all_tables"
+      },
+      {
+        "line": 141,
+        "name": "test_composite_application_and_reviewer_uniqueness_indexes"
+      },
+      {
+        "line": 152,
+        "name": "test_all_scalar_lifecycle_enums_reject_unknown_values"
+      },
+      {
+        "line": 160,
+        "name": "test_deterministic_counter_id_patterns"
+      },
+      {
+        "line": 175,
+        "name": "test_all_primary_identities_immutable"
+      },
+      {
+        "line": 187,
+        "name": "test_each_timestamp_rejects_text_negative_and_out_of_range"
+      },
+      {
+        "line": 199,
+        "name": "test_effective_and_booking_intervals_positive"
+      },
+      {
+        "line": 210,
+        "name": "test_same_row_causal_dates_and_status_timestamps"
+      },
+      {
+        "line": 224,
+        "name": "test_compensation_ranges_integer_units_and_currency"
+      },
+      {
+        "line": 239,
+        "name": "test_rubric_values_weights_flags_and_versions"
+      },
+      {
+        "line": 261,
+        "name": "test_approval_target_xor_and_both_valid_subject_types"
+      },
+      {
+        "line": 268,
+        "name": "test_only_one_active_final_offer_partial_unique_index"
+      },
+      {
+        "line": 277,
+        "name": "test_scorecard_requires_assigned_reviewer"
+      },
+      {
+        "line": 283,
+        "name": "test_panel_and_application_must_share_requisition"
+      },
+      {
+        "line": 289,
+        "name": "test_append_only_events_participants_metadata_update_delete_replace"
+      },
+      {
+        "line": 310,
+        "name": "test_event_subject_sequence_unique"
+      },
+      {
+        "line": 319,
+        "name": "test_event_snapshots_require_json_objects_and_retain_before_after_values"
+      },
+      {
+        "line": 327,
+        "name": "test_text_fields_nonblank_synthetic_contact_and_natural_uniques"
+      },
+      {
+        "line": 342,
+        "name": "test_metadata_singleton_version_and_hash_storage_constraints"
+      },
+      {
+        "line": 359,
+        "name": "test_valid_cross_table_references_and_integrity"
+      },
+      {
+        "line": 371,
+        "name": "test_fresh_and_repeated_initialization_deterministic_and_preserves_rows"
+      },
+      {
+        "line": 381,
+        "name": "test_connections_enable_foreign_keys_and_file_isolation"
+      },
+      {
+        "line": 398,
+        "name": "test_unknown_populated_unversioned_database_not_destroyed"
+      },
+      {
+        "line": 407,
+        "name": "test_sqlite_lookalike_user_table_is_not_hidden_from_safety_checks"
+      },
+      {
+        "line": 418,
+        "name": "test_version_one_database_preserved_and_not_silently_upgraded"
+      },
+      {
+        "line": 428,
+        "name": "test_experience_and_required_proficiency_ranges"
+      },
+      {
+        "line": 437,
+        "name": "test_unknown_version_and_catalog_drift_refused"
+      },
+      {
+        "line": 446,
+        "name": "test_caller_transaction_not_committed_or_rolled_back_by_initializer"
+      },
+      {
+        "line": 453,
+        "name": "test_source_schema_drift_refused_and_failed_ddl_rolls_back"
+      },
+      {
+        "line": 466,
+        "name": "test_existing_fk_corruption_refused_not_silently_repaired"
+      },
+      {
+        "line": 473,
+        "name": "test_data_dictionary_exactly_covers_every_field_and_constraint"
+      }
+    ],
+    "lines": 485,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "39398c1fe5e40a53bfcf3f09529027479de78d85300a4bd6b6a8f09b10560ff0"
+  },
+  {
+    "bytes": 19237,
+    "file": "tests/test_workflow.py",
+    "functions": [
+      {
+        "line": 26,
+        "name": "setUpClass"
+      },
+      {
+        "line": 33,
+        "name": "tearDownClass"
+      },
+      {
+        "line": 36,
+        "name": "setUp"
+      },
+      {
+        "line": 67,
+        "name": "meta"
+      },
+      {
+        "line": 71,
+        "name": "screen"
+      },
+      {
+        "line": 74,
+        "name": "book"
+      },
+      {
+        "line": 82,
+        "name": "fails"
+      },
+      {
+        "line": 90,
+        "name": "separate_b_panel"
+      },
+      {
+        "line": 97,
+        "name": "test_eligible_schedule_creates_projection_participants_and_linked_events"
+      },
+      {
+        "line": 105,
+        "name": "test_unapproved_requisition_rejected"
+      },
+      {
+        "line": 111,
+        "name": "test_missing_causal_approval_rejected"
+      },
+      {
+        "line": 117,
+        "name": "test_missing_application_rejected"
+      },
+      {
+        "line": 120,
+        "name": "test_withdrawn_application_rejected"
+      },
+      {
+        "line": 124,
+        "name": "test_candidate_withdrawal_prevents_screening_and_scheduling"
+      },
+      {
+        "line": 129,
+        "name": "test_panel_requisition_mismatch_rejected"
+      },
+      {
+        "line": 133,
+        "name": "test_unavailable_interviewer_rejected"
+      },
+      {
+        "line": 137,
+        "name": "test_blocked_calendar_overrides_available"
+      },
+      {
+        "line": 143,
+        "name": "test_interviewer_overlap_rejected_across_applications"
+      },
+      {
+        "line": 148,
+        "name": "test_back_to_back_bookings_and_exact_available_end_accepted"
+      },
+      {
+        "line": 154,
+        "name": "test_candidate_overlap_rejected_even_with_disjoint_interviewers"
+      },
+      {
+        "line": 160,
+        "name": "test_effective_membership_boundary_and_adjacent_coverage"
+      },
+      {
+        "line": 170,
+        "name": "test_panel_and_staff_effective_end_exclusive"
+      },
+      {
+        "line": 180,
+        "name": "test_overlapping_duplicate_membership_rejected"
+      },
+      {
+        "line": 186,
+        "name": "test_invalid_interval_values_rejected_atomically"
+      },
+      {
+        "line": 191,
+        "name": "test_reschedule_same_id_old_schedule_and_immutable_assignment_preserved"
+      },
+      {
+        "line": 203,
+        "name": "test_reschedule_conflict_is_atomic"
+      },
+      {
+        "line": 208,
+        "name": "test_reschedule_rechecks_original_member_effectivity"
+      },
+      {
+        "line": 214,
+        "name": "test_reschedule_noop_and_started_interview_rejected"
+      },
+      {
+        "line": 220,
+        "name": "test_cancel_releases_capacity_and_preserves_participants"
+      },
+      {
+        "line": 227,
+        "name": "test_application_withdrawal_cancels_all_scheduled_and_releases_capacity"
+      },
+      {
+        "line": 235,
+        "name": "test_global_withdrawal_cancels_all_applications_atomically"
+      },
+      {
+        "line": 243,
+        "name": "test_withdrawal_retains_completed_history"
+      },
+      {
+        "line": 253,
+        "name": "test_completion_requires_actual_end_and_authorized_participant"
+      },
+      {
+        "line": 261,
+        "name": "test_illegal_transition_and_direct_stage_bypass_rejected"
+      },
+      {
+        "line": 266,
+        "name": "test_review_gate_blocks_missing_and_incomplete_evaluations"
+      },
+      {
+        "line": 279,
+        "name": "test_authorization_and_metadata_rejected"
+      },
+      {
+        "line": 284,
+        "name": "test_event_and_participant_mutation_and_replace_are_prevented"
+      },
+      {
+        "line": 295,
+        "name": "test_injected_failure_after_writes_rolls_back_every_projection_and_event"
+      },
+      {
+        "line": 303,
+        "name": "test_global_withdrawal_failure_rolls_back_all_children"
+      },
+      {
+        "line": 320,
+        "name": "test_two_concurrent_writers_cannot_double_book"
+      },
+      {
+        "line": 310,
+        "name": "fail_second"
+      },
+      {
+        "line": 328,
+        "name": "contender"
+      }
+    ],
+    "lines": 345,
+    "review": "read source/text; AST/DDL/catalog/history and executed checks as applicable",
+    "sha256": "57e5e3b2eae077a8744fc8e06189f80ec8def3af65d805d050b53e8019be90a0"
+  }
+]

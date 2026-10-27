@@ -1,0 +1,232 @@
+{
+  "artifact_privacy_scan": {
+    "bytes": 25495764,
+    "files_scanned": 68,
+    "findings": [],
+    "largest_files": [
+      {
+        "bytes": 2281185,
+        "path": "baseline/json/CandidateSkill.json"
+      },
+      {
+        "bytes": 2216359,
+        "path": "baseline/json/CandidateEvent.json"
+      },
+      {
+        "bytes": 1783217,
+        "path": "baseline/json/InterviewEvent.json"
+      },
+      {
+        "bytes": 1487402,
+        "path": "baseline/json/Application.json"
+      },
+      {
+        "bytes": 1404045,
+        "path": "baseline/sql/seed.sql.gz"
+      }
+    ],
+    "limitation": "Pattern and provenance checks reduce accidental disclosure; final human content/ownership review remains required.",
+    "passed": true
+  },
+  "clean_git_archive": {
+    "archived_revision": "ea74a975a43ca7967c864dde02a3e2d136443c28",
+    "artifacts_present": 68,
+    "canonical_sha256": "7362b01eeb0aa15999480aa8b0a810d96ff21060bd06f9b230eb637d57642ebb",
+    "commands": [
+      "python3 -m venv .venv",
+      ".venv/bin/python3 --version",
+      "PYTHONPATH=src .venv/bin/python3 -m yottaflex.deliverables verify --directory artifacts --work output/review-verification"
+    ],
+    "log_sha256": "a5aa536fa960ee9aee4dbbd7111cdde988b9d62699d6502fe990335d5dfc02c0",
+    "manifest_files_verified": 67,
+    "private_assignment_files_present": false,
+    "python_version": "3.14.5",
+    "result": "PASS",
+    "scope": "Runtime review from clean tracked files; no private documents, preexisting virtualenv or network required. Git archive has no .git directory; no claim of human test execution.",
+    "timing": {
+      "imports": {
+        "csv": {
+          "import_seconds": 3.7432436251547188,
+          "validation_seconds": 2.340595374815166
+        },
+        "json": {
+          "import_seconds": 3.0537201669067144,
+          "validation_seconds": 1.8624330828897655
+        },
+        "sql": {
+          "import_seconds": 4.888564791064709,
+          "validation_seconds": 2.4511404170189053
+        }
+      },
+      "total_seconds": 18.519433334004134
+    }
+  },
+  "human_verification": "PENDING; all recorded executions performed by Codex",
+  "maintainer_smoke": {
+    "log_sha256": "216dbc11c402f78aa92ab24015771608bb1e48ff3c23d3b7068866d55f9a85d2",
+    "python_groups": 3,
+    "result": "PASS",
+    "shell_checks": 4
+  },
+  "manual_detection": {
+    "counts_by_rule": {
+      "R01": 5,
+      "R02": 10,
+      "R03": 5,
+      "R04": 5,
+      "R05": 5
+    },
+    "findings": 30,
+    "semantic_valid": false
+  },
+  "manual_evaluation": {
+    "evaluation": {
+      "FN": 0,
+      "FP": 0,
+      "TP": 30,
+      "by_issue_type": {
+        "interviewer_double_booked": {
+          "FN": 0,
+          "FP": 0,
+          "TP": 10,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "irrelevant_evaluation_criterion": {
+          "FN": 0,
+          "FP": 0,
+          "TP": 5,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "offer_exceeds_band": {
+          "FN": 0,
+          "FP": 0,
+          "TP": 5,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "stage_gate_missing_review": {
+          "FN": 0,
+          "FP": 0,
+          "TP": 5,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "withdrawn_still_scheduled": {
+          "FN": 0,
+          "FP": 0,
+          "TP": 5,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "by_rule": {
+        "R01": {
+          "FN": 0,
+          "FP": 0,
+          "TP": 5,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "R02": {
+          "FN": 0,
+          "FP": 0,
+          "TP": 10,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "R03": {
+          "FN": 0,
+          "FP": 0,
+          "TP": 5,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "R04": {
+          "FN": 0,
+          "FP": 0,
+          "TP": 5,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "R05": {
+          "FN": 0,
+          "FP": 0,
+          "TP": 5,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "clean_baseline_false_positives": 0,
+      "duplicate_findings": 0,
+      "f1": 1.0,
+      "missed_scenario_ids": [],
+      "precision": 1.0,
+      "recall": 1.0,
+      "rules_with_true_positives": 5,
+      "unexpected_finding_ids": [],
+      "zero_denominators": "undefined precision/recall/F1 are null; F1=2TP/(2TP+FP+FN); no accuracy/TN claim"
+    },
+    "timing": {
+      "evaluation_seconds": 2.8246959999669343
+    }
+  },
+  "manual_export": {
+    "canonical": "7362b01eeb0aa15999480aa8b0a810d96ff21060bd06f9b230eb637d57642ebb"
+  },
+  "manual_sql_restore": {
+    "import_seconds": 4.421967583009973,
+    "validation_seconds": 2.1438045408576727
+  },
+  "manual_validation": {
+    "checks": 99,
+    "passed": true
+  },
+  "package_verification": {
+    "canonical": "7362b01eeb0aa15999480aa8b0a810d96ff21060bd06f9b230eb637d57642ebb",
+    "inventory_files": 67,
+    "passed": true,
+    "timing": {
+      "imports": {
+        "csv": {
+          "import_seconds": 2.8349443338811398,
+          "validation_seconds": 1.7535503751132637
+        },
+        "json": {
+          "import_seconds": 2.9311827500350773,
+          "validation_seconds": 1.8503509999718517
+        },
+        "sql": {
+          "import_seconds": 4.257995291147381,
+          "validation_seconds": 1.965179291088134
+        }
+      },
+      "total_seconds": 16.77437787503004
+    }
+  },
+  "source_verification": {
+    "dictionary_fresh": true,
+    "original_requirement_rows_unchanged": 75,
+    "prompt_bytes_unchanged": true
+  },
+  "test_evidence": {
+    "command": "PYTHONPATH=src .venv/bin/python3 -m unittest discover -s tests -v",
+    "elapsed_seconds": 93.306,
+    "log_sha256": "230543bb121517b05f8fc642154ef1c91d1d9384b493de106d098756d7e7119e",
+    "new_tests": 25,
+    "previous_tests": 183,
+    "result": "OK",
+    "tests": 208
+  }
+}

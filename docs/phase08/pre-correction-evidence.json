@@ -1,0 +1,40 @@
+{
+  "audit_tool_failure": "During commit-field coverage extension, scanner received str instead of bytes and raised AttributeError. Corrected explicit UTF8 encoding; rerun whole history succeeded. Production workflow/runtime/artifacts unaffected.",
+  "dictionary_reproduction": "Original d497c20 generator header incorrectly states no anomaly engine yet; exact phrase detected in original source, absent corrected source; original Fields/DDL suffix unchanged",
+  "executions": [
+    {
+      "exit_code": 0,
+      "label": "original-workspace",
+      "log_sha256": "a36b4dd231c05867a50097ef26eb65ccf71a48bfc4faafbb9965011ab8779533",
+      "result_summary": "OK",
+      "runner_seconds": 97.424,
+      "tests_executed": 208
+    },
+    {
+      "exit_code": 1,
+      "label": "original-clean-copy",
+      "log_sha256": "3874db5b5f1cadfc339bf61a7ecd45a8b5dc76d4147ed132ab97bf2d5206d822",
+      "result_summary": "setup/regression error reproduced; not treated as PASS",
+      "runner_seconds": 91.889,
+      "tests_executed": 201
+    },
+    {
+      "exit_code": 1,
+      "label": "regressions-before",
+      "log_sha256": "1348a3fd86dd5f24344ea0be4f427f671ea3001dc81ecc9143c7d83e55db7524",
+      "result_summary": "setup/regression error reproduced; not treated as PASS",
+      "runner_seconds": 1.05,
+      "tests_executed": 3
+    },
+    {
+      "exit_code": 0,
+      "label": "regressions-after",
+      "log_sha256": "6dd62e5a30c1f5abf93a19af167d70eff405792f94e18f57b02711971d4270f8",
+      "result_summary": "OK",
+      "runner_seconds": 1.469,
+      "tests_executed": 3
+    }
+  ],
+  "original_clean_failure": "PackageTests.setUpClass unconditional git rev-parse HEAD;201 executed,7 class tests unexecuted,1 error",
+  "preview_failure": "Initial disposable curation gate caught remaining home-path username; rejected that preview, broadened copy-only redaction, rescanned before reviewer execution"
+}

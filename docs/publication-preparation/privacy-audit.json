@@ -1,0 +1,12 @@
+{
+  "compressed_files_decompressed": 5,
+  "counts_by_kind": {},
+  "expanded_bytes_scanned": 107407627,
+  "files_scanned": 194,
+  "findings": [],
+  "limits": "Pattern/known-identity scans cannot guarantee all privacy/security/ownership. Synthetic identity SQL checks and personal final content review are separate. No matched private metadata is serialized.",
+  "passed": true,
+  "policy": "Every file in publication tree; no Git required or invoked; gzip decompressed. Reports only relative location/category, never matched values. Official employer email domains and literal synthetic negative-test email are allowlisted.",
+  "private_metadata_identities_checked": 2,
+  "stored_bytes": 28186041
+}

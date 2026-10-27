@@ -1,0 +1,36 @@
+# Private source material and candidate data: never publish by default.
+/inputs/
+/docs/assignment/*
+!/docs/assignment/README.md
+/data/
+/output/
+/tmp/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite
+*.sqlite3
+*.db
+
+# Local tooling and generated caches.
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+dist/
+coverage/
+
+# Future fixtures must be explicitly synthetic and reviewed before tracking.
+
+# Reviewed synthetic CSV/JSON/SQL and deterministic gzip deliverables under artifacts/
+# are intentionally trackable. Raw SQLite/private sources remain ignored above.
+
+# Publication preparation: local verification logs and temporary work never ship.
+*.log
+/.publication-work/

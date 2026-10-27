@@ -1,0 +1,236 @@
+{
+  "files": [
+    {
+      "file": "reports/phase01-handoff.md",
+      "original_sha256": "101fd67855ccccb9bb4d16da99fd26a159901458e231f00fc905eff917a7c076",
+      "prepended_notice_lines": 2,
+      "reason": "Remove user-specific home paths and embedded username from publication copy only; preserve technical commands/results and disclose historical scope",
+      "redacted_sha256": "ec4c6670a8f369a9bd727e2e720a35d47b753a6c9f3ae73c2427a49d0b0a3c60",
+      "redactions": [
+        {
+          "occurrences": [
+            {
+              "characters": 18,
+              "column_start": 11,
+              "kind": "private_home_path",
+              "replacement": "<private-home>/"
+            }
+          ],
+          "original_line": 15
+        },
+        {
+          "occurrences": [
+            {
+              "characters": 18,
+              "column_start": 12,
+              "kind": "private_home_path",
+              "replacement": "<private-home>/"
+            }
+          ],
+          "original_line": 42
+        },
+        {
+          "occurrences": [
+            {
+              "characters": 18,
+              "column_start": 9,
+              "kind": "private_home_path",
+              "replacement": "<private-home>/"
+            }
+          ],
+          "original_line": 106
+        },
+        {
+          "occurrences": [
+            {
+              "characters": 17,
+              "column_start": 95,
+              "kind": "private_home_path",
+              "replacement": "<private-home>/"
+            },
+            {
+              "characters": 18,
+              "column_start": 113,
+              "kind": "private_home_path",
+              "replacement": "<private-home>/"
+            },
+            {
+              "characters": 18,
+              "column_start": 141,
+              "kind": "private_home_path",
+              "replacement": "<private-home>/"
+            },
+            {
+              "characters": 18,
+              "column_start": 178,
+              "kind": "private_home_path",
+              "replacement": "<private-home>/"
+            },
+            {
+              "characters": 18,
+              "column_start": 224,
+              "kind": "private_home_path",
+              "replacement": "<private-home>/"
+            },
+            {
+              "characters": 18,
+              "column_start": 281,
+              "kind": "private_home_path",
+              "replacement": "<private-home>/"
+            }
+          ],
+          "original_line": 108
+        },
+        {
+          "occurrences": [
+            {
+              "characters": 18,
+              "column_start": 9,
+              "kind": "private_home_path",
+              "replacement": "<private-home>/"
+            }
+          ],
+          "original_line": 136
+        }
+      ]
+    },
+    {
+      "file": "reports/phase01-resumed-handoff.md",
+      "original_sha256": "9d9af38d50a23eb330ae8060f14ced108ef277c5c8fbdbd2775a2f3a3f5de3c6",
+      "prepended_notice_lines": 2,
+      "reason": "Remove user-specific home paths and embedded username from publication copy only; preserve technical commands/results and disclose historical scope",
+      "redacted_sha256": "aff6d45a8fd3f73ef7834fdab2be3152b2cc25bf57a3563d035a88a25d6bb23a",
+      "redactions": [
+        {
+          "occurrences": [
+            {
+              "characters": 18,
+              "column_start": 1,
+              "kind": "private_home_path",
+              "replacement": "<private-home>/"
+            }
+          ],
+          "original_line": 12
+        },
+        {
+          "occurrences": [
+            {
+              "characters": 18,
+              "column_start": 16,
+              "kind": "private_home_path",
+              "replacement": "<private-home>/"
+            },
+            {
+              "characters": 18,
+              "column_start": 104,
+              "kind": "private_home_path",
+              "replacement": "<private-home>/"
+            }
+          ],
+          "original_line": 170
+        }
+      ]
+    },
+    {
+      "file": "reports/phase02-schema-handoff.md",
+      "original_sha256": "a84854b48074028ca230575abe37013c8999752dd32ace9749883f6ef5dc81b1",
+      "prepended_notice_lines": 2,
+      "reason": "Remove user-specific home paths and embedded username from publication copy only; preserve technical commands/results and disclose historical scope",
+      "redacted_sha256": "b3437cddcde2fda633e02527d334b7caa3bc0d23e147970fb16238629919e781",
+      "redactions": [
+        {
+          "occurrences": [
+            {
+              "characters": 18,
+              "column_start": 10,
+              "kind": "private_home_path",
+              "replacement": "<private-home>/"
+            }
+          ],
+          "original_line": 11
+        }
+      ]
+    },
+    {
+      "file": "reports/phase03-data-generation-handoff.md",
+      "original_sha256": "a839edd3733b2ef3b6de2ac6b306d04f0bc60ce5135e7355ccaa5f076f42be4d",
+      "prepended_notice_lines": 2,
+      "reason": "Remove user-specific home paths and embedded username from publication copy only; preserve technical commands/results and disclose historical scope",
+      "redacted_sha256": "ef7e3f14cc93a51abf6975f6bd680e2fa30152027b2271baa1fe093d0e09d402",
+      "redactions": [
+        {
+          "occurrences": [
+            {
+              "characters": 18,
+              "column_start": 1,
+              "kind": "private_home_path",
+              "replacement": "<private-home>/"
+            }
+          ],
+          "original_line": 10
+        }
+      ]
+    },
+    {
+      "file": "reports/phase04-interview-workflow-handoff.md",
+      "original_sha256": "3ff0bae05847e75d1d1bb83a3bb800d6471f8a34f3a1a6818556ba95ace48899",
+      "prepended_notice_lines": 2,
+      "reason": "Remove user-specific home paths and embedded username from publication copy only; preserve technical commands/results and disclose historical scope",
+      "redacted_sha256": "46c352164296ec941c7fa9fdcc80d7b2316b1d059e85e9a739224cd521da8945",
+      "redactions": [
+        {
+          "occurrences": [
+            {
+              "characters": 18,
+              "column_start": 16,
+              "kind": "private_home_path",
+              "replacement": "<private-home>/"
+            }
+          ],
+          "original_line": 5
+        }
+      ]
+    },
+    {
+      "file": "reports/phase05-evaluation-offer-handoff.md",
+      "original_sha256": "512842bfc9348d094425e3a77d730cc0d8a59abc1a8977514d2303e89f8ca617",
+      "prepended_notice_lines": 2,
+      "reason": "Remove user-specific home paths and embedded username from publication copy only; preserve technical commands/results and disclose historical scope",
+      "redacted_sha256": "2db1c8295f5e32c5f98101b6ad7ac6feef3397eb45dfc85e39d058ec10df821e",
+      "redactions": [
+        {
+          "occurrences": [
+            {
+              "characters": 18,
+              "column_start": 48,
+              "kind": "private_home_path",
+              "replacement": "<private-home>/"
+            }
+          ],
+          "original_line": 4
+        }
+      ]
+    },
+    {
+      "file": "reports/phase06-anomaly-ground-truth-handoff.md",
+      "original_sha256": "82ce25dcf714864c2798362b5272e3fa80c263e029a5326955e6cebc93771ae2",
+      "prepended_notice_lines": 2,
+      "reason": "Remove user-specific home paths and embedded username from publication copy only; preserve technical commands/results and disclose historical scope",
+      "redacted_sha256": "caf1a901deff7e6393b75842f24958b36aa33ac2aa2fc4ba0d810c6146fb6265",
+      "redactions": [
+        {
+          "occurrences": [
+            {
+              "characters": 18,
+              "column_start": 8,
+              "kind": "private_home_path",
+              "replacement": "<private-home>/"
+            }
+          ],
+          "original_line": 5
+        }
+      ]
+    }
+  ],
+  "policy": "No matched private value stored; location, category, value hash and replacement only; no original Git history or prompt text changed"
+}

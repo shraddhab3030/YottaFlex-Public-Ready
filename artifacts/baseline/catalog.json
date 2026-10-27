@@ -1,0 +1,1895 @@
+{
+  "canonical": {
+    "sha256": "7362b01eeb0aa15999480aa8b0a810d96ff21060bd06f9b230eb637d57642ebb",
+    "tables": {
+      "Application": {
+        "rows": 8000,
+        "sha256": "b74c6e38190a1217982c6d1438adbea08c2b6cde8d0dadd39f047d1d232eb6ff"
+      },
+      "ApplicationEvent": {
+        "rows": 14843,
+        "sha256": "a21ca544f772ae5f0377fbc185d4ea3e127c99139c01fde32ba350db8e14d80d"
+      },
+      "Approval": {
+        "rows": 429,
+        "sha256": "d1a71a7d56092685a8cbfffa0615906e99a432e29a7d9195d291ff13d08b703a"
+      },
+      "ApprovalEvent": {
+        "rows": 858,
+        "sha256": "61a273bb0df412cadea89fb84ac19312250746dae2314389173eb5be6eb0f411"
+      },
+      "Availability": {
+        "rows": 2680,
+        "sha256": "5b69acedf076075b53fe918110177340a708f9fc2a816aac6c1b781f8203690f"
+      },
+      "Candidate": {
+        "rows": 5000,
+        "sha256": "5587bd6230d1512e72a8124addf427cf041b5af75fd2cd55eb22cc3b8adf3bb0"
+      },
+      "CandidateEvent": {
+        "rows": 5083,
+        "sha256": "3d11fe1e3e216663628fe5727c48ee6c706563ce605d6133de38e366189be152"
+      },
+      "CandidateSkill": {
+        "rows": 27061,
+        "sha256": "84f680161b39946ec98664e061764da3392242b2a29bb218383591e93a6f93ec"
+      },
+      "HiringManager": {
+        "rows": 20,
+        "sha256": "9a939034d2dc9a78cb800e0cddd908772f9f07b99905d58279e3084b47330e90"
+      },
+      "Interview": {
+        "rows": 2000,
+        "sha256": "c628268d17628e013c1955982d429f4647b9cf8dd5ad6ac29c4f1acb6ed01b18"
+      },
+      "InterviewEvent": {
+        "rows": 3147,
+        "sha256": "0c860a81cc269ce58d9d0c262ccaf1cebb6d62efe097c0a39b337ae3453dcdf3"
+      },
+      "InterviewPanel": {
+        "rows": 200,
+        "sha256": "feb7a5ecb1471b9e4a69f14db43555c28cdcff27a6bcce7daa83dfbef0281f0f"
+      },
+      "InterviewParticipant": {
+        "rows": 5000,
+        "sha256": "92634d5ee3cbdd48bcb474ab01aa11a8f4ac394291c38d9ec4c916d56a156127"
+      },
+      "Offer": {
+        "rows": 229,
+        "sha256": "d45986d081faf45cdfc35cd6d3db17994da800ff45a79d65886f76e10a258851"
+      },
+      "OfferEvent": {
+        "rows": 957,
+        "sha256": "36f07788c2b6acf24c3b2c3c76683e586c883a342212b299798288e63537037c"
+      },
+      "PanelMember": {
+        "rows": 500,
+        "sha256": "50a5148362a7f8a10777e781cb7649f1955d30b93449a675e209b5358b7a46de"
+      },
+      "Requisition": {
+        "rows": 200,
+        "sha256": "0a02fb0494b420f5f26fa34c41d708d3970d74cfe8f4c7c7c6d49a4b4c1bd494"
+      },
+      "RequisitionEvent": {
+        "rows": 800,
+        "sha256": "aaf1b0baab13e8c7888f82ed2124b314528baf5e8d6016d33a5799b5e255c156"
+      },
+      "SchemaMetadata": {
+        "rows": 1,
+        "sha256": "9541dcc0d5c87cf7b709276469debb2a46a8acb8ebe59f94467202082ba19162"
+      },
+      "Scorecard": {
+        "rows": 1122,
+        "sha256": "7d2c9535d9c7bdfa2e53355535679e68d1dc9fd78d6f0878bc43e04e881b9386"
+      },
+      "ScorecardEvent": {
+        "rows": 6066,
+        "sha256": "6d73eb95b065f177d12be5b0f9f45b3ab496e95c2b842f8508d642a68f213d19"
+      },
+      "ScorecardItem": {
+        "rows": 4488,
+        "sha256": "3dad7d5d07133244cac643b9b2cdda3f995d0c428a1c959a7ac6ce1df6b06ba8"
+      },
+      "SkillRequirement": {
+        "rows": 800,
+        "sha256": "9e74559cbc4b648d05f133b93ac516395352a189866ffa61659bc2edd56fc284"
+      },
+      "Staff": {
+        "rows": 91,
+        "sha256": "207f12721f23883da84938e397263cf06f3333ba5d06d605afd9024de07fcb13"
+      }
+    }
+  },
+  "files": {
+    "csv/Application.csv": {
+      "bytes": 823356,
+      "sha256": "6480b6f817800abe3b6b942f770de332fc2a14119b06dee8a68dc495f281dd54"
+    },
+    "csv/ApplicationEvent.csv.gz": {
+      "bytes": 353329,
+      "sha256": "87e4051d5fc10a8e1ec5d39940c20fd7147b024dc4a8b93c05154b5aab36938b"
+    },
+    "csv/Approval.csv": {
+      "bytes": 56842,
+      "sha256": "7fe7347202c4c38d3afb2415e14a397ce1e66718bc5e1e719cff4f3f3e4428a5"
+    },
+    "csv/ApprovalEvent.csv": {
+      "bytes": 438749,
+      "sha256": "3ffbdde97da2a2466207e0eebe4dcb7dbd3132d947d59c205a9f4530a2fc46f5"
+    },
+    "csv/Availability.csv": {
+      "bytes": 179618,
+      "sha256": "1ccbf0e1a85efc56770d222cd6e159f25942e8324a6c1e8ca3592c9d6c6c2666"
+    },
+    "csv/Candidate.csv": {
+      "bytes": 542125,
+      "sha256": "9dce37dcdf806575cb302f0bc4b82daba175996def85d8821dd36a47a8518b50"
+    },
+    "csv/CandidateEvent.csv": {
+      "bytes": 1245457,
+      "sha256": "e3881b4e15701d8c4f19ce5d9161c464cceb9ff8122de92a14fbd76126f98b0d"
+    },
+    "csv/CandidateSkill.csv": {
+      "bytes": 1063391,
+      "sha256": "ed1479d9d460f4446a0134df754ea6536127287c96ae252b40cb5e1bf1c11683"
+    },
+    "csv/HiringManager.csv": {
+      "bytes": 1377,
+      "sha256": "1eeedddab36f9a6676497aa4bf79a882d3e996013b3f06cd210f022c8b2de142"
+    },
+    "csv/Interview.csv": {
+      "bytes": 246089,
+      "sha256": "392582c7242ce268eb17989583e18ac95a352cb132cfdb79d1898757650ffc03"
+    },
+    "csv/InterviewEvent.csv": {
+      "bytes": 1182091,
+      "sha256": "e0b7af50b186e171f8fd2f607c5bc27c7a997c34ad47b211a14044f7b3b54ed7"
+    },
+    "csv/InterviewPanel.csv": {
+      "bytes": 17871,
+      "sha256": "dca5d290b35a3d7ed0dc9133536d32d2ff0663658c647de86758433b9f901c48"
+    },
+    "csv/InterviewParticipant.csv": {
+      "bytes": 285058,
+      "sha256": "e6f22635e6f56b599662d19119b47e68fc5997215fe5e46d253cc37719dda591"
+    },
+    "csv/Offer.csv": {
+      "bytes": 31202,
+      "sha256": "9b29b43c0f02b31e185063c7bc3871a6a33b511aa1c2cc7168db5627d9429ceb"
+    },
+    "csv/OfferEvent.csv": {
+      "bytes": 849339,
+      "sha256": "0ad240a2eef52361de28d267edc9066ee1c51654a72ace60876598a95bf55e3d"
+    },
+    "csv/PanelMember.csv": {
+      "bytes": 32555,
+      "sha256": "8c654e3dcc950b454b29497c4dc572a3de08fab9314c28ed42925f0d4c6775a5"
+    },
+    "csv/Requisition.csv": {
+      "bytes": 22916,
+      "sha256": "b52a3e347c0859d5ea89286480e3503a7da452e7a21479b9587128e0fd33bd8f"
+    },
+    "csv/RequisitionEvent.csv": {
+      "bytes": 256067,
+      "sha256": "a9e8c35be2bcec17eb860ebd543b1f76e1b6bed7ec7ed7fa44215e0e54fbb5a1"
+    },
+    "csv/SchemaMetadata.csv": {
+      "bytes": 204,
+      "sha256": "ca8e23a1814c234a8a1c84fe891aa5fec4bddd21e4224ee6095aac7999327951"
+    },
+    "csv/Scorecard.csv": {
+      "bytes": 131614,
+      "sha256": "68bff2618af5d9a47d10a8cd9eedfd563afd4a9be73c8e5a82e78a6df59d5490"
+    },
+    "csv/ScorecardEvent.csv.gz": {
+      "bytes": 270319,
+      "sha256": "65492c23f892e03bdf0e8161dadbf17bf2754e9535c1db646d0435295e173313"
+    },
+    "csv/ScorecardItem.csv": {
+      "bytes": 685282,
+      "sha256": "9902f6d535666f3c3eabccc59a821ffb9e327a7890b4a0a32148aa13e00a79f4"
+    },
+    "csv/SkillRequirement.csv": {
+      "bytes": 101983,
+      "sha256": "7a517fa9529c74bcdf6357ce78bb16e6954193f1a69529fb3ef74c0537ec0074"
+    },
+    "csv/Staff.csv": {
+      "bytes": 8118,
+      "sha256": "f04e1069333529821d18dae2deb4f0d179d190f3aa79342db1080f8a9069da35"
+    },
+    "json/Application.json": {
+      "bytes": 1487402,
+      "sha256": "9c293ed5efb3b24d7bebffb6bb78f907b06e0282f14e2c8dbce47dc0338fc66d"
+    },
+    "json/ApplicationEvent.json.gz": {
+      "bytes": 386612,
+      "sha256": "52e7e253bbc588c747777f0f11d6e71fa1be980f4d1fe9dabea80fbfcb3bcce9"
+    },
+    "json/Approval.json": {
+      "bytes": 114371,
+      "sha256": "5c1e3ff8a10e22e0f3d52057e63c0ce622a896996d54e1a6d9528e0ed2f451ba"
+    },
+    "json/ApprovalEvent.json": {
+      "bytes": 601817,
+      "sha256": "0dde6262d6639715c4f5d4780cb48ed2a055265b0d44adaf9d7c5978d749cb15"
+    },
+    "json/Availability.json": {
+      "bytes": 332425,
+      "sha256": "65210422f0bb26091d02d1ab3e7e4ffeec2a6cb08d4c67b1bcc2b820df4cb76e"
+    },
+    "json/Candidate.json": {
+      "bytes": 1047003,
+      "sha256": "19e2f92630191878e4aa0f97532e2ab474ea6f71a7372dbee39010f099bfb007"
+    },
+    "json/CandidateEvent.json": {
+      "bytes": 2216359,
+      "sha256": "6303bac6541f1282fb3eaaf9c76751915de52fabd3c856f4edc0ba813c3cbffc"
+    },
+    "json/CandidateSkill.json": {
+      "bytes": 2281185,
+      "sha256": "f48e68e0a7433ecf570c389d1cb858bd8bbc8c4f8df1dc7b5b0e0c57ae6d1a5b"
+    },
+    "json/HiringManager.json": {
+      "bytes": 2985,
+      "sha256": "7889a790d661ba7a9acbdb8d52367ced1878da86ca00ddb5c3c8a7f5a5009485"
+    },
+    "json/Interview.json": {
+      "bytes": 422133,
+      "sha256": "94b665fcb84c72f97952266cdf03aa7e6e124752669eac67420736a62f6c1d80"
+    },
+    "json/InterviewEvent.json": {
+      "bytes": 1783217,
+      "sha256": "bcb7a7112b1475f968d432a96649f3a03adce6a6ece2c95bffa9affd549d03a2"
+    },
+    "json/InterviewPanel.json": {
+      "bytes": 31920,
+      "sha256": "11f9cf9751c1b26413c7c39868bc9e520690747a62526c8c5890aa9a2e67a06d"
+    },
+    "json/InterviewParticipant.json": {
+      "bytes": 580113,
+      "sha256": "277cd6bf6fa063da45eeb1beb33504d5cc4e68ca747ffc44dcf3e860bc510523"
+    },
+    "json/Offer.json": {
+      "bytes": 64218,
+      "sha256": "7972ae642b122a3db7309c06cfea84ba2120905fa10d295d880cbfbfb09b5eef"
+    },
+    "json/OfferEvent.json": {
+      "bytes": 1028343,
+      "sha256": "214be428a0efb4f613be84c892c4442e8f1ffe018ffa2a42b9259016e4ec1d6d"
+    },
+    "json/PanelMember.json": {
+      "bytes": 59601,
+      "sha256": "85d504701f2a1a5624bb9e5a4e3109ba48969f278ee32fded7b06f819b8b5633"
+    },
+    "json/Requisition.json": {
+      "bytes": 49962,
+      "sha256": "893b0e5781f2e9313d195afd9486c029969fa012b39c4342ee2ffc3b78ba9b0a"
+    },
+    "json/RequisitionEvent.json": {
+      "bytes": 445718,
+      "sha256": "5b1225533462b70532459674dacb0e6cd0b2f38a771b5513f746a7d85ecb33cd"
+    },
+    "json/SchemaMetadata.json": {
+      "bytes": 314,
+      "sha256": "b33e85b2b3329821af2ed60b5004b5a3762a923f02623a2eed7d7177bf70a4b5"
+    },
+    "json/Scorecard.json": {
+      "bytes": 265824,
+      "sha256": "f71331c5093e1bfe4be0de9cc988e5a30a604ccfec12fa9b7a7d6b277b0cfb4d"
+    },
+    "json/ScorecardEvent.json.gz": {
+      "bytes": 288703,
+      "sha256": "c3c07d12e9b9571c6e5d9785d55f687fbd9dd8cdcfa1a3ac56f0f3fe237ade00"
+    },
+    "json/ScorecardItem.json": {
+      "bytes": 1103722,
+      "sha256": "ff30ea5c01e3c33b13c2029106c8dd6a6142cbe9fd375ec442aeabb882270492"
+    },
+    "json/SkillRequirement.json": {
+      "bytes": 235634,
+      "sha256": "eeb9d86c4f5a12f36b1125e817b71bdd3fa175106d5ab7ad1ded37e6716242b3"
+    },
+    "json/Staff.json": {
+      "bytes": 14121,
+      "sha256": "bbb15109555de89661ba12a2638f8fca3222016ad43160672b15f098aa38fde8"
+    },
+    "sql/schema.sql": {
+      "bytes": 47328,
+      "sha256": "75c10e0264a798ff36e6ffae4c076483dc04247e9c8a5051eead036cacab1c6f"
+    },
+    "sql/seed.sql.gz": {
+      "bytes": 1404045,
+      "sha256": "4dfb3d8d7275b00a5434e6dbeabacf1b257456fee09930530bf9fe8a5c3df7d7"
+    }
+  },
+  "format_version": 1,
+  "import_order": [
+    "Candidate",
+    "SchemaMetadata",
+    "Staff",
+    "Availability",
+    "CandidateEvent",
+    "CandidateSkill",
+    "HiringManager",
+    "Requisition",
+    "Application",
+    "InterviewPanel",
+    "RequisitionEvent",
+    "SkillRequirement",
+    "ApplicationEvent",
+    "Interview",
+    "Offer",
+    "PanelMember",
+    "Approval",
+    "InterviewEvent",
+    "InterviewParticipant",
+    "OfferEvent",
+    "ApprovalEvent",
+    "Scorecard",
+    "ScorecardEvent",
+    "ScorecardItem"
+  ],
+  "logical_origin": 1767225600,
+  "profile": "full",
+  "representation": {
+    "booleans": "schema INTEGER 0/1, not JSON booleans",
+    "compression": "files >=4194304 raw bytes use gzip level9, mtime0, no filename",
+    "csv_null": "\\N",
+    "csv_text_escape": "prefix one extra backslash on any leading backslash",
+    "encoding": "UTF-8, no BOM, LF records",
+    "json_text_columns": "retain exact strings, including snapshot_json; never parse/reformat nested JSON"
+  },
+  "schema_sha256": "75c10e0264a798ff36e6ffae4c076483dc04247e9c8a5051eead036cacab1c6f",
+  "schema_version": 2,
+  "seed": 20261022,
+  "sql": {
+    "procedure": "fresh empty database: execute schema.sql, then seed; do not initialize metadata first",
+    "schema": "sql/schema.sql",
+    "seed": "sql/seed.sql.gz",
+    "seed_raw_bytes": 39261537
+  },
+  "tables": {
+    "Application": {
+      "columns": [
+        {
+          "name": "application_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "candidate_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "requisition_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "applied_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "updated_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        }
+      ],
+      "csv": {
+        "path": "csv/Application.csv",
+        "raw_bytes": 823356
+      },
+      "json": {
+        "path": "json/Application.json",
+        "raw_bytes": 1487402
+      }
+    },
+    "ApplicationEvent": {
+      "columns": [
+        {
+          "name": "event_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "application_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "sequence",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "event_type",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "previous_status",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "new_status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "actor_staff_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "actor_candidate_id",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "occurred_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "recorded_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "reason_code",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "correlation_id",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "snapshot_json",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        }
+      ],
+      "csv": {
+        "path": "csv/ApplicationEvent.csv.gz",
+        "raw_bytes": 4620952
+      },
+      "json": {
+        "path": "json/ApplicationEvent.json.gz",
+        "raw_bytes": 7485702
+      }
+    },
+    "Approval": {
+      "columns": [
+        {
+          "name": "approval_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "requisition_id",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "offer_id",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "approver_staff_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "requested_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "decided_at",
+          "pk_position": 0,
+          "required": false,
+          "type": "INTEGER"
+        },
+        {
+          "name": "reason_code",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "valid_from",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "valid_to",
+          "pk_position": 0,
+          "required": false,
+          "type": "INTEGER"
+        }
+      ],
+      "csv": {
+        "path": "csv/Approval.csv",
+        "raw_bytes": 56842
+      },
+      "json": {
+        "path": "json/Approval.json",
+        "raw_bytes": 114371
+      }
+    },
+    "ApprovalEvent": {
+      "columns": [
+        {
+          "name": "event_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "approval_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "sequence",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "event_type",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "previous_status",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "new_status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "actor_staff_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "actor_candidate_id",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "occurred_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "recorded_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "reason_code",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "correlation_id",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "snapshot_json",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        }
+      ],
+      "csv": {
+        "path": "csv/ApprovalEvent.csv",
+        "raw_bytes": 438749
+      },
+      "json": {
+        "path": "json/ApprovalEvent.json",
+        "raw_bytes": 601817
+      }
+    },
+    "Availability": {
+      "columns": [
+        {
+          "name": "availability_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "staff_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "start_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "end_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        }
+      ],
+      "csv": {
+        "path": "csv/Availability.csv",
+        "raw_bytes": 179618
+      },
+      "json": {
+        "path": "json/Availability.json",
+        "raw_bytes": 332425
+      }
+    },
+    "Candidate": {
+      "columns": [
+        {
+          "name": "candidate_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "display_name",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "experience_years",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "contact_email",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "created_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "withdrawn_at",
+          "pk_position": 0,
+          "required": false,
+          "type": "INTEGER"
+        }
+      ],
+      "csv": {
+        "path": "csv/Candidate.csv",
+        "raw_bytes": 542125
+      },
+      "json": {
+        "path": "json/Candidate.json",
+        "raw_bytes": 1047003
+      }
+    },
+    "CandidateEvent": {
+      "columns": [
+        {
+          "name": "event_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "candidate_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "sequence",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "event_type",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "previous_status",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "new_status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "actor_staff_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "actor_candidate_id",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "occurred_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "recorded_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "reason_code",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "correlation_id",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "snapshot_json",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        }
+      ],
+      "csv": {
+        "path": "csv/CandidateEvent.csv",
+        "raw_bytes": 1245457
+      },
+      "json": {
+        "path": "json/CandidateEvent.json",
+        "raw_bytes": 2216359
+      }
+    },
+    "CandidateSkill": {
+      "columns": [
+        {
+          "name": "candidate_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "skill_key",
+          "pk_position": 2,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "level",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        }
+      ],
+      "csv": {
+        "path": "csv/CandidateSkill.csv",
+        "raw_bytes": 1063391
+      },
+      "json": {
+        "path": "json/CandidateSkill.json",
+        "raw_bytes": 2281185
+      }
+    },
+    "HiringManager": {
+      "columns": [
+        {
+          "name": "hiring_manager_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "staff_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "department",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "valid_from",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "valid_to",
+          "pk_position": 0,
+          "required": false,
+          "type": "INTEGER"
+        }
+      ],
+      "csv": {
+        "path": "csv/HiringManager.csv",
+        "raw_bytes": 1377
+      },
+      "json": {
+        "path": "json/HiringManager.json",
+        "raw_bytes": 2985
+      }
+    },
+    "Interview": {
+      "columns": [
+        {
+          "name": "interview_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "application_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "panel_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "requisition_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "start_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "end_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        }
+      ],
+      "csv": {
+        "path": "csv/Interview.csv",
+        "raw_bytes": 246089
+      },
+      "json": {
+        "path": "json/Interview.json",
+        "raw_bytes": 422133
+      }
+    },
+    "InterviewEvent": {
+      "columns": [
+        {
+          "name": "event_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "interview_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "sequence",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "event_type",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "previous_status",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "new_status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "actor_staff_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "actor_candidate_id",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "occurred_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "recorded_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "reason_code",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "correlation_id",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "snapshot_json",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        }
+      ],
+      "csv": {
+        "path": "csv/InterviewEvent.csv",
+        "raw_bytes": 1182091
+      },
+      "json": {
+        "path": "json/InterviewEvent.json",
+        "raw_bytes": 1783217
+      }
+    },
+    "InterviewPanel": {
+      "columns": [
+        {
+          "name": "panel_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "requisition_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "purpose",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "valid_from",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "valid_to",
+          "pk_position": 0,
+          "required": false,
+          "type": "INTEGER"
+        }
+      ],
+      "csv": {
+        "path": "csv/InterviewPanel.csv",
+        "raw_bytes": 17871
+      },
+      "json": {
+        "path": "json/InterviewPanel.json",
+        "raw_bytes": 31920
+      }
+    },
+    "InterviewParticipant": {
+      "columns": [
+        {
+          "name": "interview_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "staff_id",
+          "pk_position": 2,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "assignment_role",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "assigned_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        }
+      ],
+      "csv": {
+        "path": "csv/InterviewParticipant.csv",
+        "raw_bytes": 285058
+      },
+      "json": {
+        "path": "json/InterviewParticipant.json",
+        "raw_bytes": 580113
+      }
+    },
+    "Offer": {
+      "columns": [
+        {
+          "name": "offer_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "application_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "requisition_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "approved_requisition_event_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "currency",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "amount_minor",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "is_final",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "valid_from",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "valid_to",
+          "pk_position": 0,
+          "required": false,
+          "type": "INTEGER"
+        }
+      ],
+      "csv": {
+        "path": "csv/Offer.csv",
+        "raw_bytes": 31202
+      },
+      "json": {
+        "path": "json/Offer.json",
+        "raw_bytes": 64218
+      }
+    },
+    "OfferEvent": {
+      "columns": [
+        {
+          "name": "event_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "offer_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "sequence",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "event_type",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "previous_status",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "new_status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "actor_staff_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "actor_candidate_id",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "occurred_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "recorded_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "reason_code",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "correlation_id",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "snapshot_json",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        }
+      ],
+      "csv": {
+        "path": "csv/OfferEvent.csv",
+        "raw_bytes": 849339
+      },
+      "json": {
+        "path": "json/OfferEvent.json",
+        "raw_bytes": 1028343
+      }
+    },
+    "PanelMember": {
+      "columns": [
+        {
+          "name": "panel_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "staff_id",
+          "pk_position": 2,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "valid_from",
+          "pk_position": 3,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "valid_to",
+          "pk_position": 0,
+          "required": false,
+          "type": "INTEGER"
+        },
+        {
+          "name": "status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        }
+      ],
+      "csv": {
+        "path": "csv/PanelMember.csv",
+        "raw_bytes": 32555
+      },
+      "json": {
+        "path": "json/PanelMember.json",
+        "raw_bytes": 59601
+      }
+    },
+    "Requisition": {
+      "columns": [
+        {
+          "name": "requisition_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "hiring_manager_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "title",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "band_min_minor",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "band_max_minor",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "currency",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "policy_version",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "valid_from",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "valid_to",
+          "pk_position": 0,
+          "required": false,
+          "type": "INTEGER"
+        }
+      ],
+      "csv": {
+        "path": "csv/Requisition.csv",
+        "raw_bytes": 22916
+      },
+      "json": {
+        "path": "json/Requisition.json",
+        "raw_bytes": 49962
+      }
+    },
+    "RequisitionEvent": {
+      "columns": [
+        {
+          "name": "event_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "requisition_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "sequence",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "event_type",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "previous_status",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "new_status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "actor_staff_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "actor_candidate_id",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "occurred_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "recorded_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "reason_code",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "correlation_id",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "snapshot_json",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "band_min_minor",
+          "pk_position": 0,
+          "required": false,
+          "type": "INTEGER"
+        },
+        {
+          "name": "band_max_minor",
+          "pk_position": 0,
+          "required": false,
+          "type": "INTEGER"
+        },
+        {
+          "name": "currency",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        }
+      ],
+      "csv": {
+        "path": "csv/RequisitionEvent.csv",
+        "raw_bytes": 256067
+      },
+      "json": {
+        "path": "json/RequisitionEvent.json",
+        "raw_bytes": 445718
+      }
+    },
+    "SchemaMetadata": {
+      "columns": [
+        {
+          "name": "singleton",
+          "pk_position": 1,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "schema_version",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "source_sha256",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "catalog_sha256",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        }
+      ],
+      "csv": {
+        "path": "csv/SchemaMetadata.csv",
+        "raw_bytes": 204
+      },
+      "json": {
+        "path": "json/SchemaMetadata.json",
+        "raw_bytes": 314
+      }
+    },
+    "Scorecard": {
+      "columns": [
+        {
+          "name": "scorecard_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "interview_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "reviewer_staff_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "rubric_version",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "total_score_milli",
+          "pk_position": 0,
+          "required": false,
+          "type": "INTEGER"
+        },
+        {
+          "name": "created_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "submitted_at",
+          "pk_position": 0,
+          "required": false,
+          "type": "INTEGER"
+        }
+      ],
+      "csv": {
+        "path": "csv/Scorecard.csv",
+        "raw_bytes": 131614
+      },
+      "json": {
+        "path": "json/Scorecard.json",
+        "raw_bytes": 265824
+      }
+    },
+    "ScorecardEvent": {
+      "columns": [
+        {
+          "name": "event_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "scorecard_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "sequence",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "event_type",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "previous_status",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "new_status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "actor_staff_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "actor_candidate_id",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "occurred_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "recorded_at",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "reason_code",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "correlation_id",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "snapshot_json",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        }
+      ],
+      "csv": {
+        "path": "csv/ScorecardEvent.csv.gz",
+        "raw_bytes": 14698874
+      },
+      "json": {
+        "path": "json/ScorecardEvent.json.gz",
+        "raw_bytes": 15857529
+      }
+    },
+    "ScorecardItem": {
+      "columns": [
+        {
+          "name": "scorecard_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "skill_requirement_id",
+          "pk_position": 2,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "score_value",
+          "pk_position": 0,
+          "required": false,
+          "type": "INTEGER"
+        },
+        {
+          "name": "weight_basis_points",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "evidence",
+          "pk_position": 0,
+          "required": false,
+          "type": "TEXT"
+        },
+        {
+          "name": "status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        }
+      ],
+      "csv": {
+        "path": "csv/ScorecardItem.csv",
+        "raw_bytes": 685282
+      },
+      "json": {
+        "path": "json/ScorecardItem.json",
+        "raw_bytes": 1103722
+      }
+    },
+    "SkillRequirement": {
+      "columns": [
+        {
+          "name": "skill_requirement_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "requisition_id",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "criterion_key",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "description",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "is_required",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "weight_basis_points",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "min_proficiency",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "rubric_version",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "valid_from",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "valid_to",
+          "pk_position": 0,
+          "required": false,
+          "type": "INTEGER"
+        }
+      ],
+      "csv": {
+        "path": "csv/SkillRequirement.csv",
+        "raw_bytes": 101983
+      },
+      "json": {
+        "path": "json/SkillRequirement.json",
+        "raw_bytes": 235634
+      }
+    },
+    "Staff": {
+      "columns": [
+        {
+          "name": "staff_id",
+          "pk_position": 1,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "display_name",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "role",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "status",
+          "pk_position": 0,
+          "required": true,
+          "type": "TEXT"
+        },
+        {
+          "name": "valid_from",
+          "pk_position": 0,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "name": "valid_to",
+          "pk_position": 0,
+          "required": false,
+          "type": "INTEGER"
+        }
+      ],
+      "csv": {
+        "path": "csv/Staff.csv",
+        "raw_bytes": 8118
+      },
+      "json": {
+        "path": "json/Staff.json",
+        "raw_bytes": 14121
+      }
+    }
+  }
+}

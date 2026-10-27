@@ -1,0 +1,30 @@
+{
+  "all_recorded_commands_passed": true,
+  "clean_copy_tests": {
+    "passed": true,
+    "runner_seconds": 95.413,
+    "tests": 211
+  },
+  "clean_existing_venv_copied": false,
+  "clean_has_git_directory": false,
+  "clean_private_assignment_documents_present": false,
+  "clean_runtime": {
+    "os": "macOS only tested; no claim of other platform compatibility",
+    "python": "3.14.5",
+    "sqlite": "3.53.1"
+  },
+  "clean_source_runtime_tests_artifacts_equal_final": true,
+  "executed_commands": 18,
+  "final_technical_code_commit": "f5f1a66d74b4fdc6b0336209b042abe15b782d32",
+  "fresh_venv_created_offline": true,
+  "full_replay_seconds": 90.35290362499654,
+  "human_execution": "PENDING; all runs by Codex",
+  "network_configuration_required": false,
+  "network_evidence_scope": "No project network client/service/dependency download used; source/import/dependency review and actual offline commands, not packet-capture proof",
+  "restored_canonical": "7362b01eeb0aa15999480aa8b0a810d96ff21060bd06f9b230eb637d57642ebb",
+  "workspace_tests": {
+    "passed": true,
+    "runner_seconds": 95.085,
+    "tests": 211
+  }
+}

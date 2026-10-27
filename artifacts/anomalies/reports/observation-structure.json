@@ -1,0 +1,39 @@
+{
+  "checks": {
+    "changed_core_counts": 0,
+    "foreign_key_violations": 0,
+    "historical_rows_changed": 0,
+    "integrity_errors": 0,
+    "primary_key_duplicates": 0,
+    "unrelated_table_changes": 0
+  },
+  "constraints": "actual unchanged STRICT/CHECK/FK/unique constraints applied with FK/recursive triggers ON",
+  "counts": {
+    "Application": 8000,
+    "ApplicationEvent": 14843,
+    "Approval": 429,
+    "ApprovalEvent": 858,
+    "Availability": 2680,
+    "Candidate": 5000,
+    "CandidateEvent": 5083,
+    "CandidateSkill": 27061,
+    "HiringManager": 20,
+    "Interview": 2000,
+    "InterviewEvent": 3147,
+    "InterviewPanel": 200,
+    "InterviewParticipant": 5000,
+    "Offer": 229,
+    "OfferEvent": 957,
+    "PanelMember": 500,
+    "Requisition": 200,
+    "RequisitionEvent": 800,
+    "SchemaMetadata": 1,
+    "Scorecard": 1122,
+    "ScorecardEvent": 6066,
+    "ScorecardItem": 4493,
+    "SkillRequirement": 800,
+    "Staff": 91
+  },
+  "observations": 41,
+  "passed": true
+}

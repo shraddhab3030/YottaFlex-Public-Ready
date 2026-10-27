@@ -1,0 +1,302 @@
+[
+  {
+    "command": [
+      ".venv/bin/python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "elapsed_seconds": 95.33657116699032,
+    "exit_code": 0,
+    "label": "final-workspace-tests",
+    "local_log": "tmp/phase08/final-workspace-tests.log",
+    "log_sha256": "d21c8aac79292b86bdfcbf7c5d7bc55bfbaab9f323d9f1c8c368e72aa0197f0c",
+    "work_directory": "project"
+  },
+  {
+    "command": [
+      ".venv/bin/python3",
+      "scripts/build_data_dictionary.py",
+      "--check"
+    ],
+    "elapsed_seconds": 0.05398958292789757,
+    "exit_code": 0,
+    "label": "dictionary",
+    "local_log": "tmp/phase08/dictionary.log",
+    "log_sha256": "8426eb2eab8db3694cfeb160ca8eba6074198c0485ec81be0c694e31daefe370",
+    "work_directory": "project"
+  },
+  {
+    "command": [
+      "sh",
+      "scripts/smoke.sh"
+    ],
+    "elapsed_seconds": 0.2096996249165386,
+    "exit_code": 0,
+    "label": "foundation",
+    "local_log": "tmp/phase08/foundation.log",
+    "log_sha256": "cef2874f818c189375041b7c384a9531f15e429a0e61f39a93612d3b559000e5",
+    "work_directory": "project"
+  },
+  {
+    "command": [
+      ".venv/bin/python3",
+      "scripts/verify_deliverable_reproducibility.py",
+      "--profile",
+      "full",
+      "--seed",
+      "20261022",
+      "--directory",
+      "output/phase08/final-two-run"
+    ],
+    "elapsed_seconds": 90.53571945801377,
+    "exit_code": 0,
+    "label": "full-replay",
+    "local_log": "tmp/phase08/full-replay.log",
+    "log_sha256": "d2b60424ad66ed87190eb09f94815feb27180aedf8b8c3552938e6b24f1aea53",
+    "work_directory": "project"
+  },
+  {
+    "command": [
+      ".venv/bin/python3",
+      "-m",
+      "yottaflex.deliverables",
+      "verify",
+      "--directory",
+      "artifacts",
+      "--work",
+      "output/phase08/final-package-verification"
+    ],
+    "elapsed_seconds": 15.891474375035614,
+    "exit_code": 0,
+    "label": "final-package",
+    "local_log": "tmp/phase08/final-package.log",
+    "log_sha256": "293f5bfee5e602cc5823044c72b14fbc2300ff3677c439b61924792b8c77016d",
+    "work_directory": "project"
+  },
+  {
+    "command": [
+      ".venv/bin/python3",
+      "-m",
+      "yottaflex.deliverables",
+      "restore",
+      "--directory",
+      "artifacts/baseline",
+      "--format",
+      "sql",
+      "--database",
+      "output/phase08/final-restored.sqlite3"
+    ],
+    "elapsed_seconds": 4.577277082949877,
+    "exit_code": 0,
+    "label": "final-sql-restore",
+    "local_log": "tmp/phase08/final-sql-restore.log",
+    "log_sha256": "b3fb7a971cd3e8154a2e2601fcc924126823000469b816fa6c3d063eada2e7b9",
+    "work_directory": "project"
+  },
+  {
+    "command": [
+      ".venv/bin/python3",
+      "-m",
+      "yottaflex.evaluation_checks",
+      "--database",
+      "output/phase08/final-restored.sqlite3",
+      "--profile",
+      "full",
+      "--seed",
+      "20261022"
+    ],
+    "elapsed_seconds": 1.5986512918025255,
+    "exit_code": 0,
+    "label": "final-domain",
+    "local_log": "tmp/phase08/final-domain.log",
+    "log_sha256": "8fd3e8a7ca7197b6c6c329ea31c35e5213b28f1442b2a571898783559593108d",
+    "work_directory": "project"
+  },
+  {
+    "command": [
+      ".venv/bin/python3",
+      "-m",
+      "yottaflex.detector",
+      "--database",
+      "output/phase08/final-restored.sqlite3",
+      "--observations",
+      "artifacts/anomalies/input/observations.json"
+    ],
+    "elapsed_seconds": 0.9969771669711918,
+    "exit_code": 0,
+    "label": "final-detector",
+    "local_log": "tmp/phase08/final-detector.log",
+    "log_sha256": "2d82364a52885e20f37af09402f02f036436184c55310a14feed100efd787059",
+    "work_directory": "project"
+  },
+  {
+    "command": [
+      ".venv/bin/python3",
+      "-m",
+      "yottaflex.deliverables",
+      "evaluate",
+      "--database",
+      "output/phase08/final-restored.sqlite3",
+      "--directory",
+      "artifacts/anomalies"
+    ],
+    "elapsed_seconds": 2.2009740420617163,
+    "exit_code": 0,
+    "label": "final-evaluator",
+    "local_log": "tmp/phase08/final-evaluator.log",
+    "log_sha256": "7e9f40639fde1250af522dfb14ba01ade039f3842254c3647e242fecbe282816",
+    "work_directory": "project"
+  },
+  {
+    "command": [
+      "python3",
+      "--version"
+    ],
+    "elapsed_seconds": 0.008965417044237256,
+    "exit_code": 0,
+    "label": "clean-interpreter",
+    "local_log": "tmp/phase08/clean-interpreter.log",
+    "log_sha256": "1ef9a497d30d7ff8c9796dbb5a06c75ab4301a345348f07e154077fccdd9ea28",
+    "work_directory": "clean-copy"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "venv",
+      ".venv"
+    ],
+    "elapsed_seconds": 1.5188438340555876,
+    "exit_code": 0,
+    "label": "clean-venv",
+    "local_log": "tmp/phase08/clean-venv.log",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "work_directory": "clean-copy"
+  },
+  {
+    "command": [
+      ".venv/bin/python3",
+      "-m",
+      "yottaflex.deliverables",
+      "verify",
+      "--directory",
+      "artifacts",
+      "--work",
+      "output/review-verification"
+    ],
+    "elapsed_seconds": 15.292784250108525,
+    "exit_code": 0,
+    "label": "clean-package",
+    "local_log": "tmp/phase08/clean-package.log",
+    "log_sha256": "1f5fa0a6ba022de3d7fd412c29a527cbce16ff4026da694e9ad7e105ba99919e",
+    "work_directory": "clean-copy"
+  },
+  {
+    "command": [
+      ".venv/bin/python3",
+      "-m",
+      "yottaflex.deliverables",
+      "restore",
+      "--directory",
+      "artifacts/baseline",
+      "--format",
+      "sql",
+      "--database",
+      "output/review.sqlite3"
+    ],
+    "elapsed_seconds": 4.032102708006278,
+    "exit_code": 0,
+    "label": "clean-sql-restore",
+    "local_log": "tmp/phase08/clean-sql-restore.log",
+    "log_sha256": "f8b84f5370e304361c30a3b991b13461d9f2668aef99346d3a16c983e430a6c8",
+    "work_directory": "clean-copy"
+  },
+  {
+    "command": [
+      ".venv/bin/python3",
+      "-m",
+      "yottaflex.evaluation_checks",
+      "--database",
+      "output/review.sqlite3",
+      "--profile",
+      "full",
+      "--seed",
+      "20261022"
+    ],
+    "elapsed_seconds": 1.5282811247743666,
+    "exit_code": 0,
+    "label": "clean-domain",
+    "local_log": "tmp/phase08/clean-domain.log",
+    "log_sha256": "8fd3e8a7ca7197b6c6c329ea31c35e5213b28f1442b2a571898783559593108d",
+    "work_directory": "clean-copy"
+  },
+  {
+    "command": [
+      ".venv/bin/python3",
+      "-m",
+      "yottaflex.detector",
+      "--database",
+      "output/review.sqlite3",
+      "--observations",
+      "artifacts/anomalies/input/observations.json"
+    ],
+    "elapsed_seconds": 1.0047641249839216,
+    "exit_code": 0,
+    "label": "clean-detector",
+    "local_log": "tmp/phase08/clean-detector.log",
+    "log_sha256": "2d82364a52885e20f37af09402f02f036436184c55310a14feed100efd787059",
+    "work_directory": "clean-copy"
+  },
+  {
+    "command": [
+      ".venv/bin/python3",
+      "-m",
+      "yottaflex.deliverables",
+      "evaluate",
+      "--database",
+      "output/review.sqlite3",
+      "--directory",
+      "artifacts/anomalies"
+    ],
+    "elapsed_seconds": 2.199728624895215,
+    "exit_code": 0,
+    "label": "clean-evaluator",
+    "local_log": "tmp/phase08/clean-evaluator.log",
+    "log_sha256": "3bca94017bb10fadf3b21e0aeb06c09fbd1b15bb6d35e4a2e3c420760f1140be",
+    "work_directory": "clean-copy"
+  },
+  {
+    "command": [
+      ".venv/bin/python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "elapsed_seconds": 95.61823783279397,
+    "exit_code": 0,
+    "label": "clean-tests",
+    "local_log": "tmp/phase08/clean-tests.log",
+    "log_sha256": "2e6db497af548d4875499e5c442f0d343d5710ff93dcb8220039505101b6bf71",
+    "work_directory": "clean-copy"
+  },
+  {
+    "command": [
+      ".venv/bin/python3",
+      "scripts/build_data_dictionary.py",
+      "--check"
+    ],
+    "elapsed_seconds": 0.054416249971836805,
+    "exit_code": 0,
+    "label": "clean-dictionary",
+    "local_log": "tmp/phase08/clean-dictionary.log",
+    "log_sha256": "8426eb2eab8db3694cfeb160ca8eba6074198c0485ec81be0c694e31daefe370",
+    "work_directory": "clean-copy"
+  }
+]

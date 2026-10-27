@@ -1,0 +1,33 @@
+{
+  "all_24_table_digests_unchanged": true,
+  "canonical_after": "7362b01eeb0aa15999480aa8b0a810d96ff21060bd06f9b230eb637d57642ebb",
+  "canonical_before": "7362b01eeb0aa15999480aa8b0a810d96ff21060bd06f9b230eb637d57642ebb",
+  "changed_files": [
+    {
+      "file": "artifacts/data-dictionary.md",
+      "new_bytes": 117886,
+      "new_sha256": "1a40941e29a113a0141fae12df0671e82c1616e205d4905c4a10da0152652162",
+      "old_bytes": 117786,
+      "old_sha256": "0bed0685cd8924ab5ba12fea219657ad0a44336129f7be2860f3e35a793d6e7b"
+    },
+    {
+      "file": "artifacts/manifest.json",
+      "new_bytes": 20653,
+      "new_sha256": "7afef9081a4696a10119580ccc1fbd70a22c3ddc3c0d474990a0dc5108e2f119",
+      "old_bytes": 20556,
+      "old_sha256": "7116c3a3e3547dad3be90c2c416f7f8a5ff292fe1e9b5be08fb82460b900a420"
+    },
+    {
+      "file": "artifacts/privacy-scan.json",
+      "new_bytes": 665,
+      "new_sha256": "fa4f087c1bdbf921a5e9de401a3114663a04a31e609ecb4c66a5ee394db59e35",
+      "old_bytes": 665,
+      "old_sha256": "8e565b9491872d3c1930a5056e7794455375d21d4fcb0d903731f80699cfdebf"
+    }
+  ],
+  "new_manifest_hash_policy": "Manifest still excludes itself; new required aggregate source fingerprint verifies provenance; Git revision optional for source archives",
+  "new_source_commit": "f5f1a66d74b4fdc6b0336209b042abe15b782d32",
+  "new_source_sha256": "099feed15909563ab90a89b9a4840d58f28e2e02b2ef2f771305662c1be531e9",
+  "reason": "Minimal proven source-archive provenance fix and truthful dictionary narrative; no business or relational changes",
+  "unchanged_files": 65
+}

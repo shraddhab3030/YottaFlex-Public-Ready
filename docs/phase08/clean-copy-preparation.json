@@ -1,0 +1,80 @@
+{
+  "approval": "NOT APPROVED FOR PUBLICATION",
+  "artifact_files_byte_identical": 68,
+  "initial_preview_failure": "First curation assertion found one remaining current-user reference in phase01-handoff.md:108 because a home path had no trailing slash. No reviewer commands ran in that rejected preview. Updated temporary-copy-only redaction covers that case; original files/history untouched.",
+  "preview_findings": [],
+  "private_inputs_git_venv_scratch_excluded": true,
+  "redactions": [
+    {
+      "changed_lines": [
+        15,
+        42,
+        106,
+        108,
+        136
+      ],
+      "file": "reports/phase01-handoff.md",
+      "old_sha256": "101fd67855ccccb9bb4d16da99fd26a159901458e231f00fc905eff917a7c076",
+      "preview_sha256": "855bf04dd1f5ea28b12f80248f6836f5336a4291a70af53dcafc37439997aed1",
+      "reason": "private user-specific home path replaced by explicit marker; original local report and history untouched"
+    },
+    {
+      "changed_lines": [
+        12,
+        170
+      ],
+      "file": "reports/phase01-resumed-handoff.md",
+      "old_sha256": "9d9af38d50a23eb330ae8060f14ced108ef277c5c8fbdbd2775a2f3a3f5de3c6",
+      "preview_sha256": "a4c269da8d83a6ee9f78c944248e76982ef2d9c78287b7f24552a1b1ea16b077",
+      "reason": "private user-specific home path replaced by explicit marker; original local report and history untouched"
+    },
+    {
+      "changed_lines": [
+        11
+      ],
+      "file": "reports/phase02-schema-handoff.md",
+      "old_sha256": "a84854b48074028ca230575abe37013c8999752dd32ace9749883f6ef5dc81b1",
+      "preview_sha256": "d548444645c8f6b7d2fbefa7193594dc1bbec96703f278b96afdd013cdbdda90",
+      "reason": "private user-specific home path replaced by explicit marker; original local report and history untouched"
+    },
+    {
+      "changed_lines": [
+        10
+      ],
+      "file": "reports/phase03-data-generation-handoff.md",
+      "old_sha256": "a839edd3733b2ef3b6de2ac6b306d04f0bc60ce5135e7355ccaa5f076f42be4d",
+      "preview_sha256": "9788c1c02f4e3ccaff85720854062581106824599a3c60eed1ce08a16b5baeff",
+      "reason": "private user-specific home path replaced by explicit marker; original local report and history untouched"
+    },
+    {
+      "changed_lines": [
+        5
+      ],
+      "file": "reports/phase04-interview-workflow-handoff.md",
+      "old_sha256": "3ff0bae05847e75d1d1bb83a3bb800d6471f8a34f3a1a6818556ba95ace48899",
+      "preview_sha256": "48f6a46e5d3a9a7500aaaeb7c4cc654d72bd45c488952bd91682d38bda71eed3",
+      "reason": "private user-specific home path replaced by explicit marker; original local report and history untouched"
+    },
+    {
+      "changed_lines": [
+        4
+      ],
+      "file": "reports/phase05-evaluation-offer-handoff.md",
+      "old_sha256": "512842bfc9348d094425e3a77d730cc0d8a59abc1a8977514d2303e89f8ca617",
+      "preview_sha256": "62b2dfa9c2bbf06f6994fd01ae767fa1b582f2aa14901b86039dfbef1a5b19e2",
+      "reason": "private user-specific home path replaced by explicit marker; original local report and history untouched"
+    },
+    {
+      "changed_lines": [
+        5
+      ],
+      "file": "reports/phase06-anomaly-ground-truth-handoff.md",
+      "old_sha256": "82ce25dcf714864c2798362b5272e3fa80c263e029a5326955e6cebc93771ae2",
+      "preview_sha256": "f1c641c90e6cb3e4c342cd57c825008e0e96cbcea78c253f4c2fe8eb0d50f5ea",
+      "reason": "private user-specific home path replaced by explicit marker; original local report and history untouched"
+    }
+  ],
+  "scope": "Ephemeral intended-content reviewer preview; no Git repository/history created or rewritten; final report docs added after actual execution; runtime/tests/artifacts final bytes retained",
+  "snapshot_files": 169,
+  "source_revision": "f5f1a66d74b4fdc6b0336209b042abe15b782d32"
+}

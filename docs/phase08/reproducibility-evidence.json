@@ -1,0 +1,601 @@
+{
+  "canonical": {
+    "sha256": "7362b01eeb0aa15999480aa8b0a810d96ff21060bd06f9b230eb637d57642ebb",
+    "tables": {
+      "Application": {
+        "rows": 8000,
+        "sha256": "b74c6e38190a1217982c6d1438adbea08c2b6cde8d0dadd39f047d1d232eb6ff"
+      },
+      "ApplicationEvent": {
+        "rows": 14843,
+        "sha256": "a21ca544f772ae5f0377fbc185d4ea3e127c99139c01fde32ba350db8e14d80d"
+      },
+      "Approval": {
+        "rows": 429,
+        "sha256": "d1a71a7d56092685a8cbfffa0615906e99a432e29a7d9195d291ff13d08b703a"
+      },
+      "ApprovalEvent": {
+        "rows": 858,
+        "sha256": "61a273bb0df412cadea89fb84ac19312250746dae2314389173eb5be6eb0f411"
+      },
+      "Availability": {
+        "rows": 2680,
+        "sha256": "5b69acedf076075b53fe918110177340a708f9fc2a816aac6c1b781f8203690f"
+      },
+      "Candidate": {
+        "rows": 5000,
+        "sha256": "5587bd6230d1512e72a8124addf427cf041b5af75fd2cd55eb22cc3b8adf3bb0"
+      },
+      "CandidateEvent": {
+        "rows": 5083,
+        "sha256": "3d11fe1e3e216663628fe5727c48ee6c706563ce605d6133de38e366189be152"
+      },
+      "CandidateSkill": {
+        "rows": 27061,
+        "sha256": "84f680161b39946ec98664e061764da3392242b2a29bb218383591e93a6f93ec"
+      },
+      "HiringManager": {
+        "rows": 20,
+        "sha256": "9a939034d2dc9a78cb800e0cddd908772f9f07b99905d58279e3084b47330e90"
+      },
+      "Interview": {
+        "rows": 2000,
+        "sha256": "c628268d17628e013c1955982d429f4647b9cf8dd5ad6ac29c4f1acb6ed01b18"
+      },
+      "InterviewEvent": {
+        "rows": 3147,
+        "sha256": "0c860a81cc269ce58d9d0c262ccaf1cebb6d62efe097c0a39b337ae3453dcdf3"
+      },
+      "InterviewPanel": {
+        "rows": 200,
+        "sha256": "feb7a5ecb1471b9e4a69f14db43555c28cdcff27a6bcce7daa83dfbef0281f0f"
+      },
+      "InterviewParticipant": {
+        "rows": 5000,
+        "sha256": "92634d5ee3cbdd48bcb474ab01aa11a8f4ac394291c38d9ec4c916d56a156127"
+      },
+      "Offer": {
+        "rows": 229,
+        "sha256": "d45986d081faf45cdfc35cd6d3db17994da800ff45a79d65886f76e10a258851"
+      },
+      "OfferEvent": {
+        "rows": 957,
+        "sha256": "36f07788c2b6acf24c3b2c3c76683e586c883a342212b299798288e63537037c"
+      },
+      "PanelMember": {
+        "rows": 500,
+        "sha256": "50a5148362a7f8a10777e781cb7649f1955d30b93449a675e209b5358b7a46de"
+      },
+      "Requisition": {
+        "rows": 200,
+        "sha256": "0a02fb0494b420f5f26fa34c41d708d3970d74cfe8f4c7c7c6d49a4b4c1bd494"
+      },
+      "RequisitionEvent": {
+        "rows": 800,
+        "sha256": "aaf1b0baab13e8c7888f82ed2124b314528baf5e8d6016d33a5799b5e255c156"
+      },
+      "SchemaMetadata": {
+        "rows": 1,
+        "sha256": "9541dcc0d5c87cf7b709276469debb2a46a8acb8ebe59f94467202082ba19162"
+      },
+      "Scorecard": {
+        "rows": 1122,
+        "sha256": "7d2c9535d9c7bdfa2e53355535679e68d1dc9fd78d6f0878bc43e04e881b9386"
+      },
+      "ScorecardEvent": {
+        "rows": 6066,
+        "sha256": "6d73eb95b065f177d12be5b0f9f45b3ab496e95c2b842f8508d642a68f213d19"
+      },
+      "ScorecardItem": {
+        "rows": 4488,
+        "sha256": "3dad7d5d07133244cac643b9b2cdda3f995d0c428a1c959a7ac6ce1df6b06ba8"
+      },
+      "SkillRequirement": {
+        "rows": 800,
+        "sha256": "9e74559cbc4b648d05f133b93ac516395352a189866ffa61659bc2edd56fc284"
+      },
+      "Staff": {
+        "rows": 91,
+        "sha256": "207f12721f23883da84938e397263cf06f3333ba5d06d605afd9024de07fcb13"
+      }
+    }
+  },
+  "comparison_policy": "Every artifact file SHA256/size including compressed files and manifest; every JSON relational scalar type/value. Imports independently validated/compared to original in each build; timings excluded from package.",
+  "elapsed_seconds": 90.35290362499654,
+  "files": {
+    "README.md": {
+      "bytes": 1844,
+      "equal": true,
+      "sha256": "e456ec3a95b826d33864e045d1ac5c32c4b00095e1ddaf59e02fa72106e7e40f"
+    },
+    "anomalies/input/observations.json": {
+      "bytes": 29296,
+      "equal": true,
+      "sha256": "75e0ef87e9cdeeb69fe5c4c8c5b9b13b217d2f7935097f27d5321670928cc72c"
+    },
+    "anomalies/reports/clean-validation.json": {
+      "bytes": 13380,
+      "equal": true,
+      "sha256": "bdbe5c0f0753d1d6b830b98e5af37f353ad3c8347afcdebe2e2b10e5692861f6"
+    },
+    "anomalies/reports/controls.json": {
+      "bytes": 949,
+      "equal": true,
+      "sha256": "8446e33195cd2158c57419913937a18a3a34e7028594d80990c4916f3b0eaee4"
+    },
+    "anomalies/reports/evaluation.json": {
+      "bytes": 1770,
+      "equal": true,
+      "sha256": "7722e789b14b0f7ca30d6a9075bdb02096944d4ba7afd2a6732d635191dd365d"
+    },
+    "anomalies/reports/experiment.json": {
+      "bytes": 12521,
+      "equal": true,
+      "sha256": "8d9df21567d5871f5f3b071e178760c888eb26f3c967caec0101c56842f4f6ef"
+    },
+    "anomalies/reports/findings.json": {
+      "bytes": 34475,
+      "equal": true,
+      "sha256": "2d82364a52885e20f37af09402f02f036436184c55310a14feed100efd787059"
+    },
+    "anomalies/reports/observation-structure.json": {
+      "bytes": 993,
+      "equal": true,
+      "sha256": "4923ba9effcdc4c084b413ffbcd8beeab7f8e3cb2cb27f8ed0e6f065462f5593"
+    },
+    "anomalies/reports/package-verification.json": {
+      "bytes": 3384,
+      "equal": true,
+      "sha256": "41497f39cb453e922a7f444842765dfab67ff74b15d093fa273d41303adf95a8"
+    },
+    "anomalies/truth/ground_truth.csv": {
+      "bytes": 10688,
+      "equal": true,
+      "sha256": "860469ee6b8ff4ff29f5fbdbe6055e301ee4326c7417b6c079246f33f4bf793d"
+    },
+    "anomalies/truth/ground_truth.json": {
+      "bytes": 21100,
+      "equal": true,
+      "sha256": "205b31bdb6abce3c9c84889f658b7e64ac710ef5102dbadf7431307d660e4688"
+    },
+    "baseline/catalog.json": {
+      "bytes": 46400,
+      "equal": true,
+      "sha256": "dd67507f1c3ee5c573547fc926f835d437261204ed0dd8a2aaa3a6226f17c750"
+    },
+    "baseline/csv/Application.csv": {
+      "bytes": 823356,
+      "equal": true,
+      "sha256": "6480b6f817800abe3b6b942f770de332fc2a14119b06dee8a68dc495f281dd54"
+    },
+    "baseline/csv/ApplicationEvent.csv.gz": {
+      "bytes": 353329,
+      "equal": true,
+      "sha256": "87e4051d5fc10a8e1ec5d39940c20fd7147b024dc4a8b93c05154b5aab36938b"
+    },
+    "baseline/csv/Approval.csv": {
+      "bytes": 56842,
+      "equal": true,
+      "sha256": "7fe7347202c4c38d3afb2415e14a397ce1e66718bc5e1e719cff4f3f3e4428a5"
+    },
+    "baseline/csv/ApprovalEvent.csv": {
+      "bytes": 438749,
+      "equal": true,
+      "sha256": "3ffbdde97da2a2466207e0eebe4dcb7dbd3132d947d59c205a9f4530a2fc46f5"
+    },
+    "baseline/csv/Availability.csv": {
+      "bytes": 179618,
+      "equal": true,
+      "sha256": "1ccbf0e1a85efc56770d222cd6e159f25942e8324a6c1e8ca3592c9d6c6c2666"
+    },
+    "baseline/csv/Candidate.csv": {
+      "bytes": 542125,
+      "equal": true,
+      "sha256": "9dce37dcdf806575cb302f0bc4b82daba175996def85d8821dd36a47a8518b50"
+    },
+    "baseline/csv/CandidateEvent.csv": {
+      "bytes": 1245457,
+      "equal": true,
+      "sha256": "e3881b4e15701d8c4f19ce5d9161c464cceb9ff8122de92a14fbd76126f98b0d"
+    },
+    "baseline/csv/CandidateSkill.csv": {
+      "bytes": 1063391,
+      "equal": true,
+      "sha256": "ed1479d9d460f4446a0134df754ea6536127287c96ae252b40cb5e1bf1c11683"
+    },
+    "baseline/csv/HiringManager.csv": {
+      "bytes": 1377,
+      "equal": true,
+      "sha256": "1eeedddab36f9a6676497aa4bf79a882d3e996013b3f06cd210f022c8b2de142"
+    },
+    "baseline/csv/Interview.csv": {
+      "bytes": 246089,
+      "equal": true,
+      "sha256": "392582c7242ce268eb17989583e18ac95a352cb132cfdb79d1898757650ffc03"
+    },
+    "baseline/csv/InterviewEvent.csv": {
+      "bytes": 1182091,
+      "equal": true,
+      "sha256": "e0b7af50b186e171f8fd2f607c5bc27c7a997c34ad47b211a14044f7b3b54ed7"
+    },
+    "baseline/csv/InterviewPanel.csv": {
+      "bytes": 17871,
+      "equal": true,
+      "sha256": "dca5d290b35a3d7ed0dc9133536d32d2ff0663658c647de86758433b9f901c48"
+    },
+    "baseline/csv/InterviewParticipant.csv": {
+      "bytes": 285058,
+      "equal": true,
+      "sha256": "e6f22635e6f56b599662d19119b47e68fc5997215fe5e46d253cc37719dda591"
+    },
+    "baseline/csv/Offer.csv": {
+      "bytes": 31202,
+      "equal": true,
+      "sha256": "9b29b43c0f02b31e185063c7bc3871a6a33b511aa1c2cc7168db5627d9429ceb"
+    },
+    "baseline/csv/OfferEvent.csv": {
+      "bytes": 849339,
+      "equal": true,
+      "sha256": "0ad240a2eef52361de28d267edc9066ee1c51654a72ace60876598a95bf55e3d"
+    },
+    "baseline/csv/PanelMember.csv": {
+      "bytes": 32555,
+      "equal": true,
+      "sha256": "8c654e3dcc950b454b29497c4dc572a3de08fab9314c28ed42925f0d4c6775a5"
+    },
+    "baseline/csv/Requisition.csv": {
+      "bytes": 22916,
+      "equal": true,
+      "sha256": "b52a3e347c0859d5ea89286480e3503a7da452e7a21479b9587128e0fd33bd8f"
+    },
+    "baseline/csv/RequisitionEvent.csv": {
+      "bytes": 256067,
+      "equal": true,
+      "sha256": "a9e8c35be2bcec17eb860ebd543b1f76e1b6bed7ec7ed7fa44215e0e54fbb5a1"
+    },
+    "baseline/csv/SchemaMetadata.csv": {
+      "bytes": 204,
+      "equal": true,
+      "sha256": "ca8e23a1814c234a8a1c84fe891aa5fec4bddd21e4224ee6095aac7999327951"
+    },
+    "baseline/csv/Scorecard.csv": {
+      "bytes": 131614,
+      "equal": true,
+      "sha256": "68bff2618af5d9a47d10a8cd9eedfd563afd4a9be73c8e5a82e78a6df59d5490"
+    },
+    "baseline/csv/ScorecardEvent.csv.gz": {
+      "bytes": 270319,
+      "equal": true,
+      "sha256": "65492c23f892e03bdf0e8161dadbf17bf2754e9535c1db646d0435295e173313"
+    },
+    "baseline/csv/ScorecardItem.csv": {
+      "bytes": 685282,
+      "equal": true,
+      "sha256": "9902f6d535666f3c3eabccc59a821ffb9e327a7890b4a0a32148aa13e00a79f4"
+    },
+    "baseline/csv/SkillRequirement.csv": {
+      "bytes": 101983,
+      "equal": true,
+      "sha256": "7a517fa9529c74bcdf6357ce78bb16e6954193f1a69529fb3ef74c0537ec0074"
+    },
+    "baseline/csv/Staff.csv": {
+      "bytes": 8118,
+      "equal": true,
+      "sha256": "f04e1069333529821d18dae2deb4f0d179d190f3aa79342db1080f8a9069da35"
+    },
+    "baseline/json/Application.json": {
+      "bytes": 1487402,
+      "equal": true,
+      "sha256": "9c293ed5efb3b24d7bebffb6bb78f907b06e0282f14e2c8dbce47dc0338fc66d"
+    },
+    "baseline/json/ApplicationEvent.json.gz": {
+      "bytes": 386612,
+      "equal": true,
+      "sha256": "52e7e253bbc588c747777f0f11d6e71fa1be980f4d1fe9dabea80fbfcb3bcce9"
+    },
+    "baseline/json/Approval.json": {
+      "bytes": 114371,
+      "equal": true,
+      "sha256": "5c1e3ff8a10e22e0f3d52057e63c0ce622a896996d54e1a6d9528e0ed2f451ba"
+    },
+    "baseline/json/ApprovalEvent.json": {
+      "bytes": 601817,
+      "equal": true,
+      "sha256": "0dde6262d6639715c4f5d4780cb48ed2a055265b0d44adaf9d7c5978d749cb15"
+    },
+    "baseline/json/Availability.json": {
+      "bytes": 332425,
+      "equal": true,
+      "sha256": "65210422f0bb26091d02d1ab3e7e4ffeec2a6cb08d4c67b1bcc2b820df4cb76e"
+    },
+    "baseline/json/Candidate.json": {
+      "bytes": 1047003,
+      "equal": true,
+      "sha256": "19e2f92630191878e4aa0f97532e2ab474ea6f71a7372dbee39010f099bfb007"
+    },
+    "baseline/json/CandidateEvent.json": {
+      "bytes": 2216359,
+      "equal": true,
+      "sha256": "6303bac6541f1282fb3eaaf9c76751915de52fabd3c856f4edc0ba813c3cbffc"
+    },
+    "baseline/json/CandidateSkill.json": {
+      "bytes": 2281185,
+      "equal": true,
+      "sha256": "f48e68e0a7433ecf570c389d1cb858bd8bbc8c4f8df1dc7b5b0e0c57ae6d1a5b"
+    },
+    "baseline/json/HiringManager.json": {
+      "bytes": 2985,
+      "equal": true,
+      "sha256": "7889a790d661ba7a9acbdb8d52367ced1878da86ca00ddb5c3c8a7f5a5009485"
+    },
+    "baseline/json/Interview.json": {
+      "bytes": 422133,
+      "equal": true,
+      "sha256": "94b665fcb84c72f97952266cdf03aa7e6e124752669eac67420736a62f6c1d80"
+    },
+    "baseline/json/InterviewEvent.json": {
+      "bytes": 1783217,
+      "equal": true,
+      "sha256": "bcb7a7112b1475f968d432a96649f3a03adce6a6ece2c95bffa9affd549d03a2"
+    },
+    "baseline/json/InterviewPanel.json": {
+      "bytes": 31920,
+      "equal": true,
+      "sha256": "11f9cf9751c1b26413c7c39868bc9e520690747a62526c8c5890aa9a2e67a06d"
+    },
+    "baseline/json/InterviewParticipant.json": {
+      "bytes": 580113,
+      "equal": true,
+      "sha256": "277cd6bf6fa063da45eeb1beb33504d5cc4e68ca747ffc44dcf3e860bc510523"
+    },
+    "baseline/json/Offer.json": {
+      "bytes": 64218,
+      "equal": true,
+      "sha256": "7972ae642b122a3db7309c06cfea84ba2120905fa10d295d880cbfbfb09b5eef"
+    },
+    "baseline/json/OfferEvent.json": {
+      "bytes": 1028343,
+      "equal": true,
+      "sha256": "214be428a0efb4f613be84c892c4442e8f1ffe018ffa2a42b9259016e4ec1d6d"
+    },
+    "baseline/json/PanelMember.json": {
+      "bytes": 59601,
+      "equal": true,
+      "sha256": "85d504701f2a1a5624bb9e5a4e3109ba48969f278ee32fded7b06f819b8b5633"
+    },
+    "baseline/json/Requisition.json": {
+      "bytes": 49962,
+      "equal": true,
+      "sha256": "893b0e5781f2e9313d195afd9486c029969fa012b39c4342ee2ffc3b78ba9b0a"
+    },
+    "baseline/json/RequisitionEvent.json": {
+      "bytes": 445718,
+      "equal": true,
+      "sha256": "5b1225533462b70532459674dacb0e6cd0b2f38a771b5513f746a7d85ecb33cd"
+    },
+    "baseline/json/SchemaMetadata.json": {
+      "bytes": 314,
+      "equal": true,
+      "sha256": "b33e85b2b3329821af2ed60b5004b5a3762a923f02623a2eed7d7177bf70a4b5"
+    },
+    "baseline/json/Scorecard.json": {
+      "bytes": 265824,
+      "equal": true,
+      "sha256": "f71331c5093e1bfe4be0de9cc988e5a30a604ccfec12fa9b7a7d6b277b0cfb4d"
+    },
+    "baseline/json/ScorecardEvent.json.gz": {
+      "bytes": 288703,
+      "equal": true,
+      "sha256": "c3c07d12e9b9571c6e5d9785d55f687fbd9dd8cdcfa1a3ac56f0f3fe237ade00"
+    },
+    "baseline/json/ScorecardItem.json": {
+      "bytes": 1103722,
+      "equal": true,
+      "sha256": "ff30ea5c01e3c33b13c2029106c8dd6a6142cbe9fd375ec442aeabb882270492"
+    },
+    "baseline/json/SkillRequirement.json": {
+      "bytes": 235634,
+      "equal": true,
+      "sha256": "eeb9d86c4f5a12f36b1125e817b71bdd3fa175106d5ab7ad1ded37e6716242b3"
+    },
+    "baseline/json/Staff.json": {
+      "bytes": 14121,
+      "equal": true,
+      "sha256": "bbb15109555de89661ba12a2638f8fca3222016ad43160672b15f098aa38fde8"
+    },
+    "baseline/round-trip-verification.json": {
+      "bytes": 46502,
+      "equal": true,
+      "sha256": "df484643e95ec0afb966059a2da582547c1a9c93b53e32bc554d40d327af22bd"
+    },
+    "baseline/sql/schema.sql": {
+      "bytes": 47328,
+      "equal": true,
+      "sha256": "75c10e0264a798ff36e6ffae4c076483dc04247e9c8a5051eead036cacab1c6f"
+    },
+    "baseline/sql/seed.sql.gz": {
+      "bytes": 1404045,
+      "equal": true,
+      "sha256": "4dfb3d8d7275b00a5434e6dbeabacf1b257456fee09930530bf9fe8a5c3df7d7"
+    },
+    "baseline/validation-summary.json": {
+      "bytes": 12678,
+      "equal": true,
+      "sha256": "19ac81649c5185f14386d13b2c0e0a73200a9b6d548bf15cccaecb7d2800d086"
+    },
+    "data-dictionary.md": {
+      "bytes": 117886,
+      "equal": true,
+      "sha256": "1a40941e29a113a0141fae12df0671e82c1616e205d4905c4a10da0152652162"
+    },
+    "manifest.json": {
+      "bytes": 20653,
+      "equal": true,
+      "sha256": "7afef9081a4696a10119580ccc1fbd70a22c3ddc3c0d474990a0dc5108e2f119"
+    },
+    "privacy-scan.json": {
+      "bytes": 665,
+      "equal": true,
+      "sha256": "fa4f087c1bdbf921a5e9de401a3114663a04a31e609ecb4c66a5ee394db59e35"
+    },
+    "provenance.json": {
+      "bytes": 750,
+      "equal": true,
+      "sha256": "97983255773e426efd26f6dbc71c70d1647c96dd8532cca840d4b61d1b0284ed"
+    }
+  },
+  "manifest_equal": true,
+  "passed": true,
+  "profile": "full",
+  "records": {
+    "Application": {
+      "equal": true,
+      "rows_compared": 8000
+    },
+    "ApplicationEvent": {
+      "equal": true,
+      "rows_compared": 14843
+    },
+    "Approval": {
+      "equal": true,
+      "rows_compared": 429
+    },
+    "ApprovalEvent": {
+      "equal": true,
+      "rows_compared": 858
+    },
+    "Availability": {
+      "equal": true,
+      "rows_compared": 2680
+    },
+    "Candidate": {
+      "equal": true,
+      "rows_compared": 5000
+    },
+    "CandidateEvent": {
+      "equal": true,
+      "rows_compared": 5083
+    },
+    "CandidateSkill": {
+      "equal": true,
+      "rows_compared": 27061
+    },
+    "HiringManager": {
+      "equal": true,
+      "rows_compared": 20
+    },
+    "Interview": {
+      "equal": true,
+      "rows_compared": 2000
+    },
+    "InterviewEvent": {
+      "equal": true,
+      "rows_compared": 3147
+    },
+    "InterviewPanel": {
+      "equal": true,
+      "rows_compared": 200
+    },
+    "InterviewParticipant": {
+      "equal": true,
+      "rows_compared": 5000
+    },
+    "Offer": {
+      "equal": true,
+      "rows_compared": 229
+    },
+    "OfferEvent": {
+      "equal": true,
+      "rows_compared": 957
+    },
+    "PanelMember": {
+      "equal": true,
+      "rows_compared": 500
+    },
+    "Requisition": {
+      "equal": true,
+      "rows_compared": 200
+    },
+    "RequisitionEvent": {
+      "equal": true,
+      "rows_compared": 800
+    },
+    "SchemaMetadata": {
+      "equal": true,
+      "rows_compared": 1
+    },
+    "Scorecard": {
+      "equal": true,
+      "rows_compared": 1122
+    },
+    "ScorecardEvent": {
+      "equal": true,
+      "rows_compared": 6066
+    },
+    "ScorecardItem": {
+      "equal": true,
+      "rows_compared": 4488
+    },
+    "SkillRequirement": {
+      "equal": true,
+      "rows_compared": 800
+    },
+    "Staff": {
+      "equal": true,
+      "rows_compared": 91
+    }
+  },
+  "runs": [
+    {
+      "timing": {
+        "anomaly_evaluation_seconds": 8.063036292092875,
+        "baseline_generation_seconds": 17.486489792121574,
+        "csv_export_seconds": 0.6851859588641673,
+        "imports": {
+          "csv": {
+            "import_seconds": 2.8637163750827312,
+            "validation_seconds": 1.7798184580169618
+          },
+          "json": {
+            "import_seconds": 2.7507725830655545,
+            "validation_seconds": 1.7643845828715712
+          },
+          "sql": {
+            "import_seconds": 3.908112542005256,
+            "validation_seconds": 1.7549373749643564
+          }
+        },
+        "json_export_seconds": 0.6849612919613719,
+        "sql_export_seconds": 0.6244993328582495,
+        "total_seconds": 44.762827708153054,
+        "validation_seconds": 1.829343708930537
+      }
+    },
+    {
+      "timing": {
+        "anomaly_evaluation_seconds": 8.092369332909584,
+        "baseline_generation_seconds": 16.894296708051115,
+        "csv_export_seconds": 0.6888409580569714,
+        "imports": {
+          "csv": {
+            "import_seconds": 2.8422676250338554,
+            "validation_seconds": 1.7631916250102222
+          },
+          "json": {
+            "import_seconds": 3.036086375126615,
+            "validation_seconds": 1.9884397920686752
+          },
+          "sql": {
+            "import_seconds": 3.984082333976403,
+            "validation_seconds": 1.748478125082329
+          }
+        },
+        "json_export_seconds": 0.620305165881291,
+        "sql_export_seconds": 0.6407501250505447,
+        "total_seconds": 44.85027175000869,
+        "validation_seconds": 1.8419720828533173
+      }
+    }
+  ],
+  "seed": 20261022
+}

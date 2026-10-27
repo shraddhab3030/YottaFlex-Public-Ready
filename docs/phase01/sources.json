@@ -1,0 +1,41 @@
+{
+  "bundle": "YottaFlex_Assignment_Source_Bundle.zip",
+  "bundle_sha256": "4e0f17996f9a13947bd7d8cbc77ef25c681f4833bec5038feb92ec0053550b20",
+  "provenance": "User-provided local archive; no external retrieval or independent portal authentication",
+  "reviewer": "Codex (AI); human review pending",
+  "documents": [
+    {
+      "id": "P",
+      "path": "docs/assignment/problem-statement.md",
+      "bytes": 7735,
+      "sha256": "8faefed019161bb66ce6ea274accd7fdf6500622ea2fb71fc6f3d756de133ace",
+      "pages": null,
+      "full_read": true,
+      "visual_review": false,
+      "coverage": "Complete text including context/objective/actors/workflow/entities/IDs, granular steps 1-10, volumes, negatives, acceptance/review/lawful use, portal/email submission sections",
+      "authority": "candidate-supplied transcription accepted as specification"
+    },
+    {
+      "id": "F",
+      "path": "docs/assignment/YottaFlex AI Candidate Project-FAQ.pdf",
+      "bytes": 14827,
+      "sha256": "b3486be5674d00a911e2998f1d89d79904629f8a1fac99bc58b62e37d2a21c7a",
+      "pages": 1,
+      "full_read": true,
+      "visual_review": true,
+      "coverage": "Page 1, all questions Q1-Q12 and footer",
+      "authority": "official supplied PDF; additional submission requirements"
+    },
+    {
+      "id": "G",
+      "path": "docs/assignment/YottaFlex AI Candidate Project Submission Guidelines.pdf",
+      "bytes": 14753,
+      "sha256": "e26107381e39c901af6a92a0a89a7178604851291eaaf2f3016e146da6532e73",
+      "pages": 1,
+      "full_read": true,
+      "visual_review": true,
+      "coverage": "Page 1, challenge window, sections 01-04 and footer",
+      "authority": "official supplied PDF; additional submission requirements"
+    }
+  ]
+}

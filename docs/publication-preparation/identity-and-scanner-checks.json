@@ -1,0 +1,23 @@
+{
+  "positive_fixture_checks": "PASS: path without trailing slash, token, nonallowlisted email, private identity and forbidden PDF filename detected; isolated synthetic fixture outside publication tree",
+  "synthetic_identities_all_restores": {
+    "csv": {
+      "email_domain": "example.invalid",
+      "identity_violations": [],
+      "passed": true,
+      "provenance": "All candidate identities and recruitment records are synthetic; no scraped profiles, resumes, confidential records or external personal datasets."
+    },
+    "json": {
+      "email_domain": "example.invalid",
+      "identity_violations": [],
+      "passed": true,
+      "provenance": "All candidate identities and recruitment records are synthetic; no scraped profiles, resumes, confidential records or external personal datasets."
+    },
+    "sql": {
+      "email_domain": "example.invalid",
+      "identity_violations": [],
+      "passed": true,
+      "provenance": "All candidate identities and recruitment records are synthetic; no scraped profiles, resumes, confidential records or external personal datasets."
+    }
+  }
+}
